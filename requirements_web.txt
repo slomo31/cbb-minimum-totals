@@ -1,0 +1,14 @@
+# CBB Minimum Totals - Web Server Requirements
+# For Render deployment
+
+# Web server
+flask>=2.3.0
+gunicorn>=21.0.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Date utilities
+python-dateutil>=2.8.0
+pytz>=2023.3

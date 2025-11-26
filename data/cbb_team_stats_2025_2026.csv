@@ -1,0 +1,29 @@
+games_played,avg_points_scored,avg_points_allowed,avg_total_points,std_total_points,max_total_points,min_total_points,last_5_avg_scored,last_5_avg_allowed,last_5_avg_total,team_id,team,conference
+6,85.5,68.0,153.5,19.5,180,133,84.0,64.2,148.2,12,Arizona Wildcats,Unknown
+6,91.0,70.2,161.2,17.1,186,135,87.4,68.8,156.2,8,Arkansas Razorbacks,Unknown
+7,89.0,74.7,163.7,14.0,185,145,86.6,75.2,161.8,2,Auburn Tigers,Unknown
+5,86.2,69.2,155.4,18.5,180,125,86.2,69.2,155.4,57,Florida Gators,Unknown
+6,90.5,65.2,155.7,14.1,176,138,91.0,68.2,159.2,66,Iowa State Cyclones,Unknown
+6,87.5,64.7,152.2,18.8,184,128,89.6,67.4,157.0,96,Kentucky Wildcats,Unknown
+6,95.5,65.7,161.2,21.9,187,133,93.8,69.8,163.6,97,Louisville Cardinals,Unknown
+7,77.0,63.1,140.1,9.6,154,127,77.0,61.0,138.0,26,UCLA Bruins,Unknown
+6,83.8,61.3,145.2,16.1,170,121,84.8,62.6,147.4,41,UConn Huskies,Unknown
+4,74.8,72.2,147.0,14.8,168,129,74.8,72.2,147.0,156,Creighton Bluejays,Unknown
+7,93.6,57.0,150.6,11.9,173,135,97.0,57.0,154.0,150,Duke Blue Devils,Unknown
+6,80.7,62.2,142.8,5.2,149,135,80.8,60.8,141.6,127,Michigan State Spartans,Unknown
+6,92.5,68.7,161.2,22.4,199,130,86.8,66.8,153.6,130,Michigan Wolverines,Unknown
+3,80.0,78.0,158.0,5.4,164,151,80.0,78.0,158.0,152,NC State Wolfpack,Unknown
+6,87.5,64.3,151.8,9.6,163,134,86.2,66.4,152.6,153,North Carolina Tar Heels,Unknown
+5,87.2,68.6,155.8,12.1,170,137,87.2,68.6,155.8,252,BYU Cougars,Unknown
+7,76.1,59.6,135.7,13.2,152,113,78.6,62.4,141.0,248,Houston Cougars,Unknown
+5,88.6,71.6,160.2,10.1,169,141,88.6,71.6,160.2,275,Wisconsin Badgers,Unknown
+6,94.0,83.7,177.7,15.1,199,153,94.6,88.0,182.6,333,Alabama Crimson Tide,Unknown
+7,94.6,69.7,164.3,11.1,183,149,87.2,72.6,159.8,356,Illinois Fighting Illini,Unknown
+7,95.0,62.1,157.1,13.6,180,141,96.8,64.8,161.6,2250,Gonzaga Bulldogs,Unknown
+4,63.0,111.5,174.5,3.8,178,168,63.0,111.5,174.5,2296,Jackson State Tigers,Unknown
+5,77.4,63.8,141.2,12.7,161,123,77.4,63.8,141.2,2305,Kansas Jayhawks,Unknown
+3,66.7,95.3,162.0,31.1,199,123,66.7,95.3,162.0,2473,Oakland Golden Grizzlies,Unknown
+6,86.5,69.0,155.5,14.9,176,133,87.4,72.6,160.0,2509,Purdue Boilermakers,Unknown
+6,95.3,75.0,170.3,17.9,199,146,92.8,75.2,168.0,2599,St. John's Red Storm,Unknown
+7,87.3,63.1,150.4,8.2,165,137,88.0,65.0,153.0,2633,Tennessee Volunteers,Unknown
+6,82.2,75.0,157.2,11.9,175,142,79.0,78.0,157.0,2641,Texas Tech Red Raiders,Unknown

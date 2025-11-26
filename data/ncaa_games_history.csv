@@ -1,0 +1,1320 @@
+game_id,date,away_team,away_team_seo,away_score,home_team,home_team_seo,home_score,total_points,home_win
+6503266,2025-11-25,San Diego St.,san-diego-st,97,Oregon,oregon,80,177,False
+6505263,2025-11-25,Washington Col.,washington-col,51,Loyola Maryland,loyola-maryland,101,152,True
+6530390,2025-11-25,McNeese,mcneese,72,Middle Tenn.,middle-tenn,62,134,False
+6533958,2025-11-25,Ohio,ohio,58,LMU (CA),loyola-marymount,70,128,True
+6533967,2025-11-25,Seton Hall,seton-hall,81,Southern California,southern-california,83,164,True
+6534057,2025-11-25,UC San Diego,uc-san-diego,87,Bradley,bradley,77,164,False
+6502588,2025-11-25,Tennessee,tennessee,76,Houston,houston,73,149,False
+6503000,2025-11-25,St. Bonaventure,st-bonaventure,70,North Carolina,north-carolina,85,155,True
+6504802,2025-11-25,Utah Valley,utah-valley,75,South Dakota St.,south-dakota-st,52,127,False
+6501465,2025-11-25,California Baptist,california-baptist,76,San Diego,san-diego,61,137,False
+6504259,2025-11-25,Kennesaw St.,kennesaw-st,83,Oral Roberts,oral-roberts,91,174,True
+6502045,2025-11-25,Mount St. Mary's,mt-st-marys,60,Ohio St.,ohio-st,113,173,True
+6502452,2025-11-25,Abilene Christian,abilene-christian,58,William & Mary,william-mary,92,150,True
+6505500,2025-11-25,Tennessee St.,tennessee-st,75,UNC Asheville,unc-asheville,73,148,False
+6501102,2025-11-25,Coppin St.,coppin-st,68,Rider,rider,65,133,False
+6501256,2025-11-25,N.C. Central,nc-central,67,USC Upstate,usc-upstate,82,149,True
+6501371,2025-11-25,Adrian,adrian,67,Central Mich.,central-mich,112,179,True
+6501530,2025-11-25,Rutgers-Camden,rutgers-camden,61,Saint Joseph's,saint-josephs,100,161,True
+6504378,2025-11-25,Baylor,baylor,81,St. John's (NY),st-johns-ny,96,177,True
+6504137,2025-11-25,UAB,uab,75,UTEP,utep,59,134,False
+6502010,2025-11-25,CSU Bakersfield,bakersfield,59,Florida St.,florida-st,89,148,True
+6533959,2025-11-25,Pacific,pacific,68,Jacksonville,jacksonville,53,121,False
+6503327,2025-11-25,Hawaii Pacific,hawaii-pacific,76,Hawaii,hawaii,88,164,True
+6503715,2025-11-25,UNLV,unlv,67,Maryland,maryland,74,141,True
+6533960,2025-11-25,Stony Brook,stony-brook,61,Bethune-Cookman,bethune-cookman,54,115,False
+6534055,2025-11-25,Towson,towson,72,Liberty,liberty,69,141,False
+6501506,2025-11-25,Notre Dame,notre-dame,68,Rutgers,rutgers,63,131,False
+6504995,2025-11-25,Michigan St.,michigan-st,89,East Carolina,east-carolina,56,145,False
+6505439,2025-11-25,Tenn. Southern,martin-methodist,60,North Ala.,north-ala,92,152,True
+6504317,2025-11-25,Delaware,delaware,73,UNC Greensboro,unc-greensboro,60,133,False
+6502560,2025-11-25,UNI,uni,72,Loyola Chicago,loyola-chicago,51,123,False
+6505322,2025-11-25,Tulsa,tulsa,81,San Jose St.,san-jose-st,51,132,False
+6501206,2025-11-25,East Texas A&M,tex-am-commerce,84,Army West Point,army,67,151,False
+6504397,2025-11-25,Creighton,creighton,60,Iowa St.,iowa-st,78,138,True
+6533965,2025-11-25,NC State,north-carolina-st,81,Boise St.,boise-st,70,151,False
+6534056,2025-11-25,Rhode Island,rhode-island,80,Vermont,vermont,65,145,False
+6503542,2025-11-25,Samford,samford,78,Georgia St.,georgia-st,63,141,False
+6501516,2025-11-25,Syracuse,syracuse,60,Kansas,kansas,71,131,True
+6501838,2025-11-25,Salve Regina,salve-regina,47,New Haven,new-haven,78,125,True
+6501387,2025-11-25,Drexel,drexel,71,Morgan St.,morgan-st,66,137,False
+6502190,2025-11-25,Rice,rice,63,FGCU,fgcu,78,141,True
+6534058,2025-11-25,Temple,temple,79,Princeton,princeton,75,154,False
+6505125,2025-11-25,South Carolina St.,south-carolina-st,66,Missouri,missouri,98,164,True
+6505538,2025-11-25,NIU,northern-ill,59,Austin Peay,austin-peay,77,136,True
+6505842,2025-11-25,Cal Poly,cal-poly,68,Southeast Mo. St.,southeast-mo-st,84,152,True
+6505919,2025-11-25,Mississippi Val.,mississippi-val,84,Texas A&M,texas-am,120,204,True
+6505991,2025-11-25,Eastern Wash.,eastern-wash,71,North Texas,north-texas,79,150,True
+6533968,2025-11-25,Arizona St.,arizona-st,100,Washington St.,washington-st,94,194,False
+6503488,2025-11-25,Auburn,auburn,72,Michigan,michigan,102,174,True
+6504028,2025-11-25,New Mexico St.,new-mexico-st,57,UC Irvine,uc-irvine,45,102,False
+6505732,2025-11-25,Winthrop,winthrop,73,Nebraska,nebraska,80,153,True
+6502135,2025-11-25,Oakland,oakland,95,Montana,montana,87,182,False
+6502730,2025-11-25,Portland St.,portland-st,68,Utah Tech,utah-tech,63,131,False
+6504191,2025-11-25,Ga. Southern,ga-southern,64,UTSA,utsa,77,141,True
+6502567,2025-11-25,Brescia,brescia,50,UT Martin,ut-martin,75,125,True
+6503230,2025-11-25,Iowa,iowa,74,Ole Miss,ole-miss,69,143,False
+6502723,2025-11-25,San Fran. St.,san-fran-st,46,Sacramento St.,sacramento-st,94,140,True
+6504661,2025-11-25,UCLA,ucla,72,California,california,80,152,True
+6533966,2025-11-25,Texas,texas,119,Chaminade,chaminade,78,197,False
+6503003,2025-11-25,Kansas St.,kansas-st,69,Indiana,indiana,86,155,True
+6501181,2025-11-25,Maryland,maryland,61,Gonzaga,gonzaga,100,161,True
+6533957,2025-11-25,George Mason,george-mason,74,Fla. Atlantic,fla-atlantic,65,139,False
+6504407,2025-11-25,Houston Christian,houston-christian,69,Bellarmine,bellarmine,74,143,True
+6504722,2025-11-25,Piedmont,piedmont,81,Charleston So.,charleston-so,93,174,True
+6502703,2025-11-25,Campbell,campbell,51,Wake Forest,wake-forest,99,150,True
+6503018,2025-11-25,Boston U.,boston-u,87,Penn St.,penn-st,96,183,True
+6503559,2025-11-25,Hampton,hampton,74,UMES,md-east-shore,68,142,False
+6503988,2025-11-25,Quinnipiac,quinnipiac,91,UCF,ucf,102,193,True
+6504076,2025-11-25,James Madison,james-madison,88,Omaha,neb-omaha,77,165,False
+6504160,2025-11-25,Dominican (IL),dominican-il,70,Milwaukee,milwaukee,125,195,True
+6503286,2025-11-25,Virginia-Lynchburg,virginia-lynchburg,79,Norfolk St.,norfolk-st,136,215,True
+6504831,2025-11-25,Old Dominion,old-dominion,75,Villanova,villanova,89,164,True
+6503700,2025-11-25,Eastern Ill.,eastern-ill,60,Central Ark.,central-ark,81,141,True
+6505064,2025-11-25,Chicago St.,chicago-st,77,Purdue Fort Wayne,ipfw,90,167,True
+6505603,2025-11-25,Wright St.,wright-st,79,Stetson,stetson,62,141,False
+6506053,2025-11-25,Lehigh,lehigh,55,Marist,marist,78,133,True
+6501336,2025-11-25,Murray St.,murray-st,96,George Washington,george-washington,95,191,False
+6505032,2025-11-25,Waynesburg,waynesburg,56,Cleveland St.,cleveland-st,109,165,True
+6501504,2025-11-24,Notre Dame,notre-dame,61,Kansas,kansas,71,132,True
+6502134,2025-11-24,Oakland,oakland,83,Lamar University,lamar,68,151,False
+6504704,2025-11-24,William & Mary,william-mary,74,UTEP,utep,63,137,False
+6502903,2025-11-24,Temple,temple,76,UC San Diego,uc-san-diego,91,167,True
+6504396,2025-11-24,Iowa St.,iowa-st,83,St. John's (NY),st-johns-ny,82,165,False
+6505109,2025-11-24,Rice,rice,84,Kennesaw St.,kennesaw-st,89,173,True
+6533950,2025-11-24,Col. of Charleston,col-of-charleston,78,Evansville,evansville,59,137,False
+6501709,2025-11-24,George Washington,george-washington,92,Middle Tenn.,middle-tenn,79,171,False
+6503139,2025-11-24,Southern California,southern-california,70,Boise St.,boise-st,67,137,False
+6502582,2025-11-24,Syracuse,syracuse,74,Houston,houston,78,152,True
+6502963,2025-11-24,Siena,siena,73,Holy Cross,holy-cross,69,142,False
+6503914,2025-11-24,Grambling,grambling,74,UC Riverside,uc-riverside,83,157,True
+6503795,2025-11-24,George Mason,george-mason,92,Ohio,ohio,69,161,False
+6533947,2025-11-24,Green Bay,green-bay,80,Iona,iona,75,155,False
+6533948,2025-11-24,Massachusetts,massachusetts,73,Oregon St.,oregon-st,65,138,False
+6503651,2025-11-24,Seton Hall,seton-hall,85,NC State,north-carolina-st,74,159,False
+6501698,2025-11-24,Buffalo,buffalo,78,VMI,vmi,70,148,False
+6504377,2025-11-24,Creighton,creighton,74,Baylor,baylor,81,155,True
+6501412,2025-11-24,Jacksonville,jacksonville,69,Bethune-Cookman,bethune-cookman,64,133,False
+6505643,2025-11-24,Saint Francis,st-francis-pa,57,Belmont,belmont,94,151,True
+6503887,2025-11-24,UAB,uab,81,Southern Ill.,southern-ill,73,154,False
+6502298,2025-11-24,Liberty,liberty,79,Vermont,vermont,73,152,False
+6504793,2025-11-24,Rutgers,rutgers,60,Tennessee,tennessee,85,145,True
+6505407,2025-11-24,East Texas A&M,tex-am-commerce,70,FDU,fdu,65,135,False
+6503622,2025-11-24,Bucknell,bucknell,66,Bowling Green,bowling-green,71,137,True
+6501189,2025-11-24,Stony Brook,stony-brook,58,Pacific,pacific,86,144,True
+6534059,2025-11-24,Rhode Island,rhode-island,55,Towson,towson,62,117,True
+6506420,2025-11-24,Toledo,toledo,75,Troy,troy,68,143,False
+6502017,2025-11-24,Elon,elon,88,App State,appalachian-st,53,141,False
+6504740,2025-11-24,Notre Dame (MD),notre-dame-md,52,UMBC,umbc,102,154,True
+6503265,2025-11-24,San Diego St.,san-diego-st,54,Michigan,michigan,94,148,True
+6504188,2025-11-24,Ga. Southern,ga-southern,61,Youngstown St.,youngstown-st,67,128,True
+6502825,2025-11-24,Cal Poly,cal-poly,87,Northern Ariz.,northern-ariz,93,180,True
+6502862,2025-11-24,Arizona St.,arizona-st,87,Texas,texas,86,173,False
+6502811,2025-11-24,Denver,denver,73,Arizona,arizona,103,176,True
+6501180,2025-11-24,Gonzaga,gonzaga,95,Alabama,alabama,85,180,False
+6501039,2025-11-24,Kansas City,umkc,67,Lindenwood,lindenwood-mo,80,147,True
+6503844,2025-11-24,Louisiana,la-lafayette,56,UC Davis,uc-davis,77,133,True
+6502449,2025-11-24,Abilene Christian,abilene-christian,61,UTSA,utsa,50,111,False
+6502299,2025-11-24,Nobel,west-all-stars,49,UC Santa Barbara,uc-santa-barbara,84,133,True
+6506081,2025-11-24,Fla. Atlantic,fla-atlantic,76,LMU (CA),loyola-marymount,65,141,False
+6533949,2025-11-24,Yale,yale,97,Akron,akron,94,191,False
+6506086,2025-11-24,UTRGV,utrgv,73,Illinois,illinois,87,160,True
+6504940,2025-11-24,Jacksonville St.,jacksonville-st,63,Arkansas St.,arkansas-st,74,137,True
+6503610,2025-11-24,Auburn,auburn,84,Oregon,oregon,73,157,False
+6503308,2025-11-24,Radford,radford,72,SMU,smu,89,161,True
+6506167,2025-11-24,Washington St.,washington-st,90,Chaminade,chaminade,85,175,False
+6501271,2025-11-24,LIU,long-island,75,Missouri St.,missouri-st,61,136,False
+6503514,2025-11-24,Sacred Heart,sacred-heart,106,Central Conn. St.,central-conn-st,108,214,True
+6503112,2025-11-24,New Orleans,new-orleans,78,Mississippi St.,mississippi-st,81,159,True
+6501860,2025-11-24,Eastern Mich.,eastern-mich,46,Louisville,louisville,87,133,True
+6502341,2025-11-24,Princeton,princeton,64,Bradley,bradley,88,152,True
+6502520,2025-11-24,Texas Lutheran,texas-lutheran,41,Texas St.,texas-st,93,134,True
+6503252,2025-11-24,Marywood,marywood,53,American,american,113,166,True
+6502188,2025-11-24,Oral Roberts,oral-roberts,88,FGCU,fgcu,93,181,True
+6504075,2025-11-24,James Madison,james-madison,80,FIU,fiu,72,152,False
+6504158,2025-11-24,NJIT,njit,67,Cincinnati,cincinnati,94,161,True
+6505055,2025-11-24,Bellarmine,bellarmine,70,The Citadel,citadel,58,128,False
+6505622,2025-11-24,Eastern Ky.,eastern-ky,71,Northern Ky.,northern-ky,82,153,True
+6501335,2025-11-24,Murray St.,murray-st,60,McNeese,mcneese,73,133,True
+6504612,2025-11-23,West Ga.,west-ga,66,Georgia Tech,georgia-tech,82,148,True
+6533946,2025-11-23,West Virginia,west-virginia,68,Xavier,xavier,78,146,True
+6504692,2025-11-23,Robert Morris,robert-morris,70,Monmouth,monmouth,71,141,True
+6504316,2025-11-23,Delaware,delaware,59,Southern Ill.,southern-ill,79,138,True
+6502044,2025-11-23,Mount St. Mary's,mt-st-marys,60,Western Mich.,western-mich,83,143,True
+6533955,2025-11-23,Prairie View,prairie-view,85,North Florida,north-florida,82,167,False
+6506269,2025-11-23,South Carolina St.,south-carolina-st,81,South Dakota,south-dakota,82,163,True
+6506253,2025-11-23,Brown,brown,58,Maine,maine,53,111,False
+6505990,2025-11-23,Eastern Wash.,eastern-wash,65,Central Ark.,central-ark,92,157,True
+6505428,2025-11-23,Shaw,shaw,79,Charlotte,charlotte,83,162,True
+6506205,2025-11-23,Ark.-Pine Bluff,ark-pine-bluff,84,Miami (OH),miami-oh,111,195,True
+6504342,2025-11-23,Alcorn,alcorn,53,Oklahoma,oklahoma,72,125,True
+6504193,2025-11-23,Old Dominion,old-dominion,71,Drexel,drexel,75,146,True
+6502501,2025-11-23,Butler,butler,80,Virginia,virginia,73,153,False
+6501758,2025-11-23,Longwood,longwood,70,Columbia,columbia,95,165,True
+6501285,2025-11-23,Cal St. Fullerton,cal-st-fullerton,93,Northern Colo.,northern-colo,97,190,True
+6533945,2025-11-23,Clemson,clemson,97,Georgia,georgia,94,191,False
+6504221,2025-11-23,Delaware St.,delaware-st,41,Miami (FL),miami-fl,97,138,True
+6501569,2025-11-23,Binghamton,binghamton,66,Canisius,canisius,75,141,True
+6501365,2025-11-23,Alabama St.,alabama-st,68,SIUE,siu-edwardsville,83,151,True
+6503285,2025-11-23,Norfolk St.,norfolk-st,67,Wyoming,wyoming,75,142,True
+6503026,2025-11-23,ULM,la-monroe,55,ETSU,east-tenn-st,97,152,True
+6503896,2025-11-23,Lamar University,lamar,68,Montana,montana,63,131,False
+6505233,2025-11-23,St. Thomas (MN),st-thomas-mn,76,Portland,portland,66,142,False
+6533956,2025-11-23,UT Martin,ut-martin,60,Southern Miss.,southern-miss,70,130,True
+6533944,2025-11-23,Utah St.,utah-st,94,Davidson,davidson,60,154,False
+6533954,2025-11-23,Akron,akron,97,Evansville,evansville,59,156,False
+6504474,2025-11-23,Winthrop,winthrop,80,Jackson St.,jackson-st,62,142,False
+6501334,2025-11-23,Murray St.,murray-st,87,Middle Tenn.,middle-tenn,90,177,True
+6505830,2025-11-23,Mercyhurst,mercyhurst,60,Marshall,marshall,69,129,True
+6533943,2025-11-23,Tulane,tulane,93,Boston College,boston-college,90,183,False
+6505744,2025-11-23,Detroit Mercy,detroit,75,DePaul,depaul,95,170,True
+6501644,2025-11-23,Bryant,bryant,49,UConn,uconn,72,121,True
+6503170,2025-11-23,North Dakota,north-dakota,78,Western Ill.,western-ill,69,147,False
+6533952,2025-11-23,Yale,yale,74,Col. of Charleston,col-of-charleston,63,137,False
+6506225,2025-11-23,Northwestern,northwestern,79,South Carolina,south-carolina,77,156,False
+6504641,2025-11-23,Queens (NC),queens-nc,79,Furman,furman,90,169,True
+6504267,2025-11-23,Quinnipiac,quinnipiac,83,Pittsburgh,pittsburgh,75,158,False
+6504146,2025-11-23,Coastal Carolina,coastal-caro,42,Illinois St.,illinois-st,94,136,True
+6501779,2025-11-23,IU Indy,iu-indy,85,Air Force,air-force,98,183,True
+6501708,2025-11-23,George Washington,george-washington,86,McNeese,mcneese,92,178,True
+6505573,2025-11-23,Howard,howard,56,Duke,duke,93,149,True
+6504628,2025-11-23,Youngstown St.,youngstown-st,62,UNC Greensboro,unc-greensboro,68,130,True
+6502009,2025-11-22,Mississippi Val.,mississippi-val,70,CSU Bakersfield,bakersfield,86,156,True
+6529260,2025-11-22,Howard Payne,howard-payne,75,A&M-Corpus Christi,am-corpus-chris,122,197,True
+6502933,2025-11-22,Mercer,mercer,95,Eastern Ky.,eastern-ky,83,178,False
+6504052,2025-11-22,Binghamton,binghamton,52,UMES,md-east-shore,63,115,True
+6530781,2025-11-22,Schreiner,schreiner,54,Sam Houston,sam-houston-st,105,159,True
+6504768,2025-11-22,North Ala.,north-ala,57,Chattanooga,chattanooga,71,128,True
+6503015,2025-11-22,Penn St.,penn-st,65,Providence,providence,77,142,True
+6505297,2025-11-22,Niagara,niagara,70,Howard,howard,80,150,True
+6531420,2025-11-22,Duquesne,duquesne,86,Northeastern,northeastern,93,179,True
+6505195,2025-11-22,Cleveland St.,cleveland-st,71,Kent St.,kent-st,91,162,True
+6505392,2025-11-22,UMass Lowell,umass-lowell,66,Saint Peter's,st-peters,68,134,True
+6533951,2025-11-22,Green Bay,green-bay,79,Massachusetts,massachusetts,75,154,False
+6503957,2025-11-22,Nicholls,nicholls-st,81,Oklahoma St.,oklahoma-st,95,176,True
+6501745,2025-11-22,N.C. Central,nc-central,55,Dayton,dayton,74,129,True
+6501370,2025-11-22,Central Mich.,central-mich,71,Marquette,marquette,85,156,True
+6501270,2025-11-22,LIU,long-island,58,Illinois,illinois,98,156,True
+6501153,2025-11-22,Harvard,harvard,74,Boston U.,boston-u,75,149,True
+6504103,2025-11-22,Fairfield,fairfield,97,Le Moyne,le-moyne,83,180,False
+6501837,2025-11-22,VTSU Lyndon,lyndon-st,51,New Haven,new-haven,122,173,True
+6529363,2025-11-22,Wagner,wagner,75,Georgetown,georgetown,92,167,True
+6503820,2025-11-22,NJIT,njit,70,Navy,navy,86,156,True
+6502553,2025-11-22,UT Martin,ut-martin,69,Prairie View,prairie-view,68,137,False
+6502296,2025-11-22,UC Santa Barbara,uc-santa-barbara,64,Nevada,nevada,77,141,True
+6505166,2025-11-22,Lancaster Bible,lancaster-bible,46,La Salle,la-salle,75,121,True
+6503921,2025-11-22,Western Caro.,western-caro,62,Lipscomb,lipscomb,83,145,True
+6504533,2025-11-22,Gardner-Webb,gardner-webb,67,Richmond,richmond,102,169,True
+6530935,2025-11-22,UC Merced,merced,42,Saint Mary's (CA),st-marys-ca,96,138,True
+6502554,2025-11-22,UNI,uni,70,UC Irvine,uc-irvine,69,139,False
+6506141,2025-11-22,Eastern Ore.,eastern-ore,68,Idaho,idaho,97,165,True
+6505221,2025-11-22,Nobel,west-all-stars,68,Southern Utah,southern-utah,103,171,True
+6506000,2025-11-22,North Florida,north-florida,83,Southern Miss.,southern-miss,92,175,True
+6505145,2025-11-22,Northern Colo.,northern-colo,86,Portland,portland,80,166,False
+6501101,2025-11-22,Coppin St.,coppin-st,58,VCU,vcu,101,159,True
+6533941,2025-11-22,UIW,uiw,80,High Point,high-point,91,171,True
+6506370,2025-11-22,Morehead St.,morehead-st,83,ULM,la-monroe,80,163,False
+6504608,2025-11-22,UT Arlington,texas-arlington,74,Weber St.,weber-st,73,147,False
+6503756,2025-11-22,VMI,vmi,80,Stetson,stetson,99,179,True
+6503838,2025-11-22,San Francisco,san-francisco,77,Minnesota,minnesota,65,142,False
+6503169,2025-11-22,North Dakota,north-dakota,58,Coastal Carolina,coastal-caro,75,133,True
+6530171,2025-11-22,UTRGV,utrgv,67,Missouri St.,missouri-st,74,141,True
+6533942,2025-11-22,Southern Ind.,southern-ind,73,UIC,ill-chicago,84,157,True
+6501284,2025-11-22,St. Thomas (MN),st-thomas-mn,80,Cal St. Fullerton,cal-st-fullerton,88,168,True
+6533953,2025-11-22,Iona,iona,91,Oregon St.,oregon-st,84,175,False
+6501626,2025-11-22,Milwaukee,milwaukee,58,Wichita St.,wichita-st,75,133,True
+6502851,2025-11-22,Ball St.,ball-st,52,Indiana St.,indiana-st,70,122,True
+6503343,2025-11-21,Louisville,louisville,74,Cincinnati,cincinnati,64,138,False
+6501568,2025-11-21,UMES,md-east-shore,57,Canisius,canisius,60,117,True
+6502618,2025-11-21,West Virginia,west-virginia,67,Clemson,clemson,70,137,True
+6503513,2025-11-21,Central Conn. St.,central-conn-st,67,Rutgers,rutgers,54,121,False
+6504994,2025-11-21,Detroit Mercy,detroit,56,Michigan St.,michigan-st,84,140,True
+6501205,2025-11-21,Army West Point,army,65,Marist,marist,76,141,True
+6501255,2025-11-21,USC Upstate,usc-upstate,64,West Ga.,west-ga,72,136,True
+6501386,2025-11-21,Morgan St.,morgan-st,56,Old Dominion,old-dominion,88,144,True
+6502693,2025-11-21,Loyola Maryland,loyola-maryland,46,Kentucky,kentucky,88,134,True
+6501594,2025-11-21,UNCW,unc-wilmington,81,Radford,radford,73,154,False
+6501627,2025-11-21,Charleston So.,charleston-so,77,East Carolina,east-carolina,65,142,False
+6502338,2025-11-21,Erskine,erskine,57,Wofford,wofford,81,138,True
+6502958,2025-11-21,UAlbany,albany-ny,63,Siena,siena,73,136,True
+6503022,2025-11-21,Morehead St.,morehead-st,62,ETSU,east-tenn-st,77,139,True
+6503691,2025-11-21,Penn,penn,84,Drexel,drexel,68,152,False
+6501858,2025-11-21,Oakland,oakland,91,Eastern Mich.,eastern-mich,97,188,True
+6504145,2025-11-21,Coastal Carolina,coastal-caro,84,Western Ill.,western-ill,64,148,False
+6502016,2025-11-21,Charlotte,charlotte,63,App State,appalachian-st,65,128,True
+6505121,2025-11-21,UC Davis,uc-davis,79,Colorado,colorado,95,174,True
+6504544,2025-11-21,Lafayette,lafayette,70,Stonehill,stonehill,74,144,True
+6501010,2025-11-21,Justice Col.,justice-col,51,Idaho St.,idaho-st,89,140,True
+6505296,2025-11-21,Niagara,niagara,42,Duke,duke,100,142,True
+6503326,2025-11-21,Arizona St.,arizona-st,83,Hawaii,hawaii,76,159,False
+6504703,2025-11-21,Regent,regent,57,William & Mary,william-mary,104,161,True
+6533146,2025-11-21,Green Bay,green-bay,67,Yale,yale,73,140,True
+6501826,2025-11-21,Utah St.,utah-st,96,Tulane,tulane,75,171,False
+6501366,2025-11-21,IU Indy,iu-indy,80,Alabama St.,alabama-st,101,181,True
+6503366,2025-11-21,Butler,butler,79,South Carolina,south-carolina,72,151,False
+6503457,2025-11-21,Massachusetts,massachusetts,65,Col. of Charleston,col-of-charleston,69,134,True
+6502371,2025-11-21,Ga. Southern,ga-southern,72,Florida St.,florida-st,98,170,True
+6505284,2025-11-21,UT Arlington,texas-arlington,67,Campbell,campbell,71,138,True
+6503960,2025-11-21,Davidson,davidson,59,Boston College,boston-college,49,108,False
+6501217,2025-11-21,BYU,byu,98,Wisconsin,wisconsin,70,168,False
+6502492,2025-11-21,Northwestern,northwestern,78,Virginia,virginia,83,161,True
+6501980,2025-11-21,Iona,iona,75,Akron,akron,96,171,True
+6501757,2025-11-21,Columbia,columbia,82,Lehigh,lehigh,67,149,False
+6502360,2025-11-21,SIUE,siu-edwardsville,63,Air Force,air-force,77,140,True
+6504270,2025-11-21,Holy Cross,holy-cross,66,Sacred Heart,sacred-heart,79,145,True
+6501283,2025-11-21,Cal St. Fullerton,cal-st-fullerton,85,Portland,portland,103,188,True
+6531448,2025-11-21,Merrimack,merrimack,45,Florida,florida,80,125,True
+6501494,2025-11-21,Northwestern St.,northwestern-st,72,Grand Canyon,grand-canyon,85,157,True
+6502810,2025-11-21,Denver,denver,83,Colorado St.,colorado-st,81,164,False
+6533936,2025-11-21,Wake Forest,wake-forest,69,Memphis,memphis,68,137,False
+6503763,2025-11-21,New Orleans,new-orleans,76,Fresno St.,fresno-st,85,161,True
+6503909,2025-11-21,UC Riverside,uc-riverside,85,San Diego,san-diego,71,156,False
+6505266,2025-11-21,Samford,samford,72,New Mexico St.,new-mexico-st,81,153,True
+6505636,2025-11-21,Georgia,georgia,78,Xavier,xavier,77,155,False
+6533935,2025-11-21,Texas Tech,texas-tech,56,Purdue,purdue,86,142,True
+6533940,2025-11-21,Kansas St.,kansas-st,85,Nebraska,nebraska,86,171,True
+6501464,2025-11-21,Grambling,grambling,59,California Baptist,california-baptist,72,131,True
+6501673,2025-11-21,Montana St.,montana-st,78,Long Beach St.,long-beach-st,72,150,False
+6502721,2025-11-21,Sacramento St.,sacramento-st,67,California,california,91,158,True
+6503843,2025-11-21,Louisiana,la-lafayette,43,Santa Clara,santa-clara,80,123,True
+6504840,2025-11-21,Seattle U,seattle,77,Stanford,stanford,69,146,False
+6505519,2025-11-21,Southern U.,southern-u,66,San Jose St.,san-jose-st,80,146,True
+6504660,2025-11-21,Presbyterian,presbyterian,46,UCLA,ucla,86,132,True
+6502767,2025-11-21,Nobel,west-all-stars,48,Utah Tech,utah-tech,96,144,True
+6503307,2025-11-21,Arkansas St.,arkansas-st,69,SMU,smu,100,169,True
+6500996,2025-11-21,SFA,stephen-f-austin,63,Pepperdine,pepperdine,60,123,False
+6503273,2025-11-21,Hampton,hampton,60,Norfolk St.,norfolk-st,62,122,True
+6533939,2025-11-21,Mississippi St.,mississippi-st,78,New Mexico,new-mexico,80,158,True
+6501903,2025-11-21,Buena Vista,buena-vista,52,Drake,drake,98,150,True
+6503883,2025-11-21,South Alabama,south-ala,72,UAB,uab,80,152,True
+6505143,2025-11-21,Northern Colo.,northern-colo,72,St. Thomas (MN),st-thomas-mn,73,145,True
+6533147,2025-11-21,Evansville,evansville,73,Oregon St.,oregon-st,69,142,False
+6502068,2025-11-21,Little Rock,ualr,56,Texas St.,texas-st,65,121,True
+6505641,2025-11-21,Fisk,fisk,49,Belmont,belmont,96,145,True
+6503541,2025-11-21,Georgia St.,georgia-st,58,South Dakota St.,south-dakota-st,105,163,True
+6504098,2025-11-21,Jackson St.,jackson-st,61,Arkansas,arkansas,115,176,True
+6504419,2025-11-21,NIU,northern-ill,76,Loyola Chicago,loyola-chicago,59,135,False
+6504576,2025-11-21,Purdue Fort Wayne,ipfw,60,Saint Louis,saint-louis,91,151,True
+6505321,2025-11-21,Austin Peay,austin-peay,75,Tulsa,tulsa,84,159,True
+6505960,2025-11-21,Manhattan,manhattan,68,Texas A&M,texas-am,109,177,True
+6506270,2025-11-21,Omaha,neb-omaha,73,LSU,lsu,99,172,True
+6501369,2025-11-20,Northern Ky.,northern-ky,90,Central Mich.,central-mich,66,156,False
+6503986,2025-11-20,Pittsburgh,pittsburgh,67,UCF,ucf,77,144,True
+6503618,2025-11-20,Bucknell,bucknell,49,St. John's (NY),st-johns-ny,97,146,True
+6503229,2025-11-20,Chicago St.,chicago-st,54,Iowa,iowa,93,147,True
+6503066,2025-11-20,Kean,kean,64,Delaware St.,delaware-st,66,130,True
+6502916,2025-11-20,Colgate,colgate,94,Cornell,cornell,95,189,True
+6502394,2025-11-20,Texas Southern,texas-southern,74,Vanderbilt,vanderbilt,109,183,True
+6502327,2025-11-20,Northeastern,northeastern,57,Princeton,princeton,70,127,True
+6505178,2025-11-20,Tennessee St.,tennessee-st,60,Tennessee,tennessee,89,149,True
+6501188,2025-11-20,Brown,brown,70,Stony Brook,stony-brook,80,150,True
+6531861,2025-11-20,Robert Morris,robert-morris,61,St. Bonaventure,st-bonaventure,75,136,True
+6505565,2025-11-20,Montana St.,montana-st,92,Nobel,west-all-stars,55,147,False
+6502237,2025-11-20,Memphis,memphis,71,Purdue,purdue,80,151,True
+6501038,2025-11-20,Lindenwood,lindenwood-mo,53,Indiana,indiana,73,126,True
+6505829,2025-11-20,Ark.-Pine Bluff,ark-pine-bluff,70,Marshall,marshall,98,168,True
+6501888,2025-11-20,High Point,high-point,90,UIC,ill-chicago,80,170,False
+6502161,2025-11-20,UIW,uiw,87,Southern Ind.,southern-ind,81,168,False
+6504220,2025-11-20,Elon,elon,72,Miami (FL),miami-fl,99,171,True
+6501269,2025-11-20,LIU,long-island,53,Fordham,fordham,69,122,True
+6505348,2025-11-20,UNC Greensboro,unc-greensboro,94,Queens (NC),queens-nc,101,195,True
+6505602,2025-11-20,Ohio Wesleyan,ohio-wesleyan,47,Wright St.,wright-st,100,147,True
+6503425,2025-11-20,Troy,troy,106,Southern California,southern-california,107,213,True
+6501527,2025-11-20,Saint Joseph's,saint-josephs,85,UNLV,unlv,99,184,True
+6503119,2025-11-20,Mississippi St.,mississippi-st,77,Kansas St.,kansas-st,98,175,True
+6502576,2025-11-20,Rider,rider,45,Houston,houston,91,136,True
+6505932,2025-11-20,Wake Forest,wake-forest,83,Texas Tech,texas-tech,84,167,True
+6530222,2025-11-20,Oral Roberts,oral-roberts,71,Oklahoma,oklahoma,95,166,True
+6529488,2025-11-20,Central Ark.,central-ark,56,North Texas,north-texas,74,130,True
+6503434,2025-11-20,Cal Poly,cal-poly,92,Utah,utah,85,177,False
+6505124,2025-11-20,South Dakota,south-dakota,68,Missouri,missouri,102,170,True
+6502937,2025-11-20,Rockford,rockford,48,Illinois St.,illinois-st,93,141,True
+6502096,2025-11-20,Western Mich.,western-mich,58,Ohio St.,ohio-st,91,149,True
+6501938,2025-11-20,Tarleton St.,tarleton-st,90,Rice,rice,74,164,False
+6533637,2025-11-20,Pacific,pacific,59,Fla. Atlantic,fla-atlantic,82,141,True
+6506204,2025-11-20,Mercyhurst,mercyhurst,71,Miami (OH),miami-oh,76,147,True
+6505740,2025-11-20,Nebraska,nebraska,84,New Mexico,new-mexico,72,156,False
+6503075,2025-11-20,Biblical Stud. (TX),biblical-stud-tx,67,Houston Christian,houston-christian,85,152,True
+6504702,2025-11-19,William & Mary,william-mary,82,Bowling Green,bowling-green,74,156,False
+6502335,2025-11-19,North Florida,north-florida,78,Wofford,wofford,86,164,True
+6502850,2025-11-19,Louisiana Tech,louisiana-tech,51,Indiana St.,indiana-st,60,111,True
+6502879,2025-11-19,Hofstra,hofstra,76,Temple,temple,81,157,True
+6503755,2025-11-19,VMI,vmi,54,Richmond,richmond,87,141,True
+6505701,2025-11-19,South Alabama,south-ala,71,Jacksonville St.,jacksonville-st,65,136,False
+6504766,2025-11-19,Chattanooga,chattanooga,78,South Carolina St.,south-carolina-st,66,144,False
+6505011,2025-11-19,Villanova,villanova,70,La Salle,la-salle,55,125,False
+6505571,2025-11-19,Howard,howard,60,Stetson,stetson,64,124,True
+6506078,2025-11-19,North Greenville,north-greenville,57,The Citadel,citadel,70,127,True
+6501912,2025-11-19,Youngstown St.,youngstown-st,75,Toledo,toledo,92,167,True
+6502043,2025-11-19,Mount St. Mary's,mt-st-marys,90,Maryland,maryland,95,185,True
+6501152,2025-11-19,Harvard,harvard,80,Penn St.,penn-st,84,164,True
+6501707,2025-11-19,UMBC,umbc,52,George Washington,george-washington,89,141,True
+6501503,2025-11-19,Bellarmine,bellarmine,79,Notre Dame,notre-dame,86,165,True
+6501411,2025-11-19,Bethune-Cookman,bethune-cookman,76,Ohio,ohio,73,149,False
+6501315,2025-11-19,Bryant,bryant,61,Virginia Tech,virginia-tech,78,139,True
+6501254,2025-11-19,Tennessee Tech,tennessee-tech,88,USC Upstate,usc-upstate,84,172,False
+6501198,2025-11-19,Arizona,arizona,71,UConn,uconn,67,138,False
+6504640,2025-11-19,Ohio Christian,ohio-christian,44,Furman,furman,79,123,True
+6502292,2025-11-19,Middle Tenn.,middle-tenn,61,Michigan,michigan,86,147,True
+6529199,2025-11-19,Loyola Maryland,loyola-maryland,78,Duquesne,duquesne,92,170,True
+6504051,2025-11-19,Misericordia,misericordia,58,Binghamton,binghamton,69,127,True
+6501343,2025-11-19,Alabama St.,alabama-st,64,Air Force,air-force,66,130,True
+6506094,2025-11-19,William Carey,william-carey,45,Southeastern La.,southeastern-la,71,116,True
+6504491,2025-11-19,Valparaiso,valparaiso,90,Cleveland St.,cleveland-st,75,165,False
+6531169,2025-11-19,FGCU,fgcu,77,Samford,samford,62,139,False
+6505464,2025-11-19,Kansas City,umkc,45,TCU,tcu,81,126,True
+6531257,2025-11-19,CCNY,ccny,52,Quinnipiac,quinnipiac,112,164,True
+6505220,2025-11-19,Southern Utah,southern-utah,74,Washington St.,washington-st,98,172,True
+6504939,2025-11-19,Arkansas St.,arkansas-st,72,Saint Mary's (CA),st-marys-ca,85,157,True
+6504607,2025-11-19,Campbell,campbell,85,Weber St.,weber-st,91,176,True
+6502728,2025-11-19,Evergreen St.,evergreen-state,61,Portland St.,portland-st,90,151,True
+6506073,2025-11-19,Alabama,alabama,90,Illinois,illinois,86,176,False
+6504473,2025-11-19,Jackson St.,jackson-st,66,Auburn,auburn,112,178,True
+6503839,2025-11-19,St. Thomas (TX),st-thomas-tx,83,UTEP,utep,84,167,True
+6505639,2025-11-19,Lipscomb,lipscomb,68,Belmont,belmont,75,143,True
+6533272,2025-11-19,Concordia (NE),concordia-ne,80,Omaha,neb-omaha,96,176,True
+6505972,2025-11-19,Jamestown,jamestown,67,North Dakota St.,north-dakota-st,82,149,True
+6501672,2025-11-19,Nobel,west-all-stars,54,Long Beach St.,long-beach-st,87,141,True
+6504027,2025-11-19,UC Irvine,uc-irvine,72,Utah Valley,utah-valley,79,151,True
+6506251,2025-11-19,Maine,maine,65,Merrimack,merrimack,72,137,True
+6502274,2025-11-19,Dayton,dayton,77,Marquette,marquette,71,148,False
+6503956,2025-11-19,South Fla.,south-fla,95,Oklahoma St.,oklahoma-st,103,198,True
+6503917,2025-11-19,UNC Asheville,unc-asheville,73,Western Caro.,western-caro,80,153,True
+6505406,2025-11-19,Dallas Christian,dallas-christian,44,East Texas A&M,tex-am-commerce,115,159,True
+6506132,2025-11-19,Wyoming,wyoming,70,Sam Houston,sam-houston-st,78,148,True
+6502875,2025-11-19,Tiffin,tiffin,50,Eastern Ill.,eastern-ill,62,112,True
+6503168,2025-11-19,North Dakota,north-dakota,60,Creighton,creighton,75,135,True
+6503744,2025-11-19,UMass Lowell,umass-lowell,77,Bradley,bradley,87,164,True
+6504074,2025-11-18,Towson,towson,75,James Madison,james-madison,81,156,True
+6506032,2025-11-18,Fort Lauderdale,fort-lauderdale,80,FIU,fiu,104,184,True
+6503558,2025-11-18,Hampton,hampton,52,Boston College,boston-college,63,115,True
+6504189,2025-11-18,NJIT,njit,43,Drexel,drexel,75,118,True
+6504315,2025-11-18,Saint Peter's,st-peters,70,Delaware,delaware,81,151,True
+6504451,2025-11-18,Radford,radford,58,South Carolina,south-carolina,87,145,True
+6504813,2025-11-18,Old Dominion,old-dominion,69,Xavier,xavier,99,168,True
+6531396,2025-11-18,UMES,md-east-shore,83,Longwood,longwood,82,165,False
+6506052,2025-11-18,Saint Francis,st-francis-pa,62,Lehigh,lehigh,79,141,True
+6506289,2025-11-18,Saint Elizabeth,st-elizabeth,58,FDU,fdu,100,158,True
+6529578,2025-11-18,Me.-Augusta,me-augusta,68,Dartmouth,dartmouth,113,181,True
+6533125,2025-11-18,Cheyney,cheyney,70,Delaware St.,delaware-st,88,158,True
+6533492,2025-11-18,Eastern Ky.,eastern-ky,78,Kent St.,kent-st,93,171,True
+6502998,2025-11-18,Navy,navy,61,North Carolina,north-carolina,73,134,True
+6501316,2025-11-18,Toccoa Falls,toccoa-falls,67,N.C. Central,nc-central,123,190,True
+6503094,2025-11-18,New Hampshire,new-hampshire,66,Providence,providence,98,164,True
+6503250,2025-11-18,American,american,71,Rutgers,rutgers,80,151,True
+6502462,2025-11-18,Jacksonville,jacksonville,57,George Mason,george-mason,79,136,True
+6501228,2025-11-18,Holy Cross,holy-cross,49,Brown,brown,68,117,True
+6504184,2025-11-18,Ga. Southern,ga-southern,66,Georgia Tech,georgia-tech,68,134,True
+6501100,2025-11-18,Central Penn,central-penn,62,Coppin St.,coppin-st,103,165,True
+6532259,2025-11-18,Southwestern Christ.,southwestern-christian,70,UTSA,utsa,103,173,True
+6501697,2025-11-18,Vermont,vermont,90,Buffalo,buffalo,94,184,True
+6502692,2025-11-18,Michigan St.,michigan-st,83,Kentucky,kentucky,66,149,False
+6506143,2025-11-18,Paul Smiths,paul-smith,57,UAlbany,albany-ny,106,163,True
+6501385,2025-11-18,N.C. A&T,nc-at,79,Morgan St.,morgan-st,73,152,False
+6502359,2025-11-18,UT Martin,ut-martin,73,Florida St.,florida-st,87,160,True
+6501590,2025-11-18,East Carolina,east-carolina,60,UNCW,unc-wilmington,85,145,True
+6501756,2025-11-18,Boston U.,boston-u,49,Columbia,columbia,54,103,True
+6501778,2025-11-18,IU Indy,iu-indy,91,Charleston So.,charleston-so,103,194,True
+6501836,2025-11-18,New Haven,new-haven,45,Seton Hall,seton-hall,68,113,True
+6501859,2025-11-18,Eastern Mich.,eastern-mich,72,Detroit Mercy,detroit,62,134,False
+6501979,2025-11-18,Princeton,princeton,69,Iona,iona,89,158,True
+6502247,2025-11-18,Bethel (TN),bethel-tn,67,Western Ky.,western-ky,97,164,True
+6501009,2025-11-18,Idaho St.,idaho-st,55,Santa Clara,santa-clara,64,119,True
+6501064,2025-11-18,Rhode Island,rhode-island,86,Yale,yale,77,163,False
+6501203,2025-11-18,Army West Point,army,73,Cornell,cornell,86,159,True
+6501625,2025-11-18,Wichita St.,wichita-st,59,Boise St.,boise-st,62,121,True
+6502861,2025-11-18,Rider,rider,65,Texas,texas,99,164,True
+6503433,2025-11-18,Purdue Fort Wayne,ipfw,77,Utah,utah,85,162,True
+6504687,2025-11-18,Monmouth,monmouth,73,Syracuse,syracuse,78,151,True
+6505772,2025-11-18,SFA,stephen-f-austin,78,Fresno St.,fresno-st,80,158,True
+6530291,2025-11-18,Grambling,grambling,68,San Diego,san-diego,78,146,True
+6501463,2025-11-18,UC Riverside,uc-riverside,57,California Baptist,california-baptist,80,137,True
+6500995,2025-11-18,New Orleans,new-orleans,79,Pepperdine,pepperdine,90,169,True
+6503213,2025-11-18,Presbyterian,presbyterian,57,California,california,67,124,True
+6503262,2025-11-18,Troy,troy,108,San Diego St.,san-diego-st,107,215,False
+6503842,2025-11-18,Louisiana,la-lafayette,66,Stanford,stanford,93,159,True
+6505264,2025-11-18,Northwestern St.,northwestern-st,64,San Francisco,san-francisco,84,148,True
+6505837,2025-11-18,UC Davis,uc-davis,75,Nevada,nevada,71,146,False
+6502720,2025-11-18,Sacramento St.,sacramento-st,48,UCLA,ucla,79,127,True
+6501515,2025-11-18,Kansas,kansas,66,Duke,duke,78,144,True
+6505363,2025-11-18,Southern U.,southern-u,93,Washington,washington,99,192,True
+6503228,2025-11-18,Southeast Mo. St.,southeast-mo-st,70,Iowa,iowa,99,169,True
+6504126,2025-11-18,Haskell,haskell,64,Oral Roberts,oral-roberts,84,148,True
+6501972,2025-11-18,William Carey,william-carey,59,Southern Miss.,southern-miss,82,141,True
+6501333,2025-11-18,Little Rock,ualr,68,Murray St.,murray-st,89,157,True
+6502437,2025-11-18,Abilene Christian,abilene-christian,49,Texas St.,texas-st,63,112,True
+6502551,2025-11-18,NIU,northern-ill,57,UNI,uni,70,127,True
+6502824,2025-11-18,Embry-Riddle (AZ),embry-riddle-az,79,Northern Ariz.,northern-ariz,108,187,True
+6504097,2025-11-18,Winthrop,winthrop,83,Arkansas,arkansas,84,167,True
+6503306,2025-11-18,Ark.-Pine Bluff,ark-pine-bluff,60,SMU,smu,106,166,True
+6504340,2025-11-18,Alcorn,alcorn,81,LSU,lsu,107,188,True
+6504509,2025-11-18,Austin Peay,austin-peay,65,Ole Miss,ole-miss,72,137,True
+6504690,2025-11-18,Montana,montana,81,Texas A&M,texas-am,86,167,True
+6504795,2025-11-18,Chicago St.,chicago-st,54,Minnesota,minnesota,66,120,True
+6505283,2025-11-18,UT Arlington,texas-arlington,84,Evansville,evansville,76,160,False
+6505743,2025-11-18,Gardner-Webb,gardner-webb,62,DePaul,depaul,93,155,True
+6530170,2025-11-17,S'western Adventist,southwest-adventist,53,UTRGV,utrgv,110,163,True
+6503615,2025-11-17,Bucknell,bucknell,50,Pittsburgh,pittsburgh,84,134,True
+6503895,2025-11-17,Lamar University,lamar,79,ULM,la-monroe,66,145,False
+6503875,2025-11-17,Rhodes,rhodes,56,UAB,uab,112,168,True
+6533650,2025-11-17,Coastal Ga.,coastal-ga,63,Fla. Atlantic,fla-atlantic,92,155,True
+6505552,2025-11-17,West Ga.,west-ga,61,Tennessee Tech,tennessee-tech,59,120,False
+6505295,2025-11-17,Niagara,niagara,68,Le Moyne,le-moyne,74,142,True
+6503650,2025-11-17,VCU,vcu,79,NC State,north-carolina-st,85,164,True
+6501526,2025-11-17,Saint Joseph's,saint-josephs,74,Penn,penn,83,157,True
+6502915,2025-11-17,Colgate,colgate,72,Siena,siena,69,141,False
+6502608,2025-11-17,Lafayette,lafayette,59,West Virginia,west-virginia,81,140,True
+6502293,2025-11-17,CarolinaU,piedmont-intl,46,Liberty,liberty,98,144,True
+6502133,2025-11-17,Oakland,oakland,83,UCF,ucf,87,170,True
+6501902,2025-11-17,Drake,drake,71,Col. of Charleston,col-of-charleston,62,133,False
+6501567,2025-11-17,Canisius,canisius,50,High Point,high-point,93,143,True
+6502953,2025-11-17,SIUE,siu-edwardsville,69,Wisconsin,wisconsin,94,163,True
+6501930,2025-11-17,Angelo St.,angelo-st,54,Tarleton St.,tarleton-st,77,131,True
+6532048,2025-11-17,Florida A&M,florida-am,57,Georgia,georgia,87,144,True
+6503361,2025-11-17,Tulsa,tulsa,83,Kansas St.,kansas-st,84,167,True
+6502294,2025-11-17,LMU (CA),loyola-marymount,78,UC Santa Barbara,uc-santa-barbara,74,152,False
+6505989,2025-11-17,Eastern Ore.,eastern-ore,73,Eastern Wash.,eastern-wash,91,164,True
+6505518,2025-11-17,Bethesda (CA),bethesda-christian,56,San Jose St.,san-jose-st,110,166,True
+6503609,2025-11-17,Oregon St.,oregon-st,75,Oregon,oregon,87,162,True
+6502008,2025-11-17,CSU Bakersfield,bakersfield,80,Portland St.,portland-st,93,173,True
+6503540,2025-11-17,Georgia St.,georgia-st,62,Arizona St.,arizona-st,75,137,True
+6502924,2025-11-17,North Ala.,north-ala,61,Clemson,clemson,81,142,True
+6504395,2025-11-17,Stonehill,stonehill,57,Iowa St.,iowa-st,96,153,True
+6501342,2025-11-17,Alabama St.,alabama-st,66,Colorado,colorado,94,160,True
+6529625,2025-11-17,Coe,coe,63,Western Ill.,western-ill,74,137,True
+6505177,2025-11-17,Rice,rice,66,Tennessee,tennessee,91,157,True
+6505971,2025-11-17,Southern Ill.,southern-ill,85,North Dakota St.,north-dakota-st,92,177,True
+6505123,2025-11-17,Prairie View,prairie-view,73,Missouri,missouri,91,164,True
+6504788,2025-11-17,Peru St.,peru-st,46,South Dakota St.,south-dakota-st,94,140,True
+6501179,2025-11-17,Southern Utah,southern-utah,50,Gonzaga,gonzaga,122,172,True
+6505618,2025-11-16,Cumberlands (KY),cumberlands-ky,73,Northern Ky.,northern-ky,101,174,True
+6505108,2025-11-16,South Fla.,south-fla,108,Kennesaw St.,kennesaw-st,89,197,False
+6504101,2025-11-16,Loyola Maryland,loyola-maryland,82,Fairfield,fairfield,85,167,True
+6503955,2025-11-16,A&M-Corpus Christi,am-corpus-chris,69,Oklahoma St.,oklahoma-st,85,154,True
+6503512,2025-11-16,Central Conn. St.,central-conn-st,77,Massachusetts,massachusetts,84,161,True
+6502525,2025-11-16,UMass Lowell,umass-lowell,75,Wake Forest,wake-forest,109,184,True
+6502097,2025-11-16,Western Mich.,western-mich,78,South Dakota,south-dakota,83,161,True
+6501314,2025-11-16,Charlotte,charlotte,76,Virginia Tech,virginia-tech,84,160,True
+6503376,2025-11-16,Bryant,bryant,50,Valparaiso,valparaiso,68,118,True
+6503915,2025-11-16,Stetson,stetson,65,Western Caro.,western-caro,76,141,True
+6503554,2025-11-16,Holy Cross,holy-cross,67,Hampton,hampton,61,128,False
+6529487,2025-11-16,Samford,samford,84,Central Ark.,central-ark,77,161,False
+6501502,2025-11-16,Notre Dame,notre-dame,63,Ohio St.,ohio-st,64,127,True
+6505939,2025-11-16,Wagner,wagner,70,UMBC,umbc,71,141,True
+6505194,2025-11-16,Wright St.,wright-st,72,Kent St.,kent-st,76,148,True
+6503325,2025-11-16,Utah Tech,utah-tech,62,Hawaii,hawaii,68,130,True
+6506252,2025-11-16,Quinnipiac,quinnipiac,70,Maine,maine,64,134,False
+6504792,2025-11-16,App State,appalachian-st,85,Dartmouth,dartmouth,77,162,False
+6504450,2025-11-16,Cleveland St.,cleveland-st,87,Radford,radford,82,169,False
+6506319,2025-11-16,UNLV,unlv,92,Memphis,memphis,78,170,False
+6502246,2025-11-16,Tennessee St.,tennessee-st,82,Western Ky.,western-ky,95,177,True
+6504219,2025-11-16,Miami (FL),miami-fl,68,Florida,florida,82,150,True
+6502773,2025-11-16,Troy,troy,85,CSUN,cal-st-northridge,94,179,True
+6501737,2025-11-16,Akron,akron,79,Purdue,purdue,97,176,True
+6501671,2025-11-16,Illinois St.,illinois-st,82,Long Beach St.,long-beach-st,80,162,False
+6502042,2025-11-16,Mount St. Mary's,mt-st-marys,55,Cincinnati,cincinnati,72,127,True
+6503001,2025-11-16,UIW,uiw,61,Indiana,indiana,69,130,True
+6506369,2025-11-16,Ky. Christian,ky-christian,51,Morehead St.,morehead-st,121,172,True
+6504417,2025-11-16,Colorado St.,colorado-st,80,Loyola Chicago,loyola-chicago,67,147,False
+6502719,2025-11-16,Presbyterian,presbyterian,62,Sacramento St.,sacramento-st,64,126,True
+6502209,2025-11-16,Manhattanville,manhattanville,62,Fordham,fordham,96,158,True
+6502154,2025-11-16,Loras,loras,74,Southern Ind.,southern-ind,91,165,True
+6501068,2025-11-16,Lindenwood,lindenwood-mo,65,Alabama A&M,alabama-am,74,139,True
+6501151,2025-11-16,Harvard,harvard,56,Marist,marist,54,110,False
+6502563,2025-11-16,Houston,houston,73,Auburn,auburn,72,145,False
+6506440,2025-11-15,Mercer,mercer,69,Winthrop,winthrop,105,174,True
+6502786,2025-11-15,UTSA,utsa,84,Denver,denver,79,163,False
+6502902,2025-11-15,Boston College,boston-college,76,Temple,temple,71,147,False
+6503305,2025-11-15,Butler,butler,85,SMU,smu,87,172,True
+6503562,2025-11-15,UIC,ill-chicago,67,Chicago St.,chicago-st,63,130,False
+6504855,2025-11-15,Loyola Maryland,loyola-maryland,74,Stonehill,stonehill,63,137,False
+6505063,2025-11-15,Boyce,boyce,68,Purdue Fort Wayne,ipfw,118,186,True
+6505347,2025-11-15,Austin Peay,austin-peay,69,UNC Greensboro,unc-greensboro,63,132,False
+6502389,2025-11-15,Ark.-Pine Bluff,ark-pine-bluff,75,Vanderbilt,vanderbilt,104,179,True
+6531064,2025-11-15,New Hampshire,new-hampshire,44,George Mason,george-mason,61,105,True
+6502132,2025-11-15,Defiance,defiance,47,Oakland,oakland,113,160,True
+6502396,2025-11-15,New College (FL),new-college-fl,67,North Florida,north-florida,122,189,True
+6503010,2025-11-15,ETSU,east-tenn-st,78,North Ala.,north-ala,74,152,False
+6503111,2025-11-15,Southeastern La.,southeastern-la,68,Mississippi St.,mississippi-st,75,143,True
+6504050,2025-11-15,Binghamton,binghamton,82,Longwood,longwood,90,172,True
+6506242,2025-11-15,Sacred Heart,sacred-heart,64,Queens (NC),queens-nc,81,145,True
+6506275,2025-11-15,St. Thomas (MN),st-thomas-mn,84,Southeast Mo. St.,southeast-mo-st,72,156,False
+6503552,2025-11-15,Syracuse,syracuse,80,Drexel,drexel,50,130,False
+6504449,2025-11-15,Wright St.,wright-st,92,Radford,radford,59,151,False
+6502526,2025-11-15,Maryland,maryland,89,Marquette,marquette,82,171,False
+6501514,2025-11-15,Princeton,princeton,57,Kansas,kansas,76,133,True
+6502356,2025-11-15,Miami (OH),miami-oh,76,Air Force,air-force,61,137,False
+6502332,2025-11-15,Wofford,wofford,94,Bellarmine,bellarmine,86,180,False
+6502118,2025-11-15,Idaho,idaho,67,UC San Diego,uc-san-diego,75,142,True
+6503324,2025-11-15,Manhattan,manhattan,56,Hawaii,hawaii,86,142,True
+6501696,2025-11-15,RIT,rochester-inst,64,Buffalo,buffalo,80,144,True
+6504091,2025-11-15,Coppin St.,coppin-st,62,South Alabama,south-ala,72,134,True
+6502463,2025-11-15,Marshall,marshall,78,Virginia,virginia,104,182,True
+6502922,2025-11-15,Clemson,clemson,74,Georgetown,georgetown,79,153,True
+6503342,2025-11-15,Ohio,ohio,81,Louisville,louisville,106,187,True
+6501063,2025-11-15,Stony Brook,stony-brook,79,Yale,yale,86,165,True
+6501553,2025-11-15,Vermont,vermont,85,Northeastern,northeastern,74,159,False
+6501835,2025-11-15,Delaware St.,delaware-st,52,New Haven,new-haven,65,117,True
+6501911,2025-11-15,Detroit Mercy,detroit,83,Toledo,toledo,90,173,True
+6502187,2025-11-15,Chattanooga,chattanooga,73,FGCU,fgcu,91,164,True
+6502459,2025-11-15,Jacksonville,jacksonville,69,VMI,vmi,67,136,False
+6503013,2025-11-15,Penn St.,penn-st,83,La Salle,la-salle,69,152,False
+6505031,2025-11-15,Cleveland St.,cleveland-st,95,Kent St.,kent-st,102,197,True
+6505443,2025-11-15,Merrimack,merrimack,91,Boston U.,boston-u,79,170,False
+6501150,2025-11-15,Harvard,harvard,75,Army West Point,army,52,127,False
+6502860,2025-11-15,Kansas City,umkc,55,Texas,texas,71,126,True
+6501384,2025-11-15,Morgan St.,morgan-st,72,Mercyhurst,mercyhurst,86,158,True
+6502513,2025-11-15,Youngstown St.,youngstown-st,80,St. Bonaventure,st-bonaventure,84,164,True
+6506394,2025-11-15,Nevada,nevada,83,Santa Clara,santa-clara,98,181,True
+6506345,2025-11-15,Champion Chris.,champion-bapt,64,Southern U.,southern-u,129,193,True
+6501493,2025-11-15,Grand Canyon,grand-canyon,64,Saint Louis,saint-louis,78,142,True
+6504125,2025-11-15,Belmont,belmont,83,Oral Roberts,oral-roberts,60,143,False
+6504680,2025-11-15,Gardner-Webb,gardner-webb,84,Elon,elon,95,179,True
+6504938,2025-11-15,Christian Brothers,christian-bros,67,Arkansas St.,arkansas-st,95,162,True
+6505010,2025-11-15,Duquesne,duquesne,77,Villanova,villanova,87,164,True
+6505219,2025-11-15,Southern Utah,southern-utah,85,Omaha,neb-omaha,90,175,True
+6500993,2025-11-15,Northern Colo.,northern-colo,88,Pepperdine,pepperdine,81,169,False
+6502603,2025-11-15,Green Bay,green-bay,65,Minnesota,minnesota,72,137,True
+6505231,2025-11-15,Portland,portland,56,Wyoming,wyoming,93,149,True
+6505265,2025-11-15,New Mexico,new-mexico,68,New Mexico St.,new-mexico-st,76,144,True
+6505918,2025-11-15,Mississippi Val.,mississippi-val,73,Manhattan,manhattan,80,153,True
+6501008,2025-11-15,Idaho St.,idaho-st,74,Seattle U,seattle,83,157,True
+6503742,2025-11-15,Bradley,bradley,64,San Francisco,san-francisco,75,139,True
+6504026,2025-11-15,Weber St.,weber-st,70,UC Irvine,uc-irvine,79,149,True
+6505771,2025-11-15,Utah Valley,utah-valley,74,Fresno St.,fresno-st,75,149,True
+6503108,2025-11-15,Montana St.,montana-st,58,Boise St.,boise-st,62,120,True
+6501410,2025-11-15,Bethune-Cookman,bethune-cookman,82,Dayton,dayton,91,173,True
+6503431,2025-11-15,Sam Houston,sam-houston-st,79,Utah,utah,85,164,True
+6505731,2025-11-15,Oklahoma,oklahoma,99,Nebraska,nebraska,105,204,True
+6501706,2025-11-15,Old Dominion,old-dominion,73,George Washington,george-washington,96,169,True
+6503249,2025-11-15,Central Penn,central-penn,50,American,american,115,165,True
+6504749,2025-11-15,Eastern,eastern,54,Rider,rider,86,140,True
+6504514,2025-11-15,FDU,fdu,81,NJIT,njit,93,174,True
+6505314,2025-11-15,UTEP,utep,51,Utah St.,utah-st,75,126,True
+6501282,2025-11-15,Pacific,pacific,85,Cal St. Fullerton,cal-st-fullerton,73,158,False
+6503167,2025-11-15,North Dakota,north-dakota,76,UC Riverside,uc-riverside,74,150,False
+6530207,2025-11-15,Bryan,bryan,53,Lipscomb,lipscomb,98,151,True
+6505753,2025-11-15,Nicholls,nicholls-st,79,Murray St.,murray-st,99,178,True
+6502522,2025-11-15,Texas Southern,texas-southern,67,Texas St.,texas-st,77,144,True
+6503664,2025-11-15,Jackson St.,jackson-st,51,Louisiana Tech,louisiana-tech,68,119,True
+6505281,2025-11-15,Missouri St.,missouri-st,49,UT Arlington,texas-arlington,67,116,True
+6506450,2025-11-15,Bowling Green,bowling-green,87,Davidson,davidson,91,178,True
+6501216,2025-11-15,BYU,byu,84,UConn,uconn,86,170,True
+6501253,2025-11-15,USC Upstate,usc-upstate,60,UNCW,unc-wilmington,73,133,True
+6501268,2025-11-15,James Madison,james-madison,79,LIU,long-island,88,167,True
+6504701,2025-11-15,William & Mary,william-mary,60,St. John's (NY),st-johns-ny,93,153,True
+6502067,2025-11-15,Little Rock,ualr,68,Ball St.,ball-st,62,130,False
+6501901,2025-11-14,SIUE,siu-edwardsville,61,Drake,drake,59,120,False
+6503272,2025-11-14,Norfolk St.,norfolk-st,41,Towson,towson,51,92,True
+6503456,2025-11-14,South Carolina St.,south-carolina-st,61,Col. of Charleston,col-of-charleston,88,149,True
+6503840,2025-11-14,Louisiana,la-lafayette,62,McNeese,mcneese,88,150,True
+6504100,2025-11-14,Stonehill,stonehill,71,Fairfield,fairfield,73,144,True
+6506142,2025-11-14,UAlbany,albany-ny,61,Rhode Island,rhode-island,80,141,True
+6504144,2025-11-14,Coastal Carolina,coastal-caro,67,Jacksonville St.,jacksonville-st,74,141,True
+6505551,2025-11-14,The Citadel,citadel,92,West Ga.,west-ga,100,192,True
+6501825,2025-11-14,New Orleans,new-orleans,85,Tulane,tulane,63,148,False
+6501887,2025-11-14,High Point,high-point,74,UAB,uab,91,165,True
+6502849,2025-11-14,Indiana St.,indiana-st,62,Duke,duke,100,162,True
+6502878,2025-11-14,Hofstra,hofstra,83,Bucknell,bucknell,77,160,False
+6504182,2025-11-14,Johnson C. Smith,johnson-c-smith,79,Ga. Southern,ga-southern,98,177,True
+6502687,2025-11-14,Eastern Ill.,eastern-ill,53,Kentucky,kentucky,99,152,True
+6502548,2025-11-14,Furman,furman,54,UNI,uni,70,124,True
+6501978,2025-11-14,Fordham,fordham,71,Iona,iona,76,147,True
+6501341,2025-11-14,Virginia-Lynchburg,virginia-lynchburg,68,Alabama St.,alabama-st,124,192,True
+6504786,2025-11-14,Lehigh,lehigh,72,Rutgers,rutgers,84,156,True
+6501777,2025-11-14,IU Indy,iu-indy,90,Eastern Mich.,eastern-mich,83,173,False
+6501449,2025-11-14,Lindenwood,lindenwood-mo,83,Charleston So.,charleston-so,77,160,False
+6503819,2025-11-14,Washington Col.,washington-col,64,Navy,navy,97,161,True
+6531204,2025-11-14,Ecclesia,ecclesia,75,Northwestern St.,northwestern-st,95,170,True
+6504090,2025-11-14,Coppin St.,coppin-st,59,Central Mich.,central-mich,82,141,True
+6505491,2025-11-14,Southern California,southern-california,87,Illinois St.,illinois-st,67,154,False
+6502007,2025-11-14,CSU Bakersfield,bakersfield,60,Ole Miss,ole-miss,82,142,True
+6501197,2025-11-14,Arizona,arizona,69,UCLA,ucla,65,134,False
+6503227,2025-11-14,Xavier,xavier,62,Iowa,iowa,81,143,True
+6502914,2025-11-14,Colgate,colgate,65,Illinois,illinois,84,149,True
+6505362,2025-11-14,Washington,washington,81,Washington St.,washington-st,69,150,False
+6501178,2025-11-14,Gonzaga,gonzaga,77,Arizona St.,arizona-st,65,142,False
+6501462,2025-11-14,Western Ill.,western-ill,59,California Baptist,california-baptist,69,128,True
+6530942,2025-11-14,North Texas,north-texas,49,Saint Mary's (CA),st-marys-ca,80,129,True
+6503424,2025-11-14,Troy,troy,63,LMU (CA),loyola-marymount,74,137,True
+6503479,2025-11-14,Utah Tech,utah-tech,81,Mississippi Val.,mississippi-val,75,156,False
+6504689,2025-11-14,Cal Poly,cal-poly,82,Montana,montana,90,172,True
+6504611,2025-11-14,Georgia Tech,georgia-tech,87,Georgia,georgia,92,179,True
+6503487,2025-11-14,Michigan,michigan,67,TCU,tcu,63,130,False
+6503983,2025-11-14,UCF,ucf,86,Texas A&M,texas-am,74,160,False
+6503093,2025-11-14,Providence,providence,88,Colorado,colorado,97,185,True
+6502718,2025-11-14,Sacramento St.,sacramento-st,73,UC Davis,uc-davis,77,150,True
+6502432,2025-11-14,Abilene Christian,abilene-christian,66,SFA,stephen-f-austin,76,142,True
+6501931,2025-11-14,Tarleton St.,tarleton-st,81,Baylor,baylor,94,175,True
+6501744,2025-11-14,N.C. Central,nc-central,53,North Carolina,north-carolina,97,150,True
+6505742,2025-11-14,Northwestern,northwestern,81,DePaul,depaul,79,160,False
+6501227,2025-11-14,Hampton,hampton,72,Brown,brown,63,135,False
+6505405,2025-11-14,East Texas A&M,tex-am-commerce,64,Rice,rice,71,135,True
+6505139,2025-11-14,UMES,md-east-shore,45,Creighton,creighton,84,129,True
+6504159,2025-11-14,Milwaukee,milwaukee,63,Texas Tech,texas-tech,80,143,True
+6504095,2025-11-14,Samford,samford,75,Arkansas,arkansas,79,154,True
+6503070,2025-11-13,ULM,la-monroe,61,Houston Christian,houston-christian,72,133,True
+6503212,2025-11-13,California,california,96,Kansas St.,kansas-st,99,195,True
+6506031,2025-11-13,FIU,fiu,81,LSU,lsu,98,179,True
+6505670,2025-11-13,Benedictine (IL),benedictine-il,62,NIU,northern-ill,117,179,True
+6502598,2025-11-13,Green Bay,green-bay,61,St. Thomas (MN),st-thomas-mn,80,141,True
+6505479,2025-11-13,Bryan,bryan,54,UNC Asheville,unc-asheville,92,146,True
+6502321,2025-11-13,John Jay,john-jay,59,Princeton,princeton,100,159,True
+6501067,2025-11-13,Charleston So.,charleston-so,64,Alabama A&M,alabama-am,68,132,True
+6503323,2025-11-13,Mississippi Val.,mississippi-val,56,Hawaii,hawaii,88,144,True
+6501377,2025-11-13,Central Mich.,central-mich,64,South Alabama,south-ala,66,130,True
+6502605,2025-11-13,Pittsburgh,pittsburgh,49,West Virginia,west-virginia,71,120,True
+6504542,2025-11-13,Cornell,cornell,97,Lafayette,lafayette,78,175,False
+6504993,2025-11-13,San Jose St.,san-jose-st,60,Michigan St.,michigan-st,79,139,True
+6501621,2025-11-13,Elizabeth City St.,elizabeth-city-st,70,East Carolina,east-carolina,71,141,True
+6501651,2025-11-13,Purdue,purdue,87,Alabama,alabama,80,167,False
+6502002,2025-11-13,Berea,berea,64,Tennessee Tech,tennessee-tech,86,150,True
+6501755,2025-11-13,UMass Lowell,umass-lowell,72,Columbia,columbia,86,158,True
+6503539,2025-11-13,Fort Valley St.,fort-valley-st,56,Georgia St.,georgia-st,90,146,True
+6503912,2025-11-13,Voorhees,voorhees,44,Western Caro.,western-caro,95,139,True
+6504338,2025-11-13,Alcorn,alcorn,64,Howard,howard,72,136,True
+6504686,2025-11-13,Monmouth,monmouth,58,Seton Hall,seton-hall,70,128,True
+6505482,2025-11-13,Le Moyne,le-moyne,80,Massachusetts,massachusetts,94,174,True
+6506117,2025-11-13,Washington Adventist,washington-adventist,83,N.C. A&T,nc-at,89,172,True
+6532531,2025-11-13,Pitt.-Greensburg,pitt-greensburg,57,Robert Morris,robert-morris,81,138,True
+6533074,2025-11-13,Mid-Atlantic Christ.,mid-atlantic-christ,55,Campbell,campbell,108,163,True
+6501624,2025-11-13,Loyola Chicago,loyola-chicago,74,Wichita St.,wichita-st,95,169,True
+6505996,2025-11-13,Southern Miss.,southern-miss,70,Grambling,grambling,75,145,True
+6505395,2025-11-12,Saint Peter's,st-peters,61,VCU,vcu,78,139,True
+6503009,2025-11-12,Northern Ky.,northern-ky,63,ETSU,east-tenn-st,75,138,True
+6504073,2025-11-12,James Madison,james-madison,72,Longwood,longwood,82,154,True
+6504225,2025-11-12,Vassar,vassar,61,Marist,marist,93,154,True
+6505089,2025-11-12,Presbyterian,presbyterian,61,South Carolina,south-carolina,81,142,True
+6505107,2025-11-12,Point U.,point-u,60,Kennesaw St.,kennesaw-st,111,171,True
+6504679,2025-11-12,Elon,elon,89,Marshall,marshall,96,185,True
+6531650,2025-11-12,Emmanuel (MA),emmanuel-ma,69,New Hampshire,new-hampshire,97,166,True
+6505054,2025-11-12,Hanover,hanover,55,Bellarmine,bellarmine,94,149,True
+6505246,2025-11-12,Webster,webster,41,Southeast Mo. St.,southeast-mo-st,87,128,True
+6502066,2025-11-12,Little Rock,ualr,49,Marquette,marquette,89,138,True
+6502957,2025-11-12,Siena,siena,66,St. Bonaventure,st-bonaventure,75,141,True
+6502999,2025-11-12,Milwaukee,milwaukee,70,Indiana,indiana,101,171,True
+6503754,2025-11-12,Virginia-Lynchburg,virginia-lynchburg,54,VMI,vmi,106,160,True
+6502392,2025-11-12,North Florida,north-florida,66,Tennessee,tennessee,99,165,True
+6502095,2025-11-12,Purdue Fort Wayne,ipfw,71,Western Mich.,western-mich,83,154,True
+6501736,2025-11-12,Penn St.-Shenango,penn-st-shenango,51,Akron,akron,109,160,True
+6501705,2025-11-12,American,american,67,George Washington,george-washington,107,174,True
+6501566,2025-11-12,Mercyhurst,mercyhurst,55,Canisius,canisius,58,113,True
+6501313,2025-11-12,Bluefield St.,bluefield-st,61,N.C. Central,nc-central,77,138,True
+6501312,2025-11-12,Saint Joseph's,saint-josephs,59,Virginia Tech,virginia-tech,94,153,True
+6501252,2025-11-12,Bob Jones,bob-jones,53,USC Upstate,usc-upstate,114,167,True
+6501226,2025-11-12,Brown,brown,77,Boston U.,boston-u,90,167,True
+6501099,2025-11-12,Coppin St.,coppin-st,50,South Fla.,south-fla,100,150,True
+6504049,2025-11-12,Binghamton,binghamton,70,Georgetown,georgetown,83,153,True
+6502148,2025-11-12,Southern Ind.,southern-ind,74,South Dakota,south-dakota,89,163,True
+6502131,2025-11-12,Oakland,oakland,45,Houston,houston,78,123,True
+6502384,2025-11-12,Eastern Ky.,eastern-ky,62,Vanderbilt,vanderbilt,92,154,True
+6502286,2025-11-12,Middle Tenn.,middle-tenn,77,Evansville,evansville,72,149,False
+6503375,2025-11-12,Dartmouth,dartmouth,75,Bryant,bryant,82,157,True
+6530856,2025-11-12,Southern Ill.,southern-ill,81,Nevada,nevada,86,167,True
+6505201,2025-11-12,Eastern Wash.,eastern-wash,67,Seattle U,seattle,94,161,True
+6504835,2025-11-12,Montana St.,montana-st,68,Stanford,stanford,77,145,True
+6502726,2025-11-12,Portland St.,portland-st,70,San Francisco,san-francisco,80,150,True
+6530940,2025-11-12,North Texas,north-texas,64,Oregon St.,oregon-st,66,130,True
+6530685,2025-11-12,South Dakota St.,south-dakota-st,69,Oregon,oregon,83,152,True
+6503478,2025-11-12,Manhattan,manhattan,79,Utah Tech,utah-tech,75,154,False
+6506140,2025-11-12,Idaho,idaho,74,San Diego,san-diego,78,152,True
+6505770,2025-11-12,UC San Diego,uc-san-diego,78,Fresno St.,fresno-st,73,151,False
+6505453,2025-11-12,Weber St.,weber-st,73,Utah St.,utah-st,83,156,True
+6504528,2025-11-12,Cal Poly,cal-poly,79,Colorado St.,colorado-st,93,172,True
+6501670,2025-11-12,Long Beach St.,long-beach-st,66,Pacific,pacific,69,135,True
+6502544,2025-11-12,UT Martin,ut-martin,78,Bradley,bradley,67,145,False
+6504124,2025-11-12,Tulsa,tulsa,88,Oral Roberts,oral-roberts,87,175,False
+6530533,2025-11-12,Samford,samford,93,Texas Southern,texas-southern,90,183,False
+6502508,2025-11-12,UTSA,utsa,69,Texas St.,texas-st,80,149,True
+6502859,2025-11-12,FDU,fdu,58,Texas,texas,93,151,True
+6503954,2025-11-12,Prairie View,prairie-view,67,Oklahoma St.,oklahoma-st,94,161,True
+6503649,2025-11-12,UNC Greensboro,unc-greensboro,64,NC State,north-carolina-st,110,174,True
+6504490,2025-11-12,Nicholls,nicholls-st,63,Valparaiso,valparaiso,68,131,True
+6504794,2025-11-12,Minnesota,minnesota,60,Missouri,missouri,83,143,True
+6504925,2025-11-12,Westminster (UT),westminster-ut,60,Utah Valley,utah-valley,91,151,True
+6505970,2025-11-12,St. Scholastica,st-scholastica,38,North Dakota St.,north-dakota-st,111,149,True
+6502473,2025-11-11,Florida St.,florida-st,76,Florida,florida,78,154,True
+6502317,2025-11-11,Bucknell,bucknell,63,Princeton,princeton,73,136,True
+6503423,2025-11-11,Pensacola Christian,pensacola-christian,56,Troy,troy,121,177,True
+6502901,2025-11-11,La Salle,la-salle,63,Temple,temple,90,153,True
+6502913,2025-11-11,Drexel,drexel,83,Colgate,colgate,90,173,True
+6502921,2025-11-11,Morehead St.,morehead-st,56,Clemson,clemson,83,139,True
+6503092,2025-11-11,Penn,penn,81,Providence,providence,106,187,True
+6503271,2025-11-11,Norfolk St.,norfolk-st,57,Old Dominion,old-dominion,60,117,True
+6503362,2025-11-11,Chicago St.,chicago-st,66,Butler,butler,98,164,True
+6504531,2025-11-11,William & Mary,william-mary,86,Richmond,richmond,90,176,True
+6503511,2025-11-11,Central Conn. St.,central-conn-st,60,Boston College,boston-college,59,119,False
+6503711,2025-11-11,Alcorn,alcorn,64,Maryland,maryland,84,148,True
+6503980,2025-11-11,Florida A&M,florida-am,60,UCF,ucf,97,157,True
+6504142,2025-11-11,Winthrop,winthrop,66,Coastal Carolina,coastal-caro,72,138,True
+6504261,2025-11-11,NJIT,njit,66,Loyola Maryland,loyola-maryland,64,130,False
+6504846,2025-11-11,Stonehill,stonehill,57,Rhode Island,rhode-island,80,137,True
+6505009,2025-11-11,Sacred Heart,sacred-heart,60,Villanova,villanova,94,154,True
+6502208,2025-11-11,Wagner,wagner,61,Fordham,fordham,63,124,True
+6505361,2025-11-11,Northwestern St.,northwestern-st,83,North Ala.,north-ala,87,170,True
+6502272,2025-11-11,Dayton,dayton,62,Cincinnati,cincinnati,74,136,True
+6502997,2025-11-11,Radford,radford,74,North Carolina,north-carolina,89,163,True
+6502186,2025-11-11,Ga. Southern,ga-southern,95,FGCU,fgcu,94,189,False
+6502041,2025-11-11,Mount St. Mary's,mt-st-marys,74,Saint Francis,st-francis-pa,66,140,False
+6505601,2025-11-11,Toledo,toledo,81,Wright St.,wright-st,71,152,False
+6501776,2025-11-11,IU Columbus,iupu-columbus,77,IU Indy,iu-indy,121,198,True
+6501977,2025-11-11,Iona,iona,105,Kansas City,umkc,91,196,False
+6501267,2025-11-11,LIU,long-island,76,Air Force,air-force,72,148,False
+6502430,2025-11-11,S'western Adventist,southwest-adventist,63,Abilene Christian,abilene-christian,104,167,True
+6501381,2025-11-11,UMBC,umbc,81,Morgan St.,morgan-st,79,160,False
+6501409,2025-11-11,Coastal Ga.,coastal-ga,60,Bethune-Cookman,bethune-cookman,101,161,True
+6531803,2025-11-11,Southwestern Christ.,southwestern-christian,70,UIW,uiw,109,179,True
+6502015,2025-11-11,App State,appalachian-st,53,Ohio St.,ohio-st,75,128,True
+6502521,2025-11-11,Wake Forest,wake-forest,84,Michigan,michigan,85,169,True
+6503011,2025-11-11,Navy,navy,71,Penn St.,penn-st,80,151,True
+6504720,2025-11-11,SUNY Delhi,suny-delhi,52,UAlbany,albany-ny,115,167,True
+6505480,2025-11-11,Lipscomb,lipscomb,64,UNC Asheville,unc-asheville,69,133,True
+6501187,2025-11-11,St. Joseph's (L.I.),st-josephs-li,43,Stony Brook,stony-brook,107,150,True
+6501149,2025-11-11,Northeastern,northeastern,77,Harvard,harvard,60,137,False
+6501204,2025-11-11,Duke,duke,114,Army West Point,army,59,173,False
+6501886,2025-11-11,Jacksonville,jacksonville,64,High Point,high-point,85,149,True
+6505427,2025-11-11,Davidson,davidson,62,Charlotte,charlotte,55,117,False
+6501215,2025-11-11,Delaware,delaware,68,BYU,byu,85,153,True
+6506308,2025-11-11,Cleary,cleary,54,Detroit Mercy,detroit,92,146,True
+6503902,2025-11-11,UC Riverside,uc-riverside,68,New Mexico,new-mexico,82,150,True
+6530221,2025-11-11,Ark.-Pine Bluff,ark-pine-bluff,69,Oklahoma,oklahoma,95,164,True
+6504843,2025-11-11,Ball St.,ball-st,55,Wisconsin,wisconsin,86,141,True
+6505218,2025-11-11,Bethesda (CA),bethesda-christian,60,Southern Utah,southern-utah,118,178,True
+6505537,2025-11-11,Austin Peay,austin-peay,65,Wyoming,wyoming,79,144,True
+6505931,2025-11-11,Texas Tech,texas-tech,77,Illinois,illinois,81,158,True
+6502457,2025-11-11,Hampton,hampton,53,Virginia,virginia,91,144,True
+6531063,2025-11-11,Catawba,catawba,62,George Mason,george-mason,86,148,True
+6503105,2025-11-11,UTRGV,utrgv,65,Boise St.,boise-st,85,150,True
+6504508,2025-11-11,Memphis,memphis,77,Ole Miss,ole-miss,83,160,True
+6506240,2025-11-11,Queens (NC),queens-nc,81,Duquesne,duquesne,87,168,True
+6504758,2025-11-11,Lincoln (CA),lincoln-ca,76,Pepperdine,pepperdine,113,189,True
+6505313,2025-11-11,LMU (CA),loyola-marymount,71,UTEP,utep,58,129,False
+6502006,2025-11-11,Western Ill.,western-ill,58,CSU Bakersfield,bakersfield,74,132,True
+6530634,2025-11-11,N.M. Highlands,nm-highlands,58,New Mexico St.,new-mexico-st,74,132,True
+6501177,2025-11-11,Creighton,creighton,63,Gonzaga,gonzaga,90,153,True
+6502289,2025-11-11,UC Santa Barbara,uc-santa-barbara,92,Sacramento St.,sacramento-st,87,179,False
+6503794,2025-11-11,Ohio,ohio,60,Saint Mary's (CA),st-marys-ca,90,150,True
+6504688,2025-11-11,Montana,montana,102,UNLV,unlv,93,195,False
+6529265,2025-11-11,A&M-Corpus Christi,am-corpus-chris,46,Kansas,kansas,77,123,True
+6502821,2025-11-11,Northern Ariz.,northern-ariz,49,Arizona,arizona,84,133,True
+6505952,2025-11-11,Oakwood,oakwood,76,Tennessee St.,tennessee-st,114,190,True
+6502686,2025-11-11,Kentucky,kentucky,88,Louisville,louisville,96,184,True
+6505820,2025-11-11,SFA,stephen-f-austin,81,Rice,rice,69,150,False
+6501340,2025-11-11,Alabama St.,alabama-st,77,UAB,uab,74,151,False
+6501501,2025-11-11,Eastern Ill.,eastern-ill,58,Notre Dame,notre-dame,78,136,True
+6530278,2025-11-11,Wilson,wilson,62,Towson,towson,101,163,True
+6501332,2025-11-11,Murray St.,murray-st,91,SMU,smu,102,193,True
+6501695,2025-11-11,Buffalo,buffalo,66,DePaul,depaul,53,119,False
+6501937,2025-11-11,Merrimack,merrimack,62,Tarleton St.,tarleton-st,76,138,True
+6502329,2025-11-11,Wofford,wofford,62,Auburn,auburn,93,155,True
+6501824,2025-11-11,Tulane,tulane,66,Louisiana,la-lafayette,62,128,False
+6502772,2025-11-11,CSUN,cal-st-northridge,68,North Dakota St.,north-dakota-st,90,158,True
+6503166,2025-11-11,Mayville St.,mayville-st,58,North Dakota,north-dakota,128,186,True
+6503556,2025-11-11,St. Francis (IL),st-francis-il,55,UIC,ill-chicago,98,153,True
+6504094,2025-11-11,Central Ark.,central-ark,56,Arkansas,arkansas,93,149,True
+6504937,2025-11-11,Arkansas St.,arkansas-st,86,Missouri St.,missouri-st,85,171,False
+6505730,2025-11-11,UMES,md-east-shore,50,Nebraska,nebraska,69,119,True
+6501062,2025-11-11,Yale,yale,97,Quinnipiac,quinnipiac,60,157,False
+6505294,2025-11-10,Delaware St.,delaware-st,57,Niagara,niagara,68,125,True
+6504218,2025-11-10,Stetson,stetson,61,Miami (FL),miami-fl,102,163,True
+6506076,2025-11-10,Charleston So.,charleston-so,96,The Citadel,citadel,86,182,False
+6504099,2025-11-10,Fairfield,fairfield,59,Seton Hall,seton-hall,82,141,True
+6503538,2025-11-10,Presbyterian,presbyterian,63,Georgia St.,georgia-st,61,124,False
+6502848,2025-11-10,Indiana St.,indiana-st,64,SIUE,siu-edwardsville,55,119,False
+6502245,2025-11-10,Western Ky.,western-ky,87,Eastern Ky.,eastern-ky,79,166,False
+6501857,2025-11-10,Eastern Mich.,eastern-mich,66,Pittsburgh,pittsburgh,78,144,True
+6501588,2025-11-10,UNCW,unc-wilmington,77,Kent St.,kent-st,86,163,True
+6502877,2025-11-10,Molloy,molloy,61,Hofstra,hofstra,95,156,True
+6504782,2025-11-10,Maine,maine,60,Rutgers,rutgers,72,132,True
+6504639,2025-11-10,Columbia Int'l,columbia-international,59,Furman,furman,89,148,True
+6502518,2025-11-10,Penn St.-Shenango,penn-st-shenango,53,Youngstown St.,youngstown-st,115,168,True
+6501643,2025-11-10,Columbia,columbia,62,UConn,uconn,89,151,True
+6501834,2025-11-10,New Haven,new-haven,73,UMass Lowell,umass-lowell,67,140,False
+6506344,2025-11-10,Ecclesia,ecclesia,51,Southern U.,southern-u,115,166,True
+6505700,2025-11-10,Reinhardt,reinhardt,39,Jacksonville St.,jacksonville-st,114,153,True
+6502590,2025-11-10,Ripon,ripon,63,Green Bay,green-bay,83,146,True
+6530526,2025-11-10,Virginia-Lynchburg,virginia-lynchburg,58,Tennessee Tech,tennessee-tech,118,176,True
+6503322,2025-11-10,East Texas A&M,tex-am-commerce,74,Hawaii,hawaii,100,174,True
+6506115,2025-11-10,South Carolina St.,south-carolina-st,62,N.C. A&T,nc-at,85,147,True
+6503894,2025-11-10,Lamar University,lamar,65,TCU,tcu,78,143,True
+6532530,2025-11-10,Geneva,geneva,47,Robert Morris,robert-morris,93,140,True
+6505029,2025-11-10,Cleveland St.,cleveland-st,63,Northwestern,northwestern,110,173,True
+6533025,2025-11-10,North Greenville,north-greenville,92,Gardner-Webb,gardner-webb,81,173,False
+6504659,2025-11-10,West Ga.,west-ga,62,UCLA,ucla,83,145,True
+6501281,2025-11-10,Cal St. Fullerton,cal-st-fullerton,65,California,california,93,158,True
+6506166,2025-11-10,St. Thomas (MN),st-thomas-mn,71,Washington St.,washington-st,81,152,True
+6504610,2025-11-10,Southeastern La.,southeastern-la,60,Georgia Tech,georgia-tech,70,130,True
+6503430,2025-11-10,Holy Cross,holy-cross,69,Utah,utah,87,156,True
+6501492,2025-11-10,NIU,northern-ill,59,Grand Canyon,grand-canyon,88,147,True
+6505632,2025-11-10,Santa Clara,santa-clara,87,Xavier,xavier,68,155,False
+6504025,2025-11-10,Lincoln (CA),lincoln-ca,63,UC Irvine,uc-irvine,130,193,True
+6505282,2025-11-10,Arlington Baptist,arlington-baptist,61,UT Arlington,texas-arlington,117,178,True
+6503117,2025-11-10,Mississippi St.,mississippi-st,80,Iowa St.,iowa-st,96,176,True
+6502065,2025-11-10,Little Rock,ualr,72,Milwaukee,milwaukee,92,164,True
+6501037,2025-11-10,Lindenwood,lindenwood-mo,66,Saint Louis,saint-louis,109,175,True
+6530389,2025-11-10,Biblical Stud. (TX),biblical-stud-tx,50,McNeese,mcneese,132,182,True
+6529568,2025-11-10,Rust,rust,55,ULM,la-monroe,88,143,True
+6503762,2025-11-10,New Orleans,new-orleans,58,LSU,lsu,93,151,True
+6501900,2025-11-10,Simpson,simpson,51,Drake,drake,89,140,True
+6502545,2025-11-09,South Dakota St.,south-dakota-st,58,UNI,uni,65,123,True
+6506368,2025-11-09,Morehead St.,morehead-st,81,Georgia,georgia,120,201,True
+6506361,2025-11-09,Marist,marist,75,Dartmouth,dartmouth,56,131,False
+6506267,2025-11-09,Ozark Christian,ozark-christian,65,South Dakota,south-dakota,121,186,True
+6505660,2025-11-09,Cornell,cornell,65,Illinois St.,illinois-st,76,141,True
+6505062,2025-11-09,Dominican (IL),dominican-il,56,Purdue Fort Wayne,ipfw,137,193,True
+6502770,2025-11-09,CSUN,cal-st-northridge,93,North Dakota,north-dakota,85,178,False
+6502517,2025-11-09,Marquette,marquette,77,Indiana,indiana,100,177,True
+6501225,2025-11-09,Vermont,vermont,89,Brown,brown,84,173,False
+6503247,2025-11-09,Penn,penn,78,American,american,84,162,True
+6501743,2025-11-09,N.C. Central,nc-central,54,App State,appalachian-st,76,130,True
+6501098,2025-11-09,Coppin St.,coppin-st,70,James Madison,james-madison,84,154,True
+6502094,2025-11-09,Western Mich.,western-mich,82,Campbell,campbell,91,173,True
+6501148,2025-11-09,New Hampshire,new-hampshire,75,Harvard,harvard,86,161,True
+6530690,2025-11-09,Le Moyne,le-moyne,60,Bowling Green,bowling-green,83,143,True
+6530206,2025-11-09,Lipscomb,lipscomb,77,Mercer,mercer,92,169,True
+6503952,2025-11-09,Texas A&M,texas-am,63,Oklahoma St.,oklahoma-st,87,150,True
+6502599,2025-11-09,Lehigh,lehigh,47,West Virginia,west-virginia,69,116,True
+6502291,2025-11-09,Fla. Atlantic,fla-atlantic,68,Liberty,liberty,88,156,True
+6502809,2025-11-09,Denver,denver,75,Montana St.,montana-st,73,148,False
+6504376,2025-11-09,Washington,washington,69,Baylor,baylor,78,147,True
+6502540,2025-11-09,Ky. Christian,ky-christian,42,UT Martin,ut-martin,97,139,True
+6505995,2025-11-09,Southern Miss.,southern-miss,79,South Carolina,south-carolina,83,162,True
+6505569,2025-11-09,Grambling,grambling,73,Howard,howard,70,143,False
+6504527,2025-11-09,Omaha,neb-omaha,74,Colorado St.,colorado-st,97,171,True
+6505489,2025-11-09,Manhattan,manhattan,83,Southern California,southern-california,114,197,True
+6505229,2025-11-09,UC Davis,uc-davis,63,Portland,portland,67,130,True
+6504415,2025-11-09,Loyola Chicago,loyola-chicago,62,North Texas,north-texas,64,126,True
+6501007,2025-11-09,Idaho St.,idaho-st,57,San Diego St.,san-diego-st,73,130,True
+6503753,2025-11-09,VMI,vmi,68,Missouri,missouri,106,174,True
+6530937,2025-11-09,Oakland City,use-next,47,Evansville,evansville,76,123,True
+6503663,2025-11-09,Lyon,lyon,35,Louisiana Tech,louisiana-tech,93,128,True
+6503477,2025-11-09,Utah Tech,utah-tech,66,Arizona St.,arizona-st,81,147,True
+6504682,2025-11-08,Monmouth,monmouth,60,La Salle,la-salle,73,133,True
+6502555,2025-11-08,Towson,towson,48,Houston,houston,65,113,True
+6502858,2025-11-08,Lafayette,lafayette,60,Texas,texas,97,157,True
+6503837,2025-11-08,San Francisco,san-francisco,70,Memphis,memphis,76,146,True
+6504180,2025-11-08,UNC Asheville,unc-asheville,90,Ga. Southern,ga-southern,93,183,True
+6505173,2025-11-08,Northern Ky.,northern-ky,56,Tennessee,tennessee,95,151,True
+6531370,2025-11-08,Penn St.-New Kens.,penn-st-new-kens,43,Mercyhurst,mercyhurst,94,137,True
+6503270,2025-11-08,William & Mary,william-mary,81,Norfolk St.,norfolk-st,78,159,False
+6501280,2025-11-08,Cal St. Fullerton,cal-st-fullerton,82,Wyoming,wyoming,92,174,True
+6501311,2025-11-08,Virginia Tech,virginia-tech,107,Providence,providence,101,208,False
+6501565,2025-11-08,Canisius,canisius,70,St. Bonaventure,st-bonaventure,89,159,True
+6502285,2025-11-08,San Jose St.,san-jose-st,74,UC Santa Barbara,uc-santa-barbara,85,159,True
+6502347,2025-11-08,Austin Peay,austin-peay,74,Air Force,air-force,54,128,False
+6503103,2025-11-08,Utah Valley,utah-valley,77,Boise St.,boise-st,101,178,True
+6505391,2025-11-08,FDU,fdu,83,Saint Peter's,st-peters,93,176,True
+6529486,2025-11-08,Champion Chris.,champion-bapt,63,Central Ark.,central-ark,110,173,True
+6505729,2025-11-08,FIU,fiu,66,Nebraska,nebraska,96,162,True
+6504096,2025-11-08,Fairfield,fairfield,74,NJIT,njit,53,127,False
+6501833,2025-11-08,Penn St.,penn-st,87,New Haven,new-haven,43,130,False
+6503979,2025-11-08,Vanderbilt,vanderbilt,105,UCF,ucf,93,198,False
+6501251,2025-11-08,Southern Va.,southern-va,46,USC Upstate,usc-upstate,105,151,True
+6501650,2025-11-08,Alabama,alabama,103,St. John's (NY),st-johns-ny,96,199,False
+6501735,2025-11-08,Princeton,princeton,69,Akron,akron,104,173,True
+6504336,2025-11-08,Alcorn,alcorn,50,Minnesota,minnesota,95,145,True
+6501525,2025-11-08,Drexel,drexel,65,Saint Joseph's,saint-josephs,76,141,True
+6503543,2025-11-08,Delaware St.,delaware-st,43,Syracuse,syracuse,83,126,True
+6504048,2025-11-08,Niagara,niagara,67,Binghamton,binghamton,59,126,False
+6505106,2025-11-08,Kennesaw St.,kennesaw-st,92,Florida A&M,florida-am,72,164,False
+6501704,2025-11-08,George Washington,george-washington,99,South Fla.,south-fla,95,194,False
+6503910,2025-11-08,Western Caro.,western-caro,54,Duke,duke,95,149,True
+6501823,2025-11-08,Texas St.,texas-st,71,Tulane,tulane,79,150,True
+6502271,2025-11-08,UMBC,umbc,71,Dayton,dayton,77,148,True
+6502326,2025-11-08,Milwaukee,milwaukee,76,Wofford,wofford,86,162,True
+6503357,2025-11-08,Spring Hill,spring-hill,50,South Alabama,south-ala,99,149,True
+6501910,2025-11-08,Marshall,marshall,85,Toledo,toledo,73,158,False
+6504678,2025-11-08,Elon,elon,92,UNC Greensboro,unc-greensboro,90,182,False
+6501214,2025-11-08,Holy Cross,holy-cross,53,BYU,byu,98,151,True
+6501368,2025-11-08,Central Mich.,central-mich,54,Bradley,bradley,85,139,True
+6502717,2025-11-08,Northwestern Okla.,northwestern-okla,57,Missouri St.,missouri-st,106,163,True
+6503359,2025-11-08,Bellarmine,bellarmine,71,Kansas St.,kansas-st,98,169,True
+6504217,2025-11-08,John Brown,john-brown,50,Oral Roberts,oral-roberts,84,134,True
+6505638,2025-11-08,Tennessee St.,tennessee-st,79,Belmont,belmont,87,166,True
+6505217,2025-11-08,UTRGV,utrgv,95,Southern Utah,southern-utah,72,167,False
+6504765,2025-11-08,Chattanooga,chattanooga,69,UNLV,unlv,101,170,True
+6505007,2025-11-08,Queens (NC),queens-nc,74,Villanova,villanova,94,168,True
+6506077,2025-11-08,Ark.-Pine Bluff,ark-pine-bluff,72,LMU (CA),loyola-marymount,94,166,True
+6502117,2025-11-08,Houston Christian,houston-christian,60,UC San Diego,uc-san-diego,78,138,True
+6505200,2025-11-08,Cal Poly,cal-poly,73,Seattle U,seattle,71,144,False
+6530855,2025-11-08,Pacific,pacific,77,Nevada,nevada,78,155,True
+6501175,2025-11-08,Oklahoma,oklahoma,68,Gonzaga,gonzaga,83,151,True
+6504685,2025-11-08,Montana,montana,68,Stanford,stanford,91,159,True
+6502282,2025-11-08,Webster,webster,56,Middle Tenn.,middle-tenn,109,165,True
+6506271,2025-11-08,Army West Point,army,76,St. Thomas (MN),st-thomas-mn,83,159,True
+6504093,2025-11-08,Arkansas,arkansas,66,Michigan St.,michigan-st,69,135,True
+6503007,2025-11-08,ETSU,east-tenn-st,64,Presbyterian,presbyterian,68,132,True
+6505119,2025-11-08,Eastern Wash.,eastern-wash,97,Colorado,colorado,102,199,True
+6503427,2025-11-08,Weber St.,weber-st,89,Utah,utah,92,181,True
+6505280,2025-11-08,UT Arlington,texas-arlington,56,New Mexico,new-mexico,74,130,True
+6532246,2025-11-08,Cheyney,cheyney,59,UMES,md-east-shore,104,163,True
+6501186,2025-11-08,Maine,maine,60,Stony Brook,stony-brook,71,131,True
+6501669,2025-11-08,Long Beach St.,long-beach-st,62,Fresno St.,fresno-st,82,144,True
+6501885,2025-11-08,Averett,averett,52,High Point,high-point,127,179,True
+6501775,2025-11-08,IU Indy,iu-indy,80,Butler,butler,112,192,True
+6503455,2025-11-08,Col. of Charleston,col-of-charleston,77,Fla. Atlantic,fla-atlantic,94,171,True
+6504530,2025-11-08,East Carolina,east-carolina,72,Richmond,richmond,87,159,True
+6505481,2025-11-08,UAlbany,albany-ny,62,Massachusetts,massachusetts,83,145,True
+6501623,2025-11-08,Prairie View,prairie-view,62,Wichita St.,wichita-st,105,167,True
+6501929,2025-11-08,A&M-Corpus Christi,am-corpus-chris,77,Tarleton St.,tarleton-st,85,162,True
+6503690,2025-11-07,Rowan,rowan,72,Penn,penn,119,191,True
+6502685,2025-11-07,Valparaiso,valparaiso,59,Kentucky,kentucky,107,166,True
+6502514,2025-11-07,Morehead St.,morehead-st,65,Wake Forest,wake-forest,81,146,True
+6502920,2025-11-07,Gardner-Webb,gardner-webb,59,Clemson,clemson,97,156,True
+6503055,2025-11-07,Mansfield,mansfield,54,Ball St.,ball-st,84,138,True
+6503226,2025-11-07,Western Ill.,western-ill,58,Iowa,iowa,77,135,True
+6503422,2025-11-07,Troy,troy,64,Furman,furman,61,125,False
+6503537,2025-11-07,Georgia St.,georgia-st,64,Cincinnati,cincinnati,74,138,True
+6505360,2025-11-07,Lane,lane,84,North Ala.,north-ala,90,174,True
+6504143,2025-11-07,Virginia-Lynchburg,virginia-lynchburg,44,Coastal Carolina,coastal-caro,121,165,True
+6506165,2025-11-07,Washington St.,washington-st,69,Davidson,davidson,85,154,True
+6504266,2025-11-07,Longwood,longwood,60,Pittsburgh,pittsburgh,78,138,True
+6504448,2025-11-07,West Va. Wesleyan,west-va-wesleyan,61,Radford,radford,99,160,True
+6504936,2025-11-07,Arkansas St.,arkansas-st,65,SFA,stephen-f-austin,90,155,True
+6505193,2025-11-07,Cornell,cornell,102,Kent St.,kent-st,110,212,True
+6501976,2025-11-07,Hofstra,hofstra,73,Iona,iona,81,154,True
+6505426,2025-11-07,Tennessee Tech,tennessee-tech,65,Charlotte,charlotte,70,135,True
+6502130,2025-11-07,Oakland,oakland,77,Purdue,purdue,87,164,True
+6501754,2025-11-07,Columbia,columbia,71,New Haven,new-haven,53,124,False
+6501742,2025-11-07,N.C. Central,nc-central,62,Virginia,virginia,81,143,True
+6503709,2025-11-07,Georgetown,georgetown,70,Maryland,maryland,60,130,False
+6504314,2025-11-07,Wilmington (DE),wilmington-de,71,Delaware,delaware,62,133,False
+6530936,2025-11-07,Calumet Col.,calumet-col,50,Evansville,evansville,92,142,True
+6502988,2025-11-07,SIUE,siu-edwardsville,77,UTSA,utsa,60,137,False
+6531802,2025-11-07,Jarvis Christian,jarvis-christian,60,UIW,uiw,104,164,True
+6501147,2025-11-07,MIT,mit,50,Harvard,harvard,79,129,True
+6502912,2025-11-07,Northeastern,northeastern,68,Colgate,colgate,65,133,False
+6502288,2025-11-07,Col. of Charleston,col-of-charleston,75,Liberty,liberty,90,165,True
+6505319,2025-11-07,Tulsa,tulsa,82,Rhode Island,rhode-island,65,147,False
+6501523,2025-11-07,Bucknell,bucknell,73,Mount St. Mary's,mt-st-marys,62,135,False
+6505442,2025-11-07,Boston U.,boston-u,52,Northwestern,northwestern,76,128,True
+6501694,2025-11-07,Green Bay,green-bay,76,Buffalo,buffalo,83,159,True
+6505061,2025-11-07,Purdue Fort Wayne,ipfw,68,Ohio St.,ohio-st,94,162,True
+6501224,2025-11-07,Siena,siena,62,Brown,brown,46,108,False
+6501339,2025-11-07,Alabama St.,alabama-st,64,Florida St.,florida-st,101,165,True
+6501500,2025-11-07,Detroit Mercy,detroit,70,Notre Dame,notre-dame,102,172,True
+6501513,2025-11-07,Kansas,kansas,74,North Carolina,north-carolina,87,161,True
+6505550,2025-11-07,Huntingdon,huntingdon,83,West Ga.,west-ga,120,203,True
+6506203,2025-11-07,Trinity Christian,trinity-christian,49,Miami (OH),miami-oh,129,178,True
+6506430,2025-11-07,Fort Lauderdale,fort-lauderdale,77,Stetson,stetson,106,183,True
+6506139,2025-11-07,Whitman,whitman,49,Idaho,idaho,94,143,True
+6505669,2025-11-07,NIU,northern-ill,72,Wisconsin,wisconsin,97,169,True
+6531168,2025-11-07,South Carolina St.,south-carolina-st,72,Samford,samford,82,154,True
+6501006,2025-11-07,Idaho St.,idaho-st,71,San Diego,san-diego,68,139,False
+6501491,2025-11-07,Youngstown St.,youngstown-st,90,Grand Canyon,grand-canyon,81,171,False
+6503476,2025-11-07,Utah Tech,utah-tech,67,Arizona,arizona,93,160,True
+6503648,2025-11-07,UAB,uab,70,NC State,north-carolina-st,94,164,True
+6505312,2025-11-07,Western N.M.,western-nm,70,UTEP,utep,107,177,True
+6502724,2025-11-07,Northwest Indian,,74,Portland St.,portland-st,122,196,True
+6502185,2025-11-07,FGCU,fgcu,70,Illinois,illinois,113,183,True
+6503546,2025-11-07,UIC,ill-chicago,73,Oregon St.,oregon-st,76,149,True
+6503608,2025-11-07,Rice,rice,63,Oregon,oregon,67,130,True
+6506393,2025-11-07,McNeese,mcneese,67,Santa Clara,santa-clara,79,146,True
+6500994,2025-11-07,Pepperdine,pepperdine,63,UCLA,ucla,74,137,True
+6501459,2025-11-07,California Baptist,california-baptist,69,UC Irvine,uc-irvine,61,130,False
+6504764,2025-11-07,Chattanooga,chattanooga,66,Saint Mary's (CA),st-marys-ca,87,153,True
+6506439,2025-11-07,Winthrop,winthrop,90,George Mason,george-mason,96,186,True
+6503841,2025-11-07,Southeastern La.,southeastern-la,52,Louisiana,la-lafayette,58,110,True
+6502716,2025-11-07,Jessup,jessup,76,Sacramento St.,sacramento-st,86,162,True
+6502143,2025-11-07,VMI,vmi,78,Southern Ind.,southern-ind,74,152,False
+6503697,2025-11-07,Nicholls,nicholls-st,57,Eastern Ill.,eastern-ill,65,122,True
+6501061,2025-11-07,Yale,yale,97,Navy,navy,68,165,False
+6530761,2025-11-07,Sacred Heart,sacred-heart,80,Duquesne,duquesne,92,172,True
+6501642,2025-11-07,UMass Lowell,umass-lowell,47,UConn,uconn,110,157,True
+6502207,2025-11-07,Mt. St. Mary (NY),mt-st-mary-ny,37,Fordham,fordham,106,143,True
+6503374,2025-11-07,Bryant,bryant,45,Georgia Tech,georgia-tech,74,119,True
+6506092,2025-11-07,Wagner,wagner,61,Seton Hall,seton-hall,68,129,True
+6502823,2025-11-07,Justice Col.,justice-col,55,Northern Ariz.,northern-ariz,87,142,True
+6504507,2025-11-07,ULM,la-monroe,65,Ole Miss,ole-miss,86,151,True
+6505117,2025-11-07,Southeast Mo. St.,southeast-mo-st,84,Missouri,missouri,89,173,True
+6505138,2025-11-07,Colo. Christian,colo-christian,65,Northern Colo.,northern-colo,101,166,True
+6505463,2025-11-07,Kansas City,umkc,78,Southern Ill.,southern-ill,101,179,True
+6505847,2025-11-07,VCU,vcu,77,Utah St.,utah-st,80,157,True
+6505863,2025-11-07,Mississippi Val.,mississippi-val,60,Murray St.,murray-st,108,168,True
+6504842,2025-11-07,Stonehill,stonehill,64,DePaul,depaul,72,136,True
+6505930,2025-11-07,Sam Houston,sam-houston-st,77,Texas Tech,texas-tech,98,175,True
+6506051,2025-11-06,Valley Forge,valley-forge-chrst,52,Lehigh,lehigh,91,143,True
+6504807,2025-11-06,Randolph,randolph,53,Old Dominion,old-dominion,93,146,True
+6503510,2025-11-06,Central Conn. St.,central-conn-st,49,Quinnipiac,quinnipiac,71,120,True
+6503549,2025-11-06,Mid-Atlantic Christ.,mid-atlantic-christ,43,Hampton,hampton,103,146,True
+6503959,2025-11-06,The Citadel,citadel,47,Boston College,boston-college,76,123,True
+6505630,2025-11-06,Le Moyne,le-moyne,69,Xavier,xavier,74,143,True
+6505028,2025-11-06,Capital,capital,70,Cleveland St.,cleveland-st,71,141,True
+6505567,2025-11-06,Dist. Columbia,dist-columbia,71,Howard,howard,103,174,True
+6502847,2025-11-06,Illinois Tech,iit,73,Indiana St.,indiana-st,104,177,True
+6503341,2025-11-06,Jackson St.,jackson-st,70,Louisville,louisville,106,176,True
+6502005,2025-11-06,Whittier,whittier,61,CSU Bakersfield,bakersfield,83,144,True
+6502589,2025-11-06,Campbell,campbell,65,West Virginia,west-virginia,73,138,True
+6502093,2025-11-06,Northwood,northwood-mi,85,Western Mich.,western-mich,81,166,False
+6501564,2025-11-06,Allegheny,allegheny,43,Canisius,canisius,84,127,True
+6501408,2025-11-06,Bethune-Cookman,bethune-cookman,61,Miami (FL),miami-fl,101,162,True
+6501060,2025-11-06,UHSP,st-louis-pharmacy,51,Lindenwood,lindenwood-mo,116,167,True
+6501265,2025-11-06,LIU,long-island,94,IU Indy,iu-indy,90,184,False
+6531649,2025-11-06,Curry,curry,31,New Hampshire,new-hampshire,113,144,True
+6501383,2025-11-06,Central Penn,central-penn,77,Morgan St.,morgan-st,101,178,True
+6529198,2025-11-06,Penn St.-Abington,penn-st-abington,60,Loyola Maryland,loyola-maryland,96,156,True
+6532002,2025-11-06,Toccoa Falls,toccoa-falls,71,Charleston So.,charleston-so,106,177,True
+6506449,2025-11-06,Bethany (WV),bethany-wv,65,Bowling Green,bowling-green,120,185,True
+6503793,2025-11-06,Illinois St.,illinois-st,68,Ohio,ohio,72,140,True
+6501899,2025-11-06,Robert Morris,robert-morris,81,Drake,drake,79,160,False
+6504575,2025-11-06,Chicago St.,chicago-st,86,Saint Louis,saint-louis,108,194,True
+6501971,2025-11-06,Tougaloo,tougaloo,57,Southern Miss.,southern-miss,93,150,True
+6505228,2025-11-06,Ark.-Pine Bluff,ark-pine-bluff,74,Portland,portland,83,157,True
+6503211,2025-11-06,Wright St.,wright-st,67,California,california,77,144,True
+6504412,2025-11-06,Mercyhurst,mercyhurst,73,Loyola Chicago,loyola-chicago,65,138,False
+6530873,2025-11-06,Saint Francis,st-francis-pa,63,TCU,tcu,104,167,True
+6530376,2025-11-06,Texas Southern,texas-southern,70,Texas A&M,texas-am,104,174,True
+6530276,2025-11-06,Northwestern St.,northwestern-st,53,North Texas,north-texas,80,133,True
+6506003,2025-11-06,Merrimack,merrimack,57,Auburn,auburn,95,152,True
+6504784,2025-11-06,Dakota St.,dakota-st,62,South Dakota St.,south-dakota-st,68,130,True
+6502808,2025-11-06,Denver,denver,70,Washington,washington,84,154,True
+6504394,2025-11-06,Grambling,grambling,62,Iowa St.,iowa-st,102,164,True
+6503165,2025-11-06,UC Riverside,uc-riverside,74,North Dakota,north-dakota,70,144,False
+6504331,2025-11-06,Alcorn,alcorn,70,South Alabama,south-ala,76,146,True
+6502426,2025-11-06,Omaha,neb-omaha,71,Abilene Christian,abilene-christian,73,144,True
+6502536,2025-11-06,CSUN,cal-st-northridge,57,UNI,uni,86,143,True
+6502453,2025-11-06,Trinity (FL),trinity-fl,45,Jacksonville,jacksonville,132,177,True
+6502390,2025-11-06,North Florida,north-florida,64,Florida,florida,104,168,True
+6503304,2025-11-06,A&M-Corpus Christi,am-corpus-chris,58,SMU,smu,69,127,True
+6503419,2025-11-06,Midway,midway,60,Eastern Ky.,eastern-ky,122,182,True
+6506239,2025-11-05,Lynchburg,lynchburg,76,Queens (NC),queens-nc,87,163,True
+6503269,2025-11-05,Regent,regent,55,Norfolk St.,norfolk-st,119,174,True
+6505917,2025-11-05,MUW,muw,61,Mississippi Val.,mississippi-val,97,158,True
+6504677,2025-11-05,Belmont Abbey,belmont-abbey,51,Elon,elon,99,150,True
+6504541,2025-11-05,Dickinson,dickinson,44,Lafayette,lafayette,79,123,True
+6504529,2025-11-05,Southern Va.,southern-va,56,Richmond,richmond,84,140,True
+6504072,2025-11-05,Wash. & Lee,wash-lee,56,James Madison,james-madison,70,126,True
+6504047,2025-11-05,Plattsburgh St.,plattsburgh-st,62,Vermont,vermont,113,175,True
+6501097,2025-11-05,Coppin St.,coppin-st,59,La Salle,la-salle,87,146,True
+6502900,2025-11-05,Delaware St.,delaware-st,65,Temple,temple,83,148,True
+6502141,2025-11-05,Southern Ind.,southern-ind,58,Butler,butler,88,146,True
+6502014,2025-11-05,CarolinaU,piedmont-intl,46,App State,appalachian-st,92,138,True
+6502270,2025-11-05,RIT,rochester-inst,56,Binghamton,binghamton,66,122,True
+6505088,2025-11-05,Bluefield Univ.,bluefield-col,76,Presbyterian,presbyterian,105,181,True
+6504778,2025-11-05,Rider,rider,53,Rutgers,rutgers,81,134,True
+6530714,2025-11-05,Biblical Stud. (TX),biblical-stud-tx,30,UTSA,utsa,97,127,True
+6502281,2025-11-05,Milligan,milligan,51,Middle Tenn.,middle-tenn,100,151,True
+6506421,2025-11-05,UMES,md-east-shore,29,Georgia,georgia,94,123,True
+6531631,2025-11-05,LaGrange,lagrange,62,Mercer,mercer,101,163,True
+6531610,2025-11-05,Dallas,dallas,53,Prairie View,prairie-view,94,147,True
+6504684,2025-11-05,Ottawa (AZ),ottawa-az,39,Montana,montana,73,112,True
+6501066,2025-11-05,Alabama A&M,alabama-am,51,Indiana,indiana,98,149,True
+6505988,2025-11-05,Eastern Wash.,eastern-wash,62,LMU (CA),loyola-marymount,70,132,True
+6504753,2025-11-05,LIFE Pacific,life-pacific,56,Pacific,pacific,83,139,True
+6504487,2025-11-05,Pacific Lutheran,pacific-lutheran,79,Cal Poly,cal-poly,101,180,True
+6505564,2025-11-05,Northwest Indian,,44,Montana St.,montana-st,114,158,True
+6505404,2025-11-05,East Texas A&M,tex-am-commerce,54,New Mexico,new-mexico,76,130,True
+6505836,2025-11-05,North Dakota St.,north-dakota-st,68,UC Davis,uc-davis,80,148,True
+6503109,2025-11-05,North Ala.,north-ala,62,Mississippi St.,mississippi-st,86,148,True
+6502766,2025-11-05,Bethesda (CA),bethesda-christian,65,Utah Tech,utah-tech,110,175,True
+6501250,2025-11-05,USC Upstate,usc-upstate,67,Fresno St.,fresno-st,66,133,False
+6505129,2025-11-05,South Dakota,south-dakota,76,Creighton,creighton,92,168,True
+6502697,2025-11-05,TAMU-San Antonio,tamu-san-antonio,55,Texas St.,texas-st,114,169,True
+6502493,2025-11-05,Southern U.,southern-u,82,Marquette,marquette,100,182,True
+6501928,2025-11-05,Tarleton St.,tarleton-st,60,LSU,lsu,96,156,True
+6503005,2025-11-04,Converse,converse,50,ETSU,east-tenn-st,102,152,True
+6502064,2025-11-04,Ark. Baptist,ark-baptist,63,Little Rock,ualr,92,155,True
+6501036,2025-11-04,Lindenwood,lindenwood-mo,60,Texas Tech,texas-tech,98,158,True
+6501622,2025-11-04,UNC Asheville,unc-asheville,58,Wichita St.,wichita-st,75,133,True
+6530731,2025-11-04,Merchant Marine,merchant-marine,46,Sacred Heart,sacred-heart,103,149,True
+6506116,2025-11-04,N.C. A&T,nc-at,72,South Carolina,south-carolina,91,163,True
+6505959,2025-11-04,St. Joseph's (Brkln),st-josephs-brkln,59,Manhattan,manhattan,125,184,True
+6504681,2025-11-04,Caldwell,caldwell,68,Monmouth,monmouth,96,164,True
+6502236,2025-11-04,Evansville,evansville,51,Purdue,purdue,82,133,True
+6502950,2025-11-04,East-West U.,east-west-u,50,SIUE,siu-edwardsville,119,169,True
+6502682,2025-11-04,Nicholls,nicholls-st,51,Kentucky,kentucky,77,128,True
+6502323,2025-11-04,Alcorn,alcorn,76,Florida St.,florida-st,108,184,True
+6502206,2025-11-04,NJIT,njit,72,Fordham,fordham,61,133,False
+6502040,2025-11-04,Mount St. Mary's,mt-st-marys,54,West Virginia,west-virginia,70,124,True
+6501620,2025-11-04,Ga. Southern,ga-southern,89,East Carolina,east-carolina,92,181,True
+6505938,2025-11-04,Penn St.-York,penn-st-york,53,UMBC,umbc,74,127,True
+6503695,2025-11-04,Eastern Ill.,eastern-ill,63,Valparaiso,valparaiso,66,129,True
+6503358,2025-11-04,UNC Greensboro,unc-greensboro,64,Kansas St.,kansas-st,93,157,True
+6506392,2025-11-04,Cal Poly Humboldt,humboldt-st,53,Santa Clara,santa-clara,83,136,True
+6503953,2025-11-04,Oral Roberts,oral-roberts,71,Oklahoma St.,oklahoma-st,95,166,True
+6531608,2025-11-04,Occidental,occidental,59,San Diego,san-diego,88,147,True
+6504955,2025-11-04,Mo. Southern St.,mo-southern-st,70,Missouri St.,missouri-st,88,158,True
+6503321,2025-11-04,Hawaii,hawaii,59,Oregon,oregon,60,119,True
+6503662,2025-11-04,Louisiana Tech,louisiana-tech,50,Nevada,nevada,77,127,True
+6502722,2025-11-04,Portland St.,portland-st,79,Stanford,stanford,89,168,True
+6502535,2025-11-04,UT Martin,ut-martin,86,UNLV,unlv,81,167,False
+6501668,2025-11-04,Long Beach St.,long-beach-st,45,San Diego St.,san-diego-st,77,122,True
+6501005,2025-11-04,Park (AZ),park-az,71,Idaho St.,idaho-st,81,152,True
+6502714,2025-11-04,Dominican (CA),dominican-ca,79,Sacramento St.,sacramento-st,103,182,True
+6530633,2025-11-04,Adams St.,adams-st,72,New Mexico St.,new-mexico-st,83,155,True
+6505216,2025-11-04,Southern Utah,southern-utah,64,Arizona St.,arizona-st,81,145,True
+6502283,2025-11-04,San Fran. St.,san-fran-st,67,UC Santa Barbara,uc-santa-barbara,98,165,True
+6502857,2025-11-04,Texas,texas,60,Duke,duke,75,135,True
+6503225,2025-11-04,Robert Morris,robert-morris,69,Iowa,iowa,101,170,True
+6505819,2025-11-04,Biblical Stud. (TX),biblical-stud-tx,38,Rice,rice,109,147,True
+6505804,2025-11-04,West Coast Baptist,west-coast-baptist,35,Utah Valley,utah-valley,116,151,True
+6504092,2025-11-03,Southern U.,southern-u,77,Arkansas,arkansas,109,186,True
+6505114,2025-11-03,Missouri,missouri,88,Howard,howard,67,155,False
+6505105,2025-11-03,Paine,paine,29,Kennesaw St.,kennesaw-st,105,134,True
+6504799,2025-11-03,Old Dominion,old-dominion,72,Miami (OH),miami-oh,87,159,True
+6504762,2025-11-03,Union Commonwealth,union-ky,39,Chattanooga,chattanooga,92,131,True
+6504700,2025-11-03,Georgian Court,georgian-court,63,William & Mary,william-mary,110,173,True
+6504560,2025-11-03,Mary Baldwin,mary-baldwin,55,Longwood,longwood,92,147,True
+6504447,2025-11-03,Western Ill.,western-ill,75,Radford,radford,80,155,True
+6504234,2025-11-03,Western New Eng.,western-new-eng,68,Vermont,vermont,75,143,True
+6503509,2025-11-03,VTSU-Johnson,johnson-st,55,Central Conn. St.,central-conn-st,117,172,True
+6503958,2025-11-03,Boston College,boston-college,78,Fla. Atlantic,fla-atlantic,83,161,True
+6503907,2025-11-03,Western Caro.,western-caro,63,Cincinnati,cincinnati,94,157,True
+6503818,2025-11-03,Navy,navy,76,Presbyterian,presbyterian,55,131,False
+6503792,2025-11-03,Arkansas St.,arkansas-st,89,Ohio,ohio,85,174,False
+6503612,2025-11-03,Delaware,delaware,70,Bucknell,bucknell,78,148,True
+6503536,2025-11-03,Binghamton,binghamton,47,Syracuse,syracuse,85,132,True
+6505293,2025-11-03,Niagara,niagara,63,Duquesne,duquesne,83,146,True
+6503454,2025-11-03,Tusculum,tusculum,58,Col. of Charleston,col-of-charleston,79,137,True
+6505170,2025-11-03,Mercer,mercer,61,Tennessee,tennessee,76,137,True
+6506293,2025-11-03,Rivier,rivier,55,UMass Lowell,umass-lowell,107,162,True
+6505490,2025-11-03,Marshall,marshall,78,Massachusetts,massachusetts,72,150,False
+6531044,2025-11-03,SUNY Cobleskill ,cobleskill-st,50,Le Moyne,le-moyne,94,144,True
+6505053,2025-11-03,Bellarmine,bellarmine,59,Georgia,georgia,104,163,True
+6504609,2025-11-03,UMES,md-east-shore,52,Georgia Tech,georgia-tech,56,108,True
+6504139,2025-11-03,Mississippi Val.,mississippi-val,55,UAB,uab,106,161,True
+6502342,2025-11-03,Air Force,air-force,63,Belmont,belmont,79,142,True
+6502244,2025-11-03,Tennessee Tech,tennessee-tech,70,Western Ky.,western-ky,82,152,True
+6501552,2025-11-03,Boston U.,boston-u,76,Northeastern,northeastern,75,151,False
+6503091,2025-11-03,Holy Cross,holy-cross,79,Providence,providence,89,168,True
+6501883,2025-11-03,Marist,marist,62,Xavier,xavier,66,128,True
+6530487,2025-11-03,DeSales,desales,63,Davidson,davidson,97,160,True
+6505600,2025-11-03,Franklin,franklin,37,Wright St.,wright-st,86,123,True
+6506429,2025-11-03,Stetson,stetson,62,Rhode Island,rhode-island,93,155,True
+6506379,2025-11-03,Midway,midway,84,Morehead St.,morehead-st,89,173,True
+6503268,2025-11-03,Washington Adventist,washington-adventist,76,Norfolk St.,norfolk-st,98,174,True
+6506071,2025-11-03,Erskine,erskine,61,The Citadel,citadel,105,166,True
+6506030,2025-11-03,Fla. National,fla-national,49,FIU,fiu,101,150,True
+6505846,2025-11-03,Wagner,wagner,74,VCU,vcu,103,177,True
+6505699,2025-11-03,Oakwood,oakwood,63,Jacksonville St.,jacksonville-st,117,180,True
+6505617,2025-11-03,UC Clermont,uc-clermont,69,Northern Ky.,northern-ky,126,195,True
+6503421,2025-11-03,Troy,troy,103,Kent St.,kent-st,97,200,False
+6502487,2025-11-03,Texas St.,texas-st,48,Bowling Green,bowling-green,83,131,True
+6503054,2025-11-03,Louisiana,la-lafayette,64,Ball St.,ball-st,75,139,True
+6506177,2025-11-03,Widener,widener,59,Drexel,drexel,93,152,True
+6501004,2025-11-03,Farmingdale St.,farmingdale-st,59,Stony Brook,stony-brook,66,125,True
+6506287,2025-11-03,Quinnipiac,quinnipiac,74,St. John's (NY),st-johns-ny,108,182,True
+6501884,2025-11-03,Furman,furman,71,High Point,high-point,97,168,True
+6501856,2025-11-03,Georgia St.,georgia-st,49,Eastern Mich.,eastern-mich,71,120,True
+6501774,2025-11-03,IU Indy,iu-indy,102,Ohio St.,ohio-st,118,220,True
+6501382,2025-11-03,Morgan St.,morgan-st,70,Georgetown,georgetown,87,157,True
+6501096,2025-11-03,Coppin St.,coppin-st,61,Maryland,maryland,83,144,True
+6500992,2025-11-03,Southern Miss.,southern-miss,79,Buffalo,buffalo,85,164,True
+6503751,2025-11-03,JWU Charlotte,johnson-wales-charlotte,58,VMI,vmi,122,180,True
+6503008,2025-11-03,Fairfield,fairfield,68,Penn St.,penn-st,76,144,True
+6504676,2025-11-03,Thomas (ME),thomas-me,48,Stonehill,stonehill,100,148,True
+6501898,2025-11-03,Northern Ariz.,northern-ariz,71,Drake,drake,77,148,True
+6503164,2025-11-03,Millsaps,millsaps,76,SFA,stephen-f-austin,103,179,True
+6501331,2025-11-03,Omaha,neb-omaha,77,Murray St.,murray-st,85,162,True
+6531609,2025-11-03,Biblical Stud. (TX),biblical-stud-tx,48,Prairie View,prairie-view,95,143,True
+6503893,2025-11-03,TAMU-San Antonio,tamu-san-antonio,53,Lamar University,lamar,93,146,True
+6505403,2025-11-03,Arlington Baptist,arlington-baptist,60,East Texas A&M,tex-am-commerce,119,179,True
+6530388,2025-11-03,Champion Chris.,champion-bapt,65,McNeese,mcneese,127,192,True
+6501196,2025-11-03,Arizona,arizona,93,Florida,florida,87,180,False
+6501264,2025-11-03,LIU,long-island,67,Notre Dame,notre-dame,89,156,True
+6501310,2025-11-03,Charleston So.,charleston-so,67,Virginia Tech,virginia-tech,98,165,True
+6501367,2025-11-03,App State,appalachian-st,66,Central Mich.,central-mich,82,148,True
+6502996,2025-11-03,Central Ark.,central-ark,54,North Carolina,north-carolina,94,148,True
+6502932,2025-11-03,Bryant,bryant,66,Siena,siena,82,148,True
+6502918,2025-11-03,New Hampshire,new-hampshire,38,Clemson,clemson,88,126,True
+6502911,2025-11-03,Colgate,colgate,69,Michigan St.,michigan-st,80,149,True
+6502700,2025-11-03,Ky. Christian,ky-christian,57,Liberty,liberty,98,155,True
+6502490,2025-11-03,Youngstown St.,youngstown-st,59,Pittsburgh,pittsburgh,74,133,True
+6502448,2025-11-03,Rider,rider,53,Virginia,virginia,87,140,True
+6502322,2025-11-03,Wofford,wofford,46,George Mason,george-mason,70,116,True
+6502184,2025-11-03,New College (FL),new-college-fl,60,FGCU,fgcu,96,156,True
+6502092,2025-11-03,Coastal Carolina,coastal-caro,71,Western Mich.,western-mich,76,147,True
+6501909,2025-11-03,South Alabama,south-ala,76,Toledo,toledo,74,150,False
+6501741,2025-11-03,N.C. Central,nc-central,66,NC State,north-carolina-st,114,180,True
+6501734,2025-11-03,James Madison,james-madison,71,Akron,akron,85,156,True
+6501641,2025-11-03,New Haven,new-haven,55,UConn,uconn,79,134,True
+6501585,2025-11-03,Mount Olive,mount-olive,77,UNCW,unc-wilmington,106,183,True
+6501563,2025-11-03,Canisius,canisius,48,Dayton,dayton,88,136,True
+6501529,2025-11-03,Lafayette,lafayette,76,Saint Joseph's,saint-josephs,85,161,True
+6505394,2025-11-03,Saint Peter's,st-peters,50,Seton Hall,seton-hall,77,127,True
+6531296,2025-11-03,Bradley,bradley,63,St. Bonaventure,st-bonaventure,69,132,True
+6530780,2025-11-03,LeTourneau,letourneau,59,Sam Houston,sam-houston-st,95,154,True
+6503426,2025-11-03,San Jose St.,san-jose-st,75,Utah,utah,84,159,True
+6505311,2025-11-03,UT Permian Basin,tex-permian-basin,56,UTEP,utep,98,154,True
+6505116,2025-11-03,Montana St.,montana-st,78,Colorado,colorado,84,162,True
+6504913,2025-11-03,Westminster (UT),westminster-ut,54,Utah St.,utah-st,110,164,True
+6504780,2025-11-03,Merrimack,merrimack,66,South Dakota St.,south-dakota-st,75,141,True
+6504757,2025-11-03,LIFE Pacific,life-pacific,80,Pepperdine,pepperdine,88,168,True
+6504683,2025-11-03,Northwest Indian,,41,Montana,montana,106,147,True
+6504597,2025-11-03,West Coast Baptist,west-coast-baptist,38,Weber St.,weber-st,130,168,True
+6504526,2025-11-03,UIW,uiw,64,Colorado St.,colorado-st,98,162,True
+6503340,2025-11-03,South Carolina St.,south-carolina-st,45,Louisville,louisville,104,149,True
+6530874,2025-11-03,Huston-Tillotson,huston-tillotson,47,Grambling,grambling,91,138,True
+6503101,2025-11-03,Hawaii Pacific,hawaii-pacific,79,Boise St.,boise-st,78,157,False
+6502424,2025-11-03,McMurry,mcmurry,55,Abilene Christian,abilene-christian,92,147,True
+6501490,2025-11-03,Purdue Fort Wayne,ipfw,71,Grand Canyon,grand-canyon,90,161,True
+6501176,2025-11-03,Texas Southern,texas-southern,43,Gonzaga,gonzaga,98,141,True
+6530275,2025-11-03,N.M. Highlands,nm-highlands,54,North Texas,north-texas,88,142,True
+6530220,2025-11-03,Saint Francis,st-francis-pa,66,Oklahoma,oklahoma,102,168,True
+6506131,2025-11-03,Northern St.,northern-st,75,Wyoming,wyoming,99,174,True
+6505702,2025-11-03,Trinity (TX),trinity-tx,56,A&M-Corpus Christi,am-corpus-chris,83,139,True
+6529197,2025-11-03,Loyola Maryland,loyola-maryland,56,Towson,towson,67,123,True
+6501213,2025-11-03,Villanova,villanova,66,BYU,byu,71,137,True
+6503083,2025-11-03,Idaho,idaho,83,Washington St.,washington-st,81,164,False
+6504751,2025-11-03,Colorado Col.,colorado-col,57,Northern Colo.,northern-colo,91,148,True
+6505359,2025-11-03,Ark.-Pine Bluff,ark-pine-bluff,50,Washington,washington,94,144,True
+6505769,2025-11-03,Fresno Pacific,fresno-pacific,51,Fresno St.,fresno-st,88,139,True
+6504658,2025-11-03,Eastern Wash.,eastern-wash,74,UCLA,ucla,80,154,True
+6501249,2025-11-03,USC Upstate,usc-upstate,75,California Baptist,california-baptist,87,162,True
+6506268,2025-11-03,St. Thomas (MN),st-thomas-mn,58,Saint Mary's (CA),st-marys-ca,84,142,True
+6506075,2025-11-03,Lincoln (CA),lincoln-ca,54,LMU (CA),loyola-marymount,137,191,True
+6505227,2025-11-03,Willamette,willamette,83,Portland,portland,120,203,True
+6504024,2025-11-03,Bethesda (CA),bethesda-christian,49,UC Irvine,uc-irvine,125,174,True
+6503900,2025-11-03,La Sierra,la-sierra,49,UC Riverside,uc-riverside,90,139,True
+6503836,2025-11-03,UC Santa Cruz,uc-santa-cruz,53,San Francisco,san-francisco,98,151,True
+6502795,2025-11-03,Denver,denver,73,Seattle U,seattle,84,157,True
+6502768,2025-11-03,Nobel,west-all-stars,58,CSUN,cal-st-northridge,99,157,True
+6502039,2025-11-03,La Verne,la-verne,73,UC San Diego,uc-san-diego,105,178,True
+6502004,2025-11-03,CSU Bakersfield,bakersfield,60,California,california,87,147,True
+6501279,2025-11-03,Caltech,caltech,82,Cal St. Fullerton,cal-st-fullerton,136,218,True
+6505969,2025-11-03,North Dakota St.,north-dakota-st,65,Oregon St.,oregon-st,67,132,True
+6505488,2025-11-03,Cal Poly,cal-poly,64,Southern California,southern-california,94,158,True
+6505535,2025-11-03,Bryan,bryan,47,Austin Peay,austin-peay,128,175,True
+6504472,2025-11-03,Jackson St.,jackson-st,55,Illinois,illinois,113,168,True
+6503475,2025-11-03,Utah Tech,utah-tech,81,South Dakota,south-dakota,79,160,False
+6503760,2025-11-03,New Orleans,new-orleans,78,TCU,tcu,74,152,False
+6503547,2025-11-03,Hampton,hampton,86,Milwaukee,milwaukee,90,176,True
+6502876,2025-11-03,Hofstra,hofstra,78,UCF,ucf,82,160,True
+6502856,2025-11-03,McKendree,mckendree,42,Southern Ill.,southern-ill,83,125,True
+6502846,2025-11-03,Indiana St.,indiana-st,76,Charlotte,charlotte,92,168,True
+6502702,2025-11-03,Southern Ark.,southern-ark,70,Houston Christian,houston-christian,74,144,True
+6502550,2025-11-03,Lehigh,lehigh,57,Houston,houston,75,132,True
+6502511,2025-11-03,American,american,74,Wake Forest,wake-forest,88,162,True
+6502450,2025-11-03,Jacksonville,jacksonville,69,Miami (FL),miami-fl,86,155,True
+6502380,2025-11-03,Lipscomb,lipscomb,61,Vanderbilt,vanderbilt,105,166,True
+6502346,2025-11-03,UAlbany,albany-ny,53,Marquette,marquette,80,133,True
+6501927,2025-11-03,Tarleton St.,tarleton-st,76,SMU,smu,96,172,True
+6501703,2025-11-03,Maine,maine,47,George Washington,george-washington,67,114,True
+6501649,2025-11-03,North Dakota,north-dakota,62,Alabama,alabama,91,153,True
+6501512,2025-11-03,Green Bay,green-bay,51,Kansas,kansas,94,145,True
+6501407,2025-11-03,Bethune-Cookman,bethune-cookman,90,Auburn,auburn,95,185,True
+6501202,2025-11-03,SUNY Maritime,suny-maritime,49,Army West Point,army,73,122,True
+6501065,2025-11-03,Blue Mountain (MS),blue-mountain,60,Alabama A&M,alabama-am,80,140,True
+6503553,2025-11-03,Detroit Mercy,detroit,71,UIC,ill-chicago,91,162,True
+6504249,2025-11-03,Menlo,menlo,69,UC Davis,uc-davis,96,165,True
+6502129,2025-11-03,Oakland,oakland,78,Michigan,michigan,121,199,True
+6504375,2025-11-03,UTRGV,utrgv,81,Baylor,baylor,96,177,True
+6501822,2025-11-03,Samford,samford,72,Tulane,tulane,85,157,True
+6530590,2025-11-03,Florida A&M,florida-am,67,South Fla.,south-fla,102,169,True
+6530375,2025-11-03,Northwestern St.,northwestern-st,68,Texas A&M,texas-am,98,166,True
+6506390,2025-11-03,Mercyhurst,mercyhurst,47,Northwestern,northwestern,70,117,True
+6505951,2025-11-03,Fisk,fisk,50,Tennessee St.,tennessee-st,101,151,True
+6505912,2025-11-03,Campbell,campbell,64,Wisconsin,wisconsin,96,160,True
+6505741,2025-11-03,Chicago St.,chicago-st,62,DePaul,depaul,92,154,True
+6505668,2025-11-03,ULM,la-monroe,82,NIU,northern-ill,102,184,True
+6505549,2025-11-03,West Ga.,west-ga,53,Nebraska,nebraska,86,139,True
+6505478,2025-11-03,Evangel,evangel,74,Kansas City,umkc,80,154,True
+6505318,2025-11-03,Okla. Christian,okla-christian,57,Tulsa,tulsa,100,157,True
+6505279,2025-11-03,UNT Dallas,north-texas-dallas,40,UT Arlington,texas-arlington,91,131,True
+6504791,2025-11-03,Gardner-Webb,gardner-webb,60,Minnesota,minnesota,87,147,True
+6504574,2025-11-03,Southeast Mo. St.,southeast-mo-st,67,Saint Louis,saint-louis,92,159,True
+6504494,2025-11-03,Southeastern La.,southeastern-la,58,Ole Miss,ole-miss,88,146,True
+6504411,2025-11-03,Cleveland St.,cleveland-st,88,Loyola Chicago,loyola-chicago,91,179,True
+6504393,2025-11-03,FDU,fdu,50,Iowa St.,iowa-st,88,138,True
+6506241,2025-11-03,Queens (NC),queens-nc,74,Winthrop,winthrop,81,155,True

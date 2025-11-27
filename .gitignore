@@ -1,6 +1,7 @@
-data/*.csv
-data/*.json
 __pycache__/
 *.pyc
 venv/
 .env
+data/ncaa_games_history.csv
+data/ncaa_fetch_log.json
+data/team_risk_database.json

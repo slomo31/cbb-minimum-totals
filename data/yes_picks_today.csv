@@ -1,13 +1,6 @@
 game_time,away_team,home_team,standard_total,minimum_total,decision,hit_rate,sim_mean,sim_range,data_quality
-16:00,Richmond Spiders,Furman Paladins,145.5,133.5,YES,95.5,160.2,105-211,high
-17:00,Vanderbilt Commodores,VCU Rams,160.5,148.5,YES,98.0,181.5,119-240,high
-18:30,Charlotte 49ers,Illinois St Redbirds,139.5,126.5,YES,98.6,163.7,109-225,high
-19:30,Virginia Tech Hokies,Saint Mary's Gaels,144.5,132.5,YES,99.0,168.6,111-224,high
-21:30,Nevada Wolf Pack,Washington Huskies,144.5,132.5,YES,94.1,155.4,101-206,high
-21:30,Michigan St Spartans,North Carolina Tar Heels,152.5,140.5,YES,97.9,176.9,102-236,high
-22:30,Providence Friars,Wisconsin Badgers,167.5,155.5,YES,92.4,178.0,124-227,high
-00:00,Saint Louis Billikens,Santa Clara Broncos,159.5,147.5,YES,93.1,173.2,113-230,high
-00:30,Georgetown Hoyas,Dayton Flyers,146.5,134.5,YES,94.1,156.5,112-206,high
-01:00,Duke Blue Devils,Arkansas Razorbacks,157.5,145.5,YES,95.5,180.8,100-256,high
-01:00,Colorado St Rams,Wichita St Shockers,143.5,131.5,YES,92.6,160.8,94-243,high
-02:30,Minnesota Golden Gophers,Stanford Cardinal,142.5,130.5,YES,92.3,154.2,100-217,high
+23:01,Providence Friars,Wisconsin Badgers,164.5,159.5,YES,88.1,177.5,124-236,high
+00:05,Saint Louis Billikens,Santa Clara Broncos,158.5,146.5,YES,94.7,173.2,115-236,high
+00:30,Georgetown Hoyas,Dayton Flyers,145.5,133.5,YES,95.4,156.4,106-203,high
+01:00,Colorado St Rams,Wichita St Shockers,143.5,131.5,YES,93.1,160.8,93-236,high
+02:30,Minnesota Golden Gophers,Stanford Cardinal,142.5,130.5,YES,92.3,154.7,96-210,high

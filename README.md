@@ -4,6 +4,20 @@ A smart betting analysis system for college basketball alternate totals. Uses NC
 
 ---
 
+##   NEW COMMAND LIST 
+
+# Morning: Run both systems
+python master_workflow_mc.py    # Monte Carlo (14 picks)
+python master_workflow.py       # Legacy (61 picks)
+
+## Every mornin easy command ##
+~/Documents/cbb_minimum_system/daily_run.sh
+
+# Evening: Track results
+python mc_track_results.py      # Check MC results
+python track_minimum_results.py # Check Legacy results
+
+#####
 ## 🏀 What This System Does
 
 1. **Pulls historical game data** from NCAA API (scores, teams, dates)

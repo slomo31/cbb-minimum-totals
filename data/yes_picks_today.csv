@@ -1,6 +1,29 @@
-game_time,away_team,home_team,standard_total,minimum_total,decision,hit_rate,sim_mean,sim_range,data_quality
-23:01,Providence Friars,Wisconsin Badgers,164.5,159.5,YES,88.1,177.5,124-236,high
-00:05,Saint Louis Billikens,Santa Clara Broncos,158.5,146.5,YES,94.7,173.2,115-236,high
-00:30,Georgetown Hoyas,Dayton Flyers,145.5,133.5,YES,95.4,156.4,106-203,high
-01:00,Colorado St Rams,Wichita St Shockers,143.5,131.5,YES,93.1,160.8,93-236,high
-02:30,Minnesota Golden Gophers,Stanford Cardinal,142.5,130.5,YES,92.3,154.7,96-210,high
+game_time,away_team,home_team,standard_total,minimum_total,decision,hit_rate,sim_mean,sim_range,data_quality,defense_warning,tempo_warning
+15:30,VCU Rams,Virginia Tech Hokies,153.5,141.5,YES,89.3,161.0,106-226,high,False,False
+17:00,Eastern Illinois Panthers,Purdue Boilermakers,141.5,129.5,YES,99.6,166.9,116-212,medium,False,False
+17:00,SE Louisiana Lions,Gardner-Webb Bulldogs,141.5,129.5,YES,88.1,147.0,97-208,high,False,False
+17:30,Richmond Spiders,Charlotte 49ers,147.5,135.5,YES,95.2,161.0,107-219,high,False,False
+18:00,Siena Saints,Longwood Lancers,148.5,136.5,YES,96.9,163.9,108-218,high,False,False
+18:00,Vanderbilt Commodores,Saint Mary's Gaels,152.5,140.5,YES,93.1,160.5,112-208,high,False,False
+19:00,Texas State Bobcats,Seattle Redhawks,135.5,123.5,YES,96.9,158.4,97-249,high,False,False
+19:00,Hofstra Pride,La Salle Explorers,141.5,130.5,YES,93.6,151.3,103-208,high,False,False
+19:00,Ball State Cardinals,Monmouth Hawks,139.5,127.5,YES,91.5,153.8,84-226,high,False,False
+19:00,Alcorn St Braves,Indiana St Sycamores,148.5,136.5,YES,91.9,160.6,102-222,high,False,False
+19:00,Nevada Wolf Pack,San Francisco Dons,148.5,136.5,YES,92.0,154.8,110-201,high,False,False
+20:00,Furman Paladins,Illinois St Redbirds,146.5,134.5,YES,93.8,164.2,99-246,high,False,False
+20:00,Navy Midshipmen,UNC Wilmington Seahawks,143.5,132.5,YES,90.5,154.9,98-218,high,False,False
+21:00,Queens University Royals,Virginia Cavaliers,160.5,148.5,YES,93.3,169.4,119-218,high,False,False
+21:00,Charleston Southern Buccaneers,South Carolina Gamecocks,150.5,139.5,YES,94.4,162.0,106-214,medium,False,False
+21:30,Le Moyne Dolphins,Lafayette Leopards,153.5,141.5,YES,92.2,162.3,109-216,high,False,False
+21:30,Washington Huskies,Colorado Buffaloes,155.5,143.5,YES,90.6,162.5,111-213,high,False,True
+22:30,Texas A&M-CC Islanders,Xavier Musketeers,146.5,134.5,YES,89.4,162.0,80-241,high,False,False
+23:30,CSU Northridge Matadors,Idaho State Bengals,150.5,138.5,YES,95.3,165.4,105-220,high,False,False
+00:00,Ohio State Buckeyes,Pittsburgh Panthers,146.5,134.5,YES,95.1,159.5,106-214,high,False,False
+00:00,Alabama A&M Bulldogs,Clemson Tigers,141.5,129.5,YES,99.2,166.4,110-221,high,False,False
+00:00,DePaul Blue Demons,Georgia Tech Yellow Jackets,145.5,133.5,YES,94.1,164.3,99-239,high,False,False
+00:30,Colgate Raiders,Albany Great Danes,145.5,133.5,YES,91.6,157.0,99-222,medium,False,False
+01:00,Jackson St Tigers,Louisiana Ragin' Cajuns,136.5,124.5,YES,88.7,149.2,93-239,high,False,False
+02:30,BYU Cougars,Dayton Flyers,150.5,138.5,YES,90.5,157.8,109-211,high,False,False
+02:30,Santa Clara Broncos,Minnesota Golden Gophers,140.5,129.5,YES,91.5,153.0,88-223,high,False,False
+02:30,Drake Bulldogs,LSU Tigers,148.5,137.5,YES,89.2,156.7,101-219,high,False,False
+03:00,Stony Brook Seawolves,Loyola Marymount Lions,137.5,125.5,YES,91.9,152.8,88-216,high,False,False

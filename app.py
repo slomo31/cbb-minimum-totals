@@ -1,6 +1,6 @@
 """
-CBB Minimum Totals Dashboard - DUAL SYSTEM
-Flask app with Monte Carlo + Legacy views
+CBB Totals Dashboard - QUAD SYSTEM
+Flask app with Elite Minimums + Elite Maximums + Monte Carlo + Legacy views
 """
 
 from flask import Flask, render_template_string, jsonify, request
@@ -21,6 +21,22 @@ DATA_DIR = Path(__file__).parent / "data"
 # ============================================================
 # DATA LOADING FUNCTIONS
 # ============================================================
+
+def load_elite_picks():
+    """Load Elite V4 picks"""
+    elite_file = DATA_DIR / "elite_picks.csv"
+    if elite_file.exists():
+        return pd.read_csv(elite_file)
+    return pd.DataFrame()
+
+
+def load_max_picks():
+    """Load Elite Maximum (Under) picks"""
+    max_file = DATA_DIR / "max_picks.csv"
+    if max_file.exists():
+        return pd.read_csv(max_file)
+    return pd.DataFrame()
+
 
 def load_monte_carlo_picks():
     """Load Monte Carlo simulation results"""
@@ -54,9 +70,75 @@ def load_legacy_tracking():
     return pd.DataFrame()
 
 
+def load_elite_tracking():
+    """Load Elite tracking results"""
+    track_file = DATA_DIR / "elite_tracking_results.csv"
+    if track_file.exists():
+        return pd.read_csv(track_file)
+    return pd.DataFrame()
+
+
 # ============================================================
 # STATS FUNCTIONS
 # ============================================================
+
+def get_elite_stats():
+    """Get Elite V4 system stats"""
+    tracking = load_elite_tracking()
+    picks = load_elite_picks()
+    
+    # Filter to qualified picks (tier > 0)
+    qualified = picks[picks['tier'] > 0] if not picks.empty and 'tier' in picks.columns else pd.DataFrame()
+    
+    if tracking.empty:
+        pending = len(qualified) if not qualified.empty else 0
+        avg_hit = qualified['hit_rate'].mean() if not qualified.empty and 'hit_rate' in qualified.columns else 0
+        return {
+            'record': '0-0',
+            'win_rate': '0.0%',
+            'pending': pending,
+            'avg_confidence': f"{avg_hit:.1f}%"
+        }
+    
+    complete = tracking[tracking['status'] == 'COMPLETE']
+    pending = tracking[tracking['status'] == 'PENDING']
+    
+    if complete.empty:
+        wins, losses = 0, 0
+        win_rate = 0
+    else:
+        wins = len(complete[complete['result'] == 'WIN'])
+        losses = len(complete[complete['result'] == 'LOSS'])
+        win_rate = wins / len(complete) * 100 if len(complete) > 0 else 0
+    
+    avg_hit = tracking['hit_rate'].mean() if 'hit_rate' in tracking.columns else 0
+    
+    return {
+        'record': f'{wins}-{losses}',
+        'win_rate': f'{win_rate:.1f}%',
+        'pending': len(pending),
+        'avg_confidence': f'{avg_hit:.1f}%'
+    }
+
+
+def get_max_stats():
+    """Get Elite Maximum (Under) system stats"""
+    picks = load_max_picks()
+    
+    # Filter to qualified picks (tier > 0)
+    qualified = picks[picks['tier'] > 0] if not picks.empty and 'tier' in picks.columns else pd.DataFrame()
+    
+    pending = len(qualified) if not qualified.empty else 0
+    avg_hit = qualified['under_hit_rate'].mean() if not qualified.empty and 'under_hit_rate' in qualified.columns else 0
+    
+    # TODO: Add tracking once we have results
+    return {
+        'record': 'TBD',
+        'win_rate': 'TBD',
+        'pending': pending,
+        'avg_confidence': f"{avg_hit:.1f}%"
+    }
+
 
 def get_mc_stats():
     """Get Monte Carlo system stats"""
@@ -139,6 +221,87 @@ def get_legacy_stats():
 # GAMES FUNCTIONS
 # ============================================================
 
+def get_elite_games():
+    """Get Elite V4 picks for display, grouped by tier"""
+    picks = load_elite_picks()
+    
+    if picks.empty:
+        return {'tier1': [], 'tier2': [], 'tier3': [], 'tier4': [], 'near_miss': []}
+    
+    def to_game_list(df):
+        games = []
+        for _, row in df.iterrows():
+            games.append({
+                'home_team': row.get('home_team', ''),
+                'away_team': row.get('away_team', ''),
+                'minimum_total': row.get('minimum_total', 0),
+                'standard_total': row.get('standard_total', 0),
+                'hit_rate': row.get('hit_rate', 0),
+                'sim_mean': row.get('sim_mean', 0),
+                'cushion': row.get('cushion', 0),
+                'tier': row.get('tier', 0),
+                'tier_label': row.get('tier_label', ''),
+                'reason': row.get('reason', ''),
+            })
+        return games
+    
+    tier1 = picks[picks['tier'] == 1]
+    tier2 = picks[picks['tier'] == 2]
+    tier3 = picks[picks['tier'] == 3]
+    tier4 = picks[picks['tier'] == 4]
+    
+    # Near misses: 97%+ hit rate and 30+ cushion but not qualified
+    near_miss = picks[(picks['tier'] == 0) & (picks['hit_rate'] >= 97) & (picks['cushion'] >= 28)]
+    
+    return {
+        'tier1': to_game_list(tier1),
+        'tier2': to_game_list(tier2),
+        'tier3': to_game_list(tier3),
+        'tier4': to_game_list(tier4),
+        'near_miss': to_game_list(near_miss.head(5)),
+    }
+
+
+def get_max_games():
+    """Get Elite Maximum (Under) picks for display, grouped by tier"""
+    picks = load_max_picks()
+    
+    if picks.empty:
+        return {'tier1': [], 'tier2': [], 'tier3': [], 'tier4': [], 'near_miss': []}
+    
+    def to_game_list(df):
+        games = []
+        for _, row in df.iterrows():
+            games.append({
+                'home_team': row.get('home_team', ''),
+                'away_team': row.get('away_team', ''),
+                'maximum_total': row.get('maximum_total', 0),
+                'standard_total': row.get('standard_total', 0),
+                'under_hit_rate': row.get('under_hit_rate', 0),
+                'sim_mean': row.get('sim_mean', 0),
+                'cushion': row.get('cushion', 0),
+                'tier': row.get('tier', 0),
+                'tier_label': row.get('tier_label', ''),
+                'reason': row.get('reason', ''),
+            })
+        return games
+    
+    tier1 = picks[picks['tier'] == 1]
+    tier2 = picks[picks['tier'] == 2]
+    tier3 = picks[picks['tier'] == 3]
+    tier4 = picks[picks['tier'] == 4]
+    
+    near_miss = picks[(picks['tier'] == 0) & (picks['under_hit_rate'] >= 97) & (picks['cushion'] >= 28)]
+    
+    return {
+        'tier1': to_game_list(tier1),
+        'tier2': to_game_list(tier2),
+        'tier3': to_game_list(tier3),
+        'tier4': to_game_list(tier4),
+        'near_miss': to_game_list(near_miss.head(5)),
+    }
+
+
 def get_mc_games():
     """Get Monte Carlo picks for display"""
     predictions = load_monte_carlo_picks()
@@ -216,7 +379,7 @@ def get_legacy_games():
 
 
 # ============================================================
-# HTML TEMPLATE - DUAL SYSTEM
+# HTML TEMPLATE - TRIPLE SYSTEM
 # ============================================================
 
 DASHBOARD_HTML = '''
@@ -277,6 +440,7 @@ DASHBOARD_HTML = '''
             display: flex;
             gap: 10px;
             margin: 20px 0;
+            flex-wrap: wrap;
         }
         
         .toggle-btn {
@@ -289,6 +453,7 @@ DASHBOARD_HTML = '''
             background: rgba(255,255,255,0.1);
             color: white;
             transition: all 0.3s;
+            text-decoration: none;
         }
         
         .toggle-btn:hover {
@@ -298,6 +463,14 @@ DASHBOARD_HTML = '''
         .toggle-btn.active {
             background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
             border-color: transparent;
+        }
+        
+        .toggle-btn.elite.active {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .toggle-btn.max.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         
         .toggle-btn .badge-count {
@@ -365,6 +538,12 @@ DASHBOARD_HTML = '''
             gap: 8px;
         }
         
+        .tier-info {
+            color: rgba(255,255,255,0.6);
+            font-size: 12px;
+            font-weight: 400;
+        }
+        
         .game-card {
             background: rgba(255,255,255,0.12);
             backdrop-filter: blur(10px);
@@ -379,6 +558,11 @@ DASHBOARD_HTML = '''
             transform: translateX(5px);
         }
         
+        .game-card.tier1 { border-left: 4px solid #FFD700; }
+        .game-card.tier2 { border-left: 4px solid #6bcb77; }
+        .game-card.tier3 { border-left: 4px solid #4ecdc4; }
+        .game-card.tier4 { border-left: 4px solid #ffd93d; }
+        .game-card.near-miss { border-left: 4px solid #888; }
         .game-card.yes { border-left: 4px solid #6bcb77; }
         .game-card.maybe { border-left: 4px solid #ffd93d; }
         .game-card.no { border-left: 4px solid #ff6b6b; }
@@ -419,6 +603,7 @@ DASHBOARD_HTML = '''
         .hit-rate.high { color: #6bcb77; }
         .hit-rate.medium { color: #ffd93d; }
         .hit-rate.low { color: #ff6b6b; }
+        .hit-rate.elite { color: #FFD700; }
         
         .game-badge {
             display: inline-block;
@@ -430,6 +615,11 @@ DASHBOARD_HTML = '''
             margin-top: 4px;
         }
         
+        .game-badge.tier1 { background: rgba(255, 215, 0, 0.3); color: #FFD700; }
+        .game-badge.tier2 { background: rgba(107, 203, 119, 0.3); color: #6bcb77; }
+        .game-badge.tier3 { background: rgba(78, 205, 196, 0.3); color: #4ecdc4; }
+        .game-badge.tier4 { background: rgba(255, 217, 61, 0.3); color: #ffd93d; }
+        .game-badge.near-miss { background: rgba(136, 136, 136, 0.3); color: #aaa; }
         .game-badge.yes { background: rgba(107, 203, 119, 0.3); color: #6bcb77; }
         .game-badge.maybe { background: rgba(255, 217, 61, 0.3); color: #ffd93d; }
         .game-badge.no { background: rgba(255, 107, 107, 0.3); color: #ff6b6b; }
@@ -472,6 +662,7 @@ DASHBOARD_HTML = '''
         .detail-value.green { color: #6bcb77; }
         .detail-value.yellow { color: #ffd93d; }
         .detail-value.red { color: #ff6b6b; }
+        .detail-value.gold { color: #FFD700; }
         
         /* Legend */
         .legend {
@@ -495,6 +686,10 @@ DASHBOARD_HTML = '''
             border-radius: 3px;
         }
         
+        .legend-dot.tier1 { background: #FFD700; }
+        .legend-dot.tier2 { background: #6bcb77; }
+        .legend-dot.tier3 { background: #4ecdc4; }
+        .legend-dot.tier4 { background: #ffd93d; }
         .legend-dot.yes, .legend-dot.safe { background: #6bcb77; }
         .legend-dot.maybe, .legend-dot.caution { background: #ffd93d; }
         .legend-dot.no, .legend-dot.skip { background: #ff6b6b; }
@@ -537,6 +732,16 @@ DASHBOARD_HTML = '''
             margin-left: 10px;
         }
         
+        .system-indicator.elite {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+        
+        .system-indicator.max {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
         .system-indicator.mc {
             background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
             color: white;
@@ -546,19 +751,33 @@ DASHBOARD_HTML = '''
             background: rgba(255,255,255,0.2);
             color: white;
         }
+        
+        /* Backtest badge */
+        .backtest-badge {
+            background: rgba(0,0,0,0.3);
+            color: #6bcb77;
+            padding: 2px 8px;
+            border-radius: 8px;
+            font-size: 10px;
+            margin-left: 8px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>
-                🏀 CBB Minimum Totals
-                <span class="system-indicator {{ 'mc' if system == 'mc' else 'legacy' }}">
-                    {{ 'MONTE CARLO' if system == 'mc' else 'LEGACY' }}
+                🏀 CBB Totals System
+                <span class="system-indicator {{ system }}">
+                    {{ 'ELITE OVERS' if system == 'elite' else 'ELITE UNDERS' if system == 'max' else 'MONTE CARLO' if system == 'mc' else 'LEGACY' }}
                 </span>
             </h1>
             <p class="subtitle">
-                {% if system == 'mc' %}
+                {% if system == 'elite' %}
+                    Elite Minimum (Over) Picks - Backtested Tier System
+                {% elif system == 'max' %}
+                    Elite Maximum (Under) Picks - Backtested Tier System
+                {% elif system == 'mc' %}
                     Simulation-Based Analysis (5,000 sims per game)
                 {% else %}
                     Buffer-Based Analysis (Legacy System)
@@ -569,6 +788,14 @@ DASHBOARD_HTML = '''
         
         <!-- System Toggle -->
         <div class="system-toggle">
+            <a href="/?system=elite" class="toggle-btn elite {{ 'active' if system == 'elite' else '' }}">
+                📈 Elite Overs
+                <span class="badge-count">{{ elite_count }}</span>
+            </a>
+            <a href="/?system=max" class="toggle-btn max {{ 'active' if system == 'max' else '' }}">
+                📉 Elite Unders
+                <span class="badge-count">{{ max_count }}</span>
+            </a>
             <a href="/?system=mc" class="toggle-btn {{ 'active' if system == 'mc' else '' }}">
                 🎲 Monte Carlo
                 <span class="badge-count">{{ mc_stats.pending }}</span>
@@ -594,7 +821,7 @@ DASHBOARD_HTML = '''
                 <div class="stat-value">{{ stats.pending }}</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">{{ 'Avg Hit Rate' if system == 'mc' else 'Avg Confidence' }}</div>
+                <div class="stat-label">Avg Hit Rate</div>
                 <div class="stat-value">{{ stats.avg_confidence }}</div>
             </div>
         </div>
@@ -603,8 +830,460 @@ DASHBOARD_HTML = '''
             🔄 Refresh Data
         </button>
         
+        <!-- ELITE V4 VIEW -->
+        {% if system == 'elite' %}
+            <div class="games-section">
+                
+                <!-- Legend -->
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-dot tier1"></div>
+                        <span>Tier 1: 99%+ & 35+ cushion (100% backtest)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot tier2"></div>
+                        <span>Tier 2: 99%+ & 30+ (92.9%)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot tier3"></div>
+                        <span>Tier 3: 99%+ & 25+ (93.0%)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot tier4"></div>
+                        <span>Tier 4: 98%+ & 35+ (86.5%)</span>
+                    </div>
+                </div>
+                
+                <!-- Tier 1 -->
+                {% if elite_games.tier1 %}
+                <div class="section-title">
+                    🔒 TIER 1 - LOCKS ({{ elite_games.tier1|length }})
+                    <span class="backtest-badge">100% backtest</span>
+                </div>
+                {% for game in elite_games.tier1 %}
+                <div class="game-card tier1">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">OVER {{ game.minimum_total }} • Cushion: +{{ "%.1f"|format(game.cushion) }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate elite">{{ "%.1f"|format(game.hit_rate) }}%</div>
+                            <span class="game-badge tier1">LOCK</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Minimum Total</span>
+                            <span class="detail-value">{{ game.minimum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Standard Line</span>
+                            <span class="detail-value">{{ game.standard_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Hit Rate</span>
+                            <span class="detail-value gold">{{ "%.1f"|format(game.hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Sim Mean</span>
+                            <span class="detail-value">{{ "%.1f"|format(game.sim_mean) }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value green">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                <!-- Tier 2 -->
+                {% if elite_games.tier2 %}
+                <div class="section-title">
+                    ✅ TIER 2 - VERY SAFE ({{ elite_games.tier2|length }})
+                    <span class="backtest-badge">92.9% backtest</span>
+                </div>
+                {% for game in elite_games.tier2 %}
+                <div class="game-card tier2">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">OVER {{ game.minimum_total }} • Cushion: +{{ "%.1f"|format(game.cushion) }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate high">{{ "%.1f"|format(game.hit_rate) }}%</div>
+                            <span class="game-badge tier2">TIER 2</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Minimum Total</span>
+                            <span class="detail-value">{{ game.minimum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Standard Line</span>
+                            <span class="detail-value">{{ game.standard_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Hit Rate</span>
+                            <span class="detail-value green">{{ "%.1f"|format(game.hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value green">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                <!-- Tier 3 -->
+                {% if elite_games.tier3 %}
+                <div class="section-title">
+                    ✅ TIER 3 - SAFE ({{ elite_games.tier3|length }})
+                    <span class="backtest-badge">93.0% backtest</span>
+                </div>
+                {% for game in elite_games.tier3 %}
+                <div class="game-card tier3">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">OVER {{ game.minimum_total }} • Cushion: +{{ "%.1f"|format(game.cushion) }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate high">{{ "%.1f"|format(game.hit_rate) }}%</div>
+                            <span class="game-badge tier3">TIER 3</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Minimum Total</span>
+                            <span class="detail-value">{{ game.minimum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Hit Rate</span>
+                            <span class="detail-value green">{{ "%.1f"|format(game.hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value green">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                <!-- Tier 4 -->
+                {% if elite_games.tier4 %}
+                <div class="section-title">
+                    ⚠️ TIER 4 - FLOOR ({{ elite_games.tier4|length }})
+                    <span class="backtest-badge">86.5% backtest</span>
+                </div>
+                {% for game in elite_games.tier4 %}
+                <div class="game-card tier4">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">OVER {{ game.minimum_total }} • Cushion: +{{ "%.1f"|format(game.cushion) }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate medium">{{ "%.1f"|format(game.hit_rate) }}%</div>
+                            <span class="game-badge tier4">TIER 4</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Minimum Total</span>
+                            <span class="detail-value">{{ game.minimum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Hit Rate</span>
+                            <span class="detail-value yellow">{{ "%.1f"|format(game.hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value green">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                <!-- Near Misses -->
+                {% if elite_games.near_miss and not elite_games.tier1 and not elite_games.tier2 and not elite_games.tier3 and not elite_games.tier4 %}
+                <div class="section-title">
+                    📋 Near Misses ({{ elite_games.near_miss|length }})
+                    <span class="tier-info">Close but didn't qualify</span>
+                </div>
+                {% for game in elite_games.near_miss %}
+                <div class="game-card near-miss">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">{{ game.reason }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate">{{ "%.1f"|format(game.hit_rate) }}%</div>
+                            <span class="game-badge near-miss">SKIP</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Minimum Total</span>
+                            <span class="detail-value">{{ game.minimum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Hit Rate</span>
+                            <span class="detail-value">{{ "%.1f"|format(game.hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Why Skip</span>
+                            <span class="detail-value red">{{ game.reason }}</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                {% if not elite_games.tier1 and not elite_games.tier2 and not elite_games.tier3 and not elite_games.tier4 and not elite_games.near_miss %}
+                <div class="no-data">
+                    No Elite picks available today.<br>
+                    Run: python daily_elite_picker.py
+                </div>
+                {% endif %}
+            </div>
+        
+        <!-- MAXIMUM (UNDER) VIEW -->
+        {% elif system == 'max' %}
+            <div class="games-section">
+                
+                <!-- Legend -->
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-dot tier1"></div>
+                        <span>Tier 1: 99%+ & 35+ cushion (TBD)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot tier2"></div>
+                        <span>Tier 2: 99%+ & 30+ (TBD)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot tier3"></div>
+                        <span>Tier 3: 99%+ & 25+ (TBD)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot tier4"></div>
+                        <span>Tier 4: 98%+ & 35+ (TBD)</span>
+                    </div>
+                </div>
+                
+                <!-- Tier 1 -->
+                {% if max_games.tier1 %}
+                <div class="section-title">
+                    🔒 TIER 1 - LOCKS ({{ max_games.tier1|length }})
+                    <span class="backtest-badge">TBD backtest</span>
+                </div>
+                {% for game in max_games.tier1 %}
+                <div class="game-card tier1">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">UNDER {{ game.maximum_total }} • Cushion: +{{ "%.1f"|format(game.cushion) }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate elite">{{ "%.1f"|format(game.under_hit_rate) }}%</div>
+                            <span class="game-badge tier1">LOCK</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Maximum Total</span>
+                            <span class="detail-value">{{ game.maximum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Standard Line</span>
+                            <span class="detail-value">{{ game.standard_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Under Rate</span>
+                            <span class="detail-value gold">{{ "%.1f"|format(game.under_hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Sim Mean</span>
+                            <span class="detail-value">{{ "%.1f"|format(game.sim_mean) }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value green">+{{ "%.1f"|format(game.cushion) }} pts below max</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                <!-- Tier 2 -->
+                {% if max_games.tier2 %}
+                <div class="section-title">
+                    ✅ TIER 2 - VERY SAFE ({{ max_games.tier2|length }})
+                    <span class="backtest-badge">TBD backtest</span>
+                </div>
+                {% for game in max_games.tier2 %}
+                <div class="game-card tier2">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">UNDER {{ game.maximum_total }} • Cushion: +{{ "%.1f"|format(game.cushion) }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate high">{{ "%.1f"|format(game.under_hit_rate) }}%</div>
+                            <span class="game-badge tier2">TIER 2</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Maximum Total</span>
+                            <span class="detail-value">{{ game.maximum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Under Rate</span>
+                            <span class="detail-value green">{{ "%.1f"|format(game.under_hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value green">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                <!-- Tier 3 -->
+                {% if max_games.tier3 %}
+                <div class="section-title">
+                    ✅ TIER 3 - SAFE ({{ max_games.tier3|length }})
+                    <span class="backtest-badge">TBD backtest</span>
+                </div>
+                {% for game in max_games.tier3 %}
+                <div class="game-card tier3">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">UNDER {{ game.maximum_total }} • Cushion: +{{ "%.1f"|format(game.cushion) }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate high">{{ "%.1f"|format(game.under_hit_rate) }}%</div>
+                            <span class="game-badge tier3">TIER 3</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Maximum Total</span>
+                            <span class="detail-value">{{ game.maximum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Under Rate</span>
+                            <span class="detail-value green">{{ "%.1f"|format(game.under_hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value green">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                <!-- Tier 4 -->
+                {% if max_games.tier4 %}
+                <div class="section-title">
+                    ⚠️ TIER 4 - FLOOR ({{ max_games.tier4|length }})
+                    <span class="backtest-badge">TBD backtest</span>
+                </div>
+                {% for game in max_games.tier4 %}
+                <div class="game-card tier4">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">UNDER {{ game.maximum_total }} • Cushion: +{{ "%.1f"|format(game.cushion) }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate medium">{{ "%.1f"|format(game.under_hit_rate) }}%</div>
+                            <span class="game-badge tier4">TIER 4</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Maximum Total</span>
+                            <span class="detail-value">{{ game.maximum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Under Rate</span>
+                            <span class="detail-value yellow">{{ "%.1f"|format(game.under_hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value green">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                <!-- Near Misses -->
+                {% if max_games.near_miss and not max_games.tier1 and not max_games.tier2 and not max_games.tier3 and not max_games.tier4 %}
+                <div class="section-title">
+                    📋 Near Misses ({{ max_games.near_miss|length }})
+                    <span class="tier-info">Close but didn't qualify</span>
+                </div>
+                {% for game in max_games.near_miss %}
+                <div class="game-card near-miss">
+                    <div class="game-header" onclick="toggleDetails(this)">
+                        <div>
+                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
+                            <div class="game-meta">{{ game.reason }}</div>
+                        </div>
+                        <div class="game-stats">
+                            <div class="hit-rate">{{ "%.1f"|format(game.under_hit_rate) }}%</div>
+                            <span class="game-badge near-miss">SKIP</span>
+                        </div>
+                    </div>
+                    <div class="game-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Maximum Total</span>
+                            <span class="detail-value">{{ game.maximum_total }}</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Under Rate</span>
+                            <span class="detail-value">{{ "%.1f"|format(game.under_hit_rate) }}%</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Why Skip</span>
+                            <span class="detail-value red">{{ game.reason }}</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+                
+                {% if not max_games.tier1 and not max_games.tier2 and not max_games.tier3 and not max_games.tier4 and not max_games.near_miss %}
+                <div class="no-data">
+                    No Elite Maximum (Under) picks available today.<br>
+                    Run: python daily_max_picker.py
+                </div>
+                {% endif %}
+            </div>
+        
         <!-- MONTE CARLO VIEW -->
-        {% if system == 'mc' %}
+        {% elif system == 'mc' %}
             <div class="games-section">
                 <!-- YES Picks -->
                 {% if mc_games.yes %}
@@ -819,14 +1498,29 @@ DASHBOARD_HTML = '''
 
 @app.route('/')
 def dashboard():
-    system = request.args.get('system', 'mc')  # Default to Monte Carlo
+    system = request.args.get('system', 'elite')  # Default to Elite now
     
+    elite_stats = get_elite_stats()
+    max_stats = get_max_stats()
     mc_stats = get_mc_stats()
     legacy_stats = get_legacy_stats()
+    elite_games = get_elite_games()
+    max_games = get_max_games()
     mc_games = get_mc_games()
     legacy_games = get_legacy_games()
     
-    stats = mc_stats if system == 'mc' else legacy_stats
+    # Count qualified picks
+    elite_count = len(elite_games['tier1']) + len(elite_games['tier2']) + len(elite_games['tier3']) + len(elite_games['tier4'])
+    max_count = len(max_games['tier1']) + len(max_games['tier2']) + len(max_games['tier3']) + len(max_games['tier4'])
+    
+    if system == 'elite':
+        stats = elite_stats
+    elif system == 'max':
+        stats = max_stats
+    elif system == 'mc':
+        stats = mc_stats
+    else:
+        stats = legacy_stats
     
     now = datetime.now().strftime('%B %d, %Y at %I:%M %p')
     
@@ -834,26 +1528,40 @@ def dashboard():
         DASHBOARD_HTML,
         system=system,
         stats=stats,
+        elite_stats=elite_stats,
+        max_stats=max_stats,
         mc_stats=mc_stats,
         legacy_stats=legacy_stats,
+        elite_games=elite_games,
+        max_games=max_games,
         mc_games=mc_games,
         legacy_games=legacy_games,
+        elite_count=elite_count,
+        max_count=max_count,
         now=now
     )
 
 
 @app.route('/api/stats')
 def api_stats():
-    system = request.args.get('system', 'mc')
-    if system == 'mc':
+    system = request.args.get('system', 'elite')
+    if system == 'elite':
+        return jsonify(get_elite_stats())
+    elif system == 'max':
+        return jsonify(get_max_stats())
+    elif system == 'mc':
         return jsonify(get_mc_stats())
     return jsonify(get_legacy_stats())
 
 
 @app.route('/api/picks')
 def api_picks():
-    system = request.args.get('system', 'mc')
-    if system == 'mc':
+    system = request.args.get('system', 'elite')
+    if system == 'elite':
+        return jsonify(get_elite_games())
+    elif system == 'max':
+        return jsonify(get_max_games())
+    elif system == 'mc':
         return jsonify(get_mc_games())
     return jsonify({'games': get_legacy_games()})
 

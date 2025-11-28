@@ -1,53 +1,53 @@
 game_time,away_team,home_team,standard_total,minimum_total,decision,hit_rate,sim_mean,sim_range,data_quality,defense_warning,tempo_warning
-15:30,VCU Rams,Virginia Tech Hokies,153.5,141.5,YES,89.3,161.0,106-226,high,False,False
-17:00,Eastern Illinois Panthers,Purdue Boilermakers,141.5,129.5,YES,99.6,166.9,116-212,medium,False,False
-17:00,Northeastern Huskies,Wake Forest Demon Deacons,152.5,141.5,MAYBE,81.7,157.2,95-228,high,False,False
-17:00,SE Louisiana Lions,Gardner-Webb Bulldogs,141.5,129.5,YES,88.1,147.0,97-208,high,False,False
-17:30,Richmond Spiders,Charlotte 49ers,147.5,135.5,YES,95.2,161.0,107-219,high,False,False
-17:30,Illinois Fighting Illini,UConn Huskies,155.5,143.5,MAYBE,85.0,164.0,101-237,high,False,False
-18:00,Siena Saints,Longwood Lancers,148.5,136.5,YES,96.9,163.9,108-218,high,False,False
-18:00,Vanderbilt Commodores,Saint Mary's Gaels,152.5,140.5,YES,93.1,160.5,112-208,high,False,False
-19:00,Texas State Bobcats,Seattle Redhawks,135.5,123.5,YES,96.9,158.4,97-249,high,False,False
-19:00,Southern Utah Thunderbirds,Robert Morris Colonials,150.5,139.5,MAYBE,82.2,162.3,83-263,high,False,False
-19:00,Oklahoma Sooners,Marquette Golden Eagles,162.5,150.5,MAYBE,83.3,166.8,101-228,high,False,False
-19:00,Hofstra Pride,La Salle Explorers,141.5,130.5,YES,93.6,151.3,103-208,high,False,False
-19:00,Wright St Raiders,Butler Bulldogs,152.5,140.5,NO,78.8,158.7,89-247,high,False,False
-19:00,Ball State Cardinals,Monmouth Hawks,139.5,127.5,YES,91.5,153.8,84-226,high,False,False
-19:00,Alcorn St Braves,Indiana St Sycamores,148.5,136.5,YES,91.9,160.6,102-222,high,False,False
-19:00,Cleveland St Vikings,Missouri Tigers,170.5,158.5,NO,75.1,173.3,112-245,high,False,False
-19:00,Nevada Wolf Pack,San Francisco Dons,148.5,136.5,YES,92.0,154.8,110-201,high,False,False
-20:00,Chicago St Cougars,Youngstown St Penguins,149.5,137.5,NO,77.0,157.9,80-264,high,False,False
-20:00,Furman Paladins,Illinois St Redbirds,146.5,134.5,YES,93.8,164.2,99-246,high,False,False
-20:00,Navy Midshipmen,UNC Wilmington Seahawks,143.5,132.5,YES,90.5,154.9,98-218,high,False,False
-20:00,Nicholls St Colonels,Tulane Green Wave,149.5,138.5,NO,76.4,150.3,98-213,medium,False,False
-20:00,North Dakota St Bison,Arkansas St Red Wolves,158.5,146.5,NO,61.2,155.3,80-274,high,True,False
-20:00,Providence Friars,Florida Gators,165.5,153.5,MAYBE,84.1,168.3,118-223,high,True,False
-21:00,Queens University Royals,Virginia Cavaliers,160.5,148.5,YES,93.3,169.4,119-218,high,False,False
-21:00,NJIT Highlanders,Eastern Michigan Eagles,143.5,131.5,MAYBE,91.5,161.0,87-236,high,True,False
-21:00,North Carolina A&T Aggies,Davidson Wildcats,148.5,136.5,MAYBE,87.0,157.2,99-216,high,False,False
-21:00,Charleston Southern Buccaneers,South Carolina Gamecocks,150.5,139.5,YES,94.4,162.0,106-214,medium,False,False
-21:00,Maine Black Bears,American Eagles,135.5,123.5,MAYBE,86.7,146.6,83-233,high,False,False
-21:30,South Florida Bulls,Colorado St Rams,160.5,148.5,MAYBE,81.9,161.0,108-212,high,True,True
-21:30,Le Moyne Dolphins,Lafayette Leopards,153.5,141.5,YES,92.2,162.3,109-216,high,False,False
-21:30,Merrimack Warriors,Pennsylvania Quakers,153.5,141.5,MAYBE,80.1,160.1,81-250,high,False,False
-21:30,UC Santa Barbara Gauchos,Lehigh Mountain Hawks,148.5,136.5,MAYBE,86.2,157.0,99-227,high,False,False
-21:30,Washington Huskies,Colorado Buffaloes,155.5,143.5,YES,90.6,162.5,111-213,high,False,True
-22:00,Texas A&M Aggies,Florida St Seminoles,168.5,156.5,NO,60.9,162.7,101-237,high,True,False
-22:30,Texas A&M-CC Islanders,Xavier Musketeers,146.5,134.5,YES,89.4,162.0,80-241,high,False,False
-22:30,Wisconsin Badgers,TCU Horned Frogs,154.5,142.5,MAYBE,84.9,160.5,97-220,high,False,False
-23:30,CSU Northridge Matadors,Idaho State Bengals,150.5,138.5,YES,95.3,165.4,105-220,high,False,False
-00:00,Western Kentucky Hilltoppers,Wichita St Shockers,154.5,142.5,NO,76.5,160.0,82-246,high,False,False
-00:00,Saint Louis Billikens,Stanford Cardinal,158.5,146.5,NO,65.9,153.1,99-213,high,False,False
-00:00,Ohio State Buckeyes,Pittsburgh Panthers,146.5,134.5,YES,95.1,159.5,106-214,high,False,False
-00:00,Miami Hurricanes,Georgetown Hoyas,154.5,142.5,MAYBE,85.4,165.4,100-245,high,False,False
-00:00,Alabama A&M Bulldogs,Clemson Tigers,141.5,129.5,YES,99.2,166.4,110-221,high,False,False
-00:00,SMU Mustangs,Mississippi St Bulldogs,164.5,152.5,NO,67.4,163.1,95-238,high,False,False
-00:00,DePaul Blue Demons,Georgia Tech Yellow Jackets,145.5,133.5,YES,94.1,164.3,99-239,high,False,False
-00:30,Colgate Raiders,Albany Great Danes,145.5,133.5,YES,91.6,157.0,99-222,medium,False,False
-01:00,Jackson St Tigers,Louisiana Ragin' Cajuns,136.5,124.5,YES,88.7,149.2,93-239,high,False,False
-02:00,Sam Houston St Bearkats,Idaho Vandals,155.5,143.5,NO,73.4,153.4,93-208,high,True,True
-02:30,BYU Cougars,Dayton Flyers,150.5,138.5,YES,90.5,157.8,109-211,high,False,False
-02:30,Santa Clara Broncos,Minnesota Golden Gophers,140.5,129.5,YES,91.5,153.0,88-223,high,False,False
-02:30,Drake Bulldogs,LSU Tigers,148.5,137.5,YES,89.2,156.7,101-219,high,False,False
-03:00,Stony Brook Seawolves,Loyola Marymount Lions,137.5,125.5,YES,91.9,152.8,88-216,high,False,False
-05:00,North Dakota Fighting Hawks,Hawai'i Rainbow Warriors,147.5,135.5,NO,68.1,147.2,84-231,partial,False,False
+15:30,VCU Rams,Virginia Tech Hokies,153.5,141.5,YES,96.1,173.7,109-245,partial,False,False
+17:00,Eastern Illinois Panthers,Purdue Boilermakers,141.5,129.5,YES,99.7,167.0,103-213,medium,True,True
+17:00,Northeastern Huskies,Wake Forest Demon Deacons,152.5,141.5,MAYBE,81.8,157.2,96-218,medium,False,False
+17:00,SE Louisiana Lions,Gardner-Webb Bulldogs,139.5,128.5,MAYBE,89.8,147.1,99-197,high,False,True
+17:30,Richmond Spiders,Charlotte 49ers,147.5,135.5,MAYBE,94.9,160.7,109-222,high,False,True
+17:30,Illinois Fighting Illini,UConn Huskies,154.5,143.5,MAYBE,85.0,163.5,85-237,high,True,True
+18:00,Siena Saints,Longwood Lancers,148.5,136.5,MAYBE,96.4,163.5,110-219,high,False,True
+18:00,Vanderbilt Commodores,Saint Mary's Gaels,152.5,140.5,MAYBE,92.8,160.4,108-210,high,True,True
+19:00,Texas State Bobcats,Seattle Redhawks,135.5,123.5,YES,96.8,158.7,94-249,high,False,False
+19:00,Southern Utah Thunderbirds,Robert Morris Colonials,150.5,139.5,MAYBE,83.2,162.7,88-256,high,False,False
+19:00,Oklahoma Sooners,Marquette Golden Eagles,162.5,150.5,NO,77.6,163.3,108-224,high,False,False
+19:00,Hofstra Pride,La Salle Explorers,141.5,130.5,MAYBE,92.9,151.2,102-199,high,False,True
+19:00,Wright St Raiders,Butler Bulldogs,151.5,140.5,MAYBE,85.4,158.5,95-229,high,False,True
+19:00,Ball State Cardinals,Monmouth Hawks,139.5,127.5,MAYBE,91.3,153.8,90-235,high,False,True
+19:00,Alcorn St Braves,Indiana St Sycamores,148.5,136.5,MAYBE,91.4,160.4,99-222,high,True,False
+19:00,Cleveland St Vikings,Missouri Tigers,170.5,158.5,MAYBE,83.9,173.0,111-230,high,False,False
+19:00,Nevada Wolf Pack,San Francisco Dons,148.5,136.5,YES,91.6,154.6,106-200,high,False,False
+20:00,Chicago St Cougars,Youngstown St Penguins,149.5,137.5,MAYBE,89.4,157.8,103-215,high,False,False
+20:00,Furman Paladins,Illinois St Redbirds,146.5,134.5,MAYBE,94.4,164.2,92-247,high,True,True
+20:00,Navy Midshipmen,UNC Wilmington Seahawks,143.5,132.5,MAYBE,91.1,155.4,89-220,high,False,True
+20:00,Nicholls St Colonels,Tulane Green Wave,149.5,138.5,NO,77.0,150.9,95-207,high,False,False
+20:00,North Dakota St Bison,Arkansas St Red Wolves,158.5,146.5,NO,76.0,163.4,100-249,high,True,False
+20:00,Providence Friars,Florida Gators,165.5,153.5,MAYBE,84.0,168.1,108-220,high,True,False
+21:00,Queens University Royals,Virginia Cavaliers,160.5,148.5,MAYBE,93.3,169.5,109-228,high,False,True
+21:00,NJIT Highlanders,Eastern Michigan Eagles,142.5,130.5,MAYBE,86.3,151.1,87-228,medium,False,True
+21:00,North Carolina A&T Aggies,Davidson Wildcats,148.5,136.5,MAYBE,86.8,156.8,100-239,high,True,True
+21:00,Charleston Southern Buccaneers,South Carolina Gamecocks,150.5,139.5,MAYBE,92.4,161.6,107-213,high,True,False
+21:00,Maine Black Bears,American Eagles,135.5,123.5,MAYBE,86.8,147.1,90-227,high,False,True
+21:30,South Florida Bulls,Colorado St Rams,160.5,148.5,MAYBE,82.0,160.9,112-211,high,True,True
+21:30,Le Moyne Dolphins,Lafayette Leopards,153.5,141.5,MAYBE,92.1,162.2,112-219,high,False,False
+21:30,Merrimack Warriors,Pennsylvania Quakers,153.5,141.5,NO,73.0,154.5,80-231,partial,False,False
+21:30,UC Santa Barbara Gauchos,Lehigh Mountain Hawks,148.5,136.5,MAYBE,86.2,156.5,94-225,high,False,False
+21:30,Washington Huskies,Colorado Buffaloes,155.5,143.5,MAYBE,90.7,162.6,101-225,high,False,True
+22:00,Texas A&M Aggies,Florida St Seminoles,168.5,156.5,NO,61.0,162.8,100-248,high,True,False
+22:30,Texas A&M-CC Islanders,Xavier Musketeers,146.5,134.5,MAYBE,89.1,161.5,90-246,high,False,False
+22:30,Wisconsin Badgers,TCU Horned Frogs,154.5,142.5,MAYBE,93.3,168.4,107-233,partial,False,False
+23:30,CSU Northridge Matadors,Idaho State Bengals,150.5,138.5,MAYBE,95.0,165.3,113-224,high,False,False
+00:00,Western Kentucky Hilltoppers,Wichita St Shockers,154.5,142.5,MAYBE,82.5,159.9,101-224,high,True,False
+00:00,Saint Louis Billikens,Stanford Cardinal,158.5,146.5,MAYBE,81.8,160.9,95-217,high,False,False
+00:00,Ohio State Buckeyes,Pittsburgh Panthers,146.5,134.5,MAYBE,95.5,159.7,109-222,high,True,True
+00:00,Miami Hurricanes,Georgetown Hoyas,154.5,142.5,MAYBE,85.5,165.4,99-251,high,False,False
+00:00,Alabama A&M Bulldogs,Clemson Tigers,141.5,129.5,MAYBE,95.1,155.6,103-224,high,True,True
+00:00,SMU Mustangs,Mississippi St Bulldogs,164.5,152.5,NO,57.8,156.0,101-213,partial,False,False
+00:00,DePaul Blue Demons,Georgia Tech Yellow Jackets,145.5,133.5,MAYBE,84.5,152.1,84-217,high,True,False
+00:30,Colgate Raiders,Albany Great Danes,145.5,133.5,MAYBE,91.6,156.7,99-225,medium,False,False
+01:00,Jackson St Tigers,Louisiana Ragin' Cajuns,136.5,124.5,MAYBE,95.5,149.0,94-195,high,False,True
+02:00,Sam Houston St Bearkats,Idaho Vandals,155.5,143.5,NO,73.6,153.2,99-208,high,True,True
+02:30,BYU Cougars,Dayton Flyers,150.5,138.5,MAYBE,90.0,157.8,104-219,high,True,True
+02:30,Santa Clara Broncos,Minnesota Golden Gophers,140.5,129.5,MAYBE,91.4,152.9,95-219,high,False,True
+02:30,Drake Bulldogs,LSU Tigers,148.5,137.5,MAYBE,88.9,156.7,101-218,high,False,True
+03:00,Stony Brook Seawolves,Loyola Marymount Lions,137.5,125.5,MAYBE,92.1,153.0,81-234,high,False,True
+05:00,North Dakota Fighting Hawks,Hawai'i Rainbow Warriors,147.5,135.5,NO,68.1,147.4,81-226,partial,False,False

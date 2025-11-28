@@ -159,10 +159,120 @@ class MonteCarloSimulatorV3:
             'usc': 'southern california',
             'ucla': 'ucla',
             'unlv': 'unlv',
+            'uni': 'northern iowa',
+            'unc': 'north carolina',
+            'uconn': 'connecticut',
+            'umass': 'massachusetts',
+            'utep': 'utep',
+            'utsa': 'ut san antonio',
+            'fiu': 'fiu',
+            'fau': 'fau',
+            'siu': 'southern illinois',
+            'niu': 'northern illinois',
         }
         
         if clean_name in abbrev_map:
             clean_name = abbrev_map[clean_name]
+        
+        # EXPLICIT MAPPINGS for problematic teams (exact match required)
+        explicit_map = {
+            'utah': 'Utah',
+            'utah utes': 'Utah',
+            'utah state': 'Utah St.',
+            'utah st': 'Utah St.',
+            'utah st.': 'Utah St.',
+            'northern iowa': 'Northern Iowa',
+            'uni': 'Northern Iowa',
+            'n. iowa': 'Northern Iowa',
+            'miami': 'Miami FL',
+            'miami fl': 'Miami FL',
+            'miami (fl)': 'Miami FL',
+            'miami hurricanes': 'Miami FL',
+            'miami ohio': 'Miami OH',
+            'miami (oh)': 'Miami OH',
+            'st. johns': "St. John's",
+            "st. john's": "St. John's",
+            'saint johns': "St. John's",
+            "saint john's": "St. John's",
+            # Florida schools - BE SPECIFIC
+            'florida': 'Florida',
+            'florida gators': 'Florida',
+            'florida atlantic': 'Florida Atlantic',
+            'florida atlantic owls': 'Florida Atlantic',
+            'fau': 'Florida Atlantic',
+            'fau owls': 'Florida Atlantic',
+            'florida state': 'Florida St.',
+            'florida st': 'Florida St.',
+            'florida st.': 'Florida St.',
+            'fsu': 'Florida St.',
+            'fsu seminoles': 'Florida St.',
+            'florida international': 'FIU',
+            'fiu': 'FIU',
+            'fiu panthers': 'FIU',
+            'ucf': 'UCF',
+            'ucf knights': 'UCF',
+            'central florida': 'UCF',
+            'south florida': 'South Florida',
+            'usf': 'South Florida',
+            'usf bulls': 'South Florida',
+            # George schools
+            'george mason': 'George Mason',
+            'george mason patriots': 'George Mason',
+            'george washington': 'George Washington',
+            'george washington colonials': 'George Washington',
+            'georgetown': 'Georgetown',
+            'georgetown hoyas': 'Georgetown',
+            'georgia': 'Georgia',
+            'georgia bulldogs': 'Georgia',
+            'georgia tech': 'Georgia Tech',
+            'georgia tech yellow jackets': 'Georgia Tech',
+            'georgia state': 'Georgia St.',
+            'georgia st': 'Georgia St.',
+            'georgia southern': 'Georgia Southern',
+            # Washington schools
+            'washington': 'Washington',
+            'washington huskies': 'Washington',
+            'washington state': 'Washington St.',
+            'washington st': 'Washington St.',
+            'washington st.': 'Washington St.',
+            # North Carolina schools  
+            'north carolina': 'North Carolina',
+            'unc': 'North Carolina',
+            'tar heels': 'North Carolina',
+            'north carolina tar heels': 'North Carolina',
+            'north carolina state': 'N.C. State',
+            'nc state': 'N.C. State',
+            'n.c. state': 'N.C. State',
+            'north carolina a&t': 'North Carolina A&T',
+            'nc a&t': 'North Carolina A&T',
+            'unc wilmington': 'UNC Wilmington',
+            'unc greensboro': 'UNC Greensboro',
+            'unc asheville': 'UNC Asheville',
+            'north carolina central': 'North Carolina Central',
+            # Indiana schools
+            'indiana': 'Indiana',
+            'indiana hoosiers': 'Indiana',
+            'indiana state': 'Indiana St.',
+            'indiana st': 'Indiana St.',
+            # Illinois schools
+            'illinois': 'Illinois',
+            'illinois fighting illini': 'Illinois',
+            'illinois state': 'Illinois St.',
+            'illinois st': 'Illinois St.',
+            # Chattanooga
+            'chattanooga': 'Chattanooga',
+            'chattanooga mocs': 'Chattanooga',
+            # North Alabama  
+            'north alabama': 'North Alabama',
+            'north alabama lions': 'North Alabama',
+        }
+        
+        if name_lower in explicit_map:
+            target = explicit_map[name_lower]
+            for idx, row in self.barttorvik_df.iterrows():
+                if row['team'] == target:
+                    self.name_cache[cache_key] = row['team']
+                    return row
         
         # Try to find match
         for idx, row in self.barttorvik_df.iterrows():
@@ -172,11 +282,20 @@ class MonteCarloSimulatorV3:
             if team_lower == name_lower or team_lower == clean_name:
                 self.name_cache[cache_key] = row['team']
                 return row
+        
+        # STRICT partial match - require the search term to be a substantial part
+        for idx, row in self.barttorvik_df.iterrows():
+            team_lower = row['team'].lower()
             
-            # Partial match
-            if clean_name in team_lower or team_lower in clean_name:
-                self.name_cache[cache_key] = row['team']
-                return row
+            # Only match if clean_name is significant portion AND at start/end
+            if len(clean_name) >= 4:
+                if team_lower.startswith(clean_name) or team_lower.endswith(clean_name):
+                    self.name_cache[cache_key] = row['team']
+                    return row
+                # Or exact word match (not substring)
+                if clean_name in team_lower.split():
+                    self.name_cache[cache_key] = row['team']
+                    return row
             
             # Word overlap
             name_words = set(clean_name.split())
@@ -320,12 +439,24 @@ class MonteCarloSimulatorV3:
         return 10.0  # Default
     
     def _is_elite_defense(self, adj_d: float) -> bool:
-        """Check if team has elite defense (adj_d < 95 is very good)."""
-        return adj_d < 95
+        """Check if team has elite defense (adj_d < 100 is very good)."""
+        return adj_d < 100
+    
+    def _is_good_defense(self, adj_d: float) -> bool:
+        """Check if team has good defense (adj_d < 105)."""
+        return adj_d < 105
     
     def _is_slow_tempo(self, tempo: float) -> bool:
-        """Check if team plays slow (< 65 possessions)."""
-        return tempo < 65
+        """Check if team plays slow (< 68 possessions)."""
+        return tempo < 68
+    
+    def _is_bad_offense(self, adj_o: float) -> bool:
+        """Check if team has bad offense (adj_o < 105)."""
+        return adj_o < 105
+    
+    def _is_mediocre_offense(self, adj_o: float) -> bool:
+        """Check if team has mediocre offense (adj_o < 110)."""
+        return adj_o < 110
     
     def simulate_game(self, home_team: str, away_team: str,
                       n_simulations: int = 10000) -> Dict:
@@ -445,6 +576,7 @@ class MonteCarloSimulatorV3:
             '1st': np.percentile(sim_totals, 1),
             '5th': np.percentile(sim_totals, 5),
             '10th': np.percentile(sim_totals, 10),
+            '15th': np.percentile(sim_totals, 15),
             '25th': np.percentile(sim_totals, 25),
             '50th': np.percentile(sim_totals, 50),
         }
@@ -483,18 +615,63 @@ class MonteCarloSimulatorV3:
             'sim_min': sim['min_total'],
             'sim_max': sim['max_total'],
             'percentile_5th': sim['percentiles']['5th'],
+            'percentile_10th': sim['percentiles']['10th'],
             'data_quality': sim['data_quality'],
             'defense_warning': sim['defense_warning'],
             'tempo_warning': sim['tempo_warning'],
             'matchup_details': sim['matchup_details'],
-            'risk_factors': []
+            'risk_factors': [],
+            'bad_offense_warning': False,
+            'floor_warning': False,
         }
         
-        # Decision logic
-        if hit_rate >= 95:
+        # Get team stats for additional checks
+        home_bt = self._find_barttorvik_team(home_team)
+        away_bt = self._find_barttorvik_team(away_team)
+        
+        # Check for bad offense matchups
+        if home_bt is not None and away_bt is not None:
+            home_adj_o = home_bt['adj_o']
+            away_adj_o = away_bt['adj_o']
+            home_adj_d = home_bt['adj_d']
+            away_adj_d = away_bt['adj_d']
+            home_tempo = home_bt['adj_tempo']
+            away_tempo = away_bt['adj_tempo']
+            
+            # Bad offense flags
+            if self._is_bad_offense(home_adj_o) or self._is_bad_offense(away_adj_o):
+                result['bad_offense_warning'] = True
+            
+            # Both mediocre offenses = high risk
+            both_mediocre = self._is_mediocre_offense(home_adj_o) and self._is_mediocre_offense(away_adj_o)
+            
+            # Good defense check (stricter than elite)
+            has_good_defense = self._is_good_defense(home_adj_d) or self._is_good_defense(away_adj_d)
+            
+            # NEW: Road team with good defense vs mediocre home offense = dangerous
+            # Away teams with AdjD < 103 playing against mediocre offenses crush totals
+            away_good_defense = away_adj_d < 103
+            home_mediocre_offense = home_adj_o < 113
+            road_defense_risk = away_good_defense and home_mediocre_offense
+            
+            # Slow tempo check
+            slow_game = home_tempo < 68 or away_tempo < 68
+        else:
+            both_mediocre = False
+            has_good_defense = False
+            slow_game = False
+            road_defense_risk = False
+        
+        # Floor check: 10th percentile must be above minimum
+        floor_safe = sim['percentiles']['10th'] >= minimum_total
+        if not floor_safe:
+            result['floor_warning'] = True
+        
+        # Decision logic - STRICTER VERSION
+        if hit_rate >= 95 and floor_safe:
             result['decision'] = 'YES'
             result['risk_factors'].append(f"✅ {hit_rate:.1f}% hit rate (very high)")
-        elif hit_rate >= 88:
+        elif hit_rate >= 88 and floor_safe:
             result['decision'] = 'YES'
             result['risk_factors'].append(f"✅ {hit_rate:.1f}% hit rate")
         elif hit_rate >= 80:
@@ -504,26 +681,67 @@ class MonteCarloSimulatorV3:
             result['decision'] = 'NO'
             result['risk_factors'].append(f"🚫 {hit_rate:.1f}% hit rate")
         
-        # Warnings
+        # COUNT RISK FLAGS - cumulative penalty system
+        flag_count = 0
+        
+        # 1. Elite defense flag
         if sim['defense_warning']:
             result['risk_factors'].append("🛡️ Elite defense in matchup")
-            if result['decision'] == 'YES' and hit_rate < 92:
-                result['decision'] = 'MAYBE'
-                result['risk_factors'].append("⚠️ Downgraded for elite defense")
+            flag_count += 1
         
-        if sim['tempo_warning']:
-            result['risk_factors'].append("🐢 Slow tempo team in matchup")
+        # 2. Good defense + bad offense
+        if has_good_defense and result['bad_offense_warning']:
+            result['risk_factors'].append("⚠️ Good defense vs bad offense")
+            flag_count += 1
         
-        # Data quality warnings
+        # 3. Both mediocre offenses
+        if both_mediocre:
+            result['risk_factors'].append("⚠️ Both teams have mediocre offense (<110 AdjO)")
+            flag_count += 1
+        
+        # 4. Slow tempo
+        if sim['tempo_warning'] or slow_game:
+            result['risk_factors'].append("🐢 Slow tempo in matchup")
+            flag_count += 1
+        
+        # 5. Road defense risk
+        if road_defense_risk:
+            result['risk_factors'].append("🛡️ Road team has good defense vs mediocre home offense")
+            flag_count += 1
+        
+        # 6. Floor risk - 10th percentile below minimum
+        if result['floor_warning']:
+            result['risk_factors'].append(f"🚨 Floor risk: 10th pct ({sim['percentiles']['10th']:.0f}) below minimum")
+            flag_count += 1
+        
+        # 7. Data quality issues
         if sim['data_quality'] in ['partial', 'low']:
             result['risk_factors'].append(f"⚠️ Limited data ({sim['data_quality']})")
-            if result['decision'] == 'YES' and hit_rate < 92:
+            flag_count += 1
+        
+        # CUMULATIVE FLAG PENALTY - apply downgrade based on flag count
+        if result['decision'] == 'YES' and flag_count > 0:
+            # 1 flag: needs 96%+ to stay YES
+            # 2 flags: needs 97%+ to stay YES
+            # 3+ flags: auto-downgrade to MAYBE
+            required_hit_rate = 95 + flag_count  # 96, 97, 98, etc.
+            
+            if flag_count >= 3:
                 result['decision'] = 'MAYBE'
+                result['risk_factors'].append(f"⚠️ Auto-downgraded: {flag_count} risk flags detected")
+            elif hit_rate < required_hit_rate:
+                result['decision'] = 'MAYBE'
+                result['risk_factors'].append(f"⚠️ Downgraded: {flag_count} flags require {required_hit_rate}%+ (had {hit_rate:.1f}%)")
+            else:
+                result['risk_factors'].append(f"✅ Passed {flag_count}-flag check (needed {required_hit_rate}%)")
+        
+        # Store flag count for reference
+        result['flag_count'] = flag_count
         
         # Simulation details
         result['risk_factors'].append(f"Sim: {sim['min_total']:.0f}-{sim['max_total']:.0f} (avg {sim['mean_total']:.1f})")
         
-        # 5th percentile check
+        # 5th percentile info
         if sim['percentiles']['5th'] < minimum_total:
             gap = minimum_total - sim['percentiles']['5th']
             result['risk_factors'].append(f"⚠️ 5th pct ({sim['percentiles']['5th']:.0f}) is {gap:.0f} below min")

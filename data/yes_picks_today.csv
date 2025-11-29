@@ -1,3 +1,7 @@
 game_time,away_team,home_team,standard_total,minimum_total,decision,hit_rate,sim_mean,sim_range,data_quality,defense_warning,tempo_warning
-00:00,Alabama A&M Bulldogs,Clemson Tigers,141.5,129.5,YES,95.0,155.7,102-215,high,True,True
-01:00,Jackson St Tigers,Louisiana Ragin' Cajuns,136.5,125.5,YES,98.1,155.5,105-209,medium,False,True
+19:00,James Madison Dukes,George Mason Patriots,142.5,130.5,YES,96.7,158.0,101-216,high,False,True
+20:00,Lipscomb Bisons,SE Missouri St Redhawks,152.5,140.5,YES,96.6,170.9,110-227,partial,False,False
+23:00,Buffalo Bulls,Canisius Golden Griffins,140.5,128.5,YES,96.8,157.0,99-217,high,False,True
+00:00,Arkansas-Little Rock Trojans,Southern Illinois Salukis,143.5,132.5,YES,99.4,185.1,110-262,partial,False,False
+03:00,Cal Baptist Lancers,Oregon St Beavers,137.5,125.5,YES,96.1,151.1,98-203,medium,False,True
+03:00,Sacramento St Hornets,Pacific Tigers,146.5,134.5,YES,95.6,163.2,103-246,high,False,True

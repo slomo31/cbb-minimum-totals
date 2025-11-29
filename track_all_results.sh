@@ -8,13 +8,18 @@ echo "🏀 CBB END-OF-DAY RESULTS TRACKER"
 echo "============================================================"
 
 echo ""
+echo "📈 ELITE OVERS RESULTS (TIERS 1-4)"
+echo "==================================="
+python elite_track_results.py
+
+echo ""
 echo "🎲 MONTE CARLO RESULTS (OVERS)"
 echo "=============================="
 python mc_track_results.py
 
 echo ""
-echo "📉 MONTE CARLO RESULTS (UNDERS)"
-echo "==============================="
+echo "📉 ELITE UNDERS RESULTS (MAX)"
+echo "=============================="
 python mc_max_track_results.py
 
 echo ""

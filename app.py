@@ -84,11 +84,39 @@ def load_elite_tracking():
 
 def get_elite_stats():
     """Get Elite V4 system stats"""
-    tracking = load_elite_tracking()
+    # Try to load from results history file
+    history_file = DATA_DIR / "elite_results_history.csv"
     picks = load_elite_picks()
     
     # Filter to qualified picks (tier > 0)
     qualified = picks[picks['tier'] > 0] if not picks.empty and 'tier' in picks.columns else pd.DataFrame()
+    
+    if history_file.exists():
+        history = pd.read_csv(history_file)
+        wins = history['over_won'].sum() if 'over_won' in history.columns else 0
+        losses = len(history) - wins
+        win_rate = (wins / len(history) * 100) if len(history) > 0 else 0
+        
+        # Count pending (qualified picks not in history)
+        pending = len(qualified)
+        if not history.empty and not qualified.empty:
+            completed_matchups = set(history['matchup'].str.lower()) if 'matchup' in history.columns else set()
+            for _, row in qualified.iterrows():
+                matchup = f"{row.get('away_team', '')} @ {row.get('home_team', '')}".lower()
+                if matchup in completed_matchups:
+                    pending -= 1
+        
+        avg_hit = qualified['hit_rate'].mean() if not qualified.empty and 'hit_rate' in qualified.columns else 0
+        
+        return {
+            'record': f'{int(wins)}-{int(losses)}',
+            'win_rate': f'{win_rate:.1f}%',
+            'pending': max(0, pending),
+            'avg_confidence': f"{avg_hit:.1f}%"
+        }
+    
+    # Fallback to old tracking file
+    tracking = load_elite_tracking()
     
     if tracking.empty:
         pending = len(qualified) if not qualified.empty else 0
@@ -123,18 +151,44 @@ def get_elite_stats():
 
 def get_max_stats():
     """Get Elite Maximum (Under) system stats"""
+    # Try to load from results history file
+    history_file = DATA_DIR / "max_results_history.csv"
     picks = load_max_picks()
     
     # Filter to qualified picks (tier > 0)
     qualified = picks[picks['tier'] > 0] if not picks.empty and 'tier' in picks.columns else pd.DataFrame()
     
+    if history_file.exists():
+        history = pd.read_csv(history_file)
+        wins = history['under_won'].sum() if 'under_won' in history.columns else 0
+        losses = len(history) - wins
+        win_rate = (wins / len(history) * 100) if len(history) > 0 else 0
+        
+        # Count pending (qualified picks not in history)
+        pending = len(qualified)
+        if not history.empty and not qualified.empty:
+            completed_matchups = set(history['matchup'].str.lower()) if 'matchup' in history.columns else set()
+            for _, row in qualified.iterrows():
+                matchup = f"{row.get('away_team', '')} @ {row.get('home_team', '')}".lower()
+                if matchup in completed_matchups:
+                    pending -= 1
+        
+        avg_hit = qualified['under_hit_rate'].mean() if not qualified.empty and 'under_hit_rate' in qualified.columns else 0
+        
+        return {
+            'record': f'{int(wins)}-{int(losses)}',
+            'win_rate': f'{win_rate:.1f}%',
+            'pending': max(0, pending),
+            'avg_confidence': f"{avg_hit:.1f}%"
+        }
+    
+    # Fallback if no history yet
     pending = len(qualified) if not qualified.empty else 0
     avg_hit = qualified['under_hit_rate'].mean() if not qualified.empty and 'under_hit_rate' in qualified.columns else 0
     
-    # TODO: Add tracking once we have results
     return {
-        'record': 'TBD',
-        'win_rate': 'TBD',
+        'record': '0-0',
+        'win_rate': '0.0%',
         'pending': pending,
         'avg_confidence': f"{avg_hit:.1f}%"
     }
@@ -309,9 +363,16 @@ def get_mc_games():
     if predictions.empty:
         return {'yes': [], 'maybe': [], 'no': []}
     
-    yes_picks = predictions[predictions['decision'] == 'YES'].copy()
-    maybe_picks = predictions[predictions['decision'] == 'MAYBE'].copy()
-    no_picks = predictions[predictions['decision'] == 'NO'].copy()
+    # Check for new unified format (mc_category) vs old format (decision)
+    if 'mc_category' in predictions.columns:
+        yes_picks = predictions[predictions['mc_category'] == 'YES'].copy()
+        maybe_picks = predictions[predictions['mc_category'] == 'MAYBE'].copy()
+        no_picks = predictions[predictions['mc_category'] == 'NO'].copy()
+    else:
+        # Fall back to old format
+        yes_picks = predictions[predictions['decision'] == 'YES'].copy() if 'decision' in predictions.columns else pd.DataFrame()
+        maybe_picks = predictions[predictions['decision'] == 'MAYBE'].copy() if 'decision' in predictions.columns else pd.DataFrame()
+        no_picks = predictions[predictions['decision'] == 'NO'].copy() if 'decision' in predictions.columns else pd.DataFrame()
     
     def to_game_list(df):
         games = []
@@ -323,9 +384,13 @@ def get_mc_games():
                 'standard_total': row.get('standard_total', 0),
                 'hit_rate': row.get('hit_rate', 0),
                 'sim_mean': row.get('sim_mean', 0),
+                'cushion': row.get('cushion', 0),
                 'sim_range': row.get('sim_range', ''),
                 'data_quality': row.get('data_quality', ''),
                 'game_time': row.get('game_time', ''),
+                # Include Elite tier for badge display
+                'elite_tier': row.get('elite_tier', 0),
+                'elite_qualified': row.get('elite_qualified', False),
             })
         return games
     
@@ -1263,7 +1328,11 @@ DASHBOARD_HTML = '''
                         </div>
                         <div class="game-stats">
                             <div class="hit-rate high">{{ "%.1f"|format(game.hit_rate) }}%</div>
+                            {% if game.elite_tier and game.elite_tier > 0 %}
+                            <span class="game-badge tier{{ game.elite_tier }}">ELITE T{{ game.elite_tier }}</span>
+                            {% else %}
                             <span class="game-badge yes">YES</span>
+                            {% endif %}
                         </div>
                     </div>
                     <div class="game-details">
@@ -1284,13 +1353,15 @@ DASHBOARD_HTML = '''
                             <span class="detail-value">{{ "%.1f"|format(game.sim_mean) }}</span>
                         </div>
                         <div class="detail-row">
-                            <span class="detail-label">Sim Range</span>
-                            <span class="detail-value">{{ game.sim_range }}</span>
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value">+{{ "%.1f"|format(game.cushion) }} pts</span>
                         </div>
+                        {% if game.elite_tier and game.elite_tier > 0 %}
                         <div class="detail-row">
-                            <span class="detail-label">Data Quality</span>
-                            <span class="detail-value">{{ game.data_quality }}</span>
+                            <span class="detail-label">Elite Status</span>
+                            <span class="detail-value gold">✨ TIER {{ game.elite_tier }} LOCK</span>
                         </div>
+                        {% endif %}
                     </div>
                 </div>
                 {% endfor %}
@@ -1308,7 +1379,11 @@ DASHBOARD_HTML = '''
                         </div>
                         <div class="game-stats">
                             <div class="hit-rate medium">{{ "%.1f"|format(game.hit_rate) }}%</div>
+                            {% if game.elite_tier and game.elite_tier > 0 %}
+                            <span class="game-badge tier{{ game.elite_tier }}">ELITE T{{ game.elite_tier }}</span>
+                            {% else %}
                             <span class="game-badge maybe">MAYBE</span>
+                            {% endif %}
                         </div>
                     </div>
                     <div class="game-details">
@@ -1321,9 +1396,19 @@ DASHBOARD_HTML = '''
                             <span class="detail-value yellow">{{ "%.1f"|format(game.hit_rate) }}%</span>
                         </div>
                         <div class="detail-row">
-                            <span class="detail-label">Sim Range</span>
-                            <span class="detail-value">{{ game.sim_range }}</span>
+                            <span class="detail-label">Sim Mean</span>
+                            <span class="detail-value">{{ "%.1f"|format(game.sim_mean) }}</span>
                         </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Cushion</span>
+                            <span class="detail-value">+{{ "%.1f"|format(game.cushion) }} pts</span>
+                        </div>
+                        {% if game.elite_tier and game.elite_tier > 0 %}
+                        <div class="detail-row">
+                            <span class="detail-label">Elite Status</span>
+                            <span class="detail-value gold">✨ TIER {{ game.elite_tier }}</span>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
                 {% endfor %}

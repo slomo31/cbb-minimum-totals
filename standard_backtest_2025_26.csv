@@ -1,0 +1,396 @@
+date,away,home,standard_total,actual_total,best_side,confidence,decision,hit,margin
+2025-11-04,Evansville Purple Aces,Purdue Boilermakers,147.5,133,OVER,79.79,NO,False,-14.5
+2025-11-04,NJIT Highlanders,Fordham Rams,146.5,133,OVER,62.21,NO,False,-13.5
+2025-11-04,Nicholls St Colonels,Kentucky Wildcats,152.5,128,OVER,57.8,NO,False,-24.5
+2025-11-04,Lindenwood Lions,Texas Tech Red Raiders,145.5,158,OVER,72.86,NO,True,12.5
+2025-11-04,Robert Morris Colonials,Iowa Hawkeyes,142.5,170,OVER,80.33,NO,True,27.5
+2025-11-04,Texas Longhorns,Duke Blue Devils,152.5,135,OVER,66.0,NO,False,-17.5
+2025-11-04,Louisiana Tech Bulldogs,Nevada Wolf Pack,136.5,127,OVER,77.03999999999999,NO,False,-9.5
+2025-11-05,Rider Broncs,Rutgers Scarlet Knights,142.5,134,OVER,69.89,NO,False,-8.5
+2025-11-05,Alabama A&M Bulldogs,Indiana Hoosiers,145.5,149,OVER,78.23,NO,True,3.5
+2025-11-05,South Dakota Coyotes,Creighton Bluejays,167.5,168,UNDER,50.54,NO,False,0.5
+2025-11-05,East Texas A&M Lions,New Mexico Lobos,143.5,130,OVER,62.839999999999996,NO,False,-13.5
+2025-11-06,The Citadel Bulldogs,Boston College Eagles,143.5,123,OVER,66.95,NO,False,-20.5
+2025-11-06,Campbell Fighting Camels,West Virginia Mountaineers,140.5,138,OVER,74.95,NO,False,-2.5
+2025-11-06,Le Moyne Dolphins,Xavier Musketeers,157.5,143,OVER,65.94,NO,False,-14.5
+2025-11-06,Robert Morris Colonials,Drake Bulldogs,149.5,160,OVER,53.64,NO,True,10.5
+2025-11-06,Omaha Mavericks,Abilene Christian Wildcats,152.5,144,UNDER,56.37,NO,True,-8.5
+2025-11-06,Alcorn St Braves,South Alabama Jaguars,141.5,146,OVER,74.74,NO,True,4.5
+2025-11-06,Merrimack Warriors,Auburn Tigers,145.5,152,OVER,77.06,NO,True,6.5
+2025-11-06,North Florida Ospreys,Florida Gators,168.5,168,UNDER,55.35,NO,True,-0.5
+2025-11-06,UC Riverside Highlanders,North Dakota Fighting Hawks,151.5,144,OVER,54.49,NO,False,-7.5
+2025-11-06,Texas Southern Tigers,Texas A&M Aggies,161.5,174,OVER,57.84,NO,True,12.5
+2025-11-06,Denver Pioneers,Washington Huskies,154.5,154,OVER,79.22,NO,False,-0.5
+2025-11-07,Columbia Lions,New Haven Chargers,151.5,124,UNDER,57.269999999999996,NO,True,-27.5
+2025-11-07,Northeastern Huskies,Colgate Raiders,147.5,133,OVER,71.54,NO,False,-14.5
+2025-11-07,Georgetown Hoyas,Maryland Terrapins,146.5,130,OVER,80.03,NO,False,-16.5
+2025-11-07,Tulsa Golden Hurricane,Rhode Island Rams,154.5,147,OVER,64.71000000000001,NO,False,-7.5
+2025-11-07,Green Bay Phoenix,Buffalo Bulls,152.5,159,OVER,70.75,NO,True,6.5
+2025-11-07,Siena Saints,Brown Bears,145.5,108,OVER,55.720000000000006,NO,False,-37.5
+2025-11-07,Tennessee Tech Golden Eagles,Charlotte 49ers,150.5,135,OVER,66.07,NO,False,-15.5
+2025-11-07,Gardner-Webb Bulldogs,Clemson Tigers,148.5,156,OVER,55.21,NO,True,7.5
+2025-11-07,Detroit Mercy Titans,Notre Dame Fighting Irish,147.5,172,OVER,73.59,NO,True,24.5
+2025-11-07,Sacred Heart Pioneers,Duquesne Dukes,154.5,172,OVER,74.5,NO,True,17.5
+2025-11-07,Troy Trojans,Furman Paladins,150.5,125,OVER,60.24,NO,False,-25.5
+2025-11-07,Winthrop Eagles,George Mason Patriots,147.5,186,OVER,68.62,NO,True,38.5
+2025-11-07,Hofstra Pride,Iona Gaels,145.5,154,OVER,84.45,NO,True,8.5
+2025-11-07,Kansas Jayhawks,North Carolina Tar Heels,157.5,161,UNDER,56.15,NO,False,3.5
+2025-11-07,Valparaiso Beacons,Kentucky Wildcats,156.5,166,OVER,50.49,NO,True,9.5
+2025-11-07,Longwood Lancers,Pittsburgh Panthers,148.5,138,OVER,76.44,NO,False,-10.5
+2025-11-07,Oakland Golden Grizzlies,Purdue Boilermakers,155.5,164,OVER,77.13,NO,True,8.5
+2025-11-07,Bryant Bulldogs,Georgia Tech Yellow Jackets,146.5,119,UNDER,54.72,NO,True,-27.5
+2025-11-07,Wagner Seahawks,Seton Hall Pirates,132.5,129,OVER,80.87,NO,False,-3.5
+2025-11-07,UMass Lowell River Hawks,UConn Huskies,151.5,157,OVER,71.98,NO,True,5.5
+2025-11-07,Stonehill Skyhawks,DePaul Blue Demons,145.5,136,OVER,64.82,NO,False,-9.5
+2025-11-07,Sam Houston St Bearkats,Texas Tech Red Raiders,152.5,175,OVER,70.54,NO,True,22.5
+2025-11-07,Yale Bulldogs,Navy Midshipmen,147.5,165,OVER,83.67999999999999,NO,True,17.5
+2025-11-07,Utah Tech Trailblazers,Arizona Wildcats,163.5,160,UNDER,64.15,NO,True,-3.5
+2025-11-07,UAB Blazers,NC State Wolfpack,163.5,164,OVER,63.1,NO,True,0.5
+2025-11-07,McNeese Cowboys,Santa Clara Broncos,153.5,146,UNDER,52.29,NO,True,-7.5
+2025-11-07,Rice Owls,Oregon Ducks,146.5,130,OVER,74.47,NO,False,-16.5
+2025-11-07,Pepperdine Waves,UCLA Bruins,153.5,137,UNDER,50.99,NO,True,-16.5
+2025-11-08,Princeton Tigers,Akron Zips,155.5,173,OVER,73.39,NO,True,17.5
+2025-11-08,Alcorn St Braves,Minnesota Golden Gophers,159.5,145,UNDER,62.57,NO,True,-14.5
+2025-11-08,Drexel Dragons,Saint Joseph's Hawks,139.5,141,OVER,71.3,NO,True,1.5
+2025-11-08,Niagara Purple Eagles,Binghamton Bearcats,140.5,126,OVER,72.26,NO,False,-14.5
+2025-11-08,UMBC Retrievers,Dayton Flyers,152.5,148,OVER,61.23,NO,False,-4.5
+2025-11-08,Fairfield Stags,NJIT Highlanders,145.5,127,OVER,70.26,NO,False,-18.5
+2025-11-08,Marshall Thundering Herd,Toledo Rockets,160.5,158,OVER,67.99,NO,False,-2.5
+2025-11-08,Milwaukee Panthers,Wofford Terriers,150.5,162,OVER,69.88,NO,True,11.5
+2025-11-08,Towson Tigers,Houston Cougars,132.5,113,OVER,73.21,NO,False,-19.5
+2025-11-08,Lafayette Leopards,Texas Longhorns,150.5,157,OVER,69.98,NO,True,6.5
+2025-11-08,San Francisco Dons,Memphis Tigers,156.5,146,OVER,50.94,NO,False,-10.5
+2025-11-08,Monmouth Hawks,La Salle Explorers,145.5,133,OVER,67.86,NO,False,-12.5
+2025-11-08,Austin Peay Governors,Air Force Falcons,138.5,128,OVER,62.79,NO,False,-10.5
+2025-11-08,Canisius Golden Griffins,St. Bonaventure Bonnies,137.5,159,OVER,82.28999999999999,NO,True,21.5
+2025-11-08,Elon Phoenix,UNC Greensboro Spartans,142.5,182,OVER,87.26,NO,True,39.5
+2025-11-08,Montana Grizzlies,Stanford Cardinal,149.5,159,OVER,75.76,NO,True,9.5
+2025-11-08,Vanderbilt Commodores,UCF Knights,167.5,198,OVER,68.37,NO,True,30.5
+2025-11-08,Maine Black Bears,Stony Brook Seawolves,136.5,131,OVER,72.38,NO,False,-5.5
+2025-11-08,East Carolina Pirates,Richmond Spiders,144.5,159,OVER,82.15,NO,True,14.5
+2025-11-08,Holy Cross Crusaders,BYU Cougars,164.5,151,UNDER,51.440000000000005,NO,True,-13.5
+2025-11-08,Chattanooga Mocs,UNLV Rebels,153.5,170,OVER,82.42,NO,True,16.5
+2025-11-08,Houston Christian Huskies,UC San Diego Tritons,143.5,138,OVER,84.37,NO,False,-5.5
+2025-11-08,Pacific Tigers,Nevada Wolf Pack,142.5,155,OVER,83.91999999999999,NO,True,12.5
+2025-11-08,Oklahoma Sooners,Gonzaga Bulldogs,163.5,151,OVER,51.9,NO,False,-12.5
+2025-11-09,New Hampshire Wildcats,Harvard Crimson,147.5,161,OVER,56.03,NO,True,13.5
+2025-11-09,Pennsylvania Quakers,American Eagles,156.5,162,OVER,62.470000000000006,NO,True,5.5
+2025-11-09,Le Moyne Dolphins,Bowling Green Falcons,156.5,143,OVER,60.39,NO,False,-13.5
+2025-11-09,Vermont Catamounts,Brown Bears,130.5,173,OVER,84.92,NO,True,42.5
+2025-11-09,Marist Red Foxes,Dartmouth Big Green,139.5,131,OVER,62.739999999999995,NO,False,-8.5
+2025-11-09,Lipscomb Bisons,Mercer Bears,160.5,169,UNDER,54.4,NO,False,8.5
+2025-11-09,Lehigh Mountain Hawks,West Virginia Mountaineers,139.5,116,OVER,71.56,NO,False,-23.5
+2025-11-09,VMI Keydets,Missouri Tigers,160.5,174,OVER,60.51,NO,True,13.5
+2025-11-09,UC Davis Aggies,Portland Pilots,152.5,130,OVER,54.66,NO,False,-22.5
+2025-11-09,Grambling St Tigers,Howard Bison,155.5,143,UNDER,52.410000000000004,NO,True,-12.5
+2025-11-09,Washington Huskies,Baylor Bears,155.5,147,OVER,77.94,NO,False,-8.5
+2025-11-10,Columbia Lions,UConn Huskies,155.5,151,OVER,59.660000000000004,NO,False,-4.5
+2025-11-10,Fairfield Stags,Seton Hall Pirates,140.5,141,OVER,82.73,NO,True,0.5
+2025-11-10,Arkansas-Little Rock Trojans,Milwaukee Panthers,158.5,164,OVER,70.21,NO,True,5.5
+2025-11-10,New Orleans Privateers,LSU Tigers,158.5,151,OVER,68.85,NO,False,-7.5
+2025-11-10,Lindenwood Lions,Saint Louis Billikens,164.5,175,UNDER,56.230000000000004,NO,False,10.5
+2025-11-10,Santa Clara Broncos,Xavier Musketeers,157.5,155,OVER,50.33,NO,False,-2.5
+2025-11-10,Holy Cross Crusaders,Utah Utes,155.5,156,OVER,65.57,NO,True,0.5
+2025-11-11,LIU Sharks,Air Force Falcons,138.5,148,OVER,54.6,NO,True,9.5
+2025-11-11,Lipscomb Bisons,UNC Asheville Bulldogs,155.5,133,OVER,52.5,NO,False,-22.5
+2025-11-11,Wake Forest Demon Deacons,Michigan Wolverines,164.5,169,UNDER,57.16,NO,False,4.5
+2025-11-11,Alcorn St Braves,Maryland Terrapins,151.5,148,OVER,63.38,NO,False,-3.5
+2025-11-11,Bucknell Bison,Princeton Tigers,144.5,136,OVER,67.08,NO,False,-8.5
+2025-11-11,Davidson Wildcats,Charlotte 49ers,143.5,117,OVER,72.41,NO,False,-26.5
+2025-11-11,Dayton Flyers,Cincinnati Bearcats,146.5,136,OVER,52.980000000000004,NO,False,-10.5
+2025-11-11,Winthrop Eagles,Coastal Carolina Chanticleers,163.5,138,UNDER,56.93,NO,True,-25.5
+2025-11-11,Drexel Dragons,Colgate Raiders,137.5,173,OVER,79.07,NO,True,35.5
+2025-11-11,Florida A&M Rattlers,UCF Knights,167.5,157,UNDER,50.92,NO,True,-10.5
+2025-11-11,Wagner Seahawks,Fordham Rams,136.5,124,OVER,74.11999999999999,NO,False,-12.5
+2025-11-11,Northeastern Huskies,Harvard Crimson,143.5,137,OVER,74.29,NO,False,-6.5
+2025-11-11,Jacksonville Dolphins,High Point Panthers,156.5,149,OVER,53.290000000000006,NO,False,-7.5
+2025-11-11,La Salle Explorers,Temple Owls,150.5,153,OVER,83.05,NO,True,2.5
+2025-11-11,Radford Highlanders,North Carolina Tar Heels,155.5,163,OVER,74.33,NO,True,7.5
+2025-11-11,Pennsylvania Quakers,Providence Friars,170.5,187,OVER,59.34,NO,True,16.5
+2025-11-11,Stonehill Skyhawks,Rhode Island Rams,149.5,137,OVER,55.379999999999995,NO,False,-12.5
+2025-11-11,William & Mary Tribe,Richmond Spiders,157.5,176,OVER,64.58,NO,True,18.5
+2025-11-11,Sacred Heart Pioneers,Villanova Wildcats,159.5,154,OVER,62.83,NO,False,-5.5
+2025-11-11,Yale Bulldogs,Quinnipiac Bobcats,155.5,157,OVER,70.56,NO,True,1.5
+2025-11-11,Wofford Terriers,Auburn Tigers,153.5,155,OVER,74.64,NO,True,1.5
+2025-11-11,Buffalo Bulls,DePaul Blue Demons,153.5,119,OVER,67.36,NO,False,-34.5
+2025-11-11,Tulane Green Wave,Louisiana Ragin' Cajuns,136.5,128,OVER,93.61,MAYBE,False,-8.5
+2025-11-11,Kentucky Wildcats,Louisville Cardinals,175.5,184,UNDER,69.86,NO,False,8.5
+2025-11-11,Austin Peay Governors,Wyoming Cowboys,154.5,144,UNDER,51.29,NO,True,-10.5
+2025-11-11,Texas Tech Red Raiders,Illinois Fighting Illini,165.5,158,UNDER,53.07,NO,True,-7.5
+2025-11-11,Delaware Blue Hens,BYU Cougars,163.5,153,OVER,54.50000000000001,NO,False,-10.5
+2025-11-11,Hampton Pirates,Virginia Cavaliers,149.5,144,OVER,68.78,NO,False,-5.5
+2025-11-11,Memphis Tigers,Ole Miss Rebels,156.5,160,OVER,56.769999999999996,NO,True,3.5
+2025-11-11,UC Riverside Highlanders,New Mexico Lobos,143.5,150,OVER,81.28,NO,True,6.5
+2025-11-11,Creighton Bluejays,Gonzaga Bulldogs,167.5,153,UNDER,61.26,NO,True,-14.5
+2025-11-11,Montana Grizzlies,UNLV Rebels,156.5,195,OVER,76.27000000000001,NO,True,38.5
+2025-11-12,Binghamton Bearcats,Georgetown Hoyas,144.5,153,OVER,85.86,NO,True,8.5
+2025-11-12,Mercyhurst Lakers,Canisius Golden Griffins,140.5,113,UNDER,82.61,NO,True,-27.5
+2025-11-12,Elon Phoenix,Marshall Thundering Herd,152.5,185,OVER,79.07,NO,True,32.5
+2025-11-12,Milwaukee Panthers,Indiana Hoosiers,165.5,171,UNDER,54.230000000000004,NO,False,5.5
+2025-11-12,James Madison Dukes,Longwood Lancers,153.5,154,OVER,79.43,NO,True,0.5
+2025-11-12,North Florida Ospreys,Tennessee Volunteers,154.5,165,OVER,67.91,NO,True,10.5
+2025-11-12,Presbyterian Blue Hose,South Carolina Gamecocks,137.5,142,OVER,75.55,NO,True,4.5
+2025-11-12,Saint Joseph's Hawks,Virginia Tech Hokies,156.5,153,OVER,57.04,NO,False,-3.5
+2025-11-12,Saint Peter's Peacocks,VCU Rams,147.5,139,OVER,62.71,NO,False,-8.5
+2025-11-12,Siena Saints,St. Bonaventure Bonnies,140.5,141,OVER,87.45,NO,True,0.5
+2025-11-12,Arkansas-Little Rock Trojans,Marquette Golden Eagles,156.5,138,OVER,81.67,NO,False,-18.5
+2025-11-12,Oakland Golden Grizzlies,Houston Cougars,136.5,123,OVER,86.72,NO,False,-13.5
+2025-11-12,Minnesota Golden Gophers,Missouri Tigers,156.5,143,OVER,57.4,NO,False,-13.5
+2025-11-12,UNC Greensboro Spartans,NC State Wolfpack,155.5,174,OVER,73.91,NO,True,18.5
+2025-11-12,Nicholls St Colonels,Valparaiso Beacons,146.5,131,OVER,54.379999999999995,NO,False,-15.5
+2025-11-12,Tulsa Golden Hurricane,Oral Roberts Golden Eagles,159.5,175,OVER,67.47,NO,True,15.5
+2025-11-12,Samford Bulldogs,Texas Southern Tigers,152.5,183,OVER,62.81,NO,True,30.5
+2025-11-12,Dartmouth Big Green,Bryant Bulldogs,148.5,157,OVER,56.010000000000005,NO,True,8.5
+2025-11-12,Idaho Vandals,San Diego Toreros,158.5,152,OVER,71.24000000000001,NO,False,-6.5
+2025-11-13,Cornell Big Red,Lafayette Leopards,158.5,175,OVER,62.78,NO,True,16.5
+2025-11-13,Pittsburgh Panthers,West Virginia Mountaineers,134.5,120,OVER,80.64,NO,False,-14.5
+2025-11-13,Purdue Boilermakers,Alabama Crimson Tide,175.5,167,UNDER,56.080000000000005,NO,True,-8.5
+2025-11-13,Alcorn St Braves,Howard Bison,155.5,136,UNDER,50.04,NO,True,-19.5
+2025-11-13,UMass Lowell River Hawks,Columbia Lions,156.5,158,OVER,60.46,NO,True,1.5
+2025-11-13,Le Moyne Dolphins,Massachusetts Minutemen,157.5,174,OVER,66.25999999999999,NO,True,16.5
+2025-11-13,Monmouth Hawks,Seton Hall Pirates,138.5,128,OVER,76.92,NO,False,-10.5
+2025-11-13,Green Bay Phoenix,St. Thomas (MN) Tommies,154.5,141,OVER,62.160000000000004,NO,False,-13.5
+2025-11-14,Lehigh Mountain Hawks,Rutgers Scarlet Knights,140.5,156,OVER,74.07000000000001,NO,True,15.5
+2025-11-14,Hofstra Pride,Bucknell Bison,139.5,160,OVER,76.66,NO,True,20.5
+2025-11-14,Stonehill Skyhawks,Fairfield Stags,145.5,144,OVER,66.67,NO,False,-1.5
+2025-11-14,Fordham Rams,Iona Gaels,158.5,147,OVER,61.19,NO,False,-11.5
+2025-11-14,Louisiana Ragin' Cajuns,McNeese Cowboys,135.5,150,OVER,69.25,NO,True,14.5
+2025-11-14,CSU Bakersfield Roadrunners,Ole Miss Rebels,146.5,142,OVER,84.31,NO,False,-4.5
+2025-11-14,High Point Panthers,UAB Blazers,168.5,165,UNDER,54.93,NO,True,-3.5
+2025-11-14,New Orleans Privateers,Tulane Green Wave,154.5,148,OVER,73.03,NO,False,-6.5
+2025-11-14,Samford Bulldogs,Arkansas Razorbacks,161.5,154,OVER,52.580000000000005,NO,False,-7.5
+2025-11-14,East Texas A&M Lions,Rice Owls,147.5,135,OVER,57.91,NO,False,-12.5
+2025-11-14,Milwaukee Panthers,Texas Tech Red Raiders,163.5,143,UNDER,50.98,NO,True,-20.5
+2025-11-14,UCF Knights,Texas A&M Aggies,170.5,160,OVER,53.2,NO,False,-10.5
+2025-11-14,Xavier Musketeers,Iowa Hawkeyes,142.5,143,OVER,77.85,NO,True,0.5
+2025-11-14,Hampton Pirates,Brown Bears,143.5,135,OVER,52.370000000000005,NO,False,-8.5
+2025-11-14,Northwestern Wildcats,DePaul Blue Demons,139.5,160,OVER,81.61,NO,True,20.5
+2025-11-14,Cal Poly Mustangs,Montana Grizzlies,170.5,172,UNDER,54.31,NO,False,1.5
+2025-11-14,Colgate Raiders,Illinois Fighting Illini,164.5,149,OVER,53.81,NO,False,-15.5
+2025-11-14,Providence Friars,Colorado Buffaloes,163.5,185,OVER,74.69,NO,True,21.5
+2025-11-14,Georgia Tech Yellow Jackets,Georgia Bulldogs,149.5,179,OVER,64.42,NO,True,29.5
+2025-11-14,Michigan Wolverines,TCU Horned Frogs,157.5,130,OVER,52.23,NO,False,-27.5
+2025-11-14,Arizona Wildcats,UCLA Bruins,154.5,134,OVER,57.9,NO,False,-20.5
+2025-11-15,Clemson Tigers,Georgetown Hoyas,143.5,153,OVER,85.34,NO,True,9.5
+2025-11-15,Ohio Bobcats,Louisville Cardinals,175.5,187,UNDER,63.82,NO,False,11.5
+2025-11-15,Marshall Thundering Herd,Virginia Cavaliers,155.5,182,OVER,71.3,NO,True,26.5
+2025-11-15,Detroit Mercy Titans,Toledo Rockets,161.5,173,OVER,65.46,NO,True,11.5
+2025-11-15,Jacksonville Dolphins,VMI Keydets,151.5,136,OVER,51.160000000000004,NO,False,-15.5
+2025-11-15,Vermont Catamounts,Northeastern Huskies,136.5,159,OVER,87.64999999999999,NO,True,22.5
+2025-11-15,Stony Brook Seawolves,Yale Bulldogs,150.5,165,OVER,76.34,NO,True,14.5
+2025-11-15,Miami (OH) RedHawks,Air Force Falcons,143.5,137,OVER,68.66,NO,False,-6.5
+2025-11-15,Austin Peay Governors,UNC Greensboro Spartans,144.5,132,OVER,62.1,NO,False,-12.5
+2025-11-15,Wofford Terriers,Bellarmine Knights,158.5,180,OVER,65.35,NO,True,21.5
+2025-11-15,Boston College Eagles,Temple Owls,144.5,147,OVER,82.28,NO,True,2.5
+2025-11-15,Butler Bulldogs,SMU Mustangs,169.5,172,UNDER,61.69,NO,False,2.5
+2025-11-15,UTSA Roadrunners,Denver Pioneers,149.5,163,OVER,73.18,NO,True,13.5
+2025-11-15,New Hampshire Wildcats,George Mason Patriots,146.5,105,OVER,55.28999999999999,NO,False,-41.5
+2025-11-15,Princeton Tigers,Kansas Jayhawks,146.5,133,OVER,66.86999999999999,NO,False,-13.5
+2025-11-15,Maryland Terrapins,Marquette Golden Eagles,146.5,171,OVER,76.24,NO,True,24.5
+2025-11-15,Mercer Bears,Winthrop Eagles,164.5,174,UNDER,50.45,NO,False,9.5
+2025-11-15,Binghamton Bearcats,Longwood Lancers,148.5,172,OVER,78.64999999999999,NO,True,23.5
+2025-11-15,Idaho Vandals,UC San Diego Tritons,150.5,142,OVER,77.89,NO,False,-8.5
+2025-11-15,North Dakota Fighting Hawks,UC Riverside Highlanders,146.5,150,OVER,63.370000000000005,NO,True,3.5
+2025-11-15,Bowling Green Falcons,Davidson Wildcats,146.5,178,OVER,59.309999999999995,NO,True,31.5
+2025-11-15,BYU Cougars,UConn Huskies,153.5,170,OVER,67.49000000000001,NO,True,16.5
+2025-11-15,James Madison Dukes,LIU Sharks,147.5,167,OVER,83.64,NO,True,19.5
+2025-11-15,Oklahoma Sooners,Nebraska Cornhuskers,160.5,204,OVER,64.57000000000001,NO,True,43.5
+2025-11-15,Nevada Wolf Pack,Santa Clara Broncos,148.5,181,OVER,69.49,NO,True,32.5
+2025-11-15,Bethune-Cookman Wildcats,Dayton Flyers,148.5,173,OVER,61.35,NO,True,24.5
+2025-11-15,Belmont Bruins,Oral Roberts Golden Eagles,172.5,143,UNDER,70.75,NO,True,-29.5
+2025-11-15,Duquesne Dukes,Villanova Wildcats,149.5,164,OVER,77.22,NO,True,14.5
+2025-11-15,Gardner-Webb Bulldogs,Elon Phoenix,149.5,179,OVER,65.28,NO,True,29.5
+2025-11-15,Grand Canyon Antelopes,Saint Louis Billikens,170.5,142,UNDER,74.17,NO,True,-28.5
+2025-11-15,Southern Utah Thunderbirds,Omaha Mavericks,155.5,175,OVER,60.41,NO,True,19.5
+2025-11-15,Green Bay Phoenix,Minnesota Golden Gophers,146.5,137,OVER,66.06,NO,False,-9.5
+2025-11-15,Portland Pilots,Wyoming Cowboys,162.5,149,UNDER,56.96,NO,True,-13.5
+2025-11-15,Sam Houston St Bearkats,Utah Utes,156.5,164,OVER,67.15,NO,True,7.5
+2025-11-15,Bradley Braves,San Francisco Dons,147.5,139,OVER,71.87,NO,False,-8.5
+2025-11-16,Wagner Seahawks,UMBC Retrievers,144.5,141,OVER,69.02000000000001,NO,False,-3.5
+2025-11-16,Bryant Bulldogs,Valparaiso Beacons,146.5,118,UNDER,50.38,NO,True,-28.5
+2025-11-16,Charlotte 49ers,Virginia Tech Hokies,147.5,160,OVER,80.75,NO,True,12.5
+2025-11-16,Quinnipiac Bobcats,Maine Black Bears,139.5,134,OVER,67.97,NO,False,-5.5
+2025-11-16,UMass Lowell River Hawks,Wake Forest Demon Deacons,163.5,184,UNDER,51.25,NO,False,20.5
+2025-11-16,Houston Cougars,Auburn Tigers,139.5,145,OVER,83.67999999999999,NO,True,5.5
+2025-11-16,UNLV Rebels,Memphis Tigers,161.5,170,OVER,61.519999999999996,NO,True,8.5
+2025-11-16,Akron Zips,Purdue Boilermakers,160.5,176,OVER,79.53,NO,True,15.5
+2025-11-17,Florida A&M Rattlers,Georgia Bulldogs,170.5,144,UNDER,60.839999999999996,NO,True,-26.5
+2025-11-17,Colgate Raiders,Siena Saints,150.5,141,OVER,72.48,NO,False,-9.5
+2025-11-17,Lafayette Leopards,West Virginia Mountaineers,133.5,140,OVER,89.68,NO,True,6.5
+2025-11-17,Niagara Purple Eagles,Le Moyne Dolphins,144.5,142,OVER,79.38,NO,False,-2.5
+2025-11-17,VCU Rams,NC State Wolfpack,166.5,164,OVER,53.2,NO,False,-2.5
+2025-11-17,Oakland Golden Grizzlies,UCF Knights,160.5,170,OVER,73.22,NO,True,9.5
+2025-11-17,Saint Joseph's Hawks,Pennsylvania Quakers,162.5,157,OVER,52.59,NO,False,-5.5
+2025-11-17,Bucknell Bison,Pittsburgh Panthers,143.5,134,OVER,69.83,NO,False,-9.5
+2025-11-17,Prairie View Panthers,Missouri Tigers,163.5,164,OVER,60.040000000000006,NO,True,0.5
+2025-11-17,Rice Owls,Tennessee Volunteers,142.5,157,OVER,81.6,NO,True,14.5
+2025-11-17,Southern Utah Thunderbirds,Gonzaga Bulldogs,160.5,172,OVER,57.97,NO,True,11.5
+2025-11-18,American Eagles,Rutgers Scarlet Knights,145.5,151,OVER,64.21,NO,True,5.5
+2025-11-18,Vermont Catamounts,Buffalo Bulls,141.5,184,OVER,89.44,NO,True,42.5
+2025-11-18,Hampton Pirates,Boston College Eagles,138.5,115,OVER,68.26,NO,False,-23.5
+2025-11-18,Holy Cross Crusaders,Brown Bears,141.5,117,OVER,64.14,NO,False,-24.5
+2025-11-18,Saint Peter's Peacocks,Delaware Blue Hens,142.5,151,OVER,76.3,NO,True,8.5
+2025-11-18,NJIT Highlanders,Drexel Dragons,133.5,118,OVER,74.99,NO,False,-15.5
+2025-11-18,Jacksonville Dolphins,George Mason Patriots,135.5,136,OVER,68.58,NO,True,0.5
+2025-11-18,Princeton Tigers,Iona Gaels,152.5,158,OVER,71.88,NO,True,5.5
+2025-11-18,Towson Tigers,James Madison Dukes,135.5,156,OVER,82.67,NO,True,20.5
+2025-11-18,Navy Midshipmen,North Carolina Tar Heels,161.5,134,UNDER,53.67,NO,True,-27.5
+2025-11-18,New Hampshire Wildcats,Providence Friars,160.5,164,OVER,54.0,NO,True,3.5
+2025-11-18,New Haven Chargers,Seton Hall Pirates,127.5,113,OVER,72.41,NO,False,-14.5
+2025-11-18,Old Dominion Monarchs,Xavier Musketeers,150.5,168,OVER,75.2,NO,True,17.5
+2025-11-18,Radford Highlanders,South Carolina Gamecocks,155.5,145,OVER,68.84,NO,False,-10.5
+2025-11-18,Alcorn St Braves,LSU Tigers,157.5,188,OVER,70.04,NO,True,30.5
+2025-11-18,Winthrop Eagles,Arkansas Razorbacks,167.5,167,UNDER,54.33,NO,True,-0.5
+2025-11-18,Austin Peay Governors,Ole Miss Rebels,148.5,137,OVER,61.629999999999995,NO,False,-11.5
+2025-11-18,Gardner-Webb Bulldogs,DePaul Blue Demons,153.5,155,UNDER,62.89,NO,False,1.5
+2025-11-18,Montana Grizzlies,Texas A&M Aggies,164.5,167,OVER,56.720000000000006,NO,True,2.5
+2025-11-18,Rhode Island Rams,Yale Bulldogs,155.5,163,OVER,69.0,NO,True,7.5
+2025-11-18,Kansas Jayhawks,Duke Blue Devils,150.5,144,OVER,56.86,NO,False,-6.5
+2025-11-18,Grambling St Tigers,San Diego Toreros,149.5,146,OVER,81.25,NO,False,-3.5
+2025-11-18,Monmouth Hawks,Syracuse Orange,146.5,151,OVER,75.4,NO,True,4.5
+2025-11-18,New Orleans Privateers,Pepperdine Waves,154.5,169,OVER,53.059999999999995,NO,True,14.5
+2025-11-18,Rider Broncs,Texas Longhorns,143.5,164,OVER,77.96,NO,True,20.5
+2025-11-18,Presbyterian Blue Hose,California Golden Bears,145.5,124,OVER,66.64,NO,False,-21.5
+2025-11-18,Louisiana Ragin' Cajuns,Stanford Cardinal,138.5,159,OVER,88.42999999999999,NO,True,20.5
+2025-11-18,UC Davis Aggies,Nevada Wolf Pack,142.5,146,OVER,77.84,NO,True,3.5
+2025-11-19,Arizona Wildcats,UConn Huskies,157.5,138,OVER,57.02,NO,False,-19.5
+2025-11-19,Bellarmine Knights,Notre Dame Fighting Irish,150.5,165,OVER,74.29,NO,True,14.5
+2025-11-19,Bethune-Cookman Wildcats,Ohio Bobcats,159.5,149,UNDER,74.58,NO,True,-10.5
+2025-11-19,William & Mary Tribe,Bowling Green Falcons,165.5,156,UNDER,59.74,NO,True,-9.5
+2025-11-19,Bryant Bulldogs,Virginia Tech Hokies,148.5,139,OVER,61.69,NO,False,-9.5
+2025-11-19,Hofstra Pride,Temple Owls,145.5,157,OVER,88.01,NO,True,11.5
+2025-11-19,Howard Bison,Stetson Hatters,149.5,124,OVER,57.47,NO,False,-25.5
+2025-11-19,Villanova Wildcats,La Salle Explorers,144.5,125,OVER,78.60000000000001,NO,False,-19.5
+2025-11-19,North Florida Ospreys,Wofford Terriers,160.5,164,OVER,56.04,NO,True,3.5
+2025-11-19,VMI Keydets,Richmond Spiders,152.5,141,OVER,63.54,NO,False,-11.5
+2025-11-19,Dayton Flyers,Marquette Golden Eagles,152.5,148,OVER,59.4,NO,False,-4.5
+2025-11-19,Maine Black Bears,Merrimack Warriors,127.5,137,OVER,80.82000000000001,NO,True,9.5
+2025-11-19,Wyoming Cowboys,Sam Houston St Bearkats,159.5,148,UNDER,50.25,NO,True,-11.5
+2025-11-19,UMass Lowell River Hawks,Bradley Braves,149.5,164,OVER,71.07,NO,True,14.5
+2025-11-19,North Dakota Fighting Hawks,Creighton Bluejays,157.5,135,UNDER,51.660000000000004,NO,True,-22.5
+2025-11-19,UC Irvine Anteaters,Utah Valley Wolverines,145.5,151,UNDER,50.09,NO,False,5.5
+2025-11-19,Lipscomb Bisons,Belmont Bruins,156.5,143,UNDER,51.73,NO,True,-13.5
+2025-11-19,Alabama Crimson Tide,Illinois Fighting Illini,182.5,176,UNDER,65.71000000000001,NO,True,-6.5
+2025-11-20,Lindenwood Lions,Indiana Hoosiers,160.5,126,UNDER,53.910000000000004,NO,True,-34.5
+2025-11-20,Robert Morris Colonials,St. Bonaventure Bonnies,146.5,136,OVER,71.74000000000001,NO,False,-10.5
+2025-11-20,Brown Bears,Stony Brook Seawolves,136.5,150,OVER,71.41999999999999,NO,True,13.5
+2025-11-20,Colgate Raiders,Cornell Big Red,162.5,189,OVER,59.81999999999999,NO,True,26.5
+2025-11-20,LIU Sharks,Fordham Rams,147.5,122,OVER,55.26,NO,False,-25.5
+2025-11-20,Mercyhurst Lakers,Miami (OH) RedHawks,144.5,147,OVER,67.13,NO,True,2.5
+2025-11-20,Northeastern Huskies,Princeton Tigers,148.5,127,OVER,61.09,NO,False,-21.5
+2025-11-20,Pittsburgh Panthers,UCF Knights,154.5,144,OVER,69.58,NO,False,-10.5
+2025-11-20,Texas Southern Tigers,Vanderbilt Commodores,169.5,183,UNDER,50.61,NO,False,13.5
+2025-11-20,Oral Roberts Golden Eagles,Oklahoma Sooners,163.5,166,OVER,60.91,NO,True,2.5
+2025-11-20,South Dakota Coyotes,Missouri Tigers,173.5,170,OVER,50.63999999999999,NO,False,-3.5
+2025-11-20,Cal Poly Mustangs,Utah Utes,168.5,177,OVER,50.29,NO,True,8.5
+2025-11-20,Rider Broncs,Houston Cougars,131.5,136,OVER,88.1,NO,True,4.5
+2025-11-20,Saint Joseph's Hawks,UNLV Rebels,159.5,184,OVER,63.580000000000005,NO,True,24.5
+2025-11-21,Green Bay Phoenix,Yale Bulldogs,152.5,140,OVER,78.21000000000001,NO,False,-12.5
+2025-11-21,Davidson Wildcats,Boston College Eagles,137.5,108,OVER,69.58,NO,False,-29.5
+2025-11-21,Northwestern Wildcats,Virginia Cavaliers,145.5,161,OVER,81.64,NO,True,15.5
+2025-11-21,Iona Gaels,Akron Zips,171.5,171,OVER,60.12,NO,False,-0.5
+2025-11-21,Columbia Lions,Lehigh Mountain Hawks,144.5,149,OVER,72.02,NO,True,4.5
+2025-11-21,Lafayette Leopards,Stonehill Skyhawks,143.5,144,OVER,67.08,NO,True,0.5
+2025-11-21,Louisville Cardinals,Cincinnati Bearcats,162.5,138,UNDER,62.12,NO,True,-24.5
+2025-11-21,West Virginia Mountaineers,Clemson Tigers,134.5,137,OVER,82.15,NO,True,2.5
+2025-11-21,Pennsylvania Quakers,Drexel Dragons,153.5,152,OVER,57.34,NO,False,-1.5
+2025-11-21,Merrimack Warriors,Florida Gators,160.5,125,UNDER,61.1,NO,True,-35.5
+2025-11-21,Holy Cross Crusaders,Sacred Heart Pioneers,150.5,145,OVER,76.12,NO,False,-5.5
+2025-11-21,South Alabama Jaguars,UAB Blazers,150.5,152,OVER,56.3,NO,True,1.5
+2025-11-21,Austin Peay Governors,Tulsa Golden Hurricane,147.5,159,OVER,66.31,NO,True,11.5
+2025-11-21,Omaha Mavericks,LSU Tigers,164.5,172,OVER,78.57,NO,True,7.5
+2025-11-21,Manhattan Jaspers,Texas A&M Aggies,165.5,177,OVER,63.339999999999996,NO,True,11.5
+2025-11-21,UC Davis Aggies,Colorado Buffaloes,154.5,174,OVER,65.57,NO,True,19.5
+2025-11-21,Georgia Bulldogs,Xavier Musketeers,164.5,155,UNDER,52.67,NO,True,-9.5
+2025-11-21,UC Riverside Highlanders,San Diego Toreros,152.5,156,OVER,77.01,NO,True,3.5
+2025-11-21,Louisiana Ragin' Cajuns,Santa Clara Broncos,140.5,123,OVER,83.98,NO,False,-17.5
+2025-11-21,Presbyterian Blue Hose,UCLA Bruins,129.5,132,OVER,86.88,NO,True,2.5
+2025-11-22,Wagner Seahawks,Georgetown Hoyas,137.5,167,OVER,86.29,NO,True,29.5
+2025-11-22,NJIT Highlanders,Navy Midshipmen,141.5,156,OVER,73.59,NO,True,14.5
+2025-11-22,Fairfield Stags,Le Moyne Dolphins,150.5,180,OVER,80.61,NO,True,29.5
+2025-11-22,LIU Sharks,Illinois Fighting Illini,162.5,156,OVER,59.9,NO,False,-6.5
+2025-11-22,UMass Lowell River Hawks,Saint Peter's Peacocks,153.5,134,OVER,54.24,NO,False,-19.5
+2025-11-22,UC Santa Barbara Gauchos,Nevada Wolf Pack,147.5,141,OVER,78.46,NO,False,-6.5
+2025-11-22,San Francisco Dons,Minnesota Golden Gophers,141.5,142,OVER,73.9,NO,True,0.5
+2025-11-22,North Dakota Fighting Hawks,Coastal Carolina Chanticleers,147.5,133,OVER,57.730000000000004,NO,False,-14.5
+2025-11-22,Gardner-Webb Bulldogs,Richmond Spiders,154.5,169,OVER,54.059999999999995,NO,True,14.5
+2025-11-22,VMI Keydets,Stetson Hatters,150.5,179,OVER,59.62,NO,True,28.5
+2025-11-23,Clemson Tigers,Georgia Bulldogs,156.5,191,OVER,58.3,NO,True,34.5
+2025-11-23,Alcorn St Braves,Oklahoma Sooners,162.5,125,OVER,51.31,NO,False,-37.5
+2025-11-23,Brown Bears,Maine Black Bears,126.5,111,OVER,76.59,NO,False,-15.5
+2025-11-23,Longwood Lancers,Columbia Lions,151.5,165,OVER,74.16,NO,True,13.5
+2025-11-23,Old Dominion Monarchs,Drexel Dragons,142.5,146,OVER,75.56,NO,True,3.5
+2025-11-23,Butler Bulldogs,Virginia Cavaliers,154.5,153,OVER,73.11999999999999,NO,False,-1.5
+2025-11-23,Robert Morris Colonials,Monmouth Hawks,148.5,141,OVER,66.36,NO,False,-7.5
+2025-11-23,West Virginia Mountaineers,Xavier Musketeers,140.5,146,OVER,74.18,NO,True,5.5
+2025-11-23,Howard Bison,Duke Blue Devils,151.5,149,OVER,61.3,NO,False,-2.5
+2025-11-23,Quinnipiac Bobcats,Pittsburgh Panthers,142.5,158,OVER,75.47,NO,True,15.5
+2025-11-23,Northwestern Wildcats,South Carolina Gamecocks,139.5,156,OVER,86.53999999999999,NO,True,16.5
+2025-11-23,Bryant Bulldogs,UConn Huskies,148.5,121,OVER,59.589999999999996,NO,False,-27.5
+2025-11-23,Detroit Mercy Titans,DePaul Blue Demons,149.5,170,OVER,73.24000000000001,NO,True,20.5
+2025-11-23,Tulane Green Wave,Boston College Eagles,138.5,183,OVER,84.17999999999999,NO,True,44.5
+2025-11-23,Mercyhurst Lakers,Marshall Thundering Herd,152.5,129,UNDER,73.32,NO,True,-23.5
+2025-11-23,Akron Zips,Evansville Purple Aces,156.5,156,OVER,70.36,NO,False,-0.5
+2025-11-24,Toledo Rockets,Troy Trojans,160.5,143,OVER,54.53,NO,False,-17.5
+2025-11-24,Bucknell Bison,Bowling Green Falcons,147.5,137,OVER,58.440000000000005,NO,False,-10.5
+2025-11-24,Liberty Flames,Vermont Catamounts,145.5,152,OVER,79.33,NO,True,6.5
+2025-11-24,Seton Hall Pirates,NC State Wolfpack,144.5,159,OVER,86.4,NO,True,14.5
+2025-11-24,Grambling St Tigers,UC Riverside Highlanders,146.5,157,OVER,73.58,NO,True,10.5
+2025-11-24,Green Bay Phoenix,Iona Gaels,155.5,155,OVER,72.15,NO,False,-0.5
+2025-11-24,Notre Dame Fighting Irish,Kansas Jayhawks,141.5,132,OVER,73.32,NO,False,-9.5
+2025-11-24,Temple Owls,UC San Diego Tritons,150.5,167,OVER,89.1,NO,True,16.5
+2025-11-24,Siena Saints,Holy Cross Crusaders,139.5,142,OVER,91.17,MAYBE,True,2.5
+2025-11-24,Syracuse Orange,Houston Cougars,138.5,152,OVER,82.95,NO,True,13.5
+2025-11-24,Bellarmine Knights,The Citadel Bulldogs,157.5,128,OVER,65.28,NO,False,-29.5
+2025-11-24,Princeton Tigers,Bradley Braves,140.5,152,OVER,81.08,NO,True,11.5
+2025-11-24,NJIT Highlanders,Cincinnati Bearcats,138.5,161,OVER,69.31,NO,True,22.5
+2025-11-24,Radford Highlanders,SMU Mustangs,165.5,161,OVER,54.7,NO,False,-4.5
+2025-11-24,Yale Bulldogs,Akron Zips,154.5,191,OVER,90.08,MAYBE,True,36.5
+2025-11-24,Louisiana Ragin' Cajuns,UC Davis Aggies,137.5,133,OVER,84.11999999999999,NO,False,-4.5
+2025-11-24,Denver Pioneers,Arizona Wildcats,158.5,176,OVER,70.1,NO,True,17.5
+2025-11-25,Stony Brook Seawolves,Bethune-Cookman Wildcats,147.5,115,OVER,54.52,NO,False,-32.5
+2025-11-25,Towson Tigers,Liberty Flames,136.5,141,OVER,78.58000000000001,NO,True,4.5
+2025-11-25,Notre Dame Fighting Irish,Rutgers Scarlet Knights,143.5,131,OVER,68.69,NO,False,-12.5
+2025-11-25,Pacific Tigers,Jacksonville Dolphins,139.5,121,OVER,68.47999999999999,NO,False,-18.5
+2025-11-25,Rhode Island Rams,Vermont Catamounts,147.5,145,OVER,73.99,NO,False,-2.5
+2025-11-25,Syracuse Orange,Kansas Jayhawks,147.5,131,OVER,73.72999999999999,NO,False,-16.5
+2025-11-25,UC San Diego Tritons,Bradley Braves,147.5,164,OVER,76.27000000000001,NO,True,16.5
+2025-11-25,St. Bonaventure Bonnies,North Carolina Tar Heels,153.5,155,OVER,60.77,NO,True,1.5
+2025-11-25,Houston Christian Huskies,Bellarmine Knights,148.5,143,OVER,82.54,NO,False,-5.5
+2025-11-25,Campbell Fighting Camels,Wake Forest Demon Deacons,156.5,150,OVER,61.83,NO,False,-6.5
+2025-11-25,Lehigh Mountain Hawks,Marist Red Foxes,130.5,133,OVER,77.69,NO,True,2.5
+2025-11-25,Old Dominion Monarchs,Villanova Wildcats,145.5,164,OVER,84.5,NO,True,18.5
+2025-11-25,Quinnipiac Bobcats,UCF Knights,163.5,193,OVER,56.97,NO,True,29.5
+2025-11-25,Temple Owls,Princeton Tigers,149.5,154,OVER,81.41000000000001,NO,True,4.5
+2025-11-25,Winthrop Eagles,Nebraska Cornhuskers,165.5,153,OVER,51.580000000000005,NO,False,-12.5
+2025-11-25,Oakland Golden Grizzlies,Montana Grizzlies,164.5,182,OVER,57.440000000000005,NO,True,17.5
+2025-11-25,UCLA Bruins,California Golden Bears,143.5,152,OVER,84.83000000000001,NO,True,8.5
+2025-11-26,Bowling Green Falcons,VMI Keydets,148.5,129,OVER,61.39,NO,False,-19.5
+2025-11-26,UMass Lowell River Hawks,Stonehill Skyhawks,150.5,139,OVER,57.089999999999996,NO,False,-11.5
+2025-11-26,Brown Bears,New Hampshire Wildcats,139.5,106,OVER,54.39000000000001,NO,False,-33.5
+2025-11-26,New Orleans Privateers,Texas Tech Red Raiders,155.5,132,OVER,63.92,NO,False,-23.5
+2025-11-26,Belmont Bruins,Toledo Rockets,162.5,159,OVER,61.46,NO,False,-3.5
+2025-11-26,Buffalo Bulls,Bucknell Bison,145.5,144,OVER,77.47,NO,False,-1.5
+2025-11-26,UIC Flames,Robert Morris Colonials,145.5,162,OVER,79.74,NO,True,16.5
+2025-11-26,Notre Dame Fighting Irish,Houston Cougars,134.5,122,OVER,77.12,NO,False,-12.5
+2025-11-26,Harvard Crimson,Boston College Eagles,139.5,133,OVER,72.41,NO,False,-6.5
+2025-11-26,Lipscomb Bisons,Marshall Thundering Herd,155.5,157,OVER,53.1,NO,True,1.5
+2025-11-26,Wagner Seahawks,Manhattan Jaspers,146.5,204,OVER,71.57,NO,True,57.5
+2025-11-26,Columbia Lions,Fairfield Stags,147.5,183,OVER,74.11,NO,True,35.5
+2025-11-26,Kansas Jayhawks,Tennessee Volunteers,139.5,157,OVER,85.72999999999999,NO,True,17.5
+2025-11-26,Tennessee Tech Golden Eagles,Kentucky Wildcats,157.5,158,OVER,56.42,NO,True,0.5
+2025-11-26,Denver Pioneers,Wyoming Cowboys,149.5,160,OVER,80.4,NO,True,10.5
+2025-11-26,NJIT Highlanders,Louisville Cardinals,155.5,151,OVER,66.06,NO,False,-4.5
+2025-11-26,Gonzaga Bulldogs,Michigan Wolverines,160.5,162,OVER,53.010000000000005,NO,True,1.5
+2025-11-26,NC State Wolfpack,Texas Longhorns,158.5,199,OVER,72.56,NO,True,40.5
+2025-11-27,Richmond Spiders,Furman Paladins,147.5,145,OVER,77.78,NO,False,-2.5
+2025-11-27,St. Bonaventure Bonnies,East Carolina Pirates,143.5,125,OVER,74.68,NO,False,-18.5
+2025-11-27,Colorado Buffaloes,San Francisco Dons,151.5,148,OVER,78.7,NO,False,-3.5
+2025-11-27,Oregon Ducks,Creighton Bluejays,153.5,142,OVER,63.83,NO,False,-11.5
+2025-11-27,TCU Horned Frogs,Florida Gators,155.5,164,OVER,54.52,NO,True,8.5
+2025-11-27,UNLV Rebels,Rutgers Scarlet Knights,153.5,145,OVER,70.52000000000001,NO,False,-8.5
+2025-11-27,Providence Friars,Wisconsin Badgers,165.5,187,OVER,65.36999999999999,NO,True,21.5
+2025-11-27,Saint Louis Billikens,Santa Clara Broncos,159.5,141,OVER,53.839999999999996,NO,False,-18.5
+2025-11-27,Georgetown Hoyas,Dayton Flyers,147.5,163,OVER,76.13,NO,True,15.5
+2025-11-27,Duke Blue Devils,Arkansas Razorbacks,156.5,151,OVER,58.43000000000001,NO,False,-5.5
+2025-11-27,Minnesota Golden Gophers,Stanford Cardinal,142.5,140,OVER,75.62,NO,False,-2.5

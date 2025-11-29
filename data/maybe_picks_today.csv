@@ -1,14 +1,8 @@
 game_time,away_team,home_team,standard_total,minimum_total,decision,hit_rate,sim_mean,sim_range,data_quality,defense_warning,tempo_warning
-17:00,Northeastern Huskies,Wake Forest Demon Deacons,152.5,141.5,MAYBE,81.7,157.2,95-228,high,False,False
-17:30,Illinois Fighting Illini,UConn Huskies,155.5,143.5,MAYBE,85.0,164.0,101-237,high,False,False
-19:00,Southern Utah Thunderbirds,Robert Morris Colonials,150.5,139.5,MAYBE,82.2,162.3,83-263,high,False,False
-19:00,Oklahoma Sooners,Marquette Golden Eagles,162.5,150.5,MAYBE,83.3,166.8,101-228,high,False,False
-20:00,Providence Friars,Florida Gators,165.5,153.5,MAYBE,84.1,168.3,118-223,high,True,False
-21:00,NJIT Highlanders,Eastern Michigan Eagles,143.5,131.5,MAYBE,91.5,161.0,87-236,high,True,False
-21:00,North Carolina A&T Aggies,Davidson Wildcats,148.5,136.5,MAYBE,87.0,157.2,99-216,high,False,False
-21:00,Maine Black Bears,American Eagles,135.5,123.5,MAYBE,86.7,146.6,83-233,high,False,False
-21:30,South Florida Bulls,Colorado St Rams,160.5,148.5,MAYBE,81.9,161.0,108-212,high,True,True
-21:30,Merrimack Warriors,Pennsylvania Quakers,153.5,141.5,MAYBE,80.1,160.1,81-250,high,False,False
-21:30,UC Santa Barbara Gauchos,Lehigh Mountain Hawks,148.5,136.5,MAYBE,86.2,157.0,99-227,high,False,False
-22:30,Wisconsin Badgers,TCU Horned Frogs,154.5,142.5,MAYBE,84.9,160.5,97-220,high,False,False
-00:00,Miami Hurricanes,Georgetown Hoyas,154.5,142.5,MAYBE,85.4,165.4,100-245,high,False,False
+21:30,Washington Huskies,Colorado Buffaloes,151.5,147.5,MAYBE,89.3,166.0,113-220,high,False,False
+00:00,Ohio State Buckeyes,Pittsburgh Panthers,148.5,137.5,MAYBE,93.0,159.6,105-214,high,True,True
+00:30,Colgate Raiders,Albany Great Danes,141.5,129.5,MAYBE,95.0,156.8,98-222,medium,False,False
+02:00,Sam Houston St Bearkats,Idaho Vandals,154.5,142.5,MAYBE,90.1,162.9,100-232,high,False,False
+02:30,BYU Cougars,Dayton Flyers,151.5,139.5,MAYBE,89.0,157.8,106-213,high,True,True
+02:30,Santa Clara Broncos,Minnesota Golden Gophers,139.5,127.5,MAYBE,93.6,153.1,98-227,high,False,True
+03:00,Stony Brook Seawolves,Loyola Marymount Lions,138.5,126.5,MAYBE,91.4,152.9,89-235,high,False,True

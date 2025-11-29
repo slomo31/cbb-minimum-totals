@@ -1066,27 +1066,23 @@ DASHBOARD_HTML = '''
                 <div class="legend">
                     <div class="legend-item">
                         <div class="legend-dot tier1"></div>
-                        <span>Tier 1: 99%+ & 35+ cushion (TBD)</span>
+                        <span>Tier 1: Sim≥155 & HR 80-85% (91.4%)</span>
                     </div>
                     <div class="legend-item">
                         <div class="legend-dot tier2"></div>
-                        <span>Tier 2: 99%+ & 30+ (TBD)</span>
+                        <span>Tier 2: Sim≥160 & HR 80-88% (86.2%)</span>
                     </div>
                     <div class="legend-item">
                         <div class="legend-dot tier3"></div>
-                        <span>Tier 3: 99%+ & 25+ (TBD)</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-dot tier4"></div>
-                        <span>Tier 4: 98%+ & 35+ (TBD)</span>
+                        <span>Tier 3: Max≥165 (89.3%)</span>
                     </div>
                 </div>
                 
                 <!-- Tier 1 -->
                 {% if max_games.tier1 %}
                 <div class="section-title">
-                    🔒 TIER 1 - LOCKS ({{ max_games.tier1|length }})
-                    <span class="backtest-badge">TBD backtest</span>
+                    🔒 TIER 1 - BEST ({{ max_games.tier1|length }})
+                    <span class="backtest-badge">91.4% backtest</span>
                 </div>
                 {% for game in max_games.tier1 %}
                 <div class="game-card tier1">
@@ -1129,8 +1125,8 @@ DASHBOARD_HTML = '''
                 <!-- Tier 2 -->
                 {% if max_games.tier2 %}
                 <div class="section-title">
-                    ✅ TIER 2 - VERY SAFE ({{ max_games.tier2|length }})
-                    <span class="backtest-badge">TBD backtest</span>
+                    ✅ TIER 2 - SAFE ({{ max_games.tier2|length }})
+                    <span class="backtest-badge">86.2% backtest</span>
                 </div>
                 {% for game in max_games.tier2 %}
                 <div class="game-card tier2">
@@ -1165,8 +1161,8 @@ DASHBOARD_HTML = '''
                 <!-- Tier 3 -->
                 {% if max_games.tier3 %}
                 <div class="section-title">
-                    ✅ TIER 3 - SAFE ({{ max_games.tier3|length }})
-                    <span class="backtest-badge">TBD backtest</span>
+                    ⚠️ TIER 3 - VOLUME ({{ max_games.tier3|length }})
+                    <span class="backtest-badge">89.3% backtest</span>
                 </div>
                 {% for game in max_games.tier3 %}
                 <div class="game-card tier3">
@@ -1198,44 +1194,8 @@ DASHBOARD_HTML = '''
                 {% endfor %}
                 {% endif %}
                 
-                <!-- Tier 4 -->
-                {% if max_games.tier4 %}
-                <div class="section-title">
-                    ⚠️ TIER 4 - FLOOR ({{ max_games.tier4|length }})
-                    <span class="backtest-badge">TBD backtest</span>
-                </div>
-                {% for game in max_games.tier4 %}
-                <div class="game-card tier4">
-                    <div class="game-header" onclick="toggleDetails(this)">
-                        <div>
-                            <div class="game-teams">{{ game.away_team }} @ {{ game.home_team }}</div>
-                            <div class="game-meta">UNDER {{ game.maximum_total }} • Cushion: +{{ "%.1f"|format(game.cushion) }}</div>
-                        </div>
-                        <div class="game-stats">
-                            <div class="hit-rate medium">{{ "%.1f"|format(game.under_hit_rate) }}%</div>
-                            <span class="game-badge tier4">TIER 4</span>
-                        </div>
-                    </div>
-                    <div class="game-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Maximum Total</span>
-                            <span class="detail-value">{{ game.maximum_total }}</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Under Rate</span>
-                            <span class="detail-value yellow">{{ "%.1f"|format(game.under_hit_rate) }}%</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Cushion</span>
-                            <span class="detail-value green">+{{ "%.1f"|format(game.cushion) }} pts</span>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-                {% endif %}
-                
                 <!-- Near Misses -->
-                {% if max_games.near_miss and not max_games.tier1 and not max_games.tier2 and not max_games.tier3 and not max_games.tier4 %}
+                {% if max_games.near_miss and not max_games.tier1 and not max_games.tier2 and not max_games.tier3 %}
                 <div class="section-title">
                     📋 Near Misses ({{ max_games.near_miss|length }})
                     <span class="tier-info">Close but didn't qualify</span>
@@ -1274,7 +1234,7 @@ DASHBOARD_HTML = '''
                 {% endfor %}
                 {% endif %}
                 
-                {% if not max_games.tier1 and not max_games.tier2 and not max_games.tier3 and not max_games.tier4 and not max_games.near_miss %}
+                {% if not max_games.tier1 and not max_games.tier2 and not max_games.tier3 and not max_games.near_miss %}
                 <div class="no-data">
                     No Elite Maximum (Under) picks available today.<br>
                     Run: python daily_max_picker.py

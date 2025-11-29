@@ -115,7 +115,7 @@ class MonteCarloSimulatorV3:
         print(f"   Calculated variance for {len(self.team_variance)} teams")
     
     def _find_barttorvik_team(self, name: str) -> Optional[pd.Series]:
-        """Find team in Barttorvik data with fuzzy matching."""
+        """Find team in Barttorvik data using comprehensive name matcher."""
         if self.barttorvik_df.empty:
             return None
         
@@ -124,207 +124,67 @@ class MonteCarloSimulatorV3:
             cached = self.name_cache[cache_key]
             if cached is None:
                 return None
-            return self.barttorvik_df[self.barttorvik_df['team'] == cached].iloc[0]
+            matches = self.barttorvik_df[self.barttorvik_df['team'] == cached]
+            if not matches.empty:
+                return matches.iloc[0]
+            return None
         
+        # Use the comprehensive team name matcher
+        try:
+            from team_name_matcher import normalize_team_name
+            canonical = normalize_team_name(name)
+            
+            if canonical:
+                # Find in Barttorvik data
+                for idx, row in self.barttorvik_df.iterrows():
+                    if row['team'] == canonical:
+                        self.name_cache[cache_key] = row['team']
+                        return row
+                    # Also try matching Barttorvik format (some use "St." vs "St")
+                    if row['team'].replace('.', '') == canonical.replace('.', ''):
+                        self.name_cache[cache_key] = row['team']
+                        return row
+        except ImportError:
+            pass  # Fall back to old matching if matcher not available
+        
+        # Fallback: direct matching with Barttorvik data
         name_lower = name.lower().strip()
         
-        # Remove common suffixes for matching
-        suffixes_to_remove = [
-            'wildcats', 'bulldogs', 'tigers', 'bears', 'eagles', 'hawks',
-            'cardinals', 'blue devils', 'tar heels', 'spartans', 'wolverines',
-            'hoyas', 'friars', 'billikens', 'broncos', 'gaels', 'flyers',
-            'cougars', 'huskies', 'cavaliers', 'fighting illini', 'boilermakers',
-            'mountaineers', 'razorbacks', 'crimson tide', 'volunteers', 'gators',
-            'seminoles', 'hurricanes', 'yellow jackets', 'demon deacons',
-            'red raiders', 'longhorns', 'sooners', 'jayhawks', 'cyclones',
-            'golden eagles', 'musketeers', 'bluejays', 'red storm', 'pirates',
-            'hoosiers', 'buckeyes', 'nittany lions', 'terrapins', 'badgers',
-            'hawkeyes', 'golden gophers', 'cornhuskers', 'scarlet knights'
-        ]
+        # Remove mascot names
+        mascots = ['wildcats', 'bulldogs', 'tigers', 'bears', 'eagles', 'hawks',
+                   'cardinals', 'panthers', 'lions', 'knights', 'warriors', 'bengals',
+                   'cougars', 'huskies', 'hornets', 'owls', 'rams', 'rebels', 'toreros',
+                   'blue devils', 'tar heels', 'spartans', 'wolverines', 'broncos',
+                   'volunteers', 'gators', 'seminoles', 'hurricanes', 'aggies', 'dons',
+                   'cowboys', 'sooners', 'jayhawks', 'cyclones', 'buckeyes', 'redhawks',
+                   'hoosiers', 'badgers', 'hawkeyes', 'terrapins', 'nittany lions', 'bobcats',
+                   'orange', 'ducks', 'beavers', 'golden bears', 'bruins', 'mavericks',
+                   'trojans', 'sun devils', 'buffaloes', 'utes', 'lobos', 'anteaters',
+                   'aztecs', 'falcons', 'mountaineers', 'red raiders', 'mean green',
+                   'longhorns', 'razorbacks', 'gamecocks', 'commodores', 'privateers',
+                   'crimson tide', 'fighting irish', 'hoyas', 'blue jays', 'golden grizzlies',
+                   'musketeers', 'explorers', 'billikens', 'flyers', 'dukes', 'jaguars',
+                   'gaels', 'friars', 'red storm', 'pirates', 'golden eagles', 'purple eagles']
         
-        clean_name = name_lower
-        for suffix in suffixes_to_remove:
-            clean_name = clean_name.replace(suffix, '').strip()
+        clean = name_lower
+        for mascot in mascots:
+            clean = clean.replace(mascot, '').strip()
         
-        # Also handle abbreviations
-        abbrev_map = {
-            'uconn': 'connecticut',
-            'unc': 'north carolina',
-            'lsu': 'lsu',
-            'tcu': 'tcu',
-            'smu': 'smu',
-            'byu': 'byu',
-            'vcu': 'vcu',
-            'ucf': 'ucf',
-            'usc': 'southern california',
-            'ucla': 'ucla',
-            'unlv': 'unlv',
-            'uni': 'northern iowa',
-            'unc': 'north carolina',
-            'uconn': 'connecticut',
-            'umass': 'massachusetts',
-            'utep': 'utep',
-            'utsa': 'ut san antonio',
-            'fiu': 'fiu',
-            'fau': 'fau',
-            'siu': 'southern illinois',
-            'niu': 'northern illinois',
-        }
-        
-        if clean_name in abbrev_map:
-            clean_name = abbrev_map[clean_name]
-        
-        # EXPLICIT MAPPINGS for problematic teams (exact match required)
-        explicit_map = {
-            'utah': 'Utah',
-            'utah utes': 'Utah',
-            'utah state': 'Utah St.',
-            'utah st': 'Utah St.',
-            'utah st.': 'Utah St.',
-            'northern iowa': 'Northern Iowa',
-            'uni': 'Northern Iowa',
-            'n. iowa': 'Northern Iowa',
-            'miami': 'Miami FL',
-            'miami fl': 'Miami FL',
-            'miami (fl)': 'Miami FL',
-            'miami hurricanes': 'Miami FL',
-            'miami ohio': 'Miami OH',
-            'miami (oh)': 'Miami OH',
-            'st. johns': "St. John's",
-            "st. john's": "St. John's",
-            'saint johns': "St. John's",
-            "saint john's": "St. John's",
-            # Florida schools - BE SPECIFIC
-            'florida': 'Florida',
-            'florida gators': 'Florida',
-            'florida atlantic': 'Florida Atlantic',
-            'florida atlantic owls': 'Florida Atlantic',
-            'fau': 'Florida Atlantic',
-            'fau owls': 'Florida Atlantic',
-            'florida state': 'Florida St.',
-            'florida st': 'Florida St.',
-            'florida st.': 'Florida St.',
-            'fsu': 'Florida St.',
-            'fsu seminoles': 'Florida St.',
-            'florida international': 'FIU',
-            'fiu': 'FIU',
-            'fiu panthers': 'FIU',
-            'ucf': 'UCF',
-            'ucf knights': 'UCF',
-            'central florida': 'UCF',
-            'south florida': 'South Florida',
-            'usf': 'South Florida',
-            'usf bulls': 'South Florida',
-            # George schools
-            'george mason': 'George Mason',
-            'george mason patriots': 'George Mason',
-            'george washington': 'George Washington',
-            'george washington colonials': 'George Washington',
-            'georgetown': 'Georgetown',
-            'georgetown hoyas': 'Georgetown',
-            'georgia': 'Georgia',
-            'georgia bulldogs': 'Georgia',
-            'georgia tech': 'Georgia Tech',
-            'georgia tech yellow jackets': 'Georgia Tech',
-            'georgia state': 'Georgia St.',
-            'georgia st': 'Georgia St.',
-            'georgia southern': 'Georgia Southern',
-            # Washington schools
-            'washington': 'Washington',
-            'washington huskies': 'Washington',
-            'washington state': 'Washington St.',
-            'washington st': 'Washington St.',
-            'washington st.': 'Washington St.',
-            # North Carolina schools  
-            'north carolina': 'North Carolina',
-            'unc': 'North Carolina',
-            'tar heels': 'North Carolina',
-            'north carolina tar heels': 'North Carolina',
-            'north carolina state': 'N.C. State',
-            'nc state': 'N.C. State',
-            'n.c. state': 'N.C. State',
-            'north carolina a&t': 'North Carolina A&T',
-            'nc a&t': 'North Carolina A&T',
-            'unc wilmington': 'UNC Wilmington',
-            'unc greensboro': 'UNC Greensboro',
-            'unc asheville': 'UNC Asheville',
-            'north carolina central': 'North Carolina Central',
-            # Indiana schools
-            'indiana': 'Indiana',
-            'indiana hoosiers': 'Indiana',
-            'indiana state': 'Indiana St.',
-            'indiana st': 'Indiana St.',
-            # Illinois schools
-            'illinois': 'Illinois',
-            'illinois fighting illini': 'Illinois',
-            'illinois state': 'Illinois St.',
-            'illinois st': 'Illinois St.',
-            # Chattanooga
-            'chattanooga': 'Chattanooga',
-            'chattanooga mocs': 'Chattanooga',
-            # North Alabama  
-            'north alabama': 'North Alabama',
-            'north alabama lions': 'North Alabama',
-        }
-        
-        if name_lower in explicit_map:
-            target = explicit_map[name_lower]
-            for idx, row in self.barttorvik_df.iterrows():
-                if row['team'] == target:
-                    self.name_cache[cache_key] = row['team']
-                    return row
-        
-        # Try to find match
+        # Try direct match
         for idx, row in self.barttorvik_df.iterrows():
-            team_lower = row['team'].lower()
-            
-            # Direct match
-            if team_lower == name_lower or team_lower == clean_name:
+            bt_lower = row['team'].lower()
+            if bt_lower == name_lower or bt_lower == clean:
                 self.name_cache[cache_key] = row['team']
                 return row
         
-        # STRICT partial match - require the search term to be a substantial part
+        # Try matching with "St." variations
         for idx, row in self.barttorvik_df.iterrows():
-            team_lower = row['team'].lower()
-            
-            # Only match if clean_name is significant portion AND at start/end
-            if len(clean_name) >= 4:
-                if team_lower.startswith(clean_name) or team_lower.endswith(clean_name):
-                    self.name_cache[cache_key] = row['team']
-                    return row
-                # Or exact word match (not substring)
-                if clean_name in team_lower.split():
-                    self.name_cache[cache_key] = row['team']
-                    return row
-            
-            # Word overlap
-            name_words = set(clean_name.split())
-            team_words = set(team_lower.split())
-            # Remove common words
-            common = {'st', 'st.', 'state', 'university', 'of', 'the'}
-            name_words -= common
-            team_words -= common
-            
-            if name_words and team_words and name_words & team_words:
-                # At least one meaningful word matches
-                overlap = name_words & team_words
-                if len(overlap) >= 1 and any(len(w) > 3 for w in overlap):
-                    self.name_cache[cache_key] = row['team']
-                    return row
-        
-        # Fuzzy match as last resort
-        best_match = None
-        best_score = 0.0
-        
-        for idx, row in self.barttorvik_df.iterrows():
-            score = SequenceMatcher(None, clean_name, row['team'].lower()).ratio()
-            if score > best_score:
-                best_score = score
-                best_match = row
-        
-        if best_score >= 0.6:
-            self.name_cache[cache_key] = best_match['team']
-            return best_match
+            bt_lower = row['team'].lower()
+            bt_normalized = bt_lower.replace('st.', 'state').replace(' st ', ' state ')
+            clean_normalized = clean.replace('st.', 'state').replace(' st ', ' state ')
+            if bt_normalized == clean_normalized:
+                self.name_cache[cache_key] = row['team']
+                return row
         
         self.name_cache[cache_key] = None
         return None
@@ -667,73 +527,80 @@ class MonteCarloSimulatorV3:
         if not floor_safe:
             result['floor_warning'] = True
         
-        # Decision logic - STRICTER VERSION
-        if hit_rate >= 95 and floor_safe:
-            result['decision'] = 'YES'
-            result['risk_factors'].append(f"✅ {hit_rate:.1f}% hit rate (very high)")
-        elif hit_rate >= 88 and floor_safe:
+        # ============================================================
+        # V3.4 OPTIMIZED DECISION LOGIC
+        # Based on backtest data:
+        # - 99%+ games are actually outliers (0-2 record)
+        # - 95-99% is the sweet spot (82-7, 92.1%)
+        # - 95-96% was perfect (26-0)
+        # ============================================================
+        
+        # Simple decision based on hit rate
+        # Note: 99%+ excluded as these tend to be outlier matchups
+        if hit_rate >= 95 and hit_rate < 99.5 and floor_safe:
             result['decision'] = 'YES'
             result['risk_factors'].append(f"✅ {hit_rate:.1f}% hit rate")
-        elif hit_rate >= 80:
+        elif hit_rate >= 99.5 and floor_safe:
+            # 99.5%+ games are suspicious - often weird matchups
+            result['decision'] = 'MAYBE'
+            result['risk_factors'].append(f"⚠️ {hit_rate:.1f}% hit rate (outlier - verify manually)")
+        elif hit_rate >= 88:
             result['decision'] = 'MAYBE'
             result['risk_factors'].append(f"⚠️ {hit_rate:.1f}% hit rate (borderline)")
         else:
             result['decision'] = 'NO'
             result['risk_factors'].append(f"🚫 {hit_rate:.1f}% hit rate")
         
-        # COUNT RISK FLAGS - cumulative penalty system
+        # MINIMAL FLAGS - only truly critical ones
         flag_count = 0
         
-        # 1. Elite defense flag
-        if sim['defense_warning']:
-            result['risk_factors'].append("🛡️ Elite defense in matchup")
-            flag_count += 1
-        
-        # 2. Good defense + bad offense
-        if has_good_defense and result['bad_offense_warning']:
-            result['risk_factors'].append("⚠️ Good defense vs bad offense")
-            flag_count += 1
-        
-        # 3. Both mediocre offenses
-        if both_mediocre:
-            result['risk_factors'].append("⚠️ Both teams have mediocre offense (<110 AdjO)")
-            flag_count += 1
-        
-        # 4. Slow tempo
-        if sim['tempo_warning'] or slow_game:
-            result['risk_factors'].append("🐢 Slow tempo in matchup")
-            flag_count += 1
-        
-        # 5. Road defense risk
-        if road_defense_risk:
-            result['risk_factors'].append("🛡️ Road team has good defense vs mediocre home offense")
-            flag_count += 1
-        
-        # 6. Floor risk - 10th percentile below minimum
+        # 1. Floor risk is critical - if 10th percentile is below minimum, dangerous
         if result['floor_warning']:
             result['risk_factors'].append(f"🚨 Floor risk: 10th pct ({sim['percentiles']['10th']:.0f}) below minimum")
             flag_count += 1
+            # Auto-downgrade if floor is at risk
+            if result['decision'] == 'YES':
+                result['decision'] = 'MAYBE'
+                result['risk_factors'].append("⚠️ Downgraded due to floor risk")
         
-        # 7. Data quality issues
-        if sim['data_quality'] in ['partial', 'low']:
-            result['risk_factors'].append(f"⚠️ Limited data ({sim['data_quality']})")
+        # 2. Data quality - if we don't have good data, can't trust the sim
+        if sim['data_quality'] == 'low':
+            result['risk_factors'].append(f"⚠️ Limited data - low confidence")
             flag_count += 1
+            if result['decision'] == 'YES':
+                result['decision'] = 'MAYBE'
+                result['risk_factors'].append("⚠️ Downgraded due to data quality")
         
-        # CUMULATIVE FLAG PENALTY - apply downgrade based on flag count
-        if result['decision'] == 'YES' and flag_count > 0:
-            # 1 flag: needs 96%+ to stay YES
-            # 2 flags: needs 97%+ to stay YES
-            # 3+ flags: auto-downgrade to MAYBE
-            required_hit_rate = 95 + flag_count  # 96, 97, 98, etc.
-            
-            if flag_count >= 3:
+        # 3. NEW D1 teams - limited historical data makes predictions unreliable
+        # These teams joined D1 recently (2024-25 or later)
+        new_d1_teams = {
+            'west georgia', 'west georgia wolves',
+            'southern indiana', 'southern indiana screaming eagles', 
+            'stonehill', 'stonehill skyhawks',
+            'queens', 'queens royals',
+            'lindenwood', 'lindenwood lions',
+            'texas a&m commerce', 'a&m commerce',
+            'le moyne', 'lemoyne', 'le moyne dolphins',
+        }
+        
+        home_is_new = home_team.lower() in new_d1_teams
+        away_is_new = away_team.lower() in new_d1_teams
+        
+        if home_is_new or away_is_new:
+            new_team = home_team if home_is_new else away_team
+            result['risk_factors'].append(f"🆕 New D1 team: {new_team} (limited data)")
+            flag_count += 1
+            if result['decision'] == 'YES':
                 result['decision'] = 'MAYBE'
-                result['risk_factors'].append(f"⚠️ Auto-downgraded: {flag_count} risk flags detected")
-            elif hit_rate < required_hit_rate:
-                result['decision'] = 'MAYBE'
-                result['risk_factors'].append(f"⚠️ Downgraded: {flag_count} flags require {required_hit_rate}%+ (had {hit_rate:.1f}%)")
-            else:
-                result['risk_factors'].append(f"✅ Passed {flag_count}-flag check (needed {required_hit_rate}%)")
+                result['risk_factors'].append("⚠️ Downgraded - new D1 team has unreliable data")
+        
+        # Informational flags (don't affect decision, just context)
+        if sim['defense_warning']:
+            result['risk_factors'].append("🛡️ Elite defense in matchup")
+        if sim['tempo_warning'] or slow_game:
+            result['risk_factors'].append("🐢 Slow tempo expected")
+        if both_mediocre:
+            result['risk_factors'].append("📉 Both teams have mediocre offense")
         
         # Store flag count for reference
         result['flag_count'] = flag_count

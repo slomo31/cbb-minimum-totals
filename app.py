@@ -200,7 +200,7 @@ def get_mc_stats():
     predictions = load_monte_carlo_picks()
     
     # Filter to YES picks
-    yes_picks = predictions[predictions['decision'] == 'YES'] if not predictions.empty else pd.DataFrame()
+    yes_picks = predictions[predictions['mc_category'] == 'YES'] if not predictions.empty else pd.DataFrame()
     
     if tracking.empty:
         pending = len(yes_picks) if not yes_picks.empty else 0
@@ -238,7 +238,7 @@ def get_legacy_stats():
     tracking = load_legacy_tracking()
     predictions = load_legacy_predictions()
     
-    yes_picks = predictions[predictions['decision'] == 'YES'] if not predictions.empty else pd.DataFrame()
+    yes_picks = predictions[predictions['mc_category'] == 'YES'] if not predictions.empty else pd.DataFrame()
     
     if tracking.empty:
         pending = len(yes_picks) if not yes_picks.empty else 0
@@ -370,7 +370,7 @@ def get_mc_games():
         no_picks = predictions[predictions['mc_category'] == 'NO'].copy()
     else:
         # Fall back to old format
-        yes_picks = predictions[predictions['decision'] == 'YES'].copy() if 'decision' in predictions.columns else pd.DataFrame()
+        yes_picks = predictions[predictions['mc_category'] == 'YES'].copy() if 'decision' in predictions.columns else pd.DataFrame()
         maybe_picks = predictions[predictions['decision'] == 'MAYBE'].copy() if 'decision' in predictions.columns else pd.DataFrame()
         no_picks = predictions[predictions['decision'] == 'NO'].copy() if 'decision' in predictions.columns else pd.DataFrame()
     
@@ -408,7 +408,7 @@ def get_legacy_games():
     if predictions.empty:
         return []
     
-    yes_picks = predictions[predictions['decision'] == 'YES'].copy()
+    yes_picks = predictions[predictions['mc_category'] == 'YES'].copy()
     
     if yes_picks.empty:
         return []

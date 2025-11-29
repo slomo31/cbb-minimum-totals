@@ -1,8 +1,11 @@
 game_time,away_team,home_team,standard_total,minimum_total,decision,hit_rate,sim_mean,sim_range,data_quality,defense_warning,tempo_warning
-21:30,Washington Huskies,Colorado Buffaloes,151.5,147.5,MAYBE,89.3,166.0,113-220,high,False,False
-00:00,Ohio State Buckeyes,Pittsburgh Panthers,148.5,137.5,MAYBE,93.0,159.6,105-214,high,True,True
-00:30,Colgate Raiders,Albany Great Danes,141.5,129.5,MAYBE,95.0,156.8,98-222,medium,False,False
-02:00,Sam Houston St Bearkats,Idaho Vandals,154.5,142.5,MAYBE,90.1,162.9,100-232,high,False,False
-02:30,BYU Cougars,Dayton Flyers,151.5,139.5,MAYBE,89.0,157.8,106-213,high,True,True
-02:30,Santa Clara Broncos,Minnesota Golden Gophers,139.5,127.5,MAYBE,93.6,153.1,98-227,high,False,True
-03:00,Stony Brook Seawolves,Loyola Marymount Lions,138.5,126.5,MAYBE,91.4,152.9,89-235,high,False,True
+17:00,Bethune-Cookman Wildcats,Indiana Hoosiers,149.5,137.5,MAYBE,89.6,163.4,96-241,partial,False,False
+18:00,Boston Univ. Terriers,Northern Kentucky Norse,148.5,136.5,MAYBE,92.6,160.3,99-228,partial,False,False
+18:00,Detroit Mercy Titans,Niagara Purple Eagles,143.5,131.5,MAYBE,92.8,154.4,101-227,medium,False,True
+19:00,South Carolina Upstate Spartans,Nebraska Cornhuskers,158.5,146.5,MAYBE,89.9,165.5,112-221,high,False,False
+19:00,Houston Christian Huskies,Georgia Southern Eagles,149.5,137.5,MAYBE,91.9,159.3,103-209,high,False,True
+19:00,Delaware St Hornets,UMBC Retrievers,142.5,130.5,MAYBE,93.3,157.0,94-223,high,False,False
+19:00,Southern Jaguars,Northwestern St Demons,146.5,135.5,MAYBE,91.0,158.6,95-231,medium,False,True
+21:00,Central Arkansas Bears,East Tennessee St Buccaneers,144.5,132.5,MAYBE,88.9,155.8,94-230,high,False,False
+21:00,Montana St Bobcats,Utah State Aggies,148.5,136.5,MAYBE,90.3,160.4,101-232,high,False,False
+22:00,UC Riverside Highlanders,Utah Tech Trailblazers,145.5,133.5,MAYBE,89.6,152.8,97-210,high,False,True

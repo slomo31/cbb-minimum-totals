@@ -1,0 +1,68 @@
+# ============================================================
+# 🏀 CBB DAILY WORKFLOW - UPDATED
+# ============================================================
+# Run this every morning before games start
+# ============================================================
+./morning_run.sh
+
+./evening_run.sh
+
+
+cd ~/Documents/cbb_minimum_system
+
+# 1. REFRESH BARTTORVIK DATA
+echo "📊 Fetching fresh Barttorvik data..."
+python fetch_barttorvik.py
+
+# 2. RUN THE PICKER
+echo "🎯 Running unified picker..."
+python unified_picker.py
+
+# 3. PUSH TO DASHBOARD
+echo "📤 Pushing to Render..."
+git add -A
+git commit -m "Daily picks $(date +%Y-%m-%d)"
+git push
+
+echo "✅ DONE - Dashboard: https://cbb-minimum-totals.onrender.com"
+
+# ============================================================
+# 🌙 EVENING WORKFLOW - Track Results
+# ============================================================
+# Run this after all games complete (usually 11pm-midnight)
+# ============================================================
+
+cd ~/Documents/cbb_minimum_system
+
+# 1. UPDATE GAME HISTORY (fetches completed scores)
+echo "📥 Fetching completed game scores..."
+python fetch_ncaa_games.py
+
+# 2. SCORE TODAY'S PICKS
+echo "📊 Scoring today's results..."
+python score_picks.py
+
+# 3. VIEW RESULTS
+echo "📈 Results:"
+cat data/tracking_results.csv | tail -20
+
+# ============================================================
+# 📋 QUICK REFERENCE
+# ============================================================
+# 
+# TIERS:
+#   🔒 TIER 1: 98%+ → 100% win rate  - Heavy bet (5%)
+#   ✅ TIER 2: 94%+ → 88.9% win rate - Normal bet (3%)
+#   🟢 TIER 3: 88%+ → 84.6% win rate - Light bet (2%)
+#   🟡 MAYBE:  80-88% → Track only
+#
+# KEY FILES:
+#   data/elite_picks.csv      - Today's picks with tiers
+#   data/monte_carlo_picks.csv - All analyzed games
+#   data/tracking_results.csv  - Historical results
+#   data/ncaa_games_history.csv - Game scores database
+#
+# DASHBOARD:
+#   https://cbb-minimum-totals.onrender.com
+#
+# ============================================================

@@ -10,6 +10,9 @@ A smart betting analysis system for college basketball alternate totals. Uses NC
 python master_workflow_mc.py    # Monte Carlo (14 picks)
 python master_workflow.py       # Legacy (61 picks)
 
+./morning_run.sh
+./evening_run.sh
+
 ## Every mornin easy command ##
 ~/Documents/cbb_minimum_system/daily_run.sh
 

@@ -1,51 +1,40 @@
 date,commence_time,away_team,home_team,standard_total,minimum_total,maximum_total,hit_rate,sim_mean,cushion,tier,tier_label,category,bet_size,qualified,mc_category
-2025-12-02,2025-12-03T00:00:00Z,Florida A&M Rattlers,Jacksonville Dolphins,137.5,125.5,149.5,79.5,161.6,36.1,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-02T23:00:00Z,Campbell Fighting Camels,Penn State Nittany Lions,155.5,143.5,167.5,79.4,169.1,25.6,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-02T17:05:00Z,Charleston Southern Buccaneers,Tenn-Martin Skyhawks,147.5,135.5,159.5,75.1,146.9,11.4,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T02:00:00Z,UConn Huskies,Kansas Jayhawks,143.5,131.5,155.5,74.9,143.8,12.3,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T02:30:00Z,North Carolina Tar Heels,Kentucky Wildcats,163.5,151.5,175.5,73.8,163.2,11.7,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T00:00:00Z,William & Mary Tribe,Duquesne Dukes,169.5,157.5,181.5,70.2,165.0,7.5,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T00:00:00Z,SIU-Edwardsville Cougars,North Florida Ospreys,154.5,142.5,166.5,67.9,149.9,7.4,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T02:00:00Z,Georgia Bulldogs,Florida St Seminoles,174.5,162.5,186.5,66.8,169.4,6.9,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T01:00:00Z,Sacramento St Hornets,Baylor Bears,159.5,147.5,171.5,62.7,152.5,5.0,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T02:00:00Z,Miami Hurricanes,Ole Miss Rebels,144.5,132.5,156.5,59.8,135.7,3.2,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T01:00:00Z,UT-Arlington Mavericks,Arkansas St Red Wolves,153.5,141.5,165.5,54.3,143.7,2.2,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T01:00:00Z,Sam Houston St Bearkats,Oklahoma St Cowboys,170.5,158.5,182.5,34.0,152.1,-6.4,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T00:00:00Z,Jackson St Tigers,Kennesaw St Owls,156.5,144.5,168.5,32.2,136.3,-8.2,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T01:00:00Z,Morehead St Eagles,Murray St Racers,157.5,145.5,169.5,29.2,136.1,-9.4,0,NO BET,NO,0%,False,NO
-2025-12-02,2025-12-03T01:00:00Z,Houston Christian Huskies,North Texas Mean Green,127.5,115.5,139.5,99.9,152.6,37.1,1,🔒 TIER 1 - LOCK (100%),LOCK,Heavy (5%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,New Mexico St Aggies,South Alabama Jaguars,137.5,125.5,149.5,99.5,170.2,44.7,1,🔒 TIER 1 - LOCK (100%),LOCK,Heavy (5%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,Tennessee Volunteers,Syracuse Orange,146.5,134.5,158.5,99.5,160.0,25.5,1,🔒 TIER 1 - LOCK (100%),LOCK,Heavy (5%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,East Tennessee St Buccaneers,Dayton Flyers,140.5,128.5,152.5,98.8,155.2,26.7,1,🔒 TIER 1 - LOCK (100%),LOCK,Heavy (5%),True,YES
-2025-12-02,2025-12-02T23:07:00Z,Lehigh Mountain Hawks,Binghamton Bearcats,139.5,127.5,151.5,98.0,153.8,26.3,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,Maryland-Eastern Shore Hawks,East Carolina Pirates,127.5,115.5,139.5,97.7,156.0,40.5,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,Iowa Hawkeyes,Michigan St Spartans,132.5,120.5,144.5,97.3,159.4,38.9,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T02:00:00Z,Missouri Tigers,Notre Dame Fighting Irish,148.5,136.5,160.5,97.3,161.9,25.4,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T03:00:00Z,UC San Diego Tritons,Nevada Wolf Pack,149.5,137.5,161.5,97.3,158.3,20.8,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T01:00:00Z,Purdue Boilermakers,Rutgers Scarlet Knights,145.5,133.5,157.5,97.1,159.2,25.7,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T01:00:00Z,Valparaiso Beacons,Marquette Golden Eagles,147.5,135.5,159.5,96.4,155.6,20.1,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T01:00:00Z,Washington St Cougars,Bradley Braves,151.5,139.5,163.5,96.3,159.4,19.9,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,Georgia St Panthers,Mercer Bears,153.5,141.5,165.5,96.2,173.5,32.0,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T00:30:00Z,Western Illinois Leathernecks,Drake Bulldogs,135.5,123.5,147.5,95.5,157.4,33.9,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,Texas A&M Aggies,Pittsburgh Panthers,150.5,138.5,162.5,94.6,157.9,19.4,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,Virginia Tech Hokies,South Carolina Gamecocks,151.5,139.5,163.5,94.6,159.9,20.4,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T03:00:00Z,Utah Utes,California Golden Bears,153.5,141.5,165.5,94.6,165.3,23.8,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,Eastern Michigan Eagles,Butler Bulldogs,150.5,138.5,162.5,93.2,165.4,26.9,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
-2025-12-02,2025-12-03T03:00:00Z,USC Trojans,Oregon Ducks,154.5,142.5,166.5,92.1,164.7,22.2,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,UNC Greensboro Spartans,UNC Asheville Bulldogs,143.5,131.5,155.5,91.4,156.6,25.1,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
-2025-12-02,2025-12-02T23:00:00Z,Stonehill Skyhawks,Bryant Bulldogs,132.5,120.5,144.5,89.8,143.2,22.7,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
-2025-12-02,2025-12-03T01:00:00Z,Central Michigan Chippewas,Loyola (Chi) Ramblers,140.5,128.5,152.5,89.7,150.9,22.4,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,Fairleigh Dickinson Knights,Providence Friars,165.5,153.5,177.5,88.6,173.6,20.1,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
-2025-12-02,2025-12-02T16:02:46Z,GW Revolutionaries,Army Knights,162.5,150.5,174.5,88.5,166.9,16.4,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
-2025-12-02,2025-12-03T03:00:00Z,Saint Louis Billikens,Loyola Marymount Lions,146.5,134.5,158.5,88.4,155.5,21.0,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
-2025-12-02,2025-12-03T00:00:00Z,Cornell Big Red,George Mason Patriots,153.5,141.5,165.5,87.5,164.1,22.6,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T01:00:00Z,Lindenwood Lions,Northern Illinois Huskies,147.5,135.5,159.5,87.5,166.6,31.1,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T00:00:00Z,Brown Bears,Rhode Island Rams,137.5,125.5,149.5,87.0,147.6,22.1,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T02:00:00Z,Stetson Hatters,Grand Canyon Antelopes,142.5,130.5,154.5,87.0,156.8,26.3,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T01:00:00Z,Wagner Seahawks,Maryland Terrapins,142.5,130.5,154.5,84.8,151.2,20.7,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T00:30:00Z,Winthrop Eagles,LIU Sharks,154.5,142.5,166.5,84.0,163.2,20.7,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T00:30:00Z,Grambling St Tigers,Tulane Green Wave,149.5,137.5,161.5,83.8,151.9,14.4,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T02:00:00Z,Nicholls St Colonels,Creighton Bluejays,144.5,132.5,156.5,83.1,147.5,15.0,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T00:30:00Z,Florida Gators,Duke Blue Devils,157.5,145.5,169.5,82.8,159.7,14.2,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T00:00:00Z,Oklahoma Sooners,Wake Forest Demon Deacons,159.5,147.5,171.5,82.4,164.5,17.0,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
-2025-12-02,2025-12-03T02:00:00Z,Abilene Christian Wildcats,Pepperdine Waves,136.5,124.5,148.5,82.4,147.5,23.0,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-07T19:00:00Z,Rider Broncs,Quinnipiac Bobcats,149.5,137.5,161.5,73.8,156.9,19.4,0,NO BET,NO,0%,False,NO
+2025-12-07,2025-12-07T18:00:00Z,Southern Indiana Screaming Eagles,Indiana St Sycamores,157.5,145.5,169.5,73.4,157.8,12.3,0,NO BET,NO,0%,False,NO
+2025-12-07,2025-12-07T20:00:00Z,UL Monroe Warhawks,Stephen F. Austin Lumberjacks,143.5,131.5,155.5,71.6,141.1,9.6,0,NO BET,NO,0%,False,NO
+2025-12-07,2025-12-07T19:00:00Z,UTSA Roadrunners,Alabama Crimson Tide,169.5,157.5,181.5,71.3,173.1,15.6,0,NO BET,NO,0%,False,NO
+2025-12-07,2025-12-07T19:00:00Z,Austin Peay Governors,UT Rio Grande Valley Vaqueros,150.5,138.5,162.5,70.8,159.5,21.0,0,NO BET,NO,0%,False,NO
+2025-12-07,2025-12-07T19:30:00Z,St. Francis (PA) Red Flash,Radford Highlanders,155.5,143.5,167.5,68.6,152.7,9.2,0,NO BET,NO,0%,False,NO
+2025-12-07,2025-12-08T02:00:00Z,North Florida Ospreys,Gonzaga Bulldogs,165.5,153.5,177.5,66.5,161.0,7.5,0,NO BET,NO,0%,False,NO
+2025-12-07,2025-12-07T18:00:00Z,Weber State Wildcats,St. Thomas (MN) Tommies,154.5,142.5,166.5,65.2,147.7,5.2,0,NO BET,NO,0%,False,NO
+2025-12-07,2025-12-07T22:00:00Z,Georgetown Hoyas,North Carolina Tar Heels,150.5,138.5,162.5,99.2,162.4,23.9,1,🔒 TIER 1 - LOCK (100%),LOCK,Heavy (5%),True,YES
+2025-12-07,2025-12-07T22:00:00Z,Alabama A&M Bulldogs,Lipscomb Bisons,143.5,131.5,155.5,98.4,172.2,40.7,1,🔒 TIER 1 - LOCK (100%),LOCK,Heavy (5%),True,YES
+2025-12-07,2025-12-07T22:30:00Z,TCU Horned Frogs,North Texas Mean Green,134.5,122.5,146.5,98.3,161.0,38.5,1,🔒 TIER 1 - LOCK (100%),LOCK,Heavy (5%),True,YES
+2025-12-07,2025-12-07T22:00:00Z,Nevada Wolf Pack,Washington St Cougars,152.5,140.5,164.5,98.0,159.1,18.6,1,🔒 TIER 1 - LOCK (100%),LOCK,Heavy (5%),True,YES
+2025-12-07,2025-12-07T19:00:00Z,Canisius Golden Griffins,Siena Saints,129.5,117.5,141.5,97.9,145.9,28.4,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
+2025-12-07,2025-12-07T21:00:00Z,Hofstra Pride,Pittsburgh Panthers,135.5,123.5,147.5,97.3,147.9,24.4,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
+2025-12-07,2025-12-07T23:00:00Z,Central Arkansas Bears,East Texas A&M Lions,141.5,129.5,153.5,97.2,159.2,29.7,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
+2025-12-07,2025-12-07T20:00:00Z,LSU Tigers,Texas Tech Red Raiders,151.5,139.5,163.5,96.9,163.5,24.0,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
+2025-12-07,2025-12-07T18:00:00Z,Central Connecticut St Blue Devils,Northeastern Huskies,139.5,127.5,151.5,95.9,154.9,27.4,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
+2025-12-07,2025-12-07T19:00:00Z,Utah State Aggies,Charlotte 49ers,141.5,129.5,153.5,95.6,162.1,32.6,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
+2025-12-07,2025-12-07T18:00:06Z,Missouri Tigers,Kansas Jayhawks,148.5,136.5,160.5,95.5,158.1,21.6,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
+2025-12-07,2025-12-07T18:00:00Z,Fairfield Stags,Merrimack Warriors,143.5,131.5,155.5,94.6,152.7,21.2,2,✅ TIER 2 - SAFE (88.9%),SAFE,Normal (3%),True,YES
+2025-12-07,2025-12-07T21:00:00Z,UNLV Rebels,Stanford Cardinal,162.5,150.5,174.5,93.3,171.1,20.6,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
+2025-12-07,2025-12-07T20:00:00Z,Alabama St Hornets,Tenn-Martin Skyhawks,144.5,132.5,156.5,93.1,161.5,29.0,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
+2025-12-07,2025-12-07T21:30:00Z,Belmont Bruins,Middle Tennessee Blue Raiders,152.5,140.5,164.5,92.9,159.0,18.5,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
+2025-12-07,2025-12-07T22:00:00Z,Creighton Bluejays,Nebraska Cornhuskers,153.5,141.5,165.5,92.7,163.2,21.7,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
+2025-12-07,2025-12-07T19:00:00Z,Saint Mary's Gaels,Davidson Wildcats,136.5,124.5,148.5,91.5,152.2,27.7,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
+2025-12-07,2025-12-07T19:00:00Z,UIC Flames,Yale Bulldogs,151.5,139.5,163.5,90.2,152.4,12.9,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
+2025-12-07,2025-12-07T19:00:00Z,Niagara Purple Eagles,Saint Peter's Peacocks,131.5,119.5,143.5,89.0,145.5,26.0,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
+2025-12-07,2025-12-07T19:00:00Z,Iona Gaels,Sacred Heart Pioneers,163.5,151.5,175.5,88.6,173.4,21.9,3,🟢 TIER 3 - YES (84.6%),YES,Light (2%),True,YES
+2025-12-07,2025-12-07T21:00:00Z,San Francisco Dons,Mississippi St Bulldogs,147.5,135.5,159.5,87.8,153.3,17.8,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-07T19:00:00Z,Florida Atlantic Owls,Florida Gulf Coast Eagles,154.5,142.5,166.5,87.2,159.7,17.2,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-07T20:00:00Z,Central Michigan Chippewas,Saint Louis Billikens,156.5,144.5,168.5,87.1,165.8,21.3,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-08T01:00:00Z,UTEP Miners,Seattle Redhawks,132.5,120.5,144.5,86.7,146.8,26.3,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-07T21:30:00Z,Northwestern St Demons,SE Louisiana Lions,137.5,125.5,149.5,86.6,150.2,24.7,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-07T17:00:00Z,Air Force Falcons,Navy Midshipmen,137.5,125.5,149.5,85.7,148.3,22.8,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-07T22:00:00Z,Green Bay Phoenix,Wright St Raiders,142.5,130.5,154.5,83.9,147.0,16.5,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-08T00:00:00Z,Cornell Big Red,Samford Bulldogs,164.5,152.5,176.5,82.6,171.8,19.3,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-07T21:00:00Z,Towson Tigers,UCF Knights,147.5,135.5,159.5,82.2,157.4,21.9,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-07T22:00:00Z,SMU Mustangs,Texas A&M Aggies,165.5,153.5,177.5,82.2,169.0,15.5,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE
+2025-12-07,2025-12-07T19:00:00Z,Manhattan Jaspers,Marist Red Foxes,140.5,128.5,152.5,81.1,152.7,24.2,4,🟡 MAYBE - Caution,MAYBE,Track only (1%),False,MAYBE

@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-08T08:26:31.989560",
+  "updated": "2025-12-09T00:06:59.636030",
   "source": "ncaa_api",
   "teams_analyzed": 429,
   "thresholds": {
@@ -44,15 +44,15 @@
       "risk": 18,
       "tier": 2
     },
-    "marist": {
-      "opp_ppg": 60.4,
-      "games": 8,
-      "risk": 18,
-      "tier": 2
-    },
     "uconn": {
       "opp_ppg": 60.4,
       "games": 9,
+      "risk": 18,
+      "tier": 2
+    },
+    "marist": {
+      "opp_ppg": 60.4,
+      "games": 8,
       "risk": 18,
       "tier": 2
     },
@@ -74,15 +74,15 @@
       "risk": 18,
       "tier": 2
     },
-    "iowa": {
-      "opp_ppg": 62.6,
-      "games": 9,
-      "risk": 18,
-      "tier": 2
-    },
     "lamar university": {
       "opp_ppg": 62.6,
       "games": 8,
+      "risk": 18,
+      "tier": 2
+    },
+    "iowa": {
+      "opp_ppg": 62.6,
+      "games": 9,
       "risk": 18,
       "tier": 2
     },
@@ -115,12 +115,12 @@
       "games": 2,
       "risk": 22
     },
-    "webster": {
+    "coe": {
       "ppg": 48.5,
       "games": 2,
       "risk": 22
     },
-    "coe": {
+    "webster": {
       "ppg": 48.5,
       "games": 2,
       "risk": 22
@@ -140,17 +140,7 @@
       "games": 3,
       "risk": 22
     },
-    "suny maritime": {
-      "ppg": 51.0,
-      "games": 2,
-      "risk": 22
-    },
     "southern va.": {
-      "ppg": 51.0,
-      "games": 2,
-      "risk": 22
-    },
-    "cleary": {
       "ppg": 51.0,
       "games": 2,
       "risk": 22
@@ -163,6 +153,16 @@
     "penn st.-shenango": {
       "ppg": 51.0,
       "games": 4,
+      "risk": 22
+    },
+    "suny maritime": {
+      "ppg": 51.0,
+      "games": 2,
+      "risk": 22
+    },
+    "cleary": {
+      "ppg": 51.0,
+      "games": 2,
       "risk": 22
     },
     "bryan": {
@@ -306,19 +306,341 @@
     }
   },
   "all_teams": {
-    "north florida": {
-      "ppg": 80.8,
-      "opp_ppg": 86.8,
-      "total_avg": 167.6,
-      "games": 9,
-      "seo": "north-florida"
-    },
-    "gonzaga": {
-      "ppg": 92.9,
-      "opp_ppg": 65.3,
-      "total_avg": 158.2,
+    "uiw": {
+      "ppg": 84.3,
+      "opp_ppg": 74.9,
+      "total_avg": 159.2,
       "games": 10,
-      "seo": "gonzaga"
+      "seo": "uiw"
+    },
+    "new orleans": {
+      "ppg": 73.4,
+      "opp_ppg": 82.2,
+      "total_avg": 155.6,
+      "games": 10,
+      "seo": "new-orleans"
+    },
+    "mississippi val.": {
+      "ppg": 67.1,
+      "opp_ppg": 90.4,
+      "total_avg": 157.5,
+      "games": 10,
+      "seo": "mississippi-val"
+    },
+    "kansas st.": {
+      "ppg": 86.7,
+      "opp_ppg": 77.2,
+      "total_avg": 163.9,
+      "games": 10,
+      "seo": "kansas-st"
+    },
+    "southern u.": {
+      "ppg": 89.7,
+      "opp_ppg": 79.9,
+      "total_avg": 169.6,
+      "games": 9,
+      "seo": "southern-u"
+    },
+    "texas": {
+      "ppg": 89.1,
+      "opp_ppg": 73.2,
+      "total_avg": 162.3,
+      "games": 10,
+      "seo": "texas"
+    },
+    "grambling": {
+      "ppg": 69.4,
+      "opp_ppg": 72.8,
+      "total_avg": 142.2,
+      "games": 9,
+      "seo": "grambling"
+    },
+    "southern miss.": {
+      "ppg": 77.9,
+      "opp_ppg": 72.5,
+      "total_avg": 150.4,
+      "games": 10,
+      "seo": "southern-miss"
+    },
+    "south carolina st.": {
+      "ppg": 63.5,
+      "opp_ppg": 88.2,
+      "total_avg": 151.7,
+      "games": 10,
+      "seo": "south-carolina-st"
+    },
+    "charleston so.": {
+      "ppg": 84.1,
+      "opp_ppg": 74.8,
+      "total_avg": 158.8,
+      "games": 12,
+      "seo": "charleston-so"
+    },
+    "lafayette": {
+      "ppg": 69.5,
+      "opp_ppg": 74.9,
+      "total_avg": 144.5,
+      "games": 11,
+      "seo": "lafayette"
+    },
+    "penn": {
+      "ppg": 79.2,
+      "opp_ppg": 77.9,
+      "total_avg": 157.1,
+      "games": 10,
+      "seo": "penn"
+    },
+    "kennesaw st.": {
+      "ppg": 97.2,
+      "opp_ppg": 75.2,
+      "total_avg": 172.4,
+      "games": 10,
+      "seo": "kennesaw-st"
+    },
+    "creighton": {
+      "ppg": 74.4,
+      "opp_ppg": 71.4,
+      "total_avg": 145.9,
+      "games": 9,
+      "seo": "creighton"
+    },
+    "nebraska": {
+      "ppg": 83.2,
+      "opp_ppg": 67.9,
+      "total_avg": 151.1,
+      "games": 9,
+      "seo": "nebraska"
+    },
+    "nevada": {
+      "ppg": 77.3,
+      "opp_ppg": 72.7,
+      "total_avg": 150.0,
+      "games": 10,
+      "seo": "nevada"
+    },
+    "washington st.": {
+      "ppg": 76.7,
+      "opp_ppg": 79.6,
+      "total_avg": 156.3,
+      "games": 10,
+      "seo": "washington-st"
+    },
+    "georgetown": {
+      "ppg": 78.4,
+      "opp_ppg": 74.8,
+      "total_avg": 153.2,
+      "games": 9,
+      "seo": "georgetown"
+    },
+    "north carolina": {
+      "ppg": 81.2,
+      "opp_ppg": 65.0,
+      "total_avg": 146.2,
+      "games": 9,
+      "seo": "north-carolina"
+    },
+    "smu": {
+      "ppg": 89.8,
+      "opp_ppg": 76.0,
+      "total_avg": 165.8,
+      "games": 10,
+      "seo": "smu"
+    },
+    "texas a&m": {
+      "ppg": 91.0,
+      "opp_ppg": 76.9,
+      "total_avg": 167.9,
+      "games": 10,
+      "seo": "texas-am"
+    },
+    "central ark.": {
+      "ppg": 73.6,
+      "opp_ppg": 73.5,
+      "total_avg": 147.1,
+      "games": 10,
+      "seo": "central-ark"
+    },
+    "east texas a&m": {
+      "ppg": 79.3,
+      "opp_ppg": 70.4,
+      "total_avg": 149.8,
+      "games": 9,
+      "seo": "tex-am-commerce"
+    },
+    "jacksonville st.": {
+      "ppg": 76.0,
+      "opp_ppg": 60.2,
+      "total_avg": 136.2,
+      "games": 8,
+      "seo": "jacksonville-st"
+    },
+    "tarleton st.": {
+      "ppg": 80.2,
+      "opp_ppg": 73.0,
+      "total_avg": 153.2,
+      "games": 11,
+      "seo": "tarleton-st"
+    },
+    "tcu": {
+      "ppg": 78.7,
+      "opp_ppg": 67.0,
+      "total_avg": 145.7,
+      "games": 9,
+      "seo": "tcu"
+    },
+    "north texas": {
+      "ppg": 70.2,
+      "opp_ppg": 65.1,
+      "total_avg": 135.3,
+      "games": 10,
+      "seo": "north-texas"
+    },
+    "belmont": {
+      "ppg": 85.6,
+      "opp_ppg": 66.7,
+      "total_avg": 152.3,
+      "games": 10,
+      "seo": "belmont"
+    },
+    "middle tenn.": {
+      "ppg": 79.6,
+      "opp_ppg": 73.3,
+      "total_avg": 152.9,
+      "games": 9,
+      "seo": "middle-tenn"
+    },
+    "northwestern st.": {
+      "ppg": 70.9,
+      "opp_ppg": 82.7,
+      "total_avg": 153.6,
+      "games": 9,
+      "seo": "northwestern-st"
+    },
+    "southeastern la.": {
+      "ppg": 64.3,
+      "opp_ppg": 68.3,
+      "total_avg": 132.7,
+      "games": 9,
+      "seo": "southeastern-la"
+    },
+    "unlv": {
+      "ppg": 83.2,
+      "opp_ppg": 84.8,
+      "total_avg": 168.0,
+      "games": 9,
+      "seo": "unlv"
+    },
+    "stanford": {
+      "ppg": 81.9,
+      "opp_ppg": 72.2,
+      "total_avg": 154.1,
+      "games": 9,
+      "seo": "stanford"
+    },
+    "virginia-lynchburg": {
+      "ppg": 59.0,
+      "opp_ppg": 126.4,
+      "total_avg": 185.4,
+      "games": 8,
+      "seo": "virginia-lynchburg"
+    },
+    "campbell": {
+      "ppg": 84.4,
+      "opp_ppg": 79.1,
+      "total_avg": 163.6,
+      "games": 9,
+      "seo": "campbell"
+    },
+    "bowling green": {
+      "ppg": 88.3,
+      "opp_ppg": 65.8,
+      "total_avg": 154.1,
+      "games": 10,
+      "seo": "bowling-green"
+    },
+    "utep": {
+      "ppg": 73.5,
+      "opp_ppg": 72.4,
+      "total_avg": 145.9,
+      "games": 8,
+      "seo": "utep"
+    },
+    "seattle u": {
+      "ppg": 79.8,
+      "opp_ppg": 65.9,
+      "total_avg": 145.7,
+      "games": 9,
+      "seo": "seattle"
+    },
+    "towson": {
+      "ppg": 70.3,
+      "opp_ppg": 68.2,
+      "total_avg": 138.5,
+      "games": 10,
+      "seo": "towson"
+    },
+    "ucf": {
+      "ppg": 88.0,
+      "opp_ppg": 75.1,
+      "total_avg": 163.1,
+      "games": 9,
+      "seo": "ucf"
+    },
+    "mississippi st.": {
+      "ppg": 78.3,
+      "opp_ppg": 78.6,
+      "total_avg": 156.9,
+      "games": 9,
+      "seo": "mississippi-st"
+    },
+    "san francisco": {
+      "ppg": 74.6,
+      "opp_ppg": 67.9,
+      "total_avg": 142.5,
+      "games": 10,
+      "seo": "san-francisco"
+    },
+    "hofstra": {
+      "ppg": 77.3,
+      "opp_ppg": 70.3,
+      "total_avg": 147.6,
+      "games": 10,
+      "seo": "hofstra"
+    },
+    "pittsburgh": {
+      "ppg": 71.8,
+      "opp_ppg": 69.3,
+      "total_avg": 141.1,
+      "games": 10,
+      "seo": "pittsburgh"
+    },
+    "alabama a&m": {
+      "ppg": 65.9,
+      "opp_ppg": 73.9,
+      "total_avg": 139.8,
+      "games": 8,
+      "seo": "alabama-am"
+    },
+    "lipscomb": {
+      "ppg": 80.4,
+      "opp_ppg": 73.8,
+      "total_avg": 154.2,
+      "games": 10,
+      "seo": "lipscomb"
+    },
+    "ulm": {
+      "ppg": 71.0,
+      "opp_ppg": 80.2,
+      "total_avg": 151.2,
+      "games": 9,
+      "seo": "la-monroe"
+    },
+    "sfa": {
+      "ppg": 80.1,
+      "opp_ppg": 68.7,
+      "total_avg": 148.8,
+      "games": 9,
+      "seo": "stephen-f-austin"
     },
     "fla. atlantic": {
       "ppg": 78.4,
@@ -334,6 +656,62 @@
       "games": 10,
       "seo": "fgcu"
     },
+    "cornell": {
+      "ppg": 91.1,
+      "opp_ppg": 85.8,
+      "total_avg": 176.9,
+      "games": 10,
+      "seo": "cornell"
+    },
+    "samford": {
+      "ppg": 73.9,
+      "opp_ppg": 80.5,
+      "total_avg": 154.5,
+      "games": 11,
+      "seo": "samford"
+    },
+    "north florida": {
+      "ppg": 80.8,
+      "opp_ppg": 86.8,
+      "total_avg": 167.6,
+      "games": 9,
+      "seo": "north-florida"
+    },
+    "gonzaga": {
+      "ppg": 92.9,
+      "opp_ppg": 65.3,
+      "total_avg": 158.2,
+      "games": 10,
+      "seo": "gonzaga"
+    },
+    "texas tech": {
+      "ppg": 81.4,
+      "opp_ppg": 70.0,
+      "total_avg": 151.4,
+      "games": 9,
+      "seo": "texas-tech"
+    },
+    "lsu": {
+      "ppg": 88.4,
+      "opp_ppg": 69.9,
+      "total_avg": 158.3,
+      "games": 9,
+      "seo": "lsu"
+    },
+    "uic": {
+      "ppg": 77.2,
+      "opp_ppg": 73.2,
+      "total_avg": 150.4,
+      "games": 9,
+      "seo": "ill-chicago"
+    },
+    "yale": {
+      "ppg": 86.7,
+      "opp_ppg": 70.1,
+      "total_avg": 156.8,
+      "games": 11,
+      "seo": "yale"
+    },
     "saint francis": {
       "ppg": 69.3,
       "opp_ppg": 81.3,
@@ -347,13 +725,6 @@
       "total_avg": 157.9,
       "games": 11,
       "seo": "radford"
-    },
-    "mercer": {
-      "ppg": 84.7,
-      "opp_ppg": 74.6,
-      "total_avg": 159.2,
-      "games": 9,
-      "seo": "mercer"
     },
     "bethany (wv)": {
       "ppg": 58.0,
@@ -410,6 +781,20 @@
       "total_avg": 153.3,
       "games": 10,
       "seo": "quinnipiac"
+    },
+    "green bay": {
+      "ppg": 72.1,
+      "opp_ppg": 76.0,
+      "total_avg": 148.1,
+      "games": 11,
+      "seo": "green-bay"
+    },
+    "wright st.": {
+      "ppg": 79.0,
+      "opp_ppg": 66.0,
+      "total_avg": 145.0,
+      "games": 10,
+      "seo": "wright-st"
     },
     "austin peay": {
       "ppg": 76.3,
@@ -495,19 +880,12 @@
       "games": 9,
       "seo": "saint-louis"
     },
-    "uic": {
-      "ppg": 77.2,
-      "opp_ppg": 73.2,
-      "total_avg": 150.4,
+    "mercer": {
+      "ppg": 84.7,
+      "opp_ppg": 74.6,
+      "total_avg": 159.2,
       "games": 9,
-      "seo": "ill-chicago"
-    },
-    "yale": {
-      "ppg": 86.7,
-      "opp_ppg": 70.1,
-      "total_avg": 156.8,
-      "games": 11,
-      "seo": "yale"
+      "seo": "mercer"
     },
     "utsa": {
       "ppg": 72.6,
@@ -523,6 +901,13 @@
       "games": 9,
       "seo": "alabama"
     },
+    "army west point": {
+      "ppg": 73.5,
+      "opp_ppg": 77.7,
+      "total_avg": 151.2,
+      "games": 11,
+      "seo": "army"
+    },
     "weber st.": {
       "ppg": 85.0,
       "opp_ppg": 74.0,
@@ -536,111 +921,6 @@
       "total_avg": 150.3,
       "games": 11,
       "seo": "st-thomas-mn"
-    },
-    "fairfield": {
-      "ppg": 73.4,
-      "opp_ppg": 76.5,
-      "total_avg": 149.9,
-      "games": 10,
-      "seo": "fairfield"
-    },
-    "merrimack": {
-      "ppg": 65.8,
-      "opp_ppg": 74.0,
-      "total_avg": 139.8,
-      "games": 11,
-      "seo": "merrimack"
-    },
-    "southern ind.": {
-      "ppg": 73.7,
-      "opp_ppg": 77.7,
-      "total_avg": 151.4,
-      "games": 10,
-      "seo": "southern-ind"
-    },
-    "indiana st.": {
-      "ppg": 75.9,
-      "opp_ppg": 69.1,
-      "total_avg": 145.0,
-      "games": 10,
-      "seo": "indiana-st"
-    },
-    "central conn. st.": {
-      "ppg": 79.7,
-      "opp_ppg": 70.7,
-      "total_avg": 150.3,
-      "games": 9,
-      "seo": "central-conn-st"
-    },
-    "northeastern": {
-      "ppg": 72.1,
-      "opp_ppg": 73.3,
-      "total_avg": 145.4,
-      "games": 9,
-      "seo": "northeastern"
-    },
-    "missouri": {
-      "ppg": 87.4,
-      "opp_ppg": 70.1,
-      "total_avg": 157.5,
-      "games": 10,
-      "seo": "missouri"
-    },
-    "kansas": {
-      "ppg": 74.6,
-      "opp_ppg": 63.7,
-      "total_avg": 138.3,
-      "games": 10,
-      "seo": "kansas"
-    },
-    "air force": {
-      "ppg": 66.2,
-      "opp_ppg": 73.5,
-      "total_avg": 139.7,
-      "games": 11,
-      "seo": "air-force"
-    },
-    "navy": {
-      "ppg": 72.0,
-      "opp_ppg": 69.2,
-      "total_avg": 141.2,
-      "games": 11,
-      "seo": "navy"
-    },
-    "army west point": {
-      "ppg": 73.5,
-      "opp_ppg": 77.7,
-      "total_avg": 151.2,
-      "games": 11,
-      "seo": "army"
-    },
-    "cal st. fullerton": {
-      "ppg": 85.5,
-      "opp_ppg": 86.4,
-      "total_avg": 171.9,
-      "games": 10,
-      "seo": "cal-st-fullerton"
-    },
-    "hawaii": {
-      "ppg": 80.1,
-      "opp_ppg": 65.0,
-      "total_avg": 145.1,
-      "games": 10,
-      "seo": "hawaii"
-    },
-    "alabama st.": {
-      "ppg": 79.4,
-      "opp_ppg": 81.4,
-      "total_avg": 160.9,
-      "games": 9,
-      "seo": "alabama-st"
-    },
-    "ut martin": {
-      "ppg": 76.1,
-      "opp_ppg": 65.0,
-      "total_avg": 141.1,
-      "games": 9,
-      "seo": "ut-martin"
     },
     "iona": {
       "ppg": 83.0,
@@ -656,6 +936,34 @@
       "games": 9,
       "seo": "sacred-heart"
     },
+    "alabama st.": {
+      "ppg": 79.4,
+      "opp_ppg": 81.4,
+      "total_avg": 160.9,
+      "games": 9,
+      "seo": "alabama-st"
+    },
+    "ut martin": {
+      "ppg": 76.1,
+      "opp_ppg": 65.0,
+      "total_avg": 141.1,
+      "games": 9,
+      "seo": "ut-martin"
+    },
+    "cal st. fullerton": {
+      "ppg": 85.5,
+      "opp_ppg": 86.4,
+      "total_avg": 171.9,
+      "games": 10,
+      "seo": "cal-st-fullerton"
+    },
+    "hawaii": {
+      "ppg": 80.1,
+      "opp_ppg": 65.0,
+      "total_avg": 145.1,
+      "games": 10,
+      "seo": "hawaii"
+    },
     "ecclesia": {
       "ppg": 54.3,
       "opp_ppg": 99.7,
@@ -670,306 +978,1090 @@
       "games": 8,
       "seo": "louisiana-tech"
     },
-    "green bay": {
-      "ppg": 72.1,
-      "opp_ppg": 76.0,
-      "total_avg": 148.1,
+    "air force": {
+      "ppg": 66.2,
+      "opp_ppg": 73.5,
+      "total_avg": 139.7,
       "games": 11,
-      "seo": "green-bay"
+      "seo": "air-force"
     },
-    "wright st.": {
-      "ppg": 79.0,
-      "opp_ppg": 66.0,
+    "navy": {
+      "ppg": 72.0,
+      "opp_ppg": 69.2,
+      "total_avg": 141.2,
+      "games": 11,
+      "seo": "navy"
+    },
+    "central conn. st.": {
+      "ppg": 79.7,
+      "opp_ppg": 70.7,
+      "total_avg": 150.3,
+      "games": 9,
+      "seo": "central-conn-st"
+    },
+    "northeastern": {
+      "ppg": 72.1,
+      "opp_ppg": 73.3,
+      "total_avg": 145.4,
+      "games": 9,
+      "seo": "northeastern"
+    },
+    "southern ind.": {
+      "ppg": 73.7,
+      "opp_ppg": 77.7,
+      "total_avg": 151.4,
+      "games": 10,
+      "seo": "southern-ind"
+    },
+    "indiana st.": {
+      "ppg": 75.9,
+      "opp_ppg": 69.1,
       "total_avg": 145.0,
       "games": 10,
-      "seo": "wright-st"
+      "seo": "indiana-st"
     },
-    "texas tech": {
-      "ppg": 81.4,
-      "opp_ppg": 70.0,
-      "total_avg": 151.4,
-      "games": 9,
-      "seo": "texas-tech"
-    },
-    "lsu": {
-      "ppg": 88.4,
-      "opp_ppg": 69.9,
-      "total_avg": 158.3,
-      "games": 9,
-      "seo": "lsu"
-    },
-    "utep": {
-      "ppg": 73.5,
-      "opp_ppg": 72.4,
-      "total_avg": 145.9,
-      "games": 8,
-      "seo": "utep"
-    },
-    "seattle u": {
-      "ppg": 79.8,
-      "opp_ppg": 65.9,
-      "total_avg": 145.7,
-      "games": 9,
-      "seo": "seattle"
-    },
-    "cornell": {
-      "ppg": 91.1,
-      "opp_ppg": 85.8,
-      "total_avg": 176.9,
+    "fairfield": {
+      "ppg": 73.4,
+      "opp_ppg": 76.5,
+      "total_avg": 149.9,
       "games": 10,
-      "seo": "cornell"
+      "seo": "fairfield"
     },
-    "samford": {
-      "ppg": 73.9,
-      "opp_ppg": 80.5,
-      "total_avg": 154.5,
-      "games": 11,
-      "seo": "samford"
-    },
-    "central ark.": {
-      "ppg": 73.6,
-      "opp_ppg": 73.5,
-      "total_avg": 147.1,
-      "games": 10,
-      "seo": "central-ark"
-    },
-    "east texas a&m": {
-      "ppg": 79.3,
-      "opp_ppg": 70.4,
-      "total_avg": 149.8,
-      "games": 9,
-      "seo": "tex-am-commerce"
-    },
-    "tcu": {
-      "ppg": 78.7,
-      "opp_ppg": 67.0,
-      "total_avg": 145.7,
-      "games": 9,
-      "seo": "tcu"
-    },
-    "north texas": {
-      "ppg": 70.2,
-      "opp_ppg": 65.1,
-      "total_avg": 135.3,
-      "games": 10,
-      "seo": "north-texas"
-    },
-    "tarleton st.": {
-      "ppg": 80.2,
-      "opp_ppg": 73.0,
-      "total_avg": 153.2,
-      "games": 11,
-      "seo": "tarleton-st"
-    },
-    "jacksonville st.": {
-      "ppg": 76.0,
-      "opp_ppg": 60.2,
-      "total_avg": 136.2,
-      "games": 8,
-      "seo": "jacksonville-st"
-    },
-    "creighton": {
-      "ppg": 74.4,
-      "opp_ppg": 71.4,
-      "total_avg": 145.9,
-      "games": 9,
-      "seo": "creighton"
-    },
-    "nebraska": {
-      "ppg": 83.2,
-      "opp_ppg": 67.9,
-      "total_avg": 151.1,
-      "games": 9,
-      "seo": "nebraska"
-    },
-    "smu": {
-      "ppg": 89.8,
-      "opp_ppg": 76.0,
-      "total_avg": 165.8,
-      "games": 10,
-      "seo": "smu"
-    },
-    "texas a&m": {
-      "ppg": 91.0,
-      "opp_ppg": 76.9,
-      "total_avg": 167.9,
-      "games": 10,
-      "seo": "texas-am"
-    },
-    "georgetown": {
-      "ppg": 78.4,
-      "opp_ppg": 74.8,
-      "total_avg": 153.2,
-      "games": 9,
-      "seo": "georgetown"
-    },
-    "north carolina": {
-      "ppg": 81.2,
-      "opp_ppg": 65.0,
-      "total_avg": 146.2,
-      "games": 9,
-      "seo": "north-carolina"
-    },
-    "nevada": {
-      "ppg": 77.3,
-      "opp_ppg": 72.7,
-      "total_avg": 150.0,
-      "games": 10,
-      "seo": "nevada"
-    },
-    "washington st.": {
-      "ppg": 76.7,
-      "opp_ppg": 79.6,
-      "total_avg": 156.3,
-      "games": 10,
-      "seo": "washington-st"
-    },
-    "northwestern st.": {
-      "ppg": 70.9,
-      "opp_ppg": 82.7,
-      "total_avg": 153.6,
-      "games": 9,
-      "seo": "northwestern-st"
-    },
-    "southeastern la.": {
-      "ppg": 64.3,
-      "opp_ppg": 68.3,
-      "total_avg": 132.7,
-      "games": 9,
-      "seo": "southeastern-la"
-    },
-    "belmont": {
-      "ppg": 85.6,
-      "opp_ppg": 66.7,
-      "total_avg": 152.3,
-      "games": 10,
-      "seo": "belmont"
-    },
-    "middle tenn.": {
-      "ppg": 79.6,
-      "opp_ppg": 73.3,
-      "total_avg": 152.9,
-      "games": 9,
-      "seo": "middle-tenn"
-    },
-    "virginia-lynchburg": {
-      "ppg": 59.0,
-      "opp_ppg": 126.4,
-      "total_avg": 185.4,
-      "games": 8,
-      "seo": "virginia-lynchburg"
-    },
-    "campbell": {
-      "ppg": 84.4,
-      "opp_ppg": 79.1,
-      "total_avg": 163.6,
-      "games": 9,
-      "seo": "campbell"
-    },
-    "bowling green": {
-      "ppg": 88.3,
-      "opp_ppg": 65.8,
-      "total_avg": 154.1,
-      "games": 10,
-      "seo": "bowling-green"
-    },
-    "unlv": {
-      "ppg": 83.2,
-      "opp_ppg": 84.8,
-      "total_avg": 168.0,
-      "games": 9,
-      "seo": "unlv"
-    },
-    "stanford": {
-      "ppg": 81.9,
-      "opp_ppg": 72.2,
-      "total_avg": 154.1,
-      "games": 9,
-      "seo": "stanford"
-    },
-    "towson": {
-      "ppg": 70.3,
-      "opp_ppg": 68.2,
-      "total_avg": 138.5,
-      "games": 10,
-      "seo": "towson"
-    },
-    "ucf": {
-      "ppg": 88.0,
-      "opp_ppg": 75.1,
-      "total_avg": 163.1,
-      "games": 9,
-      "seo": "ucf"
-    },
-    "mississippi st.": {
-      "ppg": 78.3,
-      "opp_ppg": 78.6,
-      "total_avg": 156.9,
-      "games": 9,
-      "seo": "mississippi-st"
-    },
-    "san francisco": {
-      "ppg": 74.6,
-      "opp_ppg": 67.9,
-      "total_avg": 142.5,
-      "games": 10,
-      "seo": "san-francisco"
-    },
-    "hofstra": {
-      "ppg": 77.3,
-      "opp_ppg": 70.3,
-      "total_avg": 147.6,
-      "games": 10,
-      "seo": "hofstra"
-    },
-    "pittsburgh": {
-      "ppg": 71.8,
-      "opp_ppg": 69.3,
-      "total_avg": 141.1,
-      "games": 10,
-      "seo": "pittsburgh"
-    },
-    "alabama a&m": {
-      "ppg": 65.9,
-      "opp_ppg": 73.9,
+    "merrimack": {
+      "ppg": 65.8,
+      "opp_ppg": 74.0,
       "total_avg": 139.8,
-      "games": 8,
-      "seo": "alabama-am"
+      "games": 11,
+      "seo": "merrimack"
     },
-    "lipscomb": {
-      "ppg": 80.4,
-      "opp_ppg": 73.8,
-      "total_avg": 154.2,
+    "missouri": {
+      "ppg": 87.4,
+      "opp_ppg": 70.1,
+      "total_avg": 157.5,
       "games": 10,
-      "seo": "lipscomb"
+      "seo": "missouri"
     },
-    "ulm": {
-      "ppg": 71.0,
-      "opp_ppg": 80.2,
+    "kansas": {
+      "ppg": 74.6,
+      "opp_ppg": 63.7,
+      "total_avg": 138.3,
+      "games": 10,
+      "seo": "kansas"
+    },
+    "santa clara": {
+      "ppg": 80.8,
+      "opp_ppg": 69.3,
+      "total_avg": 150.1,
+      "games": 10,
+      "seo": "santa-clara"
+    },
+    "new mexico": {
+      "ppg": 82.2,
+      "opp_ppg": 69.0,
       "total_avg": 151.2,
       "games": 9,
-      "seo": "la-monroe"
+      "seo": "new-mexico"
     },
-    "sfa": {
-      "ppg": 80.1,
-      "opp_ppg": 68.7,
-      "total_avg": 148.8,
-      "games": 9,
-      "seo": "stephen-f-austin"
-    },
-    "delaware": {
-      "ppg": 68.9,
-      "opp_ppg": 75.9,
-      "total_avg": 144.8,
-      "games": 8,
-      "seo": "delaware"
-    },
-    "delaware st.": {
-      "ppg": 60.3,
-      "opp_ppg": 73.9,
-      "total_avg": 134.2,
+    "csu bakersfield": {
+      "ppg": 72.8,
+      "opp_ppg": 80.7,
+      "total_avg": 153.5,
       "games": 10,
-      "seo": "delaware-st"
+      "seo": "bakersfield"
+    },
+    "uc santa barbara": {
+      "ppg": 83.6,
+      "opp_ppg": 73.4,
+      "total_avg": 157.0,
+      "games": 10,
+      "seo": "uc-santa-barbara"
+    },
+    "uc san diego": {
+      "ppg": 83.4,
+      "opp_ppg": 72.1,
+      "total_avg": 155.6,
+      "games": 9,
+      "seo": "uc-san-diego"
+    },
+    "long beach st.": {
+      "ppg": 71.2,
+      "opp_ppg": 77.1,
+      "total_avg": 148.3,
+      "games": 10,
+      "seo": "long-beach-st"
+    },
+    "arkansas st.": {
+      "ppg": 80.8,
+      "opp_ppg": 79.6,
+      "total_avg": 160.4,
+      "games": 10,
+      "seo": "arkansas-st"
+    },
+    "little rock": {
+      "ppg": 66.1,
+      "opp_ppg": 78.8,
+      "total_avg": 144.9,
+      "games": 9,
+      "seo": "ualr"
+    },
+    "ark.-pine bluff": {
+      "ppg": 68.9,
+      "opp_ppg": 92.3,
+      "total_avg": 161.2,
+      "games": 10,
+      "seo": "ark-pine-bluff"
+    },
+    "depaul": {
+      "ppg": 77.6,
+      "opp_ppg": 71.0,
+      "total_avg": 148.6,
+      "games": 9,
+      "seo": "depaul"
+    },
+    "csun": {
+      "ppg": 75.9,
+      "opp_ppg": 79.4,
+      "total_avg": 155.3,
+      "games": 9,
+      "seo": "cal-st-northridge"
+    },
+    "uc irvine": {
+      "ppg": 79.5,
+      "opp_ppg": 63.9,
+      "total_avg": 143.5,
+      "games": 11,
+      "seo": "uc-irvine"
+    },
+    "auburn": {
+      "ppg": 85.9,
+      "opp_ppg": 76.7,
+      "total_avg": 162.6,
+      "games": 10,
+      "seo": "auburn"
+    },
+    "arizona": {
+      "ppg": 88.5,
+      "opp_ppg": 67.1,
+      "total_avg": 155.6,
+      "games": 8,
+      "seo": "arizona"
+    },
+    "rutgers": {
+      "ppg": 69.9,
+      "opp_ppg": 72.3,
+      "total_avg": 142.2,
+      "games": 10,
+      "seo": "rutgers"
+    },
+    "michigan": {
+      "ppg": 94.6,
+      "opp_ppg": 66.6,
+      "total_avg": 161.2,
+      "games": 8,
+      "seo": "michigan"
+    },
+    "howard": {
+      "ppg": 78.3,
+      "opp_ppg": 73.2,
+      "total_avg": 151.5,
+      "games": 10,
+      "seo": "howard"
+    },
+    "illinois": {
+      "ppg": 88.7,
+      "opp_ppg": 69.3,
+      "total_avg": 158.0,
+      "games": 9,
+      "seo": "illinois"
+    },
+    "tennessee": {
+      "ppg": 80.9,
+      "opp_ppg": 66.0,
+      "total_avg": 146.9,
+      "games": 10,
+      "seo": "tennessee"
+    },
+    "boston u.": {
+      "ppg": 75.9,
+      "opp_ppg": 76.2,
+      "total_avg": 152.1,
+      "games": 10,
+      "seo": "boston-u"
+    },
+    "new hampshire": {
+      "ppg": 70.4,
+      "opp_ppg": 71.5,
+      "total_avg": 141.9,
+      "games": 10,
+      "seo": "new-hampshire"
+    },
+    "chicago st.": {
+      "ppg": 66.4,
+      "opp_ppg": 85.8,
+      "total_avg": 152.2,
+      "games": 10,
+      "seo": "chicago-st"
+    },
+    "illinois st.": {
+      "ppg": 81.5,
+      "opp_ppg": 65.9,
+      "total_avg": 147.4,
+      "games": 10,
+      "seo": "illinois-st"
+    },
+    "montana": {
+      "ppg": 82.1,
+      "opp_ppg": 75.1,
+      "total_avg": 157.2,
+      "games": 10,
+      "seo": "montana"
+    },
+    "north dakota": {
+      "ppg": 73.2,
+      "opp_ppg": 79.1,
+      "total_avg": 152.3,
+      "games": 11,
+      "seo": "north-dakota"
+    },
+    "south dakota": {
+      "ppg": 83.6,
+      "opp_ppg": 80.2,
+      "total_avg": 163.8,
+      "games": 10,
+      "seo": "south-dakota"
+    },
+    "northern colo.": {
+      "ppg": 87.4,
+      "opp_ppg": 72.2,
+      "total_avg": 159.6,
+      "games": 10,
+      "seo": "northern-colo"
+    },
+    "washington": {
+      "ppg": 82.4,
+      "opp_ppg": 73.9,
+      "total_avg": 156.3,
+      "games": 9,
+      "seo": "washington"
+    },
+    "southern california": {
+      "ppg": 89.0,
+      "opp_ppg": 78.2,
+      "total_avg": 167.2,
+      "games": 9,
+      "seo": "southern-california"
+    },
+    "ole miss": {
+      "ppg": 75.3,
+      "opp_ppg": 68.0,
+      "total_avg": 143.3,
+      "games": 9,
+      "seo": "ole-miss"
+    },
+    "st. john's (ny)": {
+      "ppg": 88.6,
+      "opp_ppg": 74.1,
+      "total_avg": 162.8,
+      "games": 8,
+      "seo": "st-johns-ny"
+    },
+    "montana st.": {
+      "ppg": 79.2,
+      "opp_ppg": 69.9,
+      "total_avg": 149.1,
+      "games": 10,
+      "seo": "montana-st"
+    },
+    "oral roberts": {
+      "ppg": 76.0,
+      "opp_ppg": 81.1,
+      "total_avg": 157.1,
+      "games": 11,
+      "seo": "oral-roberts"
+    },
+    "niu": {
+      "ppg": 73.4,
+      "opp_ppg": 79.8,
+      "total_avg": 153.2,
+      "games": 9,
+      "seo": "northern-ill"
+    },
+    "bradley": {
+      "ppg": 75.3,
+      "opp_ppg": 68.3,
+      "total_avg": 143.6,
+      "games": 10,
+      "seo": "bradley"
+    },
+    "northern ariz.": {
+      "ppg": 77.1,
+      "opp_ppg": 74.8,
+      "total_avg": 151.9,
+      "games": 8,
+      "seo": "northern-ariz"
+    },
+    "north dakota st.": {
+      "ppg": 79.4,
+      "opp_ppg": 67.3,
+      "total_avg": 146.7,
+      "games": 10,
+      "seo": "north-dakota-st"
+    },
+    "florida st.": {
+      "ppg": 84.2,
+      "opp_ppg": 78.4,
+      "total_avg": 162.7,
+      "games": 9,
+      "seo": "florida-st"
+    },
+    "houston": {
+      "ppg": 75.7,
+      "opp_ppg": 60.0,
+      "total_avg": 135.7,
+      "games": 9,
+      "seo": "houston"
+    },
+    "wichita st.": {
+      "ppg": 78.3,
+      "opp_ppg": 67.3,
+      "total_avg": 145.6,
+      "games": 10,
+      "seo": "wichita-st"
+    },
+    "uni": {
+      "ppg": 73.4,
+      "opp_ppg": 57.4,
+      "total_avg": 130.9,
+      "games": 9,
+      "seo": "uni"
+    },
+    "lindenwood": {
+      "ppg": 78.2,
+      "opp_ppg": 76.3,
+      "total_avg": 154.6,
+      "games": 9,
+      "seo": "lindenwood-mo"
+    },
+    "eastern ill.": {
+      "ppg": 62.1,
+      "opp_ppg": 77.8,
+      "total_avg": 139.9,
+      "games": 8,
+      "seo": "eastern-ill"
+    },
+    "villanova": {
+      "ppg": 83.0,
+      "opp_ppg": 66.4,
+      "total_avg": 149.4,
+      "games": 8,
+      "seo": "villanova"
+    },
+    "grand canyon": {
+      "ppg": 74.1,
+      "opp_ppg": 68.4,
+      "total_avg": 142.6,
+      "games": 9,
+      "seo": "grand-canyon"
+    },
+    "oklahoma st.": {
+      "ppg": 91.3,
+      "opp_ppg": 76.4,
+      "total_avg": 167.8,
+      "games": 9,
+      "seo": "oklahoma-st"
+    },
+    "vermont": {
+      "ppg": 78.7,
+      "opp_ppg": 75.3,
+      "total_avg": 154.0,
+      "games": 11,
+      "seo": "vermont"
+    },
+    "pepperdine": {
+      "ppg": 73.6,
+      "opp_ppg": 75.5,
+      "total_avg": 149.1,
+      "games": 10,
+      "seo": "pepperdine"
+    },
+    "houston christian": {
+      "ppg": 72.7,
+      "opp_ppg": 72.0,
+      "total_avg": 144.7,
+      "games": 9,
+      "seo": "houston-christian"
+    },
+    "baylor": {
+      "ppg": 87.8,
+      "opp_ppg": 81.0,
+      "total_avg": 168.8,
+      "games": 8,
+      "seo": "baylor"
+    },
+    "memphis": {
+      "ppg": 76.0,
+      "opp_ppg": 74.1,
+      "total_avg": 150.1,
+      "games": 8,
+      "seo": "memphis"
+    },
+    "marshall": {
+      "ppg": 80.1,
+      "opp_ppg": 79.6,
+      "total_avg": 159.7,
+      "games": 9,
+      "seo": "marshall"
+    },
+    "ohio": {
+      "ppg": 73.9,
+      "opp_ppg": 81.0,
+      "total_avg": 154.9,
+      "games": 9,
+      "seo": "ohio"
+    },
+    "le moyne": {
+      "ppg": 78.2,
+      "opp_ppg": 76.7,
+      "total_avg": 154.9,
+      "games": 10,
+      "seo": "le-moyne"
+    },
+    "binghamton": {
+      "ppg": 65.4,
+      "opp_ppg": 72.6,
+      "total_avg": 138.0,
+      "games": 10,
+      "seo": "binghamton"
+    },
+    "wake forest": {
+      "ppg": 84.2,
+      "opp_ppg": 72.7,
+      "total_avg": 156.9,
+      "games": 10,
+      "seo": "wake-forest"
+    },
+    "west virginia": {
+      "ppg": 72.6,
+      "opp_ppg": 58.4,
+      "total_avg": 131.0,
+      "games": 10,
+      "seo": "west-virginia"
+    },
+    "william & mary": {
+      "ppg": 86.0,
+      "opp_ppg": 75.4,
+      "total_avg": 161.4,
+      "games": 11,
+      "seo": "william-mary"
+    },
+    "george washington": {
+      "ppg": 91.4,
+      "opp_ppg": 75.7,
+      "total_avg": 167.1,
+      "games": 10,
+      "seo": "george-washington"
+    },
+    "liu": {
+      "ppg": 76.7,
+      "opp_ppg": 81.6,
+      "total_avg": 158.2,
+      "games": 9,
+      "seo": "long-island"
+    },
+    "lehigh": {
+      "ppg": 69.9,
+      "opp_ppg": 74.1,
+      "total_avg": 144.0,
+      "games": 11,
+      "seo": "lehigh"
+    },
+    "denver": {
+      "ppg": 76.0,
+      "opp_ppg": 88.0,
+      "total_avg": 164.0,
+      "games": 9,
+      "seo": "denver"
+    },
+    "idaho st.": {
+      "ppg": 75.1,
+      "opp_ppg": 68.2,
+      "total_avg": 143.3,
+      "games": 10,
+      "seo": "idaho-st"
+    },
+    "ualbany": {
+      "ppg": 75.0,
+      "opp_ppg": 73.7,
+      "total_avg": 148.7,
+      "games": 10,
+      "seo": "albany-ny"
+    },
+    "columbia": {
+      "ppg": 81.3,
+      "opp_ppg": 65.6,
+      "total_avg": 146.9,
+      "games": 10,
+      "seo": "columbia"
+    },
+    "sam houston": {
+      "ppg": 86.3,
+      "opp_ppg": 75.3,
+      "total_avg": 161.7,
+      "games": 9,
+      "seo": "sam-houston-st"
+    },
+    "texas southern": {
+      "ppg": 73.7,
+      "opp_ppg": 86.7,
+      "total_avg": 160.4,
+      "games": 7,
+      "seo": "texas-southern"
+    },
+    "kansas city": {
+      "ppg": 66.9,
+      "opp_ppg": 83.6,
+      "total_avg": 150.4,
+      "games": 9,
+      "seo": "umkc"
+    },
+    "eastern wash.": {
+      "ppg": 78.4,
+      "opp_ppg": 83.2,
+      "total_avg": 161.7,
+      "games": 9,
+      "seo": "eastern-wash"
+    },
+    "southern utah": {
+      "ppg": 80.4,
+      "opp_ppg": 80.3,
+      "total_avg": 160.6,
+      "games": 11,
+      "seo": "southern-utah"
+    },
+    "oregon st.": {
+      "ppg": 73.2,
+      "opp_ppg": 72.9,
+      "total_avg": 146.1,
+      "games": 10,
+      "seo": "oregon-st"
+    },
+    "colorado": {
+      "ppg": 88.4,
+      "opp_ppg": 78.4,
+      "total_avg": 166.9,
+      "games": 9,
+      "seo": "colorado"
+    },
+    "colorado st.": {
+      "ppg": 84.8,
+      "opp_ppg": 73.0,
+      "total_avg": 157.8,
+      "games": 9,
+      "seo": "colorado-st"
+    },
+    "pacific": {
+      "ppg": 73.6,
+      "opp_ppg": 65.2,
+      "total_avg": 138.8,
+      "games": 10,
+      "seo": "pacific"
+    },
+    "california": {
+      "ppg": 81.9,
+      "opp_ppg": 68.9,
+      "total_avg": 150.8,
+      "games": 9,
+      "seo": "california"
+    },
+    "omaha": {
+      "ppg": 75.7,
+      "opp_ppg": 79.4,
+      "total_avg": 155.1,
+      "games": 11,
+      "seo": "neb-omaha"
+    },
+    "portland st.": {
+      "ppg": 81.8,
+      "opp_ppg": 72.2,
+      "total_avg": 154.0,
+      "games": 8,
+      "seo": "portland-st"
+    },
+    "brown": {
+      "ppg": 70.1,
+      "opp_ppg": 63.5,
+      "total_avg": 133.5,
+      "games": 11,
+      "seo": "brown"
+    },
+    "uc riverside": {
+      "ppg": 74.8,
+      "opp_ppg": 73.6,
+      "total_avg": 148.4,
+      "games": 10,
+      "seo": "uc-riverside"
+    },
+    "cal poly": {
+      "ppg": 82.8,
+      "opp_ppg": 86.3,
+      "total_avg": 169.1,
+      "games": 11,
+      "seo": "cal-poly"
+    },
+    "lagrange": {
+      "ppg": 54.5,
+      "opp_ppg": 101.0,
+      "total_avg": 155.5,
+      "games": 2,
+      "seo": "lagrange"
+    },
+    "troy": {
+      "ppg": 89.3,
+      "opp_ppg": 79.5,
+      "total_avg": 168.8,
+      "games": 11,
+      "seo": "troy"
+    },
+    "saint joseph's": {
+      "ppg": 76.1,
+      "opp_ppg": 75.6,
+      "total_avg": 151.8,
+      "games": 8,
+      "seo": "saint-josephs"
+    },
+    "temple": {
+      "ppg": 75.6,
+      "opp_ppg": 75.6,
+      "total_avg": 151.1,
+      "games": 9,
+      "seo": "temple"
+    },
+    "southeast mo. st.": {
+      "ppg": 77.5,
+      "opp_ppg": 76.7,
+      "total_avg": 154.2,
+      "games": 10,
+      "seo": "southeast-mo-st"
+    },
+    "chattanooga": {
+      "ppg": 76.9,
+      "opp_ppg": 71.6,
+      "total_avg": 148.4,
+      "games": 9,
+      "seo": "chattanooga"
+    },
+    "oregon": {
+      "ppg": 72.9,
+      "opp_ppg": 75.4,
+      "total_avg": 148.3,
+      "games": 9,
+      "seo": "oregon"
+    },
+    "ucla": {
+      "ppg": 77.2,
+      "opp_ppg": 65.0,
+      "total_avg": 142.2,
+      "games": 9,
+      "seo": "ucla"
+    },
+    "champion chris.": {
+      "ppg": 63.5,
+      "opp_ppg": 122.5,
+      "total_avg": 186.0,
+      "games": 4,
+      "seo": "champion-bapt"
+    },
+    "prairie view": {
+      "ppg": 81.9,
+      "opp_ppg": 75.1,
+      "total_avg": 157.0,
+      "games": 9,
+      "seo": "prairie-view"
+    },
+    "dartmouth": {
+      "ppg": 79.6,
+      "opp_ppg": 76.0,
+      "total_avg": 155.6,
+      "games": 7,
+      "seo": "dartmouth"
+    },
+    "wyoming": {
+      "ppg": 86.0,
+      "opp_ppg": 70.9,
+      "total_avg": 156.9,
+      "games": 9,
+      "seo": "wyoming"
+    },
+    "nicholls": {
+      "ppg": 69.1,
+      "opp_ppg": 81.1,
+      "total_avg": 150.2,
+      "games": 8,
+      "seo": "nicholls-st"
+    },
+    "umass lowell": {
+      "ppg": 73.6,
+      "opp_ppg": 79.9,
+      "total_avg": 153.5,
+      "games": 10,
+      "seo": "umass-lowell"
+    },
+    "massachusetts": {
+      "ppg": 78.2,
+      "opp_ppg": 71.2,
+      "total_avg": 149.4,
+      "games": 9,
+      "seo": "massachusetts"
+    },
+    "kent st.": {
+      "ppg": 98.5,
+      "opp_ppg": 80.9,
+      "total_avg": 179.4,
+      "games": 10,
+      "seo": "kent-st"
+    },
+    "fresno st.": {
+      "ppg": 75.4,
+      "opp_ppg": 69.7,
+      "total_avg": 145.1,
+      "games": 10,
+      "seo": "fresno-st"
+    },
+    "arkansas": {
+      "ppg": 87.6,
+      "opp_ppg": 71.0,
+      "total_avg": 158.6,
+      "games": 9,
+      "seo": "arkansas"
+    },
+    "a&m-corpus christi": {
+      "ppg": 72.4,
+      "opp_ppg": 73.0,
+      "total_avg": 145.4,
+      "games": 8,
+      "seo": "am-corpus-chris"
+    },
+    "lamar university": {
+      "ppg": 72.1,
+      "opp_ppg": 62.6,
+      "total_avg": 134.8,
+      "games": 8,
+      "seo": "lamar"
+    },
+    "arizona st.": {
+      "ppg": 81.4,
+      "opp_ppg": 75.9,
+      "total_avg": 157.3,
+      "games": 9,
+      "seo": "arizona-st"
+    },
+    "oklahoma": {
+      "ppg": 84.7,
+      "opp_ppg": 75.0,
+      "total_avg": 159.7,
+      "games": 9,
+      "seo": "oklahoma"
+    },
+    "california baptist": {
+      "ppg": 74.3,
+      "opp_ppg": 70.1,
+      "total_avg": 144.4,
+      "games": 10,
+      "seo": "california-baptist"
+    },
+    "utah": {
+      "ppg": 81.4,
+      "opp_ppg": 78.7,
+      "total_avg": 160.1,
+      "games": 10,
+      "seo": "utah"
+    },
+    "toledo": {
+      "ppg": 84.0,
+      "opp_ppg": 77.9,
+      "total_avg": 161.9,
+      "games": 9,
+      "seo": "toledo"
+    },
+    "oakland": {
+      "ppg": 86.4,
+      "opp_ppg": 86.1,
+      "total_avg": 172.5,
+      "games": 10,
+      "seo": "oakland"
+    },
+    "rhode island": {
+      "ppg": 76.6,
+      "opp_ppg": 68.7,
+      "total_avg": 145.3,
+      "games": 10,
+      "seo": "rhode-island"
+    },
+    "providence": {
+      "ppg": 90.4,
+      "opp_ppg": 82.4,
+      "total_avg": 172.8,
+      "games": 10,
+      "seo": "providence"
+    },
+    "coastal carolina": {
+      "ppg": 76.5,
+      "opp_ppg": 70.5,
+      "total_avg": 147.0,
+      "games": 10,
+      "seo": "coastal-caro"
+    },
+    "winthrop": {
+      "ppg": 85.7,
+      "opp_ppg": 79.6,
+      "total_avg": 165.3,
+      "games": 10,
+      "seo": "winthrop"
+    },
+    "new mexico st.": {
+      "ppg": 74.0,
+      "opp_ppg": 65.9,
+      "total_avg": 139.9,
+      "games": 8,
+      "seo": "new-mexico-st"
+    },
+    "abilene christian": {
+      "ppg": 73.8,
+      "opp_ppg": 65.7,
+      "total_avg": 139.5,
+      "games": 10,
+      "seo": "abilene-christian"
+    },
+    "evansville": {
+      "ppg": 70.1,
+      "opp_ppg": 71.6,
+      "total_avg": 141.7,
+      "games": 10,
+      "seo": "evansville"
+    },
+    "western ky.": {
+      "ppg": 85.6,
+      "opp_ppg": 78.4,
+      "total_avg": 164.0,
+      "games": 8,
+      "seo": "western-ky"
+    },
+    "akron": {
+      "ppg": 95.4,
+      "opp_ppg": 74.8,
+      "total_avg": 170.2,
+      "games": 10,
+      "seo": "akron"
+    },
+    "tulane": {
+      "ppg": 75.4,
+      "opp_ppg": 77.7,
+      "total_avg": 153.1,
+      "games": 9,
+      "seo": "tulane"
+    },
+    "unc greensboro": {
+      "ppg": 73.3,
+      "opp_ppg": 84.2,
+      "total_avg": 157.5,
+      "games": 10,
+      "seo": "unc-greensboro"
+    },
+    "east carolina": {
+      "ppg": 68.9,
+      "opp_ppg": 78.0,
+      "total_avg": 146.9,
+      "games": 9,
+      "seo": "east-carolina"
+    },
+    "uncw": {
+      "ppg": 80.7,
+      "opp_ppg": 66.4,
+      "total_avg": 147.1,
+      "games": 10,
+      "seo": "unc-wilmington"
+    },
+    "louisiana": {
+      "ppg": 57.4,
+      "opp_ppg": 71.7,
+      "total_avg": 129.1,
+      "games": 10,
+      "seo": "la-lafayette"
+    },
+    "n.c. a&t": {
+      "ppg": 75.0,
+      "opp_ppg": 75.3,
+      "total_avg": 150.3,
+      "games": 7,
+      "seo": "nc-at"
+    },
+    "n.c. central": {
+      "ppg": 71.1,
+      "opp_ppg": 77.2,
+      "total_avg": 148.3,
+      "games": 11,
+      "seo": "nc-central"
+    },
+    "longwood": {
+      "ppg": 77.7,
+      "opp_ppg": 74.8,
+      "total_avg": 152.5,
+      "games": 11,
+      "seo": "longwood"
+    },
+    "morgan st.": {
+      "ppg": 74.6,
+      "opp_ppg": 81.6,
+      "total_avg": 156.2,
+      "games": 8,
+      "seo": "morgan-st"
+    },
+    "missouri st.": {
+      "ppg": 78.6,
+      "opp_ppg": 73.9,
+      "total_avg": 152.5,
+      "games": 8,
+      "seo": "missouri-st"
+    },
+    "tulsa": {
+      "ppg": 87.8,
+      "opp_ppg": 68.1,
+      "total_avg": 155.9,
+      "games": 9,
+      "seo": "tulsa"
+    },
+    "idaho": {
+      "ppg": 81.7,
+      "opp_ppg": 72.0,
+      "total_avg": 153.7,
+      "games": 9,
+      "seo": "idaho"
+    },
+    "south dakota st.": {
+      "ppg": 72.9,
+      "opp_ppg": 66.5,
+      "total_avg": 139.4,
+      "games": 10,
+      "seo": "south-dakota-st"
+    },
+    "calumet col.": {
+      "ppg": 54.0,
+      "opp_ppg": 95.0,
+      "total_avg": 149.0,
+      "games": 2,
+      "seo": "calumet-col"
+    },
+    "valparaiso": {
+      "ppg": 73.4,
+      "opp_ppg": 67.8,
+      "total_avg": 141.2,
+      "games": 9,
+      "seo": "valparaiso"
+    },
+    "georgia st.": {
+      "ppg": 64.1,
+      "opp_ppg": 76.9,
+      "total_avg": 141.0,
+      "games": 10,
+      "seo": "georgia-st"
+    },
+    "elon": {
+      "ppg": 86.7,
+      "opp_ppg": 79.2,
+      "total_avg": 165.9,
+      "games": 9,
+      "seo": "elon"
+    },
+    "wofford": {
+      "ppg": 73.6,
+      "opp_ppg": 75.9,
+      "total_avg": 149.5,
+      "games": 10,
+      "seo": "wofford"
+    },
+    "umes": {
+      "ppg": 62.6,
+      "opp_ppg": 69.7,
+      "total_avg": 132.2,
+      "games": 12,
+      "seo": "md-east-shore"
+    },
+    "american": {
+      "ppg": 81.6,
+      "opp_ppg": 70.5,
+      "total_avg": 152.1,
+      "games": 11,
+      "seo": "american"
+    },
+    "george mason": {
+      "ppg": 80.1,
+      "opp_ppg": 65.3,
+      "total_avg": 145.4,
+      "games": 10,
+      "seo": "george-mason"
+    },
+    "virginia tech": {
+      "ppg": 82.0,
+      "opp_ppg": 73.6,
+      "total_avg": 155.6,
+      "games": 10,
+      "seo": "virginia-tech"
+    },
+    "bellarmine": {
+      "ppg": 77.8,
+      "opp_ppg": 78.3,
+      "total_avg": 156.1,
+      "games": 9,
+      "seo": "bellarmine"
+    },
+    "murray st.": {
+      "ppg": 88.0,
+      "opp_ppg": 76.4,
+      "total_avg": 164.4,
+      "games": 10,
+      "seo": "murray-st"
+    },
+    "northern ky.": {
+      "ppg": 85.7,
+      "opp_ppg": 75.6,
+      "total_avg": 161.3,
+      "games": 10,
+      "seo": "northern-ky"
+    },
+    "purdue fort wayne": {
+      "ppg": 86.8,
+      "opp_ppg": 80.1,
+      "total_avg": 166.9,
+      "games": 11,
+      "seo": "ipfw"
+    },
+    "morehead st.": {
+      "ppg": 76.1,
+      "opp_ppg": 82.5,
+      "total_avg": 158.6,
+      "games": 10,
+      "seo": "morehead-st"
+    },
+    "presbyterian": {
+      "ppg": 67.9,
+      "opp_ppg": 66.8,
+      "total_avg": 134.7,
+      "games": 12,
+      "seo": "presbyterian"
+    },
+    "tennessee tech": {
+      "ppg": 78.8,
+      "opp_ppg": 78.8,
+      "total_avg": 157.6,
+      "games": 10,
+      "seo": "tennessee-tech"
+    },
+    "west ga.": {
+      "ppg": 76.2,
+      "opp_ppg": 80.6,
+      "total_avg": 156.8,
+      "games": 9,
+      "seo": "west-ga"
     },
     "ohio st.": {
       "ppg": 88.4,
@@ -1062,299 +2154,19 @@
       "games": 9,
       "seo": "south-carolina"
     },
-    "tennessee tech": {
-      "ppg": 78.8,
-      "opp_ppg": 78.8,
-      "total_avg": 157.6,
-      "games": 10,
-      "seo": "tennessee-tech"
-    },
-    "west ga.": {
-      "ppg": 76.2,
-      "opp_ppg": 80.6,
-      "total_avg": 156.8,
-      "games": 9,
-      "seo": "west-ga"
-    },
-    "morehead st.": {
-      "ppg": 76.1,
-      "opp_ppg": 82.5,
-      "total_avg": 158.6,
-      "games": 10,
-      "seo": "morehead-st"
-    },
-    "presbyterian": {
-      "ppg": 67.9,
-      "opp_ppg": 66.8,
-      "total_avg": 134.7,
-      "games": 12,
-      "seo": "presbyterian"
-    },
-    "northern ky.": {
-      "ppg": 85.7,
-      "opp_ppg": 75.6,
-      "total_avg": 161.3,
-      "games": 10,
-      "seo": "northern-ky"
-    },
-    "purdue fort wayne": {
-      "ppg": 86.8,
-      "opp_ppg": 80.1,
-      "total_avg": 166.9,
+    "robert morris": {
+      "ppg": 76.0,
+      "opp_ppg": 70.2,
+      "total_avg": 146.2,
       "games": 11,
-      "seo": "ipfw"
+      "seo": "robert-morris"
     },
-    "bellarmine": {
-      "ppg": 77.8,
-      "opp_ppg": 78.3,
-      "total_avg": 156.1,
-      "games": 9,
-      "seo": "bellarmine"
-    },
-    "murray st.": {
-      "ppg": 88.0,
-      "opp_ppg": 76.4,
-      "total_avg": 164.4,
-      "games": 10,
-      "seo": "murray-st"
-    },
-    "george mason": {
-      "ppg": 80.1,
-      "opp_ppg": 65.3,
-      "total_avg": 145.4,
-      "games": 10,
-      "seo": "george-mason"
-    },
-    "virginia tech": {
-      "ppg": 82.0,
-      "opp_ppg": 73.6,
-      "total_avg": 155.6,
-      "games": 10,
-      "seo": "virginia-tech"
-    },
-    "elon": {
-      "ppg": 86.7,
-      "opp_ppg": 79.2,
-      "total_avg": 165.9,
-      "games": 9,
-      "seo": "elon"
-    },
-    "wofford": {
-      "ppg": 73.6,
-      "opp_ppg": 75.9,
-      "total_avg": 149.5,
-      "games": 10,
-      "seo": "wofford"
-    },
-    "toledo": {
-      "ppg": 84.0,
-      "opp_ppg": 77.9,
-      "total_avg": 161.9,
-      "games": 9,
-      "seo": "toledo"
-    },
-    "oakland": {
-      "ppg": 86.4,
-      "opp_ppg": 86.1,
-      "total_avg": 172.5,
-      "games": 10,
-      "seo": "oakland"
-    },
-    "georgia st.": {
-      "ppg": 64.1,
-      "opp_ppg": 76.9,
-      "total_avg": 141.0,
-      "games": 10,
-      "seo": "georgia-st"
-    },
-    "kennesaw st.": {
-      "ppg": 94.6,
-      "opp_ppg": 76.2,
-      "total_avg": 170.8,
-      "games": 9,
-      "seo": "kennesaw-st"
-    },
-    "calumet col.": {
-      "ppg": 54.0,
-      "opp_ppg": 95.0,
-      "total_avg": 149.0,
-      "games": 2,
-      "seo": "calumet-col"
-    },
-    "valparaiso": {
-      "ppg": 73.4,
-      "opp_ppg": 67.8,
-      "total_avg": 141.2,
-      "games": 9,
-      "seo": "valparaiso"
-    },
-    "idaho": {
-      "ppg": 81.7,
-      "opp_ppg": 72.0,
-      "total_avg": 153.7,
-      "games": 9,
-      "seo": "idaho"
-    },
-    "south dakota st.": {
-      "ppg": 72.9,
-      "opp_ppg": 66.5,
-      "total_avg": 139.4,
-      "games": 10,
-      "seo": "south-dakota-st"
-    },
-    "missouri st.": {
-      "ppg": 78.6,
-      "opp_ppg": 73.9,
-      "total_avg": 152.5,
-      "games": 8,
-      "seo": "missouri-st"
-    },
-    "tulsa": {
-      "ppg": 87.8,
-      "opp_ppg": 68.1,
-      "total_avg": 155.9,
-      "games": 9,
-      "seo": "tulsa"
-    },
-    "longwood": {
-      "ppg": 77.7,
-      "opp_ppg": 74.8,
-      "total_avg": 152.5,
-      "games": 11,
-      "seo": "longwood"
-    },
-    "morgan st.": {
-      "ppg": 74.6,
-      "opp_ppg": 81.6,
-      "total_avg": 156.2,
-      "games": 8,
-      "seo": "morgan-st"
-    },
-    "n.c. a&t": {
-      "ppg": 75.0,
-      "opp_ppg": 75.3,
-      "total_avg": 150.3,
-      "games": 7,
-      "seo": "nc-at"
-    },
-    "n.c. central": {
-      "ppg": 71.1,
-      "opp_ppg": 77.2,
-      "total_avg": 148.3,
-      "games": 11,
-      "seo": "nc-central"
-    },
-    "uncw": {
-      "ppg": 80.7,
-      "opp_ppg": 66.4,
-      "total_avg": 147.1,
-      "games": 10,
-      "seo": "unc-wilmington"
-    },
-    "louisiana": {
-      "ppg": 57.4,
-      "opp_ppg": 71.7,
-      "total_avg": 129.1,
-      "games": 10,
-      "seo": "la-lafayette"
-    },
-    "unc greensboro": {
-      "ppg": 73.3,
-      "opp_ppg": 84.2,
-      "total_avg": 157.5,
-      "games": 10,
-      "seo": "unc-greensboro"
-    },
-    "east carolina": {
-      "ppg": 68.9,
-      "opp_ppg": 78.0,
-      "total_avg": 146.9,
-      "games": 9,
-      "seo": "east-carolina"
-    },
-    "akron": {
-      "ppg": 95.4,
-      "opp_ppg": 74.8,
-      "total_avg": 170.2,
-      "games": 10,
-      "seo": "akron"
-    },
-    "tulane": {
-      "ppg": 75.4,
-      "opp_ppg": 77.7,
-      "total_avg": 153.1,
-      "games": 9,
-      "seo": "tulane"
-    },
-    "evansville": {
-      "ppg": 70.1,
-      "opp_ppg": 71.6,
-      "total_avg": 141.7,
-      "games": 10,
-      "seo": "evansville"
-    },
-    "western ky.": {
-      "ppg": 85.6,
-      "opp_ppg": 78.4,
+    "milwaukee": {
+      "ppg": 81.0,
+      "opp_ppg": 83.0,
       "total_avg": 164.0,
-      "games": 8,
-      "seo": "western-ky"
-    },
-    "new mexico st.": {
-      "ppg": 74.0,
-      "opp_ppg": 65.9,
-      "total_avg": 139.9,
-      "games": 8,
-      "seo": "new-mexico-st"
-    },
-    "abilene christian": {
-      "ppg": 73.8,
-      "opp_ppg": 65.7,
-      "total_avg": 139.5,
-      "games": 10,
-      "seo": "abilene-christian"
-    },
-    "coastal carolina": {
-      "ppg": 76.5,
-      "opp_ppg": 70.5,
-      "total_avg": 147.0,
-      "games": 10,
-      "seo": "coastal-caro"
-    },
-    "winthrop": {
-      "ppg": 85.7,
-      "opp_ppg": 79.6,
-      "total_avg": 165.3,
-      "games": 10,
-      "seo": "winthrop"
-    },
-    "ga. southern": {
-      "ppg": 80.3,
-      "opp_ppg": 80.0,
-      "total_avg": 160.3,
-      "games": 11,
-      "seo": "ga-southern"
-    },
-    "gardner-webb": {
-      "ppg": 68.4,
-      "opp_ppg": 91.7,
-      "total_avg": 160.1,
-      "games": 11,
-      "seo": "gardner-webb"
-    },
-    "rhode island": {
-      "ppg": 76.6,
-      "opp_ppg": 68.7,
-      "total_avg": 145.3,
-      "games": 10,
-      "seo": "rhode-island"
-    },
-    "providence": {
-      "ppg": 90.4,
-      "opp_ppg": 82.4,
-      "total_avg": 172.8,
-      "games": 10,
-      "seo": "providence"
+      "games": 9,
+      "seo": "milwaukee"
     },
     "norfolk st.": {
       "ppg": 78.6,
@@ -1370,19 +2182,19 @@
       "games": 11,
       "seo": "james-madison"
     },
-    "umes": {
-      "ppg": 62.6,
-      "opp_ppg": 69.7,
-      "total_avg": 132.2,
-      "games": 12,
-      "seo": "md-east-shore"
-    },
-    "american": {
-      "ppg": 81.6,
-      "opp_ppg": 70.5,
-      "total_avg": 152.1,
+    "ga. southern": {
+      "ppg": 80.3,
+      "opp_ppg": 80.0,
+      "total_avg": 160.3,
       "games": 11,
-      "seo": "american"
+      "seo": "ga-southern"
+    },
+    "gardner-webb": {
+      "ppg": 68.4,
+      "opp_ppg": 91.7,
+      "total_avg": 160.1,
+      "games": 11,
+      "seo": "gardner-webb"
     },
     "new haven": {
       "ppg": 68.9,
@@ -1398,6 +2210,160 @@
       "games": 10,
       "seo": "boston-college"
     },
+    "harvard": {
+      "ppg": 69.6,
+      "opp_ppg": 68.2,
+      "total_avg": 137.8,
+      "games": 11,
+      "seo": "harvard"
+    },
+    "furman": {
+      "ppg": 75.8,
+      "opp_ppg": 71.4,
+      "total_avg": 147.2,
+      "games": 10,
+      "seo": "furman"
+    },
+    "ind.-east": {
+      "ppg": 66.0,
+      "opp_ppg": 115.5,
+      "total_avg": 181.5,
+      "games": 2,
+      "seo": "indiana-east"
+    },
+    "eastern ky.": {
+      "ppg": 85.8,
+      "opp_ppg": 83.1,
+      "total_avg": 168.9,
+      "games": 9,
+      "seo": "eastern-ky"
+    },
+    "florida a&m": {
+      "ppg": 66.3,
+      "opp_ppg": 86.8,
+      "total_avg": 153.2,
+      "games": 6,
+      "seo": "florida-am"
+    },
+    "maryland": {
+      "ppg": 77.1,
+      "opp_ppg": 78.5,
+      "total_avg": 155.6,
+      "games": 10,
+      "seo": "maryland"
+    },
+    "iowa": {
+      "ppg": 79.9,
+      "opp_ppg": 62.6,
+      "total_avg": 142.4,
+      "games": 9,
+      "seo": "iowa"
+    },
+    "boise st.": {
+      "ppg": 78.2,
+      "opp_ppg": 70.3,
+      "total_avg": 148.6,
+      "games": 9,
+      "seo": "boise-st"
+    },
+    "butler": {
+      "ppg": 87.6,
+      "opp_ppg": 72.2,
+      "total_avg": 159.8,
+      "games": 9,
+      "seo": "butler"
+    },
+    "marquette": {
+      "ppg": 80.9,
+      "opp_ppg": 76.4,
+      "total_avg": 157.3,
+      "games": 10,
+      "seo": "marquette"
+    },
+    "wisconsin": {
+      "ppg": 87.9,
+      "opp_ppg": 73.8,
+      "total_avg": 161.7,
+      "games": 9,
+      "seo": "wisconsin"
+    },
+    "jacksonville": {
+      "ppg": 73.7,
+      "opp_ppg": 73.8,
+      "total_avg": 147.4,
+      "games": 9,
+      "seo": "jacksonville"
+    },
+    "fiu": {
+      "ppg": 84.4,
+      "opp_ppg": 76.5,
+      "total_avg": 160.9,
+      "games": 8,
+      "seo": "fiu"
+    },
+    "holy cross": {
+      "ppg": 67.5,
+      "opp_ppg": 73.6,
+      "total_avg": 141.1,
+      "games": 10,
+      "seo": "holy-cross"
+    },
+    "fordham": {
+      "ppg": 75.9,
+      "opp_ppg": 64.3,
+      "total_avg": 140.2,
+      "games": 10,
+      "seo": "fordham"
+    },
+    "western mich.": {
+      "ppg": 76.7,
+      "opp_ppg": 78.3,
+      "total_avg": 155.0,
+      "games": 10,
+      "seo": "western-mich"
+    },
+    "siue": {
+      "ppg": 76.4,
+      "opp_ppg": 67.3,
+      "total_avg": 143.7,
+      "games": 10,
+      "seo": "siu-edwardsville"
+    },
+    "colgate": {
+      "ppg": 77.5,
+      "opp_ppg": 70.8,
+      "total_avg": 148.3,
+      "games": 10,
+      "seo": "colgate"
+    },
+    "youngstown st.": {
+      "ppg": 78.2,
+      "opp_ppg": 70.0,
+      "total_avg": 148.2,
+      "games": 10,
+      "seo": "youngstown-st"
+    },
+    "iu indy": {
+      "ppg": 87.0,
+      "opp_ppg": 94.2,
+      "total_avg": 181.2,
+      "games": 11,
+      "seo": "iu-indy"
+    },
+    "st. bonaventure": {
+      "ppg": 75.9,
+      "opp_ppg": 66.0,
+      "total_avg": 141.9,
+      "games": 10,
+      "seo": "st-bonaventure"
+    },
+    "buffalo": {
+      "ppg": 77.7,
+      "opp_ppg": 70.3,
+      "total_avg": 148.0,
+      "games": 9,
+      "seo": "buffalo"
+    },
     "iowa st.": {
       "ppg": 94.6,
       "opp_ppg": 64.6,
@@ -1411,6 +2377,62 @@
       "total_avg": 154.3,
       "games": 9,
       "seo": "purdue"
+    },
+    "stony brook": {
+      "ppg": 74.2,
+      "opp_ppg": 67.8,
+      "total_avg": 142.0,
+      "games": 9,
+      "seo": "stony-brook"
+    },
+    "duquesne": {
+      "ppg": 86.8,
+      "opp_ppg": 80.0,
+      "total_avg": 166.8,
+      "games": 9,
+      "seo": "duquesne"
+    },
+    "western caro.": {
+      "ppg": 77.1,
+      "opp_ppg": 76.3,
+      "total_avg": 153.4,
+      "games": 9,
+      "seo": "western-caro"
+    },
+    "usc upstate": {
+      "ppg": 79.7,
+      "opp_ppg": 69.9,
+      "total_avg": 149.6,
+      "games": 11,
+      "seo": "usc-upstate"
+    },
+    "coppin st.": {
+      "ppg": 64.4,
+      "opp_ppg": 84.5,
+      "total_avg": 148.9,
+      "games": 12,
+      "seo": "coppin-st"
+    },
+    "liberty": {
+      "ppg": 84.8,
+      "opp_ppg": 64.4,
+      "total_avg": 149.1,
+      "games": 8,
+      "seo": "liberty"
+    },
+    "delaware": {
+      "ppg": 68.9,
+      "opp_ppg": 75.9,
+      "total_avg": 144.8,
+      "games": 8,
+      "seo": "delaware"
+    },
+    "delaware st.": {
+      "ppg": 60.3,
+      "opp_ppg": 73.9,
+      "total_avg": 134.2,
+      "games": 10,
+      "seo": "delaware-st"
     },
     "dayton": {
       "ppg": 79.3,
@@ -1433,33 +2455,12 @@
       "games": 10,
       "seo": "seton-hall"
     },
-    "kansas st.": {
-      "ppg": 84.3,
-      "opp_ppg": 80.3,
-      "total_avg": 164.7,
-      "games": 9,
-      "seo": "kansas-st"
-    },
-    "umbc": {
-      "ppg": 75.1,
-      "opp_ppg": 70.3,
-      "total_avg": 145.4,
-      "games": 9,
-      "seo": "umbc"
-    },
-    "bucknell": {
-      "ppg": 67.5,
-      "opp_ppg": 80.4,
-      "total_avg": 147.8,
-      "games": 11,
-      "seo": "bucknell"
-    },
-    "southern miss.": {
-      "ppg": 79.0,
-      "opp_ppg": 73.9,
-      "total_avg": 152.9,
-      "games": 9,
-      "seo": "southern-miss"
+    "wagner": {
+      "ppg": 74.9,
+      "opp_ppg": 77.9,
+      "total_avg": 152.8,
+      "games": 8,
+      "seo": "wagner"
     },
     "miami (fl)": {
       "ppg": 85.6,
@@ -1481,6 +2482,20 @@
       "total_avg": 141.6,
       "games": 10,
       "seo": "georgia-tech"
+    },
+    "umbc": {
+      "ppg": 75.1,
+      "opp_ppg": 70.3,
+      "total_avg": 145.4,
+      "games": 9,
+      "seo": "umbc"
+    },
+    "bucknell": {
+      "ppg": 67.5,
+      "opp_ppg": 80.4,
+      "total_avg": 147.8,
+      "games": 11,
+      "seo": "bucknell"
     },
     "duke": {
       "ppg": 86.8,
@@ -1545,971 +2560,103 @@
       "games": 8,
       "seo": "miami-oh"
     },
-    "wagner": {
-      "ppg": 74.9,
-      "opp_ppg": 77.9,
-      "total_avg": 152.8,
+    "portland": {
+      "ppg": 84.4,
+      "opp_ppg": 81.4,
+      "total_avg": 165.8,
+      "games": 10,
+      "seo": "portland"
+    },
+    "san diego": {
+      "ppg": 73.1,
+      "opp_ppg": 74.4,
+      "total_avg": 147.5,
       "games": 8,
-      "seo": "wagner"
+      "seo": "san-diego"
     },
-    "coppin st.": {
-      "ppg": 64.4,
-      "opp_ppg": 84.5,
-      "total_avg": 148.9,
-      "games": 12,
-      "seo": "coppin-st"
-    },
-    "liberty": {
-      "ppg": 84.8,
-      "opp_ppg": 64.4,
-      "total_avg": 149.1,
-      "games": 8,
-      "seo": "liberty"
-    },
-    "harvard": {
-      "ppg": 69.6,
-      "opp_ppg": 68.2,
-      "total_avg": 137.8,
-      "games": 11,
-      "seo": "harvard"
-    },
-    "furman": {
-      "ppg": 75.8,
+    "san jose st.": {
+      "ppg": 73.6,
       "opp_ppg": 71.4,
-      "total_avg": 147.2,
+      "total_avg": 145.0,
+      "games": 9,
+      "seo": "san-jose-st"
+    },
+    "notre dame": {
+      "ppg": 76.6,
+      "opp_ppg": 69.4,
+      "total_avg": 146.0,
       "games": 10,
-      "seo": "furman"
+      "seo": "notre-dame"
     },
-    "stony brook": {
-      "ppg": 74.2,
-      "opp_ppg": 67.8,
-      "total_avg": 142.0,
-      "games": 9,
-      "seo": "stony-brook"
-    },
-    "duquesne": {
-      "ppg": 86.8,
-      "opp_ppg": 80.0,
-      "total_avg": 166.8,
-      "games": 9,
-      "seo": "duquesne"
-    },
-    "western caro.": {
-      "ppg": 77.1,
-      "opp_ppg": 76.3,
-      "total_avg": 153.4,
-      "games": 9,
-      "seo": "western-caro"
-    },
-    "usc upstate": {
-      "ppg": 79.7,
-      "opp_ppg": 69.9,
-      "total_avg": 149.6,
-      "games": 11,
-      "seo": "usc-upstate"
-    },
-    "st. bonaventure": {
-      "ppg": 75.9,
-      "opp_ppg": 66.0,
-      "total_avg": 141.9,
-      "games": 10,
-      "seo": "st-bonaventure"
-    },
-    "buffalo": {
-      "ppg": 77.7,
-      "opp_ppg": 70.3,
-      "total_avg": 148.0,
-      "games": 9,
-      "seo": "buffalo"
-    },
-    "youngstown st.": {
-      "ppg": 78.2,
-      "opp_ppg": 70.0,
-      "total_avg": 148.2,
-      "games": 10,
-      "seo": "youngstown-st"
-    },
-    "iu indy": {
-      "ppg": 87.0,
-      "opp_ppg": 94.2,
-      "total_avg": 181.2,
-      "games": 11,
-      "seo": "iu-indy"
-    },
-    "colgate": {
-      "ppg": 77.5,
-      "opp_ppg": 70.8,
-      "total_avg": 148.3,
-      "games": 10,
-      "seo": "colgate"
-    },
-    "western mich.": {
-      "ppg": 76.7,
-      "opp_ppg": 78.3,
-      "total_avg": 155.0,
-      "games": 10,
-      "seo": "western-mich"
-    },
-    "siue": {
-      "ppg": 76.4,
-      "opp_ppg": 67.3,
-      "total_avg": 143.7,
-      "games": 10,
-      "seo": "siu-edwardsville"
-    },
-    "holy cross": {
-      "ppg": 67.5,
-      "opp_ppg": 73.6,
-      "total_avg": 141.1,
-      "games": 10,
-      "seo": "holy-cross"
-    },
-    "fordham": {
-      "ppg": 75.9,
-      "opp_ppg": 64.3,
-      "total_avg": 140.2,
-      "games": 10,
-      "seo": "fordham"
-    },
-    "jacksonville": {
-      "ppg": 73.7,
-      "opp_ppg": 73.8,
-      "total_avg": 147.4,
-      "games": 9,
-      "seo": "jacksonville"
-    },
-    "fiu": {
-      "ppg": 84.4,
-      "opp_ppg": 76.5,
-      "total_avg": 160.9,
-      "games": 8,
-      "seo": "fiu"
-    },
-    "marquette": {
-      "ppg": 80.9,
-      "opp_ppg": 76.4,
-      "total_avg": 157.3,
-      "games": 10,
-      "seo": "marquette"
-    },
-    "wisconsin": {
-      "ppg": 87.9,
-      "opp_ppg": 73.8,
-      "total_avg": 161.7,
-      "games": 9,
-      "seo": "wisconsin"
-    },
-    "boise st.": {
-      "ppg": 78.2,
-      "opp_ppg": 70.3,
-      "total_avg": 148.6,
-      "games": 9,
-      "seo": "boise-st"
-    },
-    "butler": {
-      "ppg": 87.6,
-      "opp_ppg": 72.2,
-      "total_avg": 159.8,
-      "games": 9,
-      "seo": "butler"
-    },
-    "maryland": {
-      "ppg": 77.1,
-      "opp_ppg": 78.5,
-      "total_avg": 155.6,
-      "games": 10,
-      "seo": "maryland"
-    },
-    "iowa": {
-      "ppg": 79.9,
-      "opp_ppg": 62.6,
-      "total_avg": 142.4,
-      "games": 9,
-      "seo": "iowa"
-    },
-    "florida a&m": {
-      "ppg": 66.3,
-      "opp_ppg": 86.8,
-      "total_avg": 153.2,
-      "games": 6,
-      "seo": "florida-am"
-    },
-    "ind.-east": {
-      "ppg": 66.0,
-      "opp_ppg": 115.5,
-      "total_avg": 181.5,
-      "games": 2,
-      "seo": "indiana-east"
-    },
-    "eastern ky.": {
-      "ppg": 85.8,
-      "opp_ppg": 83.1,
-      "total_avg": 168.9,
-      "games": 9,
-      "seo": "eastern-ky"
-    },
-    "robert morris": {
-      "ppg": 76.0,
-      "opp_ppg": 70.2,
-      "total_avg": 146.2,
-      "games": 11,
-      "seo": "robert-morris"
-    },
-    "milwaukee": {
-      "ppg": 81.0,
-      "opp_ppg": 83.0,
-      "total_avg": 164.0,
-      "games": 9,
-      "seo": "milwaukee"
-    },
-    "california baptist": {
-      "ppg": 74.3,
-      "opp_ppg": 70.1,
-      "total_avg": 144.4,
-      "games": 10,
-      "seo": "california-baptist"
-    },
-    "utah": {
-      "ppg": 81.4,
-      "opp_ppg": 78.7,
-      "total_avg": 160.1,
-      "games": 10,
-      "seo": "utah"
-    },
-    "uc riverside": {
-      "ppg": 74.8,
-      "opp_ppg": 73.6,
-      "total_avg": 148.4,
-      "games": 10,
-      "seo": "uc-riverside"
-    },
-    "cal poly": {
-      "ppg": 82.8,
-      "opp_ppg": 86.3,
-      "total_avg": 169.1,
-      "games": 11,
-      "seo": "cal-poly"
-    },
-    "a&m-corpus christi": {
-      "ppg": 72.4,
-      "opp_ppg": 73.0,
-      "total_avg": 145.4,
-      "games": 8,
-      "seo": "am-corpus-chris"
-    },
-    "lamar university": {
-      "ppg": 72.1,
-      "opp_ppg": 62.6,
-      "total_avg": 134.8,
-      "games": 8,
-      "seo": "lamar"
-    },
-    "grand canyon": {
-      "ppg": 74.1,
-      "opp_ppg": 68.4,
-      "total_avg": 142.6,
-      "games": 9,
-      "seo": "grand-canyon"
-    },
-    "oklahoma st.": {
-      "ppg": 91.3,
-      "opp_ppg": 76.4,
-      "total_avg": 167.8,
-      "games": 9,
-      "seo": "oklahoma-st"
-    },
-    "villanova": {
-      "ppg": 83.0,
-      "opp_ppg": 66.4,
-      "total_avg": 149.4,
-      "games": 8,
-      "seo": "villanova"
-    },
-    "penn": {
-      "ppg": 79.8,
-      "opp_ppg": 78.6,
-      "total_avg": 158.3,
-      "games": 9,
-      "seo": "penn"
-    },
-    "lindenwood": {
-      "ppg": 78.2,
-      "opp_ppg": 76.3,
-      "total_avg": 154.6,
-      "games": 9,
-      "seo": "lindenwood-mo"
-    },
-    "eastern ill.": {
-      "ppg": 62.1,
-      "opp_ppg": 77.8,
-      "total_avg": 139.9,
-      "games": 8,
-      "seo": "eastern-ill"
-    },
-    "wichita st.": {
-      "ppg": 78.3,
-      "opp_ppg": 67.3,
-      "total_avg": 145.6,
-      "games": 10,
-      "seo": "wichita-st"
-    },
-    "uni": {
-      "ppg": 73.4,
-      "opp_ppg": 57.4,
-      "total_avg": 130.9,
-      "games": 9,
-      "seo": "uni"
-    },
-    "florida st.": {
-      "ppg": 84.2,
-      "opp_ppg": 78.4,
-      "total_avg": 162.7,
-      "games": 9,
-      "seo": "florida-st"
-    },
-    "houston": {
-      "ppg": 75.7,
-      "opp_ppg": 60.0,
-      "total_avg": 135.7,
-      "games": 9,
-      "seo": "houston"
-    },
-    "northern ariz.": {
-      "ppg": 77.1,
-      "opp_ppg": 74.8,
-      "total_avg": 151.9,
-      "games": 8,
-      "seo": "northern-ariz"
-    },
-    "north dakota st.": {
-      "ppg": 79.4,
-      "opp_ppg": 67.3,
-      "total_avg": 146.7,
-      "games": 10,
-      "seo": "north-dakota-st"
-    },
-    "montana": {
-      "ppg": 82.1,
-      "opp_ppg": 75.1,
-      "total_avg": 157.2,
-      "games": 10,
-      "seo": "montana"
-    },
-    "north dakota": {
-      "ppg": 73.2,
-      "opp_ppg": 79.1,
-      "total_avg": 152.3,
-      "games": 11,
-      "seo": "north-dakota"
-    },
-    "niu": {
-      "ppg": 73.4,
-      "opp_ppg": 79.8,
-      "total_avg": 153.2,
-      "games": 9,
-      "seo": "northern-ill"
-    },
-    "bradley": {
-      "ppg": 75.3,
-      "opp_ppg": 68.3,
-      "total_avg": 143.6,
-      "games": 10,
-      "seo": "bradley"
-    },
-    "montana st.": {
-      "ppg": 79.2,
-      "opp_ppg": 69.9,
-      "total_avg": 149.1,
-      "games": 10,
-      "seo": "montana-st"
-    },
-    "oral roberts": {
-      "ppg": 76.0,
-      "opp_ppg": 81.1,
-      "total_avg": 157.1,
-      "games": 11,
-      "seo": "oral-roberts"
-    },
-    "ole miss": {
-      "ppg": 75.3,
-      "opp_ppg": 68.0,
-      "total_avg": 143.3,
-      "games": 9,
-      "seo": "ole-miss"
-    },
-    "st. john's (ny)": {
-      "ppg": 88.6,
-      "opp_ppg": 74.1,
-      "total_avg": 162.8,
-      "games": 8,
-      "seo": "st-johns-ny"
-    },
-    "washington": {
+    "uab": {
       "ppg": 82.4,
-      "opp_ppg": 73.9,
-      "total_avg": 156.3,
-      "games": 9,
-      "seo": "washington"
-    },
-    "southern california": {
-      "ppg": 89.0,
-      "opp_ppg": 78.2,
-      "total_avg": 167.2,
-      "games": 9,
-      "seo": "southern-california"
-    },
-    "south dakota": {
-      "ppg": 83.6,
-      "opp_ppg": 80.2,
-      "total_avg": 163.8,
+      "opp_ppg": 70.5,
+      "total_avg": 152.9,
       "games": 10,
-      "seo": "south-dakota"
+      "seo": "uab"
     },
-    "northern colo.": {
-      "ppg": 87.4,
-      "opp_ppg": 72.2,
-      "total_avg": 159.6,
-      "games": 10,
-      "seo": "northern-colo"
-    },
-    "illinois": {
-      "ppg": 88.7,
-      "opp_ppg": 69.3,
-      "total_avg": 158.0,
-      "games": 9,
-      "seo": "illinois"
-    },
-    "tennessee": {
-      "ppg": 80.9,
-      "opp_ppg": 66.0,
-      "total_avg": 146.9,
-      "games": 10,
-      "seo": "tennessee"
-    },
-    "chicago st.": {
-      "ppg": 66.4,
-      "opp_ppg": 85.8,
-      "total_avg": 152.2,
-      "games": 10,
-      "seo": "chicago-st"
-    },
-    "illinois st.": {
-      "ppg": 81.5,
-      "opp_ppg": 65.9,
-      "total_avg": 147.4,
-      "games": 10,
-      "seo": "illinois-st"
-    },
-    "csu bakersfield": {
-      "ppg": 72.8,
-      "opp_ppg": 80.7,
-      "total_avg": 153.5,
-      "games": 10,
-      "seo": "bakersfield"
-    },
-    "uc santa barbara": {
-      "ppg": 83.6,
-      "opp_ppg": 73.4,
-      "total_avg": 157.0,
-      "games": 10,
-      "seo": "uc-santa-barbara"
-    },
-    "uc san diego": {
-      "ppg": 83.4,
-      "opp_ppg": 72.1,
-      "total_avg": 155.6,
-      "games": 9,
-      "seo": "uc-san-diego"
-    },
-    "long beach st.": {
-      "ppg": 71.2,
-      "opp_ppg": 77.1,
-      "total_avg": 148.3,
-      "games": 10,
-      "seo": "long-beach-st"
-    },
-    "arkansas st.": {
-      "ppg": 80.8,
-      "opp_ppg": 79.6,
-      "total_avg": 160.4,
-      "games": 10,
-      "seo": "arkansas-st"
-    },
-    "little rock": {
-      "ppg": 66.1,
-      "opp_ppg": 78.8,
-      "total_avg": 144.9,
-      "games": 9,
-      "seo": "ualr"
-    },
-    "ark.-pine bluff": {
-      "ppg": 68.9,
-      "opp_ppg": 92.3,
-      "total_avg": 161.2,
-      "games": 10,
-      "seo": "ark-pine-bluff"
-    },
-    "depaul": {
-      "ppg": 77.6,
-      "opp_ppg": 71.0,
-      "total_avg": 148.6,
-      "games": 9,
-      "seo": "depaul"
-    },
-    "santa clara": {
-      "ppg": 80.8,
-      "opp_ppg": 69.3,
-      "total_avg": 150.1,
-      "games": 10,
-      "seo": "santa-clara"
-    },
-    "new mexico": {
-      "ppg": 82.2,
-      "opp_ppg": 69.0,
-      "total_avg": 151.2,
-      "games": 9,
-      "seo": "new-mexico"
-    },
-    "auburn": {
-      "ppg": 85.9,
-      "opp_ppg": 76.7,
-      "total_avg": 162.6,
-      "games": 10,
-      "seo": "auburn"
-    },
-    "arizona": {
-      "ppg": 88.5,
-      "opp_ppg": 67.1,
-      "total_avg": 155.6,
-      "games": 8,
-      "seo": "arizona"
-    },
-    "csun": {
-      "ppg": 75.9,
-      "opp_ppg": 79.4,
-      "total_avg": 155.3,
-      "games": 9,
-      "seo": "cal-st-northridge"
-    },
-    "uc irvine": {
-      "ppg": 79.5,
-      "opp_ppg": 63.9,
-      "total_avg": 143.5,
-      "games": 11,
-      "seo": "uc-irvine"
-    },
-    "arizona st.": {
-      "ppg": 81.4,
-      "opp_ppg": 75.9,
-      "total_avg": 157.3,
-      "games": 9,
-      "seo": "arizona-st"
-    },
-    "oklahoma": {
-      "ppg": 84.7,
-      "opp_ppg": 75.0,
-      "total_avg": 159.7,
-      "games": 9,
-      "seo": "oklahoma"
-    },
-    "rutgers": {
-      "ppg": 69.9,
-      "opp_ppg": 72.3,
-      "total_avg": 142.2,
-      "games": 10,
-      "seo": "rutgers"
-    },
-    "michigan": {
-      "ppg": 94.6,
-      "opp_ppg": 66.6,
-      "total_avg": 161.2,
-      "games": 8,
-      "seo": "michigan"
-    },
-    "howard": {
-      "ppg": 78.3,
-      "opp_ppg": 73.2,
-      "total_avg": 151.5,
-      "games": 10,
-      "seo": "howard"
-    },
-    "boston u.": {
-      "ppg": 75.9,
-      "opp_ppg": 76.2,
-      "total_avg": 152.1,
-      "games": 10,
-      "seo": "boston-u"
-    },
-    "new hampshire": {
-      "ppg": 70.4,
-      "opp_ppg": 71.5,
-      "total_avg": 141.9,
-      "games": 10,
-      "seo": "new-hampshire"
-    },
-    "houston christian": {
-      "ppg": 72.7,
-      "opp_ppg": 72.0,
-      "total_avg": 144.7,
-      "games": 9,
-      "seo": "houston-christian"
-    },
-    "new orleans": {
-      "ppg": 72.2,
-      "opp_ppg": 82.1,
-      "total_avg": 154.3,
-      "games": 9,
-      "seo": "new-orleans"
-    },
-    "vermont": {
-      "ppg": 78.7,
-      "opp_ppg": 75.3,
-      "total_avg": 154.0,
-      "games": 11,
-      "seo": "vermont"
-    },
-    "pepperdine": {
-      "ppg": 73.6,
-      "opp_ppg": 75.5,
-      "total_avg": 149.1,
-      "games": 10,
-      "seo": "pepperdine"
-    },
-    "marshall": {
-      "ppg": 80.1,
-      "opp_ppg": 79.6,
-      "total_avg": 159.7,
-      "games": 9,
-      "seo": "marshall"
-    },
-    "ohio": {
-      "ppg": 73.9,
-      "opp_ppg": 81.0,
-      "total_avg": 154.9,
-      "games": 9,
-      "seo": "ohio"
-    },
-    "le moyne": {
-      "ppg": 78.2,
-      "opp_ppg": 76.7,
-      "total_avg": 154.9,
-      "games": 10,
-      "seo": "le-moyne"
-    },
-    "binghamton": {
-      "ppg": 65.4,
-      "opp_ppg": 72.6,
-      "total_avg": 138.0,
-      "games": 10,
-      "seo": "binghamton"
-    },
-    "fresno st.": {
-      "ppg": 75.4,
-      "opp_ppg": 69.7,
-      "total_avg": 145.1,
-      "games": 10,
-      "seo": "fresno-st"
-    },
-    "arkansas": {
-      "ppg": 87.6,
-      "opp_ppg": 71.0,
-      "total_avg": 158.6,
-      "games": 9,
-      "seo": "arkansas"
-    },
-    "kent st.": {
-      "ppg": 98.5,
-      "opp_ppg": 80.9,
-      "total_avg": 179.4,
-      "games": 10,
-      "seo": "kent-st"
-    },
-    "umass lowell": {
-      "ppg": 73.6,
-      "opp_ppg": 79.9,
-      "total_avg": 153.5,
-      "games": 10,
-      "seo": "umass-lowell"
-    },
-    "massachusetts": {
-      "ppg": 78.2,
-      "opp_ppg": 71.2,
-      "total_avg": 149.4,
-      "games": 9,
-      "seo": "massachusetts"
-    },
-    "uiw": {
-      "ppg": 84.4,
-      "opp_ppg": 73.9,
-      "total_avg": 158.3,
-      "games": 9,
-      "seo": "uiw"
-    },
-    "nicholls": {
-      "ppg": 69.1,
-      "opp_ppg": 81.1,
-      "total_avg": 150.2,
-      "games": 8,
-      "seo": "nicholls-st"
-    },
-    "dartmouth": {
+    "drake": {
       "ppg": 79.6,
-      "opp_ppg": 76.0,
-      "total_avg": 155.6,
-      "games": 7,
-      "seo": "dartmouth"
-    },
-    "wyoming": {
-      "ppg": 86.0,
-      "opp_ppg": 70.9,
-      "total_avg": 156.9,
-      "games": 9,
-      "seo": "wyoming"
-    },
-    "champion chris.": {
-      "ppg": 63.5,
-      "opp_ppg": 122.5,
-      "total_avg": 186.0,
-      "games": 4,
-      "seo": "champion-bapt"
-    },
-    "prairie view": {
-      "ppg": 81.9,
-      "opp_ppg": 75.1,
-      "total_avg": 157.0,
-      "games": 9,
-      "seo": "prairie-view"
-    },
-    "oregon": {
-      "ppg": 72.9,
-      "opp_ppg": 75.4,
-      "total_avg": 148.3,
-      "games": 9,
-      "seo": "oregon"
-    },
-    "ucla": {
-      "ppg": 77.2,
-      "opp_ppg": 65.0,
-      "total_avg": 142.2,
-      "games": 9,
-      "seo": "ucla"
-    },
-    "southeast mo. st.": {
-      "ppg": 77.5,
-      "opp_ppg": 76.7,
-      "total_avg": 154.2,
+      "opp_ppg": 65.4,
+      "total_avg": 145.0,
       "games": 10,
-      "seo": "southeast-mo-st"
+      "seo": "drake"
     },
-    "chattanooga": {
-      "ppg": 76.9,
-      "opp_ppg": 71.6,
-      "total_avg": 148.4,
+    "mcneese": {
+      "ppg": 90.0,
+      "opp_ppg": 65.4,
+      "total_avg": 155.4,
       "games": 9,
-      "seo": "chattanooga"
+      "seo": "mcneese"
     },
-    "saint joseph's": {
-      "ppg": 76.1,
-      "opp_ppg": 75.6,
-      "total_avg": 151.8,
-      "games": 8,
-      "seo": "saint-josephs"
-    },
-    "temple": {
-      "ppg": 75.6,
-      "opp_ppg": 75.6,
-      "total_avg": 151.1,
+    "cincinnati": {
+      "ppg": 75.3,
+      "opp_ppg": 65.1,
+      "total_avg": 140.4,
       "games": 9,
-      "seo": "temple"
+      "seo": "cincinnati"
     },
-    "lagrange": {
-      "ppg": 54.5,
-      "opp_ppg": 101.0,
-      "total_avg": 155.5,
-      "games": 2,
-      "seo": "lagrange"
-    },
-    "troy": {
-      "ppg": 89.3,
-      "opp_ppg": 79.5,
-      "total_avg": 168.8,
-      "games": 11,
-      "seo": "troy"
-    },
-    "baylor": {
-      "ppg": 87.8,
-      "opp_ppg": 81.0,
-      "total_avg": 168.8,
-      "games": 8,
-      "seo": "baylor"
-    },
-    "memphis": {
-      "ppg": 76.0,
-      "opp_ppg": 74.1,
-      "total_avg": 150.1,
-      "games": 8,
-      "seo": "memphis"
-    },
-    "brown": {
-      "ppg": 70.1,
-      "opp_ppg": 63.5,
-      "total_avg": 133.5,
-      "games": 11,
-      "seo": "brown"
-    },
-    "omaha": {
-      "ppg": 75.7,
-      "opp_ppg": 79.4,
-      "total_avg": 155.1,
-      "games": 11,
-      "seo": "neb-omaha"
-    },
-    "portland st.": {
-      "ppg": 81.8,
-      "opp_ppg": 72.2,
-      "total_avg": 154.0,
-      "games": 8,
-      "seo": "portland-st"
-    },
-    "pacific": {
-      "ppg": 73.6,
-      "opp_ppg": 65.2,
-      "total_avg": 138.8,
-      "games": 10,
-      "seo": "pacific"
-    },
-    "california": {
-      "ppg": 81.9,
-      "opp_ppg": 68.9,
-      "total_avg": 150.8,
-      "games": 9,
-      "seo": "california"
-    },
-    "colorado": {
-      "ppg": 88.4,
-      "opp_ppg": 78.4,
-      "total_avg": 166.9,
-      "games": 9,
-      "seo": "colorado"
-    },
-    "colorado st.": {
-      "ppg": 84.8,
-      "opp_ppg": 73.0,
-      "total_avg": 157.8,
-      "games": 9,
-      "seo": "colorado-st"
-    },
-    "southern utah": {
-      "ppg": 80.4,
-      "opp_ppg": 80.3,
-      "total_avg": 160.6,
-      "games": 11,
-      "seo": "southern-utah"
-    },
-    "oregon st.": {
-      "ppg": 73.2,
+    "xavier": {
+      "ppg": 78.7,
       "opp_ppg": 72.9,
-      "total_avg": 146.1,
+      "total_avg": 151.6,
       "games": 10,
-      "seo": "oregon-st"
+      "seo": "xavier"
     },
-    "kansas city": {
-      "ppg": 66.9,
-      "opp_ppg": 83.6,
-      "total_avg": 150.4,
-      "games": 9,
-      "seo": "umkc"
-    },
-    "eastern wash.": {
-      "ppg": 78.4,
-      "opp_ppg": 83.2,
-      "total_avg": 161.7,
-      "games": 9,
-      "seo": "eastern-wash"
-    },
-    "sam houston": {
-      "ppg": 86.3,
-      "opp_ppg": 75.3,
-      "total_avg": 161.7,
-      "games": 9,
-      "seo": "sam-houston-st"
-    },
-    "texas southern": {
-      "ppg": 73.7,
-      "opp_ppg": 86.7,
-      "total_avg": 160.4,
-      "games": 7,
-      "seo": "texas-southern"
-    },
-    "ualbany": {
-      "ppg": 75.0,
-      "opp_ppg": 73.7,
-      "total_avg": 148.7,
-      "games": 10,
-      "seo": "albany-ny"
-    },
-    "columbia": {
-      "ppg": 81.3,
-      "opp_ppg": 65.6,
-      "total_avg": 146.9,
-      "games": 10,
-      "seo": "columbia"
-    },
-    "denver": {
-      "ppg": 76.0,
-      "opp_ppg": 88.0,
-      "total_avg": 164.0,
-      "games": 9,
-      "seo": "denver"
-    },
-    "idaho st.": {
-      "ppg": 75.1,
-      "opp_ppg": 68.2,
-      "total_avg": 143.3,
-      "games": 10,
-      "seo": "idaho-st"
-    },
-    "liu": {
-      "ppg": 76.7,
-      "opp_ppg": 81.6,
-      "total_avg": 158.2,
-      "games": 9,
-      "seo": "long-island"
-    },
-    "lehigh": {
-      "ppg": 69.9,
-      "opp_ppg": 74.1,
-      "total_avg": 144.0,
+    "vmi": {
+      "ppg": 76.3,
+      "opp_ppg": 74.9,
+      "total_avg": 151.2,
       "games": 11,
-      "seo": "lehigh"
+      "seo": "vmi"
     },
-    "william & mary": {
-      "ppg": 86.0,
-      "opp_ppg": 75.4,
-      "total_avg": 161.4,
-      "games": 11,
-      "seo": "william-mary"
-    },
-    "george washington": {
-      "ppg": 91.4,
-      "opp_ppg": 75.7,
-      "total_avg": 167.1,
+    "south alabama": {
+      "ppg": 75.6,
+      "opp_ppg": 68.9,
+      "total_avg": 144.5,
       "games": 10,
-      "seo": "george-washington"
+      "seo": "south-ala"
     },
-    "wake forest": {
-      "ppg": 84.2,
-      "opp_ppg": 72.7,
-      "total_avg": 156.9,
-      "games": 10,
-      "seo": "wake-forest"
+    "uconn": {
+      "ppg": 80.1,
+      "opp_ppg": 60.4,
+      "total_avg": 140.6,
+      "games": 9,
+      "seo": "uconn"
     },
-    "west virginia": {
-      "ppg": 72.6,
-      "opp_ppg": 58.4,
-      "total_avg": 131.0,
-      "games": 10,
-      "seo": "west-virginia"
+    "bethune-cookman": {
+      "ppg": 73.8,
+      "opp_ppg": 78.8,
+      "total_avg": 152.6,
+      "games": 9,
+      "seo": "bethune-cookman"
+    },
+    "vcu": {
+      "ppg": 84.3,
+      "opp_ppg": 70.9,
+      "total_avg": 155.2,
+      "games": 9,
+      "seo": "vcu"
     },
     "njit": {
       "ppg": 63.8,
@@ -2532,48 +2679,6 @@
       "games": 10,
       "seo": "mt-st-marys"
     },
-    "south carolina st.": {
-      "ppg": 65.7,
-      "opp_ppg": 88.7,
-      "total_avg": 154.3,
-      "games": 9,
-      "seo": "south-carolina-st"
-    },
-    "bethune-cookman": {
-      "ppg": 73.8,
-      "opp_ppg": 78.8,
-      "total_avg": 152.6,
-      "games": 9,
-      "seo": "bethune-cookman"
-    },
-    "bryant": {
-      "ppg": 62.6,
-      "opp_ppg": 70.6,
-      "total_avg": 133.2,
-      "games": 10,
-      "seo": "bryant"
-    },
-    "kentucky": {
-      "ppg": 83.6,
-      "opp_ppg": 67.0,
-      "total_avg": 150.6,
-      "games": 9,
-      "seo": "kentucky"
-    },
-    "uc davis": {
-      "ppg": 77.0,
-      "opp_ppg": 71.8,
-      "total_avg": 148.8,
-      "games": 8,
-      "seo": "uc-davis"
-    },
-    "south alabama": {
-      "ppg": 75.6,
-      "opp_ppg": 68.9,
-      "total_avg": 144.5,
-      "games": 10,
-      "seo": "south-ala"
-    },
     "cleary": {
       "ppg": 51.0,
       "opp_ppg": 89.0,
@@ -2588,103 +2693,26 @@
       "games": 10,
       "seo": "eastern-mich"
     },
-    "lafayette": {
-      "ppg": 69.3,
-      "opp_ppg": 75.0,
-      "total_avg": 144.3,
-      "games": 10,
-      "seo": "lafayette"
-    },
-    "vcu": {
-      "ppg": 84.3,
-      "opp_ppg": 70.9,
-      "total_avg": 155.2,
-      "games": 9,
-      "seo": "vcu"
-    },
-    "uconn": {
-      "ppg": 80.1,
-      "opp_ppg": 60.4,
-      "total_avg": 140.6,
-      "games": 9,
-      "seo": "uconn"
-    },
-    "uab": {
-      "ppg": 82.4,
-      "opp_ppg": 70.5,
-      "total_avg": 152.9,
-      "games": 10,
-      "seo": "uab"
-    },
-    "drake": {
-      "ppg": 79.6,
-      "opp_ppg": 65.4,
-      "total_avg": 145.0,
-      "games": 10,
-      "seo": "drake"
-    },
-    "vmi": {
-      "ppg": 76.3,
-      "opp_ppg": 74.9,
-      "total_avg": 151.2,
-      "games": 11,
-      "seo": "vmi"
-    },
-    "cincinnati": {
-      "ppg": 75.3,
-      "opp_ppg": 65.1,
-      "total_avg": 140.4,
-      "games": 9,
-      "seo": "cincinnati"
-    },
-    "xavier": {
-      "ppg": 78.7,
-      "opp_ppg": 72.9,
-      "total_avg": 151.6,
-      "games": 10,
-      "seo": "xavier"
-    },
-    "mcneese": {
-      "ppg": 90.0,
-      "opp_ppg": 65.4,
-      "total_avg": 155.4,
-      "games": 9,
-      "seo": "mcneese"
-    },
-    "notre dame": {
-      "ppg": 76.6,
-      "opp_ppg": 69.4,
-      "total_avg": 146.0,
-      "games": 10,
-      "seo": "notre-dame"
-    },
-    "san diego": {
-      "ppg": 73.1,
-      "opp_ppg": 74.4,
-      "total_avg": 147.5,
+    "uc davis": {
+      "ppg": 77.0,
+      "opp_ppg": 71.8,
+      "total_avg": 148.8,
       "games": 8,
-      "seo": "san-diego"
+      "seo": "uc-davis"
     },
-    "san jose st.": {
-      "ppg": 73.6,
-      "opp_ppg": 71.4,
-      "total_avg": 145.0,
+    "kentucky": {
+      "ppg": 83.6,
+      "opp_ppg": 67.0,
+      "total_avg": 150.6,
       "games": 9,
-      "seo": "san-jose-st"
+      "seo": "kentucky"
     },
-    "portland": {
-      "ppg": 84.4,
-      "opp_ppg": 81.4,
-      "total_avg": 165.8,
+    "bryant": {
+      "ppg": 62.6,
+      "opp_ppg": 70.6,
+      "total_avg": 133.2,
       "games": 10,
-      "seo": "portland"
-    },
-    "south fla.": {
-      "ppg": 89.4,
-      "opp_ppg": 80.1,
-      "total_avg": 169.6,
-      "games": 9,
-      "seo": "south-fla"
+      "seo": "bryant"
     },
     "fdu": {
       "ppg": 73.3,
@@ -2693,12 +2721,12 @@
       "games": 9,
       "seo": "fdu"
     },
-    "charleston so.": {
-      "ppg": 84.1,
-      "opp_ppg": 77.5,
-      "total_avg": 161.6,
-      "games": 11,
-      "seo": "charleston-so"
+    "south fla.": {
+      "ppg": 89.4,
+      "opp_ppg": 80.1,
+      "total_avg": 169.6,
+      "games": 9,
+      "seo": "south-fla"
     },
     "the citadel": {
       "ppg": 69.7,
@@ -2706,111 +2734,6 @@
       "total_avg": 145.2,
       "games": 9,
       "seo": "citadel"
-    },
-    "queens (nc)": {
-      "ppg": 83.7,
-      "opp_ppg": 83.8,
-      "total_avg": 167.4,
-      "games": 9,
-      "seo": "queens-nc"
-    },
-    "loyola maryland": {
-      "ppg": 76.3,
-      "opp_ppg": 74.9,
-      "total_avg": 151.2,
-      "games": 10,
-      "seo": "loyola-maryland"
-    },
-    "hampton": {
-      "ppg": 74.8,
-      "opp_ppg": 67.6,
-      "total_avg": 142.4,
-      "games": 10,
-      "seo": "hampton"
-    },
-    "midway": {
-      "ppg": 68.0,
-      "opp_ppg": 103.3,
-      "total_avg": 171.3,
-      "games": 3,
-      "seo": "midway"
-    },
-    "minnesota": {
-      "ppg": 73.4,
-      "opp_ppg": 67.9,
-      "total_avg": 141.3,
-      "games": 9,
-      "seo": "minnesota"
-    },
-    "vtsu-johnson": {
-      "ppg": 56.0,
-      "opp_ppg": 110.5,
-      "total_avg": 166.5,
-      "games": 2,
-      "seo": "johnson-st"
-    },
-    "app state": {
-      "ppg": 74.5,
-      "opp_ppg": 67.2,
-      "total_avg": 141.7,
-      "games": 10,
-      "seo": "appalachian-st"
-    },
-    "southern ill.": {
-      "ppg": 80.0,
-      "opp_ppg": 73.4,
-      "total_avg": 153.4,
-      "games": 9,
-      "seo": "southern-ill"
-    },
-    "penn st.-shenango": {
-      "ppg": 51.0,
-      "opp_ppg": 111.8,
-      "total_avg": 162.8,
-      "games": 4,
-      "seo": "penn-st-shenango"
-    },
-    "clemson": {
-      "ppg": 85.1,
-      "opp_ppg": 66.7,
-      "total_avg": 151.8,
-      "games": 9,
-      "seo": "clemson"
-    },
-    "byu": {
-      "ppg": 85.2,
-      "opp_ppg": 68.0,
-      "total_avg": 153.2,
-      "games": 8,
-      "seo": "byu"
-    },
-    "vanderbilt": {
-      "ppg": 96.8,
-      "opp_ppg": 73.0,
-      "total_avg": 169.8,
-      "games": 9,
-      "seo": "vanderbilt"
-    },
-    "texas": {
-      "ppg": 88.4,
-      "opp_ppg": 73.7,
-      "total_avg": 162.1,
-      "games": 9,
-      "seo": "texas"
-    },
-    "texas st.": {
-      "ppg": 73.5,
-      "opp_ppg": 65.5,
-      "total_avg": 139.0,
-      "games": 11,
-      "seo": "texas-st"
-    },
-    "rice": {
-      "ppg": 75.7,
-      "opp_ppg": 73.2,
-      "total_avg": 148.9,
-      "games": 10,
-      "seo": "rice"
     },
     "san diego st.": {
       "ppg": 80.9,
@@ -2833,26 +2756,40 @@
       "games": 9,
       "seo": "north-ala"
     },
+    "texas st.": {
+      "ppg": 73.5,
+      "opp_ppg": 65.5,
+      "total_avg": 139.0,
+      "games": 11,
+      "seo": "texas-st"
+    },
+    "rice": {
+      "ppg": 75.7,
+      "opp_ppg": 73.2,
+      "total_avg": 148.9,
+      "games": 10,
+      "seo": "rice"
+    },
+    "vanderbilt": {
+      "ppg": 96.8,
+      "opp_ppg": 73.0,
+      "total_avg": 169.8,
+      "games": 9,
+      "seo": "vanderbilt"
+    },
+    "byu": {
+      "ppg": 85.2,
+      "opp_ppg": 68.0,
+      "total_avg": 153.2,
+      "games": 8,
+      "seo": "byu"
+    },
     "howard payne": {
       "ppg": 64.5,
       "opp_ppg": 120.5,
       "total_avg": 185.0,
       "games": 2,
       "seo": "howard-payne"
-    },
-    "mississippi val.": {
-      "ppg": 69.1,
-      "opp_ppg": 88.4,
-      "total_avg": 157.6,
-      "games": 9,
-      "seo": "mississippi-val"
-    },
-    "tennessee st.": {
-      "ppg": 81.3,
-      "opp_ppg": 76.8,
-      "total_avg": 158.1,
-      "games": 9,
-      "seo": "tennessee-st"
     },
     "alcorn": {
       "ppg": 66.5,
@@ -2868,61 +2805,82 @@
       "games": 9,
       "seo": "ball-st"
     },
-    "jackson st.": {
-      "ppg": 61.1,
-      "opp_ppg": 90.9,
-      "total_avg": 152.0,
-      "games": 8,
-      "seo": "jackson-st"
-    },
-    "syracuse": {
-      "ppg": 73.2,
-      "opp_ppg": 64.6,
-      "total_avg": 137.9,
-      "games": 8,
-      "seo": "syracuse"
-    },
-    "stonehill": {
-      "ppg": 67.7,
-      "opp_ppg": 74.1,
-      "total_avg": 141.8,
-      "games": 10,
-      "seo": "stonehill"
-    },
-    "suny maritime": {
-      "ppg": 51.0,
-      "opp_ppg": 95.0,
-      "total_avg": 146.0,
-      "games": 2,
-      "seo": "suny-maritime"
-    },
-    "penn st.": {
-      "ppg": 83.1,
-      "opp_ppg": 70.0,
-      "total_avg": 153.1,
+    "tennessee st.": {
+      "ppg": 81.3,
+      "opp_ppg": 76.8,
+      "total_avg": 158.1,
       "games": 9,
-      "seo": "penn-st"
+      "seo": "tennessee-st"
     },
-    "ut arlington": {
-      "ppg": 76.1,
-      "opp_ppg": 65.3,
-      "total_avg": 141.4,
+    "clemson": {
+      "ppg": 85.1,
+      "opp_ppg": 66.7,
+      "total_avg": 151.8,
       "games": 9,
-      "seo": "texas-arlington"
+      "seo": "clemson"
     },
-    "grambling": {
-      "ppg": 70.6,
-      "opp_ppg": 73.4,
-      "total_avg": 144.0,
-      "games": 8,
-      "seo": "grambling"
-    },
-    "lmu (ca)": {
-      "ppg": 79.7,
+    "minnesota": {
+      "ppg": 73.4,
       "opp_ppg": 67.9,
-      "total_avg": 147.6,
+      "total_avg": 141.3,
+      "games": 9,
+      "seo": "minnesota"
+    },
+    "midway": {
+      "ppg": 68.0,
+      "opp_ppg": 103.3,
+      "total_avg": 171.3,
+      "games": 3,
+      "seo": "midway"
+    },
+    "penn st.-shenango": {
+      "ppg": 51.0,
+      "opp_ppg": 111.8,
+      "total_avg": 162.8,
+      "games": 4,
+      "seo": "penn-st-shenango"
+    },
+    "loyola maryland": {
+      "ppg": 76.3,
+      "opp_ppg": 74.9,
+      "total_avg": 151.2,
       "games": 10,
-      "seo": "loyola-marymount"
+      "seo": "loyola-maryland"
+    },
+    "hampton": {
+      "ppg": 74.8,
+      "opp_ppg": 67.6,
+      "total_avg": 142.4,
+      "games": 10,
+      "seo": "hampton"
+    },
+    "southern ill.": {
+      "ppg": 80.0,
+      "opp_ppg": 73.4,
+      "total_avg": 153.4,
+      "games": 9,
+      "seo": "southern-ill"
+    },
+    "app state": {
+      "ppg": 74.5,
+      "opp_ppg": 67.2,
+      "total_avg": 141.7,
+      "games": 10,
+      "seo": "appalachian-st"
+    },
+    "queens (nc)": {
+      "ppg": 83.7,
+      "opp_ppg": 83.8,
+      "total_avg": 167.4,
+      "games": 9,
+      "seo": "queens-nc"
+    },
+    "vtsu-johnson": {
+      "ppg": 56.0,
+      "opp_ppg": 110.5,
+      "total_avg": 166.5,
+      "games": 2,
+      "seo": "johnson-st"
     },
     "georgia": {
       "ppg": 99.9,
@@ -2945,33 +2903,54 @@
       "games": 10,
       "seo": "sacramento-st"
     },
-    "southern u.": {
-      "ppg": 92.2,
-      "opp_ppg": 78.0,
-      "total_avg": 170.2,
+    "lmu (ca)": {
+      "ppg": 79.7,
+      "opp_ppg": 67.9,
+      "total_avg": 147.6,
+      "games": 10,
+      "seo": "loyola-marymount"
+    },
+    "ut arlington": {
+      "ppg": 76.1,
+      "opp_ppg": 65.3,
+      "total_avg": 141.4,
+      "games": 9,
+      "seo": "texas-arlington"
+    },
+    "syracuse": {
+      "ppg": 73.2,
+      "opp_ppg": 64.6,
+      "total_avg": 137.9,
       "games": 8,
-      "seo": "southern-u"
+      "seo": "syracuse"
     },
-    "central st. (oh)": {
-      "ppg": 69.0,
-      "opp_ppg": 101.5,
-      "total_avg": 170.5,
+    "stonehill": {
+      "ppg": 67.7,
+      "opp_ppg": 74.1,
+      "total_avg": 141.8,
+      "games": 10,
+      "seo": "stonehill"
+    },
+    "penn st.": {
+      "ppg": 83.1,
+      "opp_ppg": 70.0,
+      "total_avg": 153.1,
+      "games": 9,
+      "seo": "penn-st"
+    },
+    "jackson st.": {
+      "ppg": 61.1,
+      "opp_ppg": 90.9,
+      "total_avg": 152.0,
+      "games": 8,
+      "seo": "jackson-st"
+    },
+    "suny maritime": {
+      "ppg": 51.0,
+      "opp_ppg": 95.0,
+      "total_avg": 146.0,
       "games": 2,
-      "seo": "central-st-oh"
-    },
-    "coe": {
-      "ppg": 48.5,
-      "opp_ppg": 86.5,
-      "total_avg": 135.0,
-      "games": 2,
-      "seo": "coe"
-    },
-    "west coast baptist": {
-      "ppg": 44.0,
-      "opp_ppg": 123.3,
-      "total_avg": 167.3,
-      "games": 3,
-      "seo": "west-coast-baptist"
+      "seo": "suny-maritime"
     },
     "n.m. highlands": {
       "ppg": 53.0,
@@ -2980,12 +2959,26 @@
       "games": 3,
       "seo": "nm-highlands"
     },
-    "suny oneonta": {
-      "ppg": 56.0,
-      "opp_ppg": 87.5,
-      "total_avg": 143.5,
+    "west coast baptist": {
+      "ppg": 44.0,
+      "opp_ppg": 123.3,
+      "total_avg": 167.3,
+      "games": 3,
+      "seo": "west-coast-baptist"
+    },
+    "coe": {
+      "ppg": 48.5,
+      "opp_ppg": 86.5,
+      "total_avg": 135.0,
       "games": 2,
-      "seo": "oneonta-st"
+      "seo": "coe"
+    },
+    "central st. (oh)": {
+      "ppg": 69.0,
+      "opp_ppg": 101.5,
+      "total_avg": 170.5,
+      "games": 2,
+      "seo": "central-st-oh"
     },
     "col. of charleston": {
       "ppg": 73.8,
@@ -2994,12 +2987,12 @@
       "games": 9,
       "seo": "col-of-charleston"
     },
-    "tenn. wesleyan": {
-      "ppg": 68.0,
-      "opp_ppg": 103.5,
-      "total_avg": 171.5,
+    "suny oneonta": {
+      "ppg": 56.0,
+      "opp_ppg": 87.5,
+      "total_avg": 143.5,
       "games": 2,
-      "seo": "tenn-wesleyan"
+      "seo": "oneonta-st"
     },
     "notre dame (md)": {
       "ppg": 63.5,
@@ -3015,6 +3008,13 @@
       "games": 2,
       "seo": "haskell"
     },
+    "tenn. wesleyan": {
+      "ppg": 68.0,
+      "opp_ppg": 103.5,
+      "total_avg": 171.5,
+      "games": 2,
+      "seo": "tenn-wesleyan"
+    },
     "carolinau": {
       "ppg": 51.0,
       "opp_ppg": 99.7,
@@ -3028,27 +3028,6 @@
       "total_avg": 153.0,
       "games": 2,
       "seo": "jarvis-christian"
-    },
-    "chaminade": {
-      "ppg": 79.7,
-      "opp_ppg": 103.7,
-      "total_avg": 183.3,
-      "games": 3,
-      "seo": "chaminade"
-    },
-    "biblical stud. (tx)": {
-      "ppg": 46.2,
-      "opp_ppg": 103.3,
-      "total_avg": 149.5,
-      "games": 6,
-      "seo": "biblical-stud-tx"
-    },
-    "columbia int'l": {
-      "ppg": 54.5,
-      "opp_ppg": 91.0,
-      "total_avg": 145.5,
-      "games": 2,
-      "seo": "columbia-international"
     },
     "texas lutheran": {
       "ppg": 48.0,
@@ -3064,19 +3043,26 @@
       "games": 2,
       "seo": "misericordia"
     },
-    "san fran. st.": {
-      "ppg": 56.5,
-      "opp_ppg": 96.0,
-      "total_avg": 152.5,
-      "games": 2,
-      "seo": "san-fran-st"
+    "biblical stud. (tx)": {
+      "ppg": 46.2,
+      "opp_ppg": 103.3,
+      "total_avg": 149.5,
+      "games": 6,
+      "seo": "biblical-stud-tx"
     },
-    "hawaii pacific": {
-      "ppg": 77.5,
-      "opp_ppg": 83.0,
-      "total_avg": 160.5,
+    "chaminade": {
+      "ppg": 79.7,
+      "opp_ppg": 103.7,
+      "total_avg": 183.3,
+      "games": 3,
+      "seo": "chaminade"
+    },
+    "columbia int'l": {
+      "ppg": 54.5,
+      "opp_ppg": 91.0,
+      "total_avg": 145.5,
       "games": 2,
-      "seo": "hawaii-pacific"
+      "seo": "columbia-international"
     },
     "washington col.": {
       "ppg": 57.5,
@@ -3085,12 +3071,26 @@
       "games": 2,
       "seo": "washington-col"
     },
+    "hawaii pacific": {
+      "ppg": 77.5,
+      "opp_ppg": 83.0,
+      "total_avg": 160.5,
+      "games": 2,
+      "seo": "hawaii-pacific"
+    },
     "dominican (il)": {
       "ppg": 63.0,
       "opp_ppg": 131.0,
       "total_avg": 194.0,
       "games": 2,
       "seo": "dominican-il"
+    },
+    "san fran. st.": {
+      "ppg": 56.5,
+      "opp_ppg": 96.0,
+      "total_avg": 152.5,
+      "games": 2,
+      "seo": "san-fran-st"
     },
     "nobel": {
       "ppg": 55.3,
@@ -3105,13 +3105,6 @@
       "total_avg": 164.5,
       "games": 2,
       "seo": "eastern-ore"
-    },
-    "fisk": {
-      "ppg": 49.5,
-      "opp_ppg": 98.5,
-      "total_avg": 148.0,
-      "games": 2,
-      "seo": "fisk"
     },
     "regent": {
       "ppg": 56.0,
@@ -3134,6 +3127,13 @@
       "games": 2,
       "seo": "erskine"
     },
+    "fisk": {
+      "ppg": 49.5,
+      "opp_ppg": 98.5,
+      "total_avg": 148.0,
+      "games": 2,
+      "seo": "fisk"
+    },
     "north greenville": {
       "ppg": 74.5,
       "opp_ppg": 75.5,
@@ -3148,19 +3148,19 @@
       "games": 2,
       "seo": "william-carey"
     },
-    "central penn": {
-      "ppg": 63.0,
-      "opp_ppg": 106.3,
-      "total_avg": 169.3,
-      "games": 3,
-      "seo": "central-penn"
-    },
     "southwestern christ.": {
       "ppg": 70.0,
       "opp_ppg": 106.0,
       "total_avg": 176.0,
       "games": 2,
       "seo": "southwestern-christian"
+    },
+    "central penn": {
+      "ppg": 63.0,
+      "opp_ppg": 106.3,
+      "total_avg": 169.3,
+      "games": 3,
+      "seo": "central-penn"
     },
     "toccoa falls": {
       "ppg": 69.0,
@@ -3183,6 +3183,13 @@
       "games": 2,
       "seo": "fort-lauderdale"
     },
+    "coastal ga.": {
+      "ppg": 61.5,
+      "opp_ppg": 96.5,
+      "total_avg": 158.0,
+      "games": 2,
+      "seo": "coastal-ga"
+    },
     "s'western adventist": {
       "ppg": 58.0,
       "opp_ppg": 107.0,
@@ -3197,33 +3204,12 @@
       "games": 4,
       "seo": "bethesda-christian"
     },
-    "coastal ga.": {
-      "ppg": 61.5,
-      "opp_ppg": 96.5,
-      "total_avg": 158.0,
-      "games": 2,
-      "seo": "coastal-ga"
-    },
     "ky. christian": {
       "ppg": 50.0,
       "opp_ppg": 105.3,
       "total_avg": 155.3,
       "games": 3,
       "seo": "ky-christian"
-    },
-    "bryan": {
-      "ppg": 51.3,
-      "opp_ppg": 106.0,
-      "total_avg": 157.3,
-      "games": 3,
-      "seo": "bryan"
-    },
-    "rit": {
-      "ppg": 60.0,
-      "opp_ppg": 73.0,
-      "total_avg": 133.0,
-      "games": 2,
-      "seo": "rochester-inst"
     },
     "new college (fl)": {
       "ppg": 63.5,
@@ -3232,12 +3218,19 @@
       "games": 2,
       "seo": "new-college-fl"
     },
-    "mid-atlantic christ.": {
-      "ppg": 49.0,
-      "opp_ppg": 105.5,
-      "total_avg": 154.5,
+    "rit": {
+      "ppg": 60.0,
+      "opp_ppg": 73.0,
+      "total_avg": 133.0,
       "games": 2,
-      "seo": "mid-atlantic-christ"
+      "seo": "rochester-inst"
+    },
+    "bryan": {
+      "ppg": 51.3,
+      "opp_ppg": 106.0,
+      "total_avg": 157.3,
+      "games": 3,
+      "seo": "bryan"
     },
     "washington adventist": {
       "ppg": 79.5,
@@ -3246,12 +3239,12 @@
       "games": 2,
       "seo": "washington-adventist"
     },
-    "webster": {
-      "ppg": 48.5,
-      "opp_ppg": 98.0,
-      "total_avg": 146.5,
+    "mid-atlantic christ.": {
+      "ppg": 49.0,
+      "opp_ppg": 105.5,
+      "total_avg": 154.5,
       "games": 2,
-      "seo": "webster"
+      "seo": "mid-atlantic-christ"
     },
     "westminster (ut)": {
       "ppg": 57.0,
@@ -3259,6 +3252,13 @@
       "total_avg": 157.5,
       "games": 2,
       "seo": "westminster-ut"
+    },
+    "webster": {
+      "ppg": 48.5,
+      "opp_ppg": 98.0,
+      "total_avg": 146.5,
+      "games": 2,
+      "seo": "webster"
     },
     "lincoln (ca)": {
       "ppg": 64.3,

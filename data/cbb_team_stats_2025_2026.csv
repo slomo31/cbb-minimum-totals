@@ -2,35 +2,40 @@ games_played,avg_points_scored,avg_points_allowed,avg_total_points,std_total_poi
 8,88.5,67.1,155.6,17.4,180,133,87.6,66.8,154.4,12,Arizona Wildcats,Unknown
 9,87.6,71.0,158.6,16.0,186,135,88.2,72.4,160.6,8,Arkansas Razorbacks,Unknown
 10,85.9,76.7,162.6,12.0,185,145,78.4,83.8,162.2,2,Auburn Tigers,Unknown
-8,83.4,71.9,155.2,17.5,180,125,79.6,68.4,148.0,57,Florida Gators,Unknown
+9,82.2,72.4,154.7,16.6,180,125,77.8,70.2,148.0,57,Florida Gators,Unknown
 5,85.6,72.4,158.0,13.1,177,137,85.6,72.4,158.0,84,Indiana Hoosiers,Unknown
-9,94.6,64.6,159.1,19.3,200,138,93.8,66.4,160.2,66,Iowa State Cyclones,Unknown
+10,91.7,64.3,156.0,20.5,200,128,90.4,62.4,152.8,66,Iowa State Cyclones,Unknown
 9,83.6,67.0,150.6,17.0,184,128,76.2,68.8,145.0,96,Kentucky Wildcats,Unknown
 9,93.8,67.6,161.3,18.5,187,133,86.4,64.8,151.2,97,Louisville Cardinals,Unknown
 7,77.0,63.1,140.1,9.6,154,127,77.0,61.0,138.0,26,UCLA Bruins,Unknown
-9,80.1,60.4,140.6,15.9,170,117,71.4,59.2,130.6,41,UConn Huskies,Unknown
+11,79.0,61.8,140.8,14.8,170,117,73.2,62.4,135.6,41,UConn Huskies,Unknown
 3,90.7,81.3,172.0,17.7,197,159,90.7,81.3,172.0,30,USC Trojans,Unknown
 4,74.8,72.2,147.0,14.8,168,129,74.8,72.2,147.0,156,Creighton Bluejays,Unknown
 10,86.8,59.6,146.4,13.2,173,126,81.2,59.0,140.2,150,Duke Blue Devils,Unknown
 9,76.6,61.0,137.6,8.9,149,123,75.6,57.6,133.2,127,Michigan State Spartans,Unknown
-8,94.6,66.6,161.2,19.4,199,130,96.8,61.6,158.4,130,Michigan Wolverines,Unknown
+9,94.0,66.0,160.0,18.6,199,130,97.4,61.6,159.0,130,Michigan Wolverines,Unknown
 5,82.0,83.8,165.8,17.1,199,151,82.0,83.8,165.8,152,NC State Wolfpack,Unknown
 9,81.2,65.0,146.2,11.5,163,131,72.8,66.0,138.8,153,North Carolina Tar Heels,Unknown
 3,61.7,89.0,150.7,7.3,161,145,61.7,89.0,150.7,164,Rutgers Scarlet Knights,Unknown
 3,66.7,77.7,144.3,16.0,159,122,66.7,77.7,144.3,183,Syracuse Orange,Unknown
-8,85.2,68.0,153.2,12.3,170,134,85.6,71.4,157.0,252,BYU Cougars,Unknown
-9,75.7,60.0,135.7,13.3,152,113,78.0,63.6,141.6,248,Houston Cougars,Unknown
+9,83.2,67.6,150.8,13.6,170,131,82.2,67.0,149.2,252,BYU Cougars,Unknown
+10,76.1,57.8,133.9,13.7,152,113,75.8,62.2,138.0,248,Houston Cougars,Unknown
+4,80.0,78.0,158.0,26.6,199,134,80.0,78.0,158.0,251,Texas Longhorns,Unknown
 4,89.0,73.0,162.0,3.6,167,157,89.0,73.0,162.0,238,Vanderbilt Commodores,Unknown
-5,88.6,71.6,160.2,10.1,169,141,88.6,71.6,160.2,275,Wisconsin Badgers,Unknown
+3,67.0,72.0,139.0,8.3,150,130,67.0,72.0,139.0,222,Villanova Wildcats,Unknown
+6,83.8,74.7,158.5,10.0,169,141,81.4,76.8,158.2,275,Wisconsin Badgers,Unknown
 9,95.1,79.2,174.3,14.7,199,152,98.4,76.4,174.8,333,Alabama Crimson Tide,Unknown
-9,88.7,69.3,158.0,15.3,183,135,81.4,71.4,152.8,356,Illinois Fighting Illini,Unknown
+10,88.6,70.4,159.0,14.8,183,135,81.8,69.4,151.2,356,Illinois Fighting Illini,Unknown
 10,92.9,65.3,158.2,12.0,180,141,91.8,72.8,164.6,2250,Gonzaga Bulldogs,Unknown
-4,63.0,111.5,174.5,3.8,178,168,63.0,111.5,174.5,2296,Jackson State Tigers,Unknown
+5,58.0,105.2,163.2,22.9,178,118,58.0,105.2,163.2,2296,Jackson State Tigers,Unknown
 8,75.5,64.5,140.0,14.3,161,117,71.8,66.4,138.2,2305,Kansas Jayhawks,Unknown
+3,81.0,72.3,153.3,3.9,157,148,81.0,72.3,153.3,2306,Kansas State Wildcats,Unknown
 3,62.7,104.0,166.7,1.2,168,165,62.7,104.0,166.7,2454,North Florida Ospreys,Unknown
 3,66.7,95.3,162.0,31.1,199,123,66.7,95.3,162.0,2473,Oakland Golden Grizzlies,Unknown
-9,85.2,69.1,154.3,14.6,176,133,82.8,67.0,149.8,2509,Purdue Boilermakers,Unknown
+10,85.2,67.9,153.1,14.4,176,133,83.8,64.2,148.0,2509,Purdue Boilermakers,Unknown
+3,65.0,80.0,145.0,14.8,164,128,65.0,80.0,145.0,2755,Grambling Tigers,Unknown
 3,56.7,80.3,137.0,11.2,152,125,56.7,80.3,137.0,2771,Merrimack Warriors,Unknown
+3,82.3,84.0,166.3,15.2,186,149,82.3,84.0,166.3,2582,Southern Jaguars,Unknown
 8,88.6,74.1,162.8,22.4,199,121,82.4,71.2,153.6,2599,St. John's Red Storm,Unknown
 10,80.9,66.0,146.9,11.7,165,122,71.8,70.2,142.0,2633,Tennessee Volunteers,Unknown
 9,81.4,70.0,151.4,13.2,175,132,76.0,69.8,145.8,2641,Texas Tech Red Raiders,Unknown
